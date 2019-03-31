@@ -1,0 +1,15 @@
+language: python
+
+cache:
+  - pip
+
+python:
+ - "3.6"
+ - "3.7-dev"
+
+install:
+ - pip install pipenv
+ - pipenv install --dev
+
+script:
+ - make test

@@ -1,0 +1,8 @@
+[run]
+include =
+    census_consolidator/*.py
+
+[report]
+exclude_lines =
+    pragma: no cover
+    add_introspection_rules
