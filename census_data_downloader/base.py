@@ -126,11 +126,11 @@ class BaseDownloader(object):
         """
         Download data for all Census tracts in the provided state.
         """
-        fips = getattr(states, state.upper()).fips
-        csv_suffix = f"tracts_{fips}"
+        state_obj = getattr(states, state.upper())
+        csv_suffix = f"tracts_{state_obj.abbr.lower()}"
         api_filter = {
             'for': 'tract:*',
-            'in': f'state: {fips}'
+            'in': f'state: {state_obj.fips}'
         }
         geoid_function = lambda row: row['state'] + row['county'] + row['tract']
         self._download_tables(api_filter, csv_suffix, geoid_function)
