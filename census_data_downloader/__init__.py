@@ -33,27 +33,27 @@ from .tenure import (
 logger = logging.getLogger(__name__)
 
 DOWNLOADERS = (
-    # AgeDownloader,
-    # EducationDownloader,
-    # ForeignBornDownloader,
-    # HouseholdIncomeDownloader,
-    # HouseholdIncomeLatinoDownloader,
-    # HouseholdIncomeWhiteDownloader,
-    # HouseholdIncomeBlackDownloader,
-    # HouseholdIncomeAsianDownloader,
-    # MedianAgeDownloader,
-    # MedianHouseholdIncomeDownloader,
-    # MedianHouseholdIncomeLatinoDownloader,
-    # MedianHouseholdIncomeWhiteDownloader,
-    # MedianHouseholdIncomeBlackDownloader,
-    # MedianHouseholdIncomeAsianDownloader,
-    # PopulationDownloader,
+    AgeDownloader,
+    EducationDownloader,
+    ForeignBornDownloader,
+    HouseholdIncomeDownloader,
+    HouseholdIncomeLatinoDownloader,
+    HouseholdIncomeWhiteDownloader,
+    HouseholdIncomeBlackDownloader,
+    HouseholdIncomeAsianDownloader,
+    MedianAgeDownloader,
+    MedianHouseholdIncomeDownloader,
+    MedianHouseholdIncomeLatinoDownloader,
+    MedianHouseholdIncomeWhiteDownloader,
+    MedianHouseholdIncomeBlackDownloader,
+    MedianHouseholdIncomeAsianDownloader,
+    PopulationDownloader,
     RaceDownloader,
-    # TenureDownloader,
-    # TenureLatinoDownloader,
-    # TenureWhiteDownloader,
-    # TenureBlackDownloader,
-    # TenureAsianDownloader
+    TenureDownloader,
+    TenureLatinoDownloader,
+    TenureWhiteDownloader,
+    TenureBlackDownloader,
+    TenureAsianDownloader
 )
 
 
