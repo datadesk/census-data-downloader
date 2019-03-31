@@ -176,7 +176,6 @@ class BaseDownloader(object):
 
             # Write it out
             logger.debug(f"Writing CSV to {csv_path}")
-
             processed_table.set_index(["geoid", "name"]).to_csv(
                 csv_path,
                 index=True,
