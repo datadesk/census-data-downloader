@@ -137,7 +137,7 @@ class BaseDownloader(object):
 
     def download_usa(self):
         """
-        Download all nationwide datasets.
+        Download all datasets that provide full coverage for the entire country.
         """
         self.download_nationwide()
         self.download_states()
@@ -172,12 +172,12 @@ class BaseDownloader(object):
             processed_table = self._process_raw_data(raw_table)
 
             # Add a combined GEOID column with a Census unique identifer
-            processed_table['geoid12'] = processed_table.apply(geoid_function, axis=1)
+            processed_table['geoid'] = processed_table.apply(geoid_function, axis=1)
 
             # Write it out
             logger.debug(f"Writing CSV to {csv_path}")
 
-            processed_table.set_index(["geoid12", "name"]).to_csv(
+            processed_table.set_index(["geoid", "name"]).to_csv(
                 csv_path,
                 index=True,
                 encoding="utf-8"
