@@ -60,10 +60,6 @@ Here's [county-level race data](https://github.com/datadesk/census-data-download
 
 [![Black and Latino U.S. population shares](./img/race-map.png)](https://observablehq.com/@datadesk/black-and-latino-u-s-population-shares)
 
-Here's [a histogram](https://observablehq.com/@datadesk/black-and-latino-u-s-population-shares) of the percentage of Latinos in each U.S. county using the [same data file](https://github.com/datadesk/census-data-downloader/blob/master/data/processed/acs5_2017_race_counties.csv).
-
-[![Latino population by U.S. county](./img/latino-histogram.png)](https://observablehq.com/@datadesk/black-and-latino-u-s-population-shares)
-
 Now [a stacked bar](https://observablehq.com/@datadesk/racial-makeup-of-u-s-states-and-territories) using the [state-level version](https://github.com/datadesk/census-data-downloader/blob/master/data/processed/acs5_2017_race_states.csv) of the race dataset.
 
 [![Racial makeup  of U.S. states and territories](img/states-race-stacked-bar.png)](https://observablehq.com/@datadesk/racial-makeup-of-u-s-states-and-territories)
