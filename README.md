@@ -52,7 +52,7 @@ Now you can import and run it yourself.
 
 That's it. If you make some good ones, please consider submitting them as pull requests so everyone can benefit.
 
-### Putting our data to use
+### Working with the data
 
 All of the data files processed by this repository are published in the [processed data](./data/processed/) folder. They can be called in to applications via their raw URLs. Here are some examples created using [Observable](https://observablehq.com/collection/@datadesk/u-s-census-data).
 
