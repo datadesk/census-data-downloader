@@ -56,4 +56,4 @@ That's it. If you make some good ones, please consider submitting them as pull r
 
 All of the data files processed by this repository are published in the [data](./data/) folder. They can be called in to applications via their raw URLs. You can see an example of the [county-level race data](https://github.com/datadesk/census-data-downloader/blob/master/data/processed/acs5_2017_race_counties.csv) being used in this bivariate map [published by Observable](https://observablehq.com/@datadesk/black-and-latino-u-s-population-shares).
 
-[![Black and Latino U.S. population shares](./data/readme.png?rev=2)](https://observablehq.com/@datadesk/black-and-latino-u-s-population-shares)
+[![Black and Latino U.S. population shares](./data/race-map.png)](https://observablehq.com/@datadesk/black-and-latino-u-s-population-shares)
