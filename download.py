@@ -15,7 +15,7 @@ def main():
     ch.setFormatter(formatter)
     logger.addHandler(ch)
     # Download em all
-    census_data_downloader.download_usa(data_dir="./data")
+    census_data_downloader.download_everything(data_dir="./data")
 
 
 if __name__ == '__main__':

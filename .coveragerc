@@ -1,6 +1,6 @@
 [run]
 include =
-    census_consolidator/*.py
+    census_data_downloader/*.py
 
 [report]
 exclude_lines =
