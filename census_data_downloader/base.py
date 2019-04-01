@@ -247,7 +247,7 @@ class BaseDownloader(object):
 
         # Cast numbers to integers
         for field in field_name_mapper.values():
-            df[field].astype("Int64")
+            df[field].astype("Float64")
 
         # Pass it back
         return df
