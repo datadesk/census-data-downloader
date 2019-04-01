@@ -68,6 +68,10 @@ Now [a stacked bar](https://observablehq.com/@datadesk/racial-makeup-of-u-s-stat
 
 [![Racial makeup  of U.S. states and territories](img/states-race-stacked-bar.png)](https://observablehq.com/@datadesk/racial-makeup-of-u-s-states-and-territories)
 
-Lace a few different county-level datasets together and you can make [parallel coordinates charts](https://observablehq.com/@datadesk/the-demographics-and-destiny-of-all-3-220-u-s-counties).
+Datasets can be easily combined using the Census Bureau's `geoid` field. Here's [education and income by county](https://observablehq.com/@datadesk/education-and-income-in-u-s-counties) in a scatterplot with hexagonal bins.
+
+[![Education and income in U.S. counties](img/hex-scatter.png)](https://observablehq.com/@datadesk/education-and-income-in-u-s-counties)
+
+Lace a few more county-level datasets in and you can make [parallel coordinates charts](https://observablehq.com/@datadesk/the-demographics-and-destiny-of-all-3-220-u-s-counties).
 
 [![The demographics and destiny of all 3,220 U.S. counties](img/parallel-coordinates.png)](https://observablehq.com/@datadesk/the-demographics-and-destiny-of-all-3-220-u-s-counties)
