@@ -91,6 +91,7 @@ class AgeDownloader(BaseDownloader):
         for g in groups:
             df[f'total_{g}'] = df[f'male_{g}'] + df[f'female_{g}']
 
+        # Calculate custom group sets
         groupsets = collections.OrderedDict({
             "0_to_17": [
                 'under_5',
