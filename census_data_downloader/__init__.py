@@ -5,6 +5,7 @@ import logging
 from us import states
 from .age import AgeDownloader
 from .education import EducationDownloader
+from .employment import EmploymentDownloader
 from .foreignborn import ForeignBornDownloader
 from .householdincome import (
     HouseholdIncomeDownloader,
@@ -44,6 +45,7 @@ logger = logging.getLogger(__name__)
 DOWNLOADERS = (
     AgeDownloader,
     EducationDownloader,
+    EmploymentDownloader,
     ForeignBornDownloader,
     HouseholdIncomeDownloader,
     HouseholdIncomeLatinoDownloader,
