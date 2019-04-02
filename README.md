@@ -30,10 +30,10 @@ Subclass our downloader and provided it with its required inputs.
 
 ```python
 import collections
-from .base import BaseACSDownloader
+from .base import BaseDownloader
 
 
-class MedianHouseholdIncomeDownloader(BaseACSDownloader):
+class MedianHouseholdIncomeDownloader(BaseDownloader):
     PROCESSED_TABLE_NAME = "medianhouseholdincome"  # Your humanized table name
     RAW_TABLE_NAME = 'B19013'  # The id of the source table
     RAW_FIELD_CROSSWALK = collections.OrderedDict({
