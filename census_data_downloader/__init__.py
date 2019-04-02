@@ -6,6 +6,7 @@ from us import states
 from .registry import DOWNLOADERS
 from .age import AgeDownloader
 from .education import EducationDownloader
+from .employment import EmploymentDownloader
 from .foreignborn import ForeignBornDownloader
 from .householdincome import (
     HouseholdIncomeDownloader,
