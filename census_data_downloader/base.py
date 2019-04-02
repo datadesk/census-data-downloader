@@ -37,7 +37,7 @@ class BaseDownloader(object):
             raise NotImplementedError("Census API key required. Pass it as the first argument.")
         self.source = source
         self.force = force
-        
+
         #
         # Allow custom years for data download, defaulting to most recent year
         #
@@ -56,15 +56,20 @@ class BaseDownloader(object):
             # Only accept years that will actually return data
             for year in self.year_list:
                 if year not in self.ALL_YEARS:
-                    raise NotImplementedError(f"ACS data only available for the years {self.ALL_YEARS[-1]}-{self.ALL_YEARS[0]}.")
+                    error_msg = ("ACS data only available for the years "
+                                 f"{self.ALL_YEARS[-1]}-{self.ALL_YEARS[0]}.")
+                    raise NotImplementedError(error_msg)
 
         # Default to latest year of data
-        elif years == None:
+        elif years is None:
             self.year_list = (self.ALL_YEARS[0],)
 
         # Handle the failure case
         else:
-            raise NotImplementedError("The `years` argument accepts a single int (e.g. 2012), a list of ints (e.g. [2012,2017]), or the string \"all\". You can leave it empty to download the latest year of data.")
+            error_msg = ("The `years` argument accepts a single int (e.g. 2012), "
+                         "a list of ints (e.g. [2012,2017]), or the string \"all\". "
+                         "You can leave it empty to download the latest year of data.")
+            raise NotImplementedError(error_msg)
 
         # Set the data directories
         if data_dir:
