@@ -21,6 +21,15 @@ from .medianhouseholdincome import (
     MedianHouseholdIncomeBlackDownloader,
     MedianHouseholdIncomeAsianDownloader
 )
+from .medianmonthlyhousingcosts import MedianMonthlyHousingCostsDownloader
+from .mobility import (
+    MobilityDownloader,
+    MobilityBySexDownloader,
+    MobilityWhiteDownloader,
+    MobilityBlackDownloader,
+    MobilityAsianDownloader,
+    MobilityLatinoDownloader
+)
 from .population import PopulationDownloader
 from .race import RaceDownloader
 from .tenure import (
@@ -47,6 +56,13 @@ DOWNLOADERS = (
     MedianHouseholdIncomeWhiteDownloader,
     MedianHouseholdIncomeBlackDownloader,
     MedianHouseholdIncomeAsianDownloader,
+    MedianMonthlyHousingCostsDownloader,
+    MobilityDownloader,
+    MobilityBySexDownloader,
+    MobilityWhiteDownloader,
+    MobilityBlackDownloader,
+    MobilityAsianDownloader,
+    MobilityLatinoDownloader,
     PopulationDownloader,
     RaceDownloader,
     TenureDownloader,
