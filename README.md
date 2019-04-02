@@ -34,12 +34,13 @@ You can choose which geographies you want.
 >>> census_data_downloader.download_usa("<YOUR CENSUS API KEY>", data_dir="./your-data-folder/")
 ```
 
-And you can choose which years you want.
+And you can choose which years you want, or default to the latest release.
 
 ```
->>> census_data_downloader.download_states("<YOUR CENSUS API KEY>", years="2012", data_dir="./your-data-folder/")
->>> census_data_downloader.download_tracts("<YOUR CENSUS API KEY>", years="2012,2017", data_dir="./your-data-folder/")
+>>> census_data_downloader.download_counties("<YOUR CENSUS API KEY>", years=2012, data_dir="./your-data-folder/")
+>>> census_data_downloader.download_counties("<YOUR CENSUS API KEY>", years=[2012,2017], data_dir="./your-data-folder/")
 >>> census_data_downloader.download_counties("<YOUR CENSUS API KEY>", years="all", data_dir="./your-data-folder/")
+>>> census_data_downloader.download_counties("<YOUR CENSUS API KEY>", data_dir="./your-data-folder/")
 ```
 
 That's it.

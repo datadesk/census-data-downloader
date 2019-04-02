@@ -38,16 +38,33 @@ class BaseDownloader(object):
         self.source = source
         self.force = force
         
-        # Allow custom years for data download
+        #
+        # Allow custom years for data download, defaulting to most recent year
+        #
+
+        # Accept "all" shortcut to download all years
         if years == "all":
             self.year_list = self.ALL_YEARS
-        elif years:
-            self.year_list = [int(year) for year in years.split(',')]
+
+        # Accept single int or list of ints representing years
+        elif isinstance(years, int) or isinstance(years, list):
+            if isinstance(years, int):
+                self.year_list = [years]
+            else:
+                self.year_list = [int(year) for year in years]
+
+            # Only accept years that will actually return data
             for year in self.year_list:
                 if year not in self.ALL_YEARS:
                     raise NotImplementedError(f"ACS data only available for the years {self.ALL_YEARS[-1]}-{self.ALL_YEARS[0]}.")
-        else:
+
+        # Default to latest year of data
+        elif years == None:
             self.year_list = (self.ALL_YEARS[0],)
+
+        # Handle the failure case
+        else:
+            raise NotImplementedError("The `years` argument accepts a single int (e.g. 2012), a list of ints (e.g. [2012,2017]), or the string \"all\". You can leave it empty to download the latest year of data.")
 
         # Set the data directories
         if data_dir:
