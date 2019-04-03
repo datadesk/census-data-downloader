@@ -31,8 +31,10 @@ Subclass our downloader and provided it with its required inputs.
 ```python
 import collections
 from .base import BaseDownloader
+from .registry import register_downloader
 
 
+@register_downloader
 class MedianHouseholdIncomeDownloader(BaseDownloader):
     PROCESSED_TABLE_NAME = "medianhouseholdincome"  # Your humanized table name
     RAW_TABLE_NAME = 'B19013'  # The id of the source table

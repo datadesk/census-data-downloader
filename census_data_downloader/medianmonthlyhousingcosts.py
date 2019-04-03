@@ -1,7 +1,11 @@
+#! /usr/bin/env python
+# -*- coding: utf-8 -*
 import collections
-from census_data_downloader.base import BaseDownloader
+from .base import BaseDownloader
+from .registry import register_downloader
 
 
+@register_downloader
 class MedianMonthlyHousingCostsDownloader(BaseDownloader):
     PROCESSED_TABLE_NAME = "medianmonthlyhousingcosts"
     RAW_TABLE_NAME = 'B25105'

@@ -3,6 +3,7 @@
 # flake8: NOQA
 import logging
 from us import states
+from .registry import DOWNLOADERS
 from .age import AgeDownloader
 from .education import EducationDownloader
 from .employment import EmploymentDownloader
@@ -45,41 +46,6 @@ from .tenure import (
 )
 logger = logging.getLogger(__name__)
 
-DOWNLOADERS = (
-    AgeDownloader,
-    EducationDownloader,
-    EmploymentDownloader,
-    ForeignBornDownloader,
-    HouseholdIncomeDownloader,
-    HouseholdIncomeLatinoDownloader,
-    HouseholdIncomeWhiteDownloader,
-    HouseholdIncomeBlackDownloader,
-    HouseholdIncomeAsianDownloader,
-    InternetDownloader,
-    LanguageDownloader,
-    MedianAgeDownloader,
-    MedianHouseholdIncomeDownloader,
-    MedianHouseholdIncomeLatinoDownloader,
-    MedianHouseholdIncomeWhiteDownloader,
-    MedianHouseholdIncomeBlackDownloader,
-    MedianHouseholdIncomeAsianDownloader,
-    MedianMonthlyHousingCostsDownloader,
-    MobilityDownloader,
-    MobilityBySexDownloader,
-    MobilityWhiteDownloader,
-    MobilityBlackDownloader,
-    MobilityAsianDownloader,
-    MobilityLatinoDownloader,
-    PopulationDownloader,
-    PovertyDownloader,
-    RaceDownloader,
-    TenureDownloader,
-    TenureLatinoDownloader,
-    TenureWhiteDownloader,
-    TenureBlackDownloader,
-    TenureAsianDownloader
-)
-
 
 def download_usa(*args, **kwargs):
     """
@@ -101,6 +67,9 @@ def download_everything(*args, **kwargs):
         obj = klass(*args, **kwargs)
         logger.debug(f"Downloading nationwide {klass.PROCESSED_TABLE_NAME} dataset")
         obj.download_usa()
-        for state in states.STATES: #STATES_AND_TERRITORIES:
+        for state in states.STATES:
             logger.debug(f"Downloading tract-level {klass.PROCESSED_TABLE_NAME} data in {state.name}")
             obj.download_tracts(state.abbr)
+            logger.debug(f"Downloading legislative-district-level {klass.PROCESSED_TABLE_NAME} data in {state.name}")
+            obj.download_legislative_districts_upper(state.abbr)
+            obj.download_legislative_districts_upper(state.abbr)
