@@ -15,7 +15,7 @@ class BaseDownloader(object):
     Downloads and processes ACS tables from the Census API.
     """
     THIS_DIR = pathlib.Path(__file__).parent
-    YEAR_LIST = (
+    ALL_YEARS = (
         2017,
         2016,
         2015,
@@ -27,7 +27,7 @@ class BaseDownloader(object):
         2009
     )
 
-    def __init__(self, api_key=None, source="acs5", data_dir=None, force=False):
+    def __init__(self, api_key=None, source="acs5", years=None, data_dir=None, force=False):
         """
         Configuration.
         """
@@ -37,6 +37,39 @@ class BaseDownloader(object):
             raise NotImplementedError("Census API key required. Pass it as the first argument.")
         self.source = source
         self.force = force
+
+        #
+        # Allow custom years for data download, defaulting to most recent year
+        #
+
+        # Accept "all" shortcut to download all years
+        if years == "all":
+            self.year_list = self.ALL_YEARS
+
+        # Accept single int or list of ints representing years
+        elif isinstance(years, int) or isinstance(years, list):
+            if isinstance(years, int):
+                self.year_list = [years]
+            else:
+                self.year_list = [int(year) for year in years]
+
+            # Only accept years that will actually return data
+            for year in self.year_list:
+                if year not in self.ALL_YEARS:
+                    error_msg = ("ACS data only available for the years "
+                                 f"{self.ALL_YEARS[-1]}-{self.ALL_YEARS[0]}.")
+                    raise NotImplementedError(error_msg)
+
+        # Default to latest year of data
+        elif years is None:
+            self.year_list = (self.ALL_YEARS[0],)
+
+        # Handle the failure case
+        else:
+            error_msg = ("The `years` argument accepts a single int (e.g. 2012), "
+                         "a list of ints (e.g. [2012,2017]), or the string \"all\". "
+                         "You can leave it empty to download the latest year of data.")
+            raise NotImplementedError(error_msg)
 
         # Set the data directories
         if data_dir:
@@ -157,7 +190,7 @@ class BaseDownloader(object):
         """
         Download and process data.
         """
-        for year in self.YEAR_LIST:
+        for year in self.year_list:
             # Get the raw table
             raw_table = self._get_raw_table(year, api_filter, csv_suffix)
 

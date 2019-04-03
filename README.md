@@ -16,10 +16,31 @@ Import our module.
 >>> import census_data_downloader
 ```
 
-Download everything.
+Download and process the latest year of data for all supported tables and every geography.
 
 ```
 >>> census_data_downloader.download_everything("<YOUR CENSUS API KEY>", data_dir="./your-data-folder/")
+```
+
+You can choose which geographies you want.
+
+```
+>>> census_data_downloader.download_nationwide("<YOUR CENSUS API KEY>", data_dir="./your-data-folder/")
+>>> census_data_downloader.download_states("<YOUR CENSUS API KEY>", data_dir="./your-data-folder/")
+>>> census_data_downloader.download_congressional_districts("<YOUR CENSUS API KEY>", data_dir="./your-data-folder/")
+>>> census_data_downloader.download_counties("<YOUR CENSUS API KEY>", data_dir="./your-data-folder/")
+>>> census_data_downloader.download_places("<YOUR CENSUS API KEY>", data_dir="./your-data-folder/")
+>>> census_data_downloader.download_tracts("<YOUR CENSUS API KEY>", data_dir="./your-data-folder/")
+>>> census_data_downloader.download_usa("<YOUR CENSUS API KEY>", data_dir="./your-data-folder/")
+```
+
+And you can choose which years you want, or default to the latest release.
+
+```
+>>> census_data_downloader.download_counties("<YOUR CENSUS API KEY>", years=2012, data_dir="./your-data-folder/")
+>>> census_data_downloader.download_counties("<YOUR CENSUS API KEY>", years=[2012,2017], data_dir="./your-data-folder/")
+>>> census_data_downloader.download_counties("<YOUR CENSUS API KEY>", years="all", data_dir="./your-data-folder/")
+>>> census_data_downloader.download_counties("<YOUR CENSUS API KEY>", data_dir="./your-data-folder/")
 ```
 
 That's it.
