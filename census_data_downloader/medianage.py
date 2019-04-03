@@ -2,8 +2,10 @@
 # -*- coding: utf-8 -*
 import collections
 from .base import BaseDownloader
+from .registry import register_downloader
 
 
+@register_downloader
 class MedianAgeDownloader(BaseDownloader):
     PROCESSED_TABLE_NAME = 'medianage'
     RAW_TABLE_NAME = 'B01002'

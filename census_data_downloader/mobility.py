@@ -1,7 +1,11 @@
+#! /usr/bin/env python
+# -*- coding: utf-8 -*
 import collections
-from census_data_downloader.base import BaseDownloader
+from .base import BaseDownloader
+from .registry import register_downloader
 
 
+@register_downloader
 class MobilityDownloader(BaseDownloader):
     PROCESSED_TABLE_NAME = "mobility"
     RAW_TABLE_NAME = 'B07003'
@@ -15,6 +19,7 @@ class MobilityDownloader(BaseDownloader):
     })
 
 
+@register_downloader
 class MobilityBySexDownloader(MobilityDownloader):
     PROCESSED_TABLE_NAME = "mobilitybysex"
     RAW_FIELD_CROSSWALK = collections.OrderedDict({
@@ -39,6 +44,7 @@ class MobilityBySexDownloader(MobilityDownloader):
     })
 
 
+@register_downloader
 class MobilityWhiteDownloader(BaseDownloader):
     PROCESSED_TABLE_NAME = "mobilitywhite"
     RAW_TABLE_NAME = 'B07004H'
@@ -52,16 +58,19 @@ class MobilityWhiteDownloader(BaseDownloader):
     })
 
 
+@register_downloader
 class MobilityBlackDownloader(MobilityWhiteDownloader):
     PROCESSED_TABLE_NAME = "mobilityblack"
     RAW_TABLE_NAME = 'B07004B'
 
 
+@register_downloader
 class MobilityAsianDownloader(MobilityWhiteDownloader):
     PROCESSED_TABLE_NAME = "mobilityasian"
     RAW_TABLE_NAME = 'B07004D'
 
 
+@register_downloader
 class MobilityLatinoDownloader(MobilityWhiteDownloader):
     PROCESSED_TABLE_NAME = "mobilitylatino"
     RAW_TABLE_NAME = 'B07004I'
