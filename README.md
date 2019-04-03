@@ -50,6 +50,18 @@ Here's an example of downloading all state-level data from the `medianage` datas
 $ censusdatadownloader medianage states
 ```
 
+You can specify the download directory with `--data-dir`.
+
+```bash
+$ censusdatadownloader --data-dir ./my-special-folder/ medianage states
+```
+
+And you can change the year you download with `--year`.
+
+```bash
+$ censusdatadownloader --year 2010 medianage states
+```
+
 That's it. Mix and match tables and subcommands to get whatever you need.
 
 ### Adding support for a new table
