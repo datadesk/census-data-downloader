@@ -30,7 +30,7 @@ DOWNLOADERS_LOOKUP = dict((k.PROCESSED_TABLE_NAME, k) for k in DOWNLOADERS)
 @click.option(
     '--force',
     is_flag=True,
-    help="Force the downloading the data"
+    help="Force the downloading of the data"
 )
 @click.pass_context
 def cmd(ctx, table, data_dir="./", year=None, force=False):

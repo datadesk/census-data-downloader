@@ -21,7 +21,7 @@ Options:
   --data-dir TEXT  The folder where you want to download the data
   --year INTEGER   The years of data to download. By default it gets only the
                    latest year. Submit 'all' to get every year.
-  --force          Force the downloading the data
+  --force          Force the downloading of the data
   --help           Show this message and exit.
 
 Commands:
