@@ -27,7 +27,14 @@ class BaseDownloader(object):
         2009
     )
 
-    def __init__(self, api_key=None, source="acs5", data_dir=None, force=False):
+    def __init__(
+        self,
+        api_key=None,
+        source="acs5",
+        years=None,
+        data_dir=None,
+        force=False
+    ):
         """
         Configuration.
         """
@@ -37,6 +44,30 @@ class BaseDownloader(object):
             raise NotImplementedError("Census API key required. Pass it as the first argument.")
         self.source = source
         self.force = force
+
+        #
+        # Allow custom years for data download, defaulting to most recent year
+        #
+
+        # If they want all the years, give it to them.
+        if years == "all":
+            self.years_to_download = self.YEAR_LIST
+        # If the user provides a year give them that.
+        elif isinstance(years, int):
+            self.years_to_download = [years]
+        # Or if they provide years as a list, give those then.
+        elif isinstance(years, list):
+            self.years_to_download = map(int, years)
+        # If they provided nothing, default to the latest year of data
+        elif years is None:
+            self.years_to_download = (max(self.YEAR_LIST),)
+
+        # Validate the years
+        for year in self.years_to_download:
+            if year not in self.YEAR_LIST:
+                error_msg = ("Data only available for the years "
+                             f"{self.YEAR_LIST[-1]}-{self.YEAR_LIST[0]}.")
+                raise NotImplementedError(error_msg)
 
         # Set the data directories
         if data_dir:
@@ -150,14 +181,14 @@ class BaseDownloader(object):
         Download 'em all.
         """
         self.download_usa()
-        for state in states.STATES_AND_TERRITORIES:
+        for state in states.STATES:
             self.download_tracts(state.abbr)
 
     def _download_tables(self, api_filter, csv_suffix, geoid_function):
         """
         Download and process data.
         """
-        for year in self.YEAR_LIST:
+        for year in self.years_to_download:
             # Get the raw table
             raw_table = self._get_raw_table(year, api_filter, csv_suffix)
 
