@@ -14,6 +14,7 @@ from .householdincome import (
     HouseholdIncomeBlackDownloader,
     HouseholdIncomeAsianDownloader
 )
+from .language import LanguageDownloader
 from .medianage import MedianAgeDownloader
 from .medianhouseholdincome import (
     MedianHouseholdIncomeDownloader,
@@ -52,6 +53,7 @@ DOWNLOADERS = (
     HouseholdIncomeWhiteDownloader,
     HouseholdIncomeBlackDownloader,
     HouseholdIncomeAsianDownloader,
+    LanguageDownloader,
     MedianAgeDownloader,
     MedianHouseholdIncomeDownloader,
     MedianHouseholdIncomeLatinoDownloader,
