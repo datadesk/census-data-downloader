@@ -66,3 +66,6 @@ def download_everything(*args, **kwargs):
         for state in states.STATES:
             logger.debug(f"Downloading tract-level {klass.PROCESSED_TABLE_NAME} data in {state.name}")
             obj.download_tracts(state.abbr)
+            logger.debug(f"Downloading legislative-district-level {klass.PROCESSED_TABLE_NAME} data in {state.name}")
+            obj.download_legislative_districts_upper(state.abbr)
+            obj.download_legislative_districts_upper(state.abbr)
