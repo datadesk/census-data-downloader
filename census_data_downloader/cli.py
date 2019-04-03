@@ -83,7 +83,7 @@ def tracts(ctx, state):
     required=True
 )
 @click.pass_context
-def tracts(ctx, state):
+def statelegislativedistricts(ctx, state):
     ctx.obj['runner'].download_state_legislative_districts_upper(state)
     ctx.obj['runner'].download_state_legislative_districts_lower(state)
 
