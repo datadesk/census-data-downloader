@@ -15,7 +15,7 @@ class BaseDownloader(object):
     Downloads and processes ACS tables from the Census API.
     """
     THIS_DIR = pathlib.Path(__file__).parent
-    ALL_YEARS = (
+    YEAR_LIST = (
         2017,
         2016,
         2015,
@@ -27,7 +27,14 @@ class BaseDownloader(object):
         2009
     )
 
-    def __init__(self, api_key=None, source="acs5", years=None, data_dir=None, force=False):
+    def __init__(
+        self,
+        api_key=None,
+        source="acs5",
+        years=None,
+        data_dir=None,
+        force=False
+    ):
         """
         Configuration.
         """
@@ -42,34 +49,25 @@ class BaseDownloader(object):
         # Allow custom years for data download, defaulting to most recent year
         #
 
-        # Accept "all" shortcut to download all years
+        # If they want all the years, give it to them.
         if years == "all":
-            self.year_list = self.ALL_YEARS
-
-        # Accept single int or list of ints representing years
-        elif isinstance(years, int) or isinstance(years, list):
-            if isinstance(years, int):
-                self.year_list = [years]
-            else:
-                self.year_list = [int(year) for year in years]
-
-            # Only accept years that will actually return data
-            for year in self.year_list:
-                if year not in self.ALL_YEARS:
-                    error_msg = ("ACS data only available for the years "
-                                 f"{self.ALL_YEARS[-1]}-{self.ALL_YEARS[0]}.")
-                    raise NotImplementedError(error_msg)
-
-        # Default to latest year of data
+            self.years_to_download = self.YEAR_LIST
+        # If the user provides a year give them that.
+        elif isinstance(years, int):
+            self.years_to_download = [years]
+        # Or if they provide years as a list, give those then.
+        elif isinstance(years, list):
+            self.years_to_download = map(int, years)
+        # If they provided nothing, default to the latest year of data
         elif years is None:
-            self.year_list = (self.ALL_YEARS[0],)
+            self.years_to_download = (max(self.YEAR_LIST),)
 
-        # Handle the failure case
-        else:
-            error_msg = ("The `years` argument accepts a single int (e.g. 2012), "
-                         "a list of ints (e.g. [2012,2017]), or the string \"all\". "
-                         "You can leave it empty to download the latest year of data.")
-            raise NotImplementedError(error_msg)
+        # Validate the years
+        for year in self.years_to_download:
+            if year not in self.YEAR_LIST:
+                error_msg = ("Data only available for the years "
+                             f"{self.YEAR_LIST[-1]}-{self.YEAR_LIST[0]}.")
+                raise NotImplementedError(error_msg)
 
         # Set the data directories
         if data_dir:
@@ -183,14 +181,14 @@ class BaseDownloader(object):
         Download 'em all.
         """
         self.download_usa()
-        for state in states.STATES_AND_TERRITORIES:
+        for state in states.STATES:
             self.download_tracts(state.abbr)
 
     def _download_tables(self, api_filter, csv_suffix, geoid_function):
         """
         Download and process data.
         """
-        for year in self.year_list:
+        for year in self.years_to_download:
             # Get the raw table
             raw_table = self._get_raw_table(year, api_filter, csv_suffix)
 
