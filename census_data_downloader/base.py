@@ -308,7 +308,7 @@ class BaseDownloader(object):
 
         # Cast numbers to integers
         for field in field_name_mapper.values():
-            df[field].astype("Float64")
+            df[field].astype(pd.np.float64)
 
         # Pass it back
         return df

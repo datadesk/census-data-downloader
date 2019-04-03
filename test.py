@@ -30,6 +30,7 @@ class CliTest(unittest.TestCase):
 
     def test_tracts(self):
         self.invoke("--data-dir", "./test-data/", "medianhouseholdincome", "tracts", "RI")
+        self.invoke("--year", "2009", "--data-dir", "./test-data/", "medianhouseholdincome", "tracts", "RI")
 
 
 if __name__ == '__main__':
