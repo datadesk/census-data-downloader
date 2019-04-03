@@ -14,6 +14,7 @@ from .householdincome import (
     HouseholdIncomeBlackDownloader,
     HouseholdIncomeAsianDownloader
 )
+from .internet import InternetDownloader
 from .medianage import MedianAgeDownloader
 from .medianhouseholdincome import (
     MedianHouseholdIncomeDownloader,
