@@ -166,6 +166,32 @@ class BaseDownloader(object):
         geoid_function = lambda row: row['state'] + row['county'] + row['tract']
         self._download_tables(api_filter, csv_suffix, geoid_function)
 
+    def download_legislative_districts_upper(self, state):
+        """
+        Download data for all Census upper legislative districts in the provided state.
+        """
+        state_obj = getattr(states, state.upper())
+        csv_suffix = f'legislativedistricts_upper_{state_obj.abbr.lower()}'
+        api_filter = {
+            'for': 'state legislative district (upper chamber):*',
+            'in': f'state: {state_obj.fips}'
+        }
+        geoid_function = lambda row: row['state'] + row['state legislative district (upper chamber)']
+        self._download_tables(api_filter, csv_suffix, geoid_function)
+
+    def download_legislative_districts_lower(self, state):
+        """
+        Download data for all Census lower legislative districts in the provided state.
+        """
+        state_obj = getattr(states, state.upper())
+        csv_suffix = f'legislativedistricts_lower_{state_obj.abbr.lower()}'
+        api_filter = {
+            'for': 'state legislative district (lower chamber):*',
+            'in': f'state: {state_obj.fips}'
+        }
+        geoid_function = lambda row: row['state'] + row['state legislative district (lower chamber)']
+        self._download_tables(api_filter, csv_suffix, geoid_function)
+
     def download_usa(self):
         """
         Download all datasets that provide full coverage for the entire country.
@@ -183,6 +209,8 @@ class BaseDownloader(object):
         self.download_usa()
         for state in states.STATES:
             self.download_tracts(state.abbr)
+            self.download_legislative_districts_upper(state.abbr)
+            self.download_legislative_districts_lower(state.abbr)
 
     def _download_tables(self, api_filter, csv_suffix, geoid_function):
         """
@@ -265,7 +293,9 @@ class BaseDownloader(object):
                 "county": str,
                 "place": str,
                 "tract": str,
-                "congressional district": str
+                "congressional district": str,
+                "state legislative district (upper chamber)": str,
+                "state legislative district (lower chamber)": str
             }
         )
 
