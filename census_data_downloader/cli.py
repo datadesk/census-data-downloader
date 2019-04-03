@@ -57,31 +57,31 @@ def nationwide(ctx):
     ctx.obj['runner'].download_nationwide()
 
 
-@cmd.command(help="Download data for all states")
+@cmd.command(help="Download states")
 @click.pass_context
 def states(ctx):
     ctx.obj['runner'].download_states()
 
 
-@cmd.command(help="Download data for all Congressional districts")
+@cmd.command(help="Download Congressional districts")
 @click.pass_context
 def congressionaldistricts(ctx):
     ctx.obj['runner'].download_congressional_districts()
 
 
-@cmd.command(help="Download data for all counties in all states")
+@cmd.command(help="Download counties in all states")
 @click.pass_context
 def counties(ctx):
     ctx.obj['runner'].download_counties()
 
 
-@cmd.command(help="Download data for all Census designated places")
+@cmd.command(help="Download Census-designated places")
 @click.pass_context
 def places(ctx):
     ctx.obj['runner'].download_places()
 
 
-@cmd.command(help="Download data for all Census tracts in the provided state")
+@cmd.command(help="Download Census tracts in provided state")
 @click.argument(
     "state",
     nargs=1,
@@ -92,7 +92,7 @@ def tracts(ctx, state):
     ctx.obj['runner'].download_tracts(state)
 
 
-@cmd.command(help="Download data for legislative districts in the provided state")
+@cmd.command(help="Download statehouse districts in provided state")
 @click.argument(
     "statelegislativedistricts",
     nargs=1,
@@ -104,13 +104,13 @@ def statelegislativedistricts(ctx, state):
     ctx.obj['runner'].download_state_legislative_districts_lower(state)
 
 
-@cmd.command(help="Download all datasets that provide full coverage for the entire country")
+@cmd.command(help="Download all datasets that cover full USA")
 @click.pass_context
 def usa(ctx):
     ctx.obj['runner'].download_usa()
 
 
-@cmd.command(help="Download 'em all")
+@cmd.command(help="Download everything from everywhere")
 @click.pass_context
 def everything(ctx):
     ctx.obj['runner'].download_everything()

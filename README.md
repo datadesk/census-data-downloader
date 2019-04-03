@@ -10,19 +10,47 @@ $ pipenv install census-data-downloader
 
 ### Usage
 
-Import our module.
+There's now a command-line tool named `censusdatadownloader` ready for you.
 
-```python
->>> import census_data_downloader
+```base
+Usage: censusdatadownloader [OPTIONS] TABLE COMMAND [ARGS]...
+
+  Download Census data and reformat it for humans
+
+Options:
+  --data-dir TEXT  The folder where you want to download the data
+  --year INTEGER   The years of data to download. By default it gets only the
+                   latest year. Submit 'all' to get every year.
+  --force          Force the downloading the data
+  --help           Show this message and exit.
+
+Commands:
+  congressionaldistricts     Download Congressional districts
+  counties                   Download counties in all states
+  everything                 Download everything from everywhere
+  nationwide                 Download nationwide data
+  places                     Download Census-designated places
+  statelegislativedistricts  Download statehouse districts in provided state
+  states                     Download states
+  tracts                     Download Census tracts in provided state
+  usa                        Download all datasets that cover full USA
 ```
 
-Download everything.
+Before you can use it you will need to add your CENSUS_API_KEY to your environment. Here's one quick way to do that:
 
-```
->>> census_data_downloader.download_everything("<YOUR CENSUS API KEY>", data_dir="./your-data-folder/")
+```bash
+$ export CENSUS_API_KEY='<your API key>'
 ```
 
-That's it.
+Using it is as simple as providing one our processed table names to one of the download subcommands.
+
+Here's an example of downloading all state-level data from the `medianage` dataset.
+
+```bash
+$ censusdatadownloader medianage states
+```
+
+That's it. Mix and match tables and subcommands to get whatever you need.
 
 ### Adding support for a new table
 
