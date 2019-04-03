@@ -69,3 +69,6 @@ def download_everything(*args, **kwargs):
             logger.debug(f"Downloading legislative-district-level {klass.PROCESSED_TABLE_NAME} data in {state.name}")
             obj.download_legislative_districts_upper(state.abbr)
             obj.download_legislative_districts_upper(state.abbr)
+
+
+__all__ = ("DOWNLOADERS", "download_usa", "download_everything")

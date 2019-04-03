@@ -13,8 +13,13 @@ setup(
     install_requires=(
         "pandas",
         "us",
-        "census"
+        "census",
+        "click"
     ),
+    entry_points="""
+        [console_scripts]
+        censusdatadownloader=census_data_downloader.cli:cmd
+    """,
     classifiers=[
         'Development Status :: 5 - Production/Stable',
         'Programming Language :: Python',

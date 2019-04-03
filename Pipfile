@@ -12,6 +12,7 @@ twine = "*"
 pandas = "*"
 us = "*"
 census = "*"
+click = "*"
 
 [requires]
 python_version = "3.6"

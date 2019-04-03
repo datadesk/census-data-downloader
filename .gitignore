@@ -3,3 +3,4 @@ build
 *.egg*
 .coverage
 *.pyc
+test-data
