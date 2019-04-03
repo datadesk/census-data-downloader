@@ -21,8 +21,12 @@ class CliTest(unittest.TestCase):
         string_value = result.output.replace("\n", "")
         return string_value
 
-    def test_simple_download(self):
+    def test_nationwide(self):
         self.invoke("--data-dir", "./test-data/", "medianhouseholdincome", "nationwide")
+        self.invoke("--force", "--data-dir", "./test-data/", "medianhouseholdincome", "nationwide")
+
+    def test_states(self):
+        self.invoke("--data-dir", "./test-data/", "medianhouseholdincome", "states")
 
     def test_tracts(self):
         self.invoke("--data-dir", "./test-data/", "medianhouseholdincome", "tracts", "RI")

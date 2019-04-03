@@ -21,15 +21,17 @@ DOWNLOADERS_LOOKUP = dict((k.PROCESSED_TABLE_NAME, k) for k in DOWNLOADERS)
     default="./",
     help="The folder where you want to download the data"
 )
+@click.option('--force', is_flag=True, help="Force the downloading the data")
 @click.pass_context
-def cmd(ctx, table, data_dir="./"):
+def cmd(ctx, table, data_dir="./", force=False):
     ctx.ensure_object(dict)
     ctx.obj['table'] = table
     ctx.obj['data_dir'] = data_dir
+    ctx.obj['force'] = force
     try:
         klass = DOWNLOADERS_LOOKUP[ctx.obj['table']]
         ctx.obj['klass'] = klass
-        ctx.obj['runner'] = klass(data_dir=data_dir)
+        ctx.obj['runner'] = klass(data_dir=data_dir, force=ctx.obj['force'])
     except KeyError:
         click.ClickException("Table not found")
 
