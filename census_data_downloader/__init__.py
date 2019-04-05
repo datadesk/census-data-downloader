@@ -41,6 +41,7 @@ from .tenure import (
     TenureBlackDownloader,
     TenureAsianDownloader
 )
+from .yearstructurebuilt import YearStructureBuiltDownloader
 logger = logging.getLogger(__name__)
 
 
