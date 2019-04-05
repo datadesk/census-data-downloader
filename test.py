@@ -17,6 +17,7 @@ class CliTest(unittest.TestCase):
     def invoke(self, *args):
         runner = CliRunner()
         result = runner.invoke(cli.cmd, args)
+        print(result.output)
         self.assertEqual(result.exit_code, 0)
         string_value = result.output.replace("\n", "")
         return string_value
@@ -31,6 +32,11 @@ class CliTest(unittest.TestCase):
     def test_tracts(self):
         self.invoke("--data-dir", "./test-data/", "medianhouseholdincome", "tracts", "RI")
         self.invoke("--year", "2009", "--data-dir", "./test-data/", "medianhouseholdincome", "tracts", "RI")
+
+    def test_varyingcrosswalksbyyear(self):
+        self.invoke("--year", "2009", "--data-dir", "./test-data/", "yearstructurebuilt", "nationwide")
+        self.invoke("--year", "2012", "--data-dir", "./test-data/", "yearstructurebuilt", "nationwide")
+        self.invoke("--year", "2017", "--data-dir", "./test-data/", "yearstructurebuilt", "nationwide")
 
 
 if __name__ == '__main__':

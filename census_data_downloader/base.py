@@ -85,22 +85,6 @@ class BaseDownloader(object):
         if not self.processed_data_dir.exists():
             self.processed_data_dir.mkdir()
 
-        #
-        # Verify we have base attributes required of all subclasses
-        #
-
-        # The name of the ACS table in the Census system (ex. 'B01001')
-        if not getattr(self, 'RAW_TABLE_NAME', None):
-            raise NotImplementedError("RAW_TABLE_NAME required")
-
-        # Our cleaned up name for the table (i.e. 'income')
-        if not getattr(self, 'PROCESSED_TABLE_NAME', None):
-            raise NotImplementedError("PROCESSED_TABLE_NAME required")
-
-        # A dictionary mapping the raw ACS field names to our processed names
-        if not getattr(self, 'RAW_FIELD_CROSSWALK', None):
-            raise NotImplementedError("RAW_FIELD_CROSSWALK required")
-
     @property
     def censusreporter_url(self):
         """
@@ -217,6 +201,9 @@ class BaseDownloader(object):
         Download and process data.
         """
         for year in self.years_to_download:
+            # Set the year as a sneaky private variable we can access elsewhere
+            self._year = year
+
             # Get the raw table
             raw_table = self._get_raw_table(year, api_filter, csv_suffix)
 
