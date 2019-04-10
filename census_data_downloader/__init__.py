@@ -5,6 +5,7 @@ import logging
 from us import states
 from .registry import DOWNLOADERS
 from .age import AgeDownloader
+from .classofworker import ClassOfWorkerDownloader
 from .education import EducationDownloader
 from .foreignborn import ForeignBornDownloader
 from .householdincome import (
