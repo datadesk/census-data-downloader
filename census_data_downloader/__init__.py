@@ -7,6 +7,7 @@ from .registry import DOWNLOADERS
 from .age import AgeDownloader
 from .classofworker import ClassOfWorkerDownloader
 from .education import EducationDownloader
+from .employmentstatus import EmploymentStatusDownloader
 from .foreignborn import ForeignBornDownloader
 from .householdincome import (
     HouseholdIncomeDownloader,
