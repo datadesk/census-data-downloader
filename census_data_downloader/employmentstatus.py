@@ -6,7 +6,9 @@ from .registry import register_downloader
 
 
 @register_downloader
-class EmploymentDownloader(BaseDownloader):
+class EmploymentStatusDownloader(BaseDownloader):
+    PROCESSED_TABLE_NAME = "employmentstatus"
+    RAW_TABLE_NAME = 'B23025'
     YEAR_LIST = (
         2017,
         2016,
@@ -16,8 +18,6 @@ class EmploymentDownloader(BaseDownloader):
         2012,
         2011
     )
-    PROCESSED_TABLE_NAME = "employment"
-    RAW_TABLE_NAME = 'B23025'
     RAW_FIELD_CROSSWALK = collections.OrderedDict({
         '001E': 'total_population_16over',
         '002E': 'in_labor_force',
