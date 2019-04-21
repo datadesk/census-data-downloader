@@ -5,6 +5,7 @@ download:
 
 
 test:
+	rm -rf ./test-data/
 	flake8 census_data_downloader
 	coverage run test.py
 	coverage report -m

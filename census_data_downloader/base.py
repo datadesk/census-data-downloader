@@ -57,7 +57,7 @@ class BaseDownloader(object):
             self.years_to_download = [years]
         # Or if they provide years as a list, give those then.
         elif isinstance(years, list):
-            self.years_to_download = map(int, years)
+            self.years_to_download = list(map(int, years))
         # If they provided nothing, default to the latest year of data
         elif years is None:
             self.years_to_download = (max(self.YEAR_LIST),)

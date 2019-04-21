@@ -8,8 +8,19 @@ from census_data_downloader import cli
 class CensusDataDownloaderTest(unittest.TestCase):
     THIS_DIR = pathlib.Path(__file__).parent
 
-    def test_nothing(self):
-        self.assertEqual(census_data_downloader, census_data_downloader)
+    def test_allyears(self):
+        all = census_data_downloader.MedianGrossRentDownloader(
+            years="all",
+            data_dir="./test-data/"
+        )
+        all.download_nationwide()
+
+    def test_multipleyears(self):
+        multi = census_data_downloader.PopulationDownloader(
+            years=[2009, 2017],
+            data_dir="./test-data/"
+        )
+        multi.download_nationwide()
 
 
 class CliTest(unittest.TestCase):
