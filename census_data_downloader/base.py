@@ -203,6 +203,15 @@ class BaseDownloader(object):
         geoid_function = lambda row: row['american indian area/alaska native area/hawaiian home land']
         self._download_tables(api_filter, csv_suffix, geoid_function)
 
+    def download_zctas(self):
+        """
+        Download data for Zip Code Tabulation Areas
+        """
+        csv_suffix = "zcta"
+        api_filter = {'for': 'zip code tabulation area:*'}
+        geoid_function = lambda row: row['zip code tabulation area']
+        self._download_tables(api_filter, csv_suffix, geoid_function)
+
     def download_usa(self):
         """
         Download all datasets that provide full coverage for the entire country.
@@ -215,6 +224,7 @@ class BaseDownloader(object):
         self.download_msas()
         self.download_csas()
         self.download_aiann_homelands()
+        self.download_zctas()
 
     def download_everything(self):
         """
