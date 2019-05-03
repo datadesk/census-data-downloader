@@ -176,6 +176,24 @@ class BaseDownloader(object):
         geoid_function = lambda row: row['state'] + row['state legislative district (lower chamber)']
         self._download_tables(api_filter, csv_suffix, geoid_function)
 
+    def download_msas(self):
+        """
+        Download data for Metropolitian Statistical Areas.
+        """
+        csv_suffix = "msa"
+        api_filter = {'for': 'metropolitan statistical area/micropolitan statistical area:*'}
+        geoid_function = lambda row: row['metropolitan statistical area/micropolitan statistical area']
+        self._download_tables(api_filter, csv_suffix, geoid_function)
+
+    def download_csas(self):
+        """
+        Download data for Combined Statistical Areas.
+        """
+        csv_suffix = "csa"
+        api_filter = {'for': 'combined statistical area:*'}
+        geoid_function = lambda row: row['combined statistical area']
+        self._download_tables(api_filter, csv_suffix, geoid_function)
+
     def download_usa(self):
         """
         Download all datasets that provide full coverage for the entire country.
@@ -185,6 +203,8 @@ class BaseDownloader(object):
         self.download_congressional_districts()
         self.download_counties()
         self.download_places()
+        self.download_msas()
+        self.download_csas()
 
     def download_everything(self):
         """
