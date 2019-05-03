@@ -194,6 +194,15 @@ class BaseDownloader(object):
         geoid_function = lambda row: row['combined statistical area']
         self._download_tables(api_filter, csv_suffix, geoid_function)
 
+    def download_aiann_homelands(self):
+        """
+        Download data for American Indian home lands.
+        """
+        csv_suffix = "aiannhhomeland"
+        api_filter = {'for': 'american indian area/alaska native area/hawaiian home land:*'}
+        geoid_function = lambda row: row['american indian area/alaska native area/hawaiian home land']
+        self._download_tables(api_filter, csv_suffix, geoid_function)
+
     def download_usa(self):
         """
         Download all datasets that provide full coverage for the entire country.
@@ -205,6 +214,7 @@ class BaseDownloader(object):
         self.download_places()
         self.download_msas()
         self.download_csas()
+        self.download_aiann_homelands()
 
     def download_everything(self):
         """
