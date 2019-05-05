@@ -7,6 +7,7 @@ from .registry import register_downloader
 
 @register_downloader
 class LanguageDownloader(BaseDownloader):
+    YEAR_LIST = (2017, 2016)
     PROCESSED_TABLE_NAME = 'language'
     RAW_TABLE_NAME = 'B16001'
     RAW_FIELD_CROSSWALK = collections.OrderedDict({
