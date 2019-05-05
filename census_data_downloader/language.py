@@ -224,7 +224,7 @@ class LanguageDownloader(BaseDownloader):
                 'other_indoeuropean',
                 'telugu',
                 'tamil',
-                    'other_dravidian',
+                'other_dravidian'
             ],
             "asian_and_pacific_island_group": [
                 'chinese',
@@ -236,7 +236,7 @@ class LanguageDownloader(BaseDownloader):
                 'other_tai_kadai',
                 'other_asia',
                 'tagalog',
-                'other_austronesian',
+                'other_austronesian'
             ],
             "all_other_group": [
                 'arabic',
