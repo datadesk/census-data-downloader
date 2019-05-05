@@ -17,6 +17,7 @@ from .householdincome import (
     HouseholdIncomeAsianDownloader
 )
 from .internet import InternetDownloader
+from .language import LanguageDownloader
 from .medianage import MedianAgeDownloader
 from .mediangrossrent import MedianGrossRentDownloader
 from .medianhouseholdincome import (
