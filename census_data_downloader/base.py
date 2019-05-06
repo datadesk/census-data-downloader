@@ -322,7 +322,11 @@ class BaseDownloader(object):
                 "tract": str,
                 "congressional district": str,
                 "state legislative district (upper chamber)": str,
-                "state legislative district (lower chamber)": str
+                "state legislative district (lower chamber)": str,
+                "metropolitan statistical area/micropolitan statistical area": str,
+                "zip code tabulation area": str,
+                "combined statistical area": str,
+                "american indian area/alaska native area/hawaiian home land": str,
             }
         )
 
