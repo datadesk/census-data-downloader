@@ -1,66 +1,66 @@
 geoid,name,total,white_alone,black_alone,american_indian_and_alaska_native,asian_alone,native_hawaiian_and_pacific_islander,other_alone,two_or_more_races,latino_alone,american indian area/alaska native area/hawaiian home land,asian_all,other_all
-125,"Augustine Reservation, CA",0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,125,0.0,0.0
-155,"Barona Reservation, CA",745.0,109.0,0.0,386.0,2.0,0.0,0.0,58.0,190.0,155,2.0,444.0
-185,"Benton Paiute Reservation and Off-Reservation Trust Land, CA",113.0,0.0,0.0,109.0,2.0,0.0,0.0,0.0,2.0,185,2.0,109.0
-120,"Auburn Rancheria and Off-Reservation Trust Land, CA",0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,120,0.0,0.0
-115,"Aroostook Band of Micmac Trust Land, ME",241.0,47.0,1.0,170.0,3.0,2.0,0.0,10.0,8.0,115,5.0,180.0
-165,"Battle Mountain Reservation and Off-Reservation Trust Land, NV",318.0,64.0,0.0,222.0,0.0,0.0,0.0,6.0,26.0,165,0.0,228.0
-225,"Big Cypress Reservation, FL",658.0,20.0,9.0,554.0,0.0,47.0,0.0,2.0,26.0,225,47.0,556.0
-290,"Bishop Reservation, CA",1657.0,236.0,3.0,1032.0,0.0,17.0,0.0,35.0,334.0,290,17.0,1067.0
-275,"Big Valley Rancheria, CA",212.0,5.0,0.0,136.0,28.0,0.0,0.0,1.0,42.0,275,28.0,137.0
-200,"Berry Creek Rancheria and Off-Reservation Trust Land, CA",259.0,47.0,7.0,52.0,11.0,37.0,0.0,75.0,30.0,200,48.0,127.0
-265,"Big Sandy Rancheria and Off-Reservation Trust Land, CA",182.0,2.0,4.0,127.0,0.0,7.0,0.0,8.0,34.0,265,7.0,135.0
-495,"Capitan Grande Reservation, CA",0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,495,0.0,0.0
-250,"Big Pine Reservation, CA",497.0,60.0,0.0,361.0,19.0,11.0,0.0,19.0,27.0,250,30.0,380.0
-140,"Bad River Reservation, WI",1545.0,342.0,0.0,979.0,18.0,0.0,0.0,72.0,134.0,140,18.0,1051.0
-240,"Big Lagoon Rancheria, CA",2.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,240,0.0,0.0
-110,"Annette Island Reserve, AK",1684.0,199.0,0.0,1165.0,24.0,3.0,0.0,164.0,129.0,110,27.0,1329.0
-170,"Bay Mills Reservation and Off-Reservation Trust Land, MI",1281.0,146.0,22.0,814.0,18.0,0.0,0.0,227.0,54.0,170,18.0,1041.0
-350,"Bridgeport Reservation, CA",83.0,1.0,0.0,67.0,4.0,0.0,0.0,0.0,11.0,350,4.0,67.0
-215,"Big Bend Rancheria, CA",0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,215,0.0,0.0
-360,"Brighton Reservation, FL",692.0,106.0,12.0,491.0,3.0,0.0,0.0,32.0,48.0,360,3.0,523.0
-305,"Blackfeet Indian Reservation and Off-Reservation Trust Land, MT",10938.0,1986.0,34.0,8498.0,28.0,19.0,0.0,99.0,274.0,305,47.0,8597.0
-325,"Blue Lake Rancheria and Off-Reservation Trust Land, CA",82.0,44.0,0.0,23.0,2.0,0.0,0.0,9.0,4.0,325,2.0,32.0
-335,"Bois Forte Reservation and Off-Reservation Trust Land, MN",1087.0,277.0,5.0,535.0,6.0,0.0,0.0,253.0,11.0,335,6.0,788.0
-400,"Burns Paiute Indian Colony and Off-Reservation Trust Land, OR",127.0,8.0,0.0,94.0,0.0,9.0,0.0,2.0,14.0,400,9.0,96.0
-450,"Campo Indian Reservation, CA",348.0,48.0,4.0,238.0,0.0,0.0,0.0,15.0,43.0,450,0.0,253.0
-435,"Cahuilla Reservation, CA",133.0,9.0,0.0,41.0,8.0,0.0,0.0,0.0,75.0,435,8.0,41.0
-80,"Allegany Reservation, NY",6240.0,3679.0,221.0,1505.0,76.0,0.0,7.0,350.0,402.0,80,76.0,1862.0
-510,"Carson Colony, NV",273.0,17.0,0.0,225.0,0.0,0.0,0.0,1.0,30.0,510,0.0,226.0
-440,"Campbell Ranch, NV",438.0,39.0,20.0,198.0,9.0,35.0,0.0,32.0,105.0,440,44.0,230.0
-415,"Cabazon Reservation, CA",748.0,52.0,15.0,15.0,0.0,0.0,0.0,0.0,666.0,415,0.0,15.0
-20,"Agua Caliente Indian Reservation and Off-Reservation Trust Land, CA",25595.0,18776.0,682.0,112.0,990.0,56.0,27.0,558.0,4394.0,20,1046.0,697.0
-50,"Alabama-Coushatta Reservation and Off-Reservation Trust Land, TX",613.0,13.0,0.0,512.0,0.0,0.0,0.0,6.0,82.0,50,0.0,518.0
-95,"Alturas Indian Rancheria, CA",0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,95,0.0,0.0
-10,"Acoma Pueblo and Off-Reservation Trust Land, NM",2974.0,19.0,55.0,2769.0,0.0,0.0,0.0,5.0,126.0,10,0.0,2774.0
-525,"Catawba Reservation, SC",1125.0,196.0,23.0,692.0,4.0,45.0,3.0,125.0,37.0,525,49.0,820.0
-555,"Cedarville Rancheria and Off-Reservation Trust Land, CA",25.0,2.0,0.0,23.0,0.0,0.0,0.0,0.0,0.0,555,0.0,23.0
-560,"Celilo Village Trust Land, OR",51.0,6.0,0.0,45.0,0.0,0.0,0.0,0.0,0.0,560,0.0,45.0
-540,"Cattaraugus Reservation, NY",2288.0,140.0,0.0,1816.0,111.0,10.0,28.0,154.0,29.0,540,121.0,1998.0
-575,"Chehalis Reservation and Off-Reservation Trust Land, WA",1017.0,366.0,2.0,482.0,15.0,0.0,0.0,18.0,134.0,575,15.0,500.0
-635,"Chitimacha Reservation, LA",590.0,150.0,5.0,237.0,16.0,3.0,2.0,177.0,0.0,635,19.0,416.0
-605,"Cheyenne River Reservation and Off-Reservation Trust Land, SD",8527.0,1807.0,7.0,6515.0,33.0,0.0,0.0,79.0,86.0,605,33.0,6594.0
-695,"Cocopah Reservation, AZ",1341.0,461.0,11.0,679.0,0.0,55.0,2.0,24.0,109.0,695,55.0,705.0
-720,"Cold Springs Rancheria, CA",166.0,0.0,0.0,123.0,0.0,0.0,0.0,22.0,21.0,720,0.0,145.0
-750,"Colusa Rancheria, CA",78.0,6.0,0.0,32.0,35.0,0.0,0.0,1.0,4.0,750,35.0,33.0
-775,"Coquille Reservation, OR",480.0,180.0,0.0,173.0,4.0,24.0,0.0,83.0,16.0,775,28.0,256.0
-585,"Chemehuevi Reservation, CA",317.0,72.0,0.0,142.0,24.0,0.0,0.0,16.0,63.0,585,24.0,158.0
-620,"Chicken Ranch Rancheria and Off-Reservation Trust Land, CA",0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,620,0.0,0.0
-680,"Pueblo de Cochiti, NM",1824.0,412.0,26.0,831.0,5.0,0.0,0.0,28.0,522.0,680,5.0,859.0
-690,"Coconut Creek Trust Land, FL",0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,690,0.0,0.0
-735,"Colorado River Indian Reservation, AZ--CA",9652.0,3023.0,185.0,2258.0,41.0,39.0,0.0,358.0,3748.0,735,80.0,2616.0
-780,"Cortina Indian Rancheria, CA",35.0,6.0,0.0,26.0,0.0,0.0,0.0,0.0,3.0,780,0.0,26.0
-795,"Coushatta Reservation and Off-Reservation Trust Land, LA",98.0,12.0,17.0,41.0,2.0,0.0,0.0,18.0,8.0,795,2.0,59.0
-770,"Coos, Lower Umpqua, and Siuslaw Reservation and Off-Reservation Trust Land, OR",95.0,28.0,0.0,49.0,0.0,0.0,0.0,12.0,6.0,770,0.0,61.0
-760,"Colville Reservation and Off-Reservation Trust Land, WA",7738.0,2466.0,23.0,3833.0,96.0,81.0,0.0,553.0,686.0,760,177.0,4386.0
-705,"Coeur d'Alene Reservation, ID",7391.0,5483.0,23.0,1281.0,25.0,23.0,4.0,205.0,347.0,705,48.0,1490.0
-855,"Crow Creek Reservation, SD",2151.0,110.0,8.0,1877.0,0.0,40.0,0.0,45.0,71.0,855,40.0,1922.0
-845,"Crow Reservation and Off-Reservation Trust Land, MT",7096.0,1152.0,15.0,5509.0,10.0,3.0,1.0,138.0,268.0,845,13.0,5648.0
-825,"Coyote Valley Reservation, CA",270.0,3.0,0.0,205.0,0.0,0.0,0.0,5.0,57.0,825,0.0,210.0
-975,"Duckwater Reservation, NV",409.0,19.0,0.0,354.0,5.0,10.0,0.0,3.0,18.0,975,15.0,357.0
-965,"Duck Valley Reservation, NV--ID",1353.0,92.0,3.0,1135.0,12.0,5.0,0.0,37.0,69.0,965,17.0,1172.0
-990,"Eastern Cherokee Reservation, NC",9534.0,1618.0,77.0,6701.0,200.0,0.0,0.0,427.0,511.0,990,200.0,7128.0
-940,"Dresslerville Colony, NV",472.0,14.0,0.0,378.0,9.0,0.0,0.0,18.0,53.0,940,9.0,396.0
+0125,"Augustine Reservation, CA",0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0125,0.0,0.0
+0155,"Barona Reservation, CA",745.0,109.0,0.0,386.0,2.0,0.0,0.0,58.0,190.0,0155,2.0,444.0
+0185,"Benton Paiute Reservation and Off-Reservation Trust Land, CA",113.0,0.0,0.0,109.0,2.0,0.0,0.0,0.0,2.0,0185,2.0,109.0
+0120,"Auburn Rancheria and Off-Reservation Trust Land, CA",0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0120,0.0,0.0
+0115,"Aroostook Band of Micmac Trust Land, ME",241.0,47.0,1.0,170.0,3.0,2.0,0.0,10.0,8.0,0115,5.0,180.0
+0165,"Battle Mountain Reservation and Off-Reservation Trust Land, NV",318.0,64.0,0.0,222.0,0.0,0.0,0.0,6.0,26.0,0165,0.0,228.0
+0225,"Big Cypress Reservation, FL",658.0,20.0,9.0,554.0,0.0,47.0,0.0,2.0,26.0,0225,47.0,556.0
+0290,"Bishop Reservation, CA",1657.0,236.0,3.0,1032.0,0.0,17.0,0.0,35.0,334.0,0290,17.0,1067.0
+0275,"Big Valley Rancheria, CA",212.0,5.0,0.0,136.0,28.0,0.0,0.0,1.0,42.0,0275,28.0,137.0
+0200,"Berry Creek Rancheria and Off-Reservation Trust Land, CA",259.0,47.0,7.0,52.0,11.0,37.0,0.0,75.0,30.0,0200,48.0,127.0
+0265,"Big Sandy Rancheria and Off-Reservation Trust Land, CA",182.0,2.0,4.0,127.0,0.0,7.0,0.0,8.0,34.0,0265,7.0,135.0
+0495,"Capitan Grande Reservation, CA",0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0495,0.0,0.0
+0250,"Big Pine Reservation, CA",497.0,60.0,0.0,361.0,19.0,11.0,0.0,19.0,27.0,0250,30.0,380.0
+0140,"Bad River Reservation, WI",1545.0,342.0,0.0,979.0,18.0,0.0,0.0,72.0,134.0,0140,18.0,1051.0
+0240,"Big Lagoon Rancheria, CA",2.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0240,0.0,0.0
+0110,"Annette Island Reserve, AK",1684.0,199.0,0.0,1165.0,24.0,3.0,0.0,164.0,129.0,0110,27.0,1329.0
+0170,"Bay Mills Reservation and Off-Reservation Trust Land, MI",1281.0,146.0,22.0,814.0,18.0,0.0,0.0,227.0,54.0,0170,18.0,1041.0
+0350,"Bridgeport Reservation, CA",83.0,1.0,0.0,67.0,4.0,0.0,0.0,0.0,11.0,0350,4.0,67.0
+0215,"Big Bend Rancheria, CA",0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0215,0.0,0.0
+0360,"Brighton Reservation, FL",692.0,106.0,12.0,491.0,3.0,0.0,0.0,32.0,48.0,0360,3.0,523.0
+0305,"Blackfeet Indian Reservation and Off-Reservation Trust Land, MT",10938.0,1986.0,34.0,8498.0,28.0,19.0,0.0,99.0,274.0,0305,47.0,8597.0
+0325,"Blue Lake Rancheria and Off-Reservation Trust Land, CA",82.0,44.0,0.0,23.0,2.0,0.0,0.0,9.0,4.0,0325,2.0,32.0
+0335,"Bois Forte Reservation and Off-Reservation Trust Land, MN",1087.0,277.0,5.0,535.0,6.0,0.0,0.0,253.0,11.0,0335,6.0,788.0
+0400,"Burns Paiute Indian Colony and Off-Reservation Trust Land, OR",127.0,8.0,0.0,94.0,0.0,9.0,0.0,2.0,14.0,0400,9.0,96.0
+0450,"Campo Indian Reservation, CA",348.0,48.0,4.0,238.0,0.0,0.0,0.0,15.0,43.0,0450,0.0,253.0
+0435,"Cahuilla Reservation, CA",133.0,9.0,0.0,41.0,8.0,0.0,0.0,0.0,75.0,0435,8.0,41.0
+0080,"Allegany Reservation, NY",6240.0,3679.0,221.0,1505.0,76.0,0.0,7.0,350.0,402.0,0080,76.0,1862.0
+0510,"Carson Colony, NV",273.0,17.0,0.0,225.0,0.0,0.0,0.0,1.0,30.0,0510,0.0,226.0
+0440,"Campbell Ranch, NV",438.0,39.0,20.0,198.0,9.0,35.0,0.0,32.0,105.0,0440,44.0,230.0
+0415,"Cabazon Reservation, CA",748.0,52.0,15.0,15.0,0.0,0.0,0.0,0.0,666.0,0415,0.0,15.0
+0020,"Agua Caliente Indian Reservation and Off-Reservation Trust Land, CA",25595.0,18776.0,682.0,112.0,990.0,56.0,27.0,558.0,4394.0,0020,1046.0,697.0
+0050,"Alabama-Coushatta Reservation and Off-Reservation Trust Land, TX",613.0,13.0,0.0,512.0,0.0,0.0,0.0,6.0,82.0,0050,0.0,518.0
+0095,"Alturas Indian Rancheria, CA",0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0095,0.0,0.0
+0010,"Acoma Pueblo and Off-Reservation Trust Land, NM",2974.0,19.0,55.0,2769.0,0.0,0.0,0.0,5.0,126.0,0010,0.0,2774.0
+0525,"Catawba Reservation, SC",1125.0,196.0,23.0,692.0,4.0,45.0,3.0,125.0,37.0,0525,49.0,820.0
+0555,"Cedarville Rancheria and Off-Reservation Trust Land, CA",25.0,2.0,0.0,23.0,0.0,0.0,0.0,0.0,0.0,0555,0.0,23.0
+0560,"Celilo Village Trust Land, OR",51.0,6.0,0.0,45.0,0.0,0.0,0.0,0.0,0.0,0560,0.0,45.0
+0540,"Cattaraugus Reservation, NY",2288.0,140.0,0.0,1816.0,111.0,10.0,28.0,154.0,29.0,0540,121.0,1998.0
+0575,"Chehalis Reservation and Off-Reservation Trust Land, WA",1017.0,366.0,2.0,482.0,15.0,0.0,0.0,18.0,134.0,0575,15.0,500.0
+0635,"Chitimacha Reservation, LA",590.0,150.0,5.0,237.0,16.0,3.0,2.0,177.0,0.0,0635,19.0,416.0
+0605,"Cheyenne River Reservation and Off-Reservation Trust Land, SD",8527.0,1807.0,7.0,6515.0,33.0,0.0,0.0,79.0,86.0,0605,33.0,6594.0
+0695,"Cocopah Reservation, AZ",1341.0,461.0,11.0,679.0,0.0,55.0,2.0,24.0,109.0,0695,55.0,705.0
+0720,"Cold Springs Rancheria, CA",166.0,0.0,0.0,123.0,0.0,0.0,0.0,22.0,21.0,0720,0.0,145.0
+0750,"Colusa Rancheria, CA",78.0,6.0,0.0,32.0,35.0,0.0,0.0,1.0,4.0,0750,35.0,33.0
+0775,"Coquille Reservation, OR",480.0,180.0,0.0,173.0,4.0,24.0,0.0,83.0,16.0,0775,28.0,256.0
+0585,"Chemehuevi Reservation, CA",317.0,72.0,0.0,142.0,24.0,0.0,0.0,16.0,63.0,0585,24.0,158.0
+0620,"Chicken Ranch Rancheria and Off-Reservation Trust Land, CA",0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0620,0.0,0.0
+0680,"Pueblo de Cochiti, NM",1824.0,412.0,26.0,831.0,5.0,0.0,0.0,28.0,522.0,0680,5.0,859.0
+0690,"Coconut Creek Trust Land, FL",0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0690,0.0,0.0
+0735,"Colorado River Indian Reservation, AZ--CA",9652.0,3023.0,185.0,2258.0,41.0,39.0,0.0,358.0,3748.0,0735,80.0,2616.0
+0780,"Cortina Indian Rancheria, CA",35.0,6.0,0.0,26.0,0.0,0.0,0.0,0.0,3.0,0780,0.0,26.0
+0795,"Coushatta Reservation and Off-Reservation Trust Land, LA",98.0,12.0,17.0,41.0,2.0,0.0,0.0,18.0,8.0,0795,2.0,59.0
+0770,"Coos, Lower Umpqua, and Siuslaw Reservation and Off-Reservation Trust Land, OR",95.0,28.0,0.0,49.0,0.0,0.0,0.0,12.0,6.0,0770,0.0,61.0
+0760,"Colville Reservation and Off-Reservation Trust Land, WA",7738.0,2466.0,23.0,3833.0,96.0,81.0,0.0,553.0,686.0,0760,177.0,4386.0
+0705,"Coeur d'Alene Reservation, ID",7391.0,5483.0,23.0,1281.0,25.0,23.0,4.0,205.0,347.0,0705,48.0,1490.0
+0855,"Crow Creek Reservation, SD",2151.0,110.0,8.0,1877.0,0.0,40.0,0.0,45.0,71.0,0855,40.0,1922.0
+0845,"Crow Reservation and Off-Reservation Trust Land, MT",7096.0,1152.0,15.0,5509.0,10.0,3.0,1.0,138.0,268.0,0845,13.0,5648.0
+0825,"Coyote Valley Reservation, CA",270.0,3.0,0.0,205.0,0.0,0.0,0.0,5.0,57.0,0825,0.0,210.0
+0975,"Duckwater Reservation, NV",409.0,19.0,0.0,354.0,5.0,10.0,0.0,3.0,18.0,0975,15.0,357.0
+0965,"Duck Valley Reservation, NV--ID",1353.0,92.0,3.0,1135.0,12.0,5.0,0.0,37.0,69.0,0965,17.0,1172.0
+0990,"Eastern Cherokee Reservation, NC",9534.0,1618.0,77.0,6701.0,200.0,0.0,0.0,427.0,511.0,0990,200.0,7128.0
+0940,"Dresslerville Colony, NV",472.0,14.0,0.0,378.0,9.0,0.0,0.0,18.0,53.0,0940,9.0,396.0
 1125,"Fond du Lac Reservation and Off-Reservation Trust Land, MN--WI",4011.0,2144.0,26.0,1519.0,62.0,0.0,10.0,179.0,71.0,1125,62.0,1708.0
 1110,"Flathead Reservation, MT",29218.0,18228.0,77.0,7727.0,105.0,40.0,0.0,1795.0,1246.0,1110,145.0,9522.0
 1185,"Fort Hall Reservation and Off-Reservation Trust Land, ID",5955.0,1587.0,1.0,3475.0,61.0,0.0,0.0,121.0,710.0,1185,61.0,3596.0
@@ -76,9 +76,9 @@ geoid,name,total,white_alone,black_alone,american_indian_and_alaska_native,asian
 1260,"Fort Pierce Reservation, FL",110.0,3.0,8.0,89.0,0.0,0.0,0.0,8.0,2.0,1260,0.0,97.0
 1235,"Fort Mojave Reservation and Off-Reservation Trust Land, AZ--CA--NV",1707.0,659.0,4.0,693.0,12.0,0.0,2.0,19.0,318.0,1235,12.0,714.0
 1395,"Grindstone Indian Rancheria, CA",244.0,22.0,2.0,203.0,0.0,0.0,0.0,7.0,10.0,1395,0.0,210.0
-815,"Cow Creek Reservation and Off-Reservation Trust Land, OR",168.0,94.0,0.0,57.0,0.0,0.0,0.0,10.0,7.0,815,0.0,67.0
-820,"Cowlitz Reservation, WA",0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,820,0.0,0.0
-955,"Dry Creek Rancheria and Off-Reservation Trust Land, CA",0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,955,0.0,0.0
+0815,"Cow Creek Reservation and Off-Reservation Trust Land, OR",168.0,94.0,0.0,57.0,0.0,0.0,0.0,10.0,7.0,0815,0.0,67.0
+0820,"Cowlitz Reservation, WA",0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0820,0.0,0.0
+0955,"Dry Creek Rancheria and Off-Reservation Trust Land, CA",0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0955,0.0,0.0
 1170,"Fort Bidwell Reservation and Off-Reservation Trust Land, CA",162.0,3.0,2.0,115.0,35.0,0.0,0.0,0.0,7.0,1170,35.0,115.0
 1140,"Fort Apache Reservation, AZ",15313.0,279.0,63.0,13868.0,108.0,35.0,0.0,416.0,544.0,1140,143.0,14284.0
 1070,"Fallon Paiute-Shoshone Colony and Off-Reservation Trust Land, NV",82.0,1.0,0.0,72.0,0.0,0.0,0.0,8.0,1.0,1070,0.0,80.0
