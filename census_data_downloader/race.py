@@ -31,3 +31,12 @@ class RaceDownloader(BaseDownloader):
             'two_or_more_races'
         ]].sum(axis=1)
         return df
+
+
+@register_downloader
+class AmericanIndianAlaskaNativeAloneOrInComboDownloader(BaseDownloader):
+    PROCESSED_TABLE_NAME = 'aianaloneorincombo'
+    RAW_TABLE_NAME = 'B02010'
+    RAW_FIELD_CROSSWALK = collections.OrderedDict({
+        "001E": "total"
+    })

@@ -38,7 +38,10 @@ from .mobility import (
     MobilityLatinoDownloader
 )
 from .population import PopulationDownloader
-from .race import RaceDownloader
+from .race import (
+    RaceDownloader,
+    AmericanIndianAlaskaNativeAloneOrInComboDownloader
+)
 from .tenure import (
     TenureDownloader,
     TenureLatinoDownloader,
