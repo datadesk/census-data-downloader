@@ -216,11 +216,11 @@ class BaseDownloader(object):
         """
         Download all datasets that provide full coverage for the entire country.
         """
-        # self.download_nationwide()
-        # self.download_states()
-        # self.download_congressional_districts()
-        # self.download_counties()
-        # self.download_places()
+        self.download_nationwide()
+        self.download_states()
+        self.download_congressional_districts()
+        self.download_counties()
+        self.download_places()
         self.download_msas()
         self.download_csas()
         self.download_aiann_homelands()
