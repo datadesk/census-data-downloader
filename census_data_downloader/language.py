@@ -8,6 +8,53 @@ logger = logging.getLogger(__name__)
 
 
 @register_downloader
+class HouseholdLanguageDownloader(BaseDownloader):
+    YEAR_LIST = (2017, 2016)
+    PROCESSED_TABLE_NAME = 'householdlanguage'
+    RAW_TABLE_NAME = 'C16002'
+    RAW_FIELD_CROSSWALK = collections.OrderedDict({
+        "001E": "total",
+        "002E": "only_english",
+        "003E": "total_spanish",
+        "004E": "spanish_limited_english",
+        "005E": "spanish_not_limited_english",
+        "006E": "total_other_indo_european",
+        "007E": "other_indo_european_limited_english",
+        "008E": "other_indo_european_not_limited_english",
+        "009E": "total_asian_and_pacific_islander",
+        "010E": "asian_and_pacific_islander_limited_english",
+        "011E": "asian_and_pacific_islander_not_limited_english",
+        "012E": "total_other",
+        "013E": "other_limited_english",
+        "014E": "other_not_limited_english",
+    })
+
+    def _process_raw_data(self, *args, **kwargs):
+        """
+        Combine language counts to get total english/non-english speakers
+        """
+        df = super()._process_raw_data(*args, **kwargs)
+
+        languages = [
+            'spanish',
+            'other_indo_european',
+            'asian_and_pacific_islander',
+            'other'
+        ]
+
+        # English vs. no English totals
+        df['total_not_limited_english'] = df['only_english'] + df[
+            [f'{l}_not_limited_english' for l in languages]
+        ].sum(axis=1)
+        df['total_limited_english'] = df[
+            [f'{l}_limited_english' for l in languages]
+        ].sum(axis=1)
+
+        # Pass it out
+        return df
+
+
+@register_downloader
 class LanguageDownloader(BaseDownloader):
     YEAR_LIST = (2017, 2016)
     PROCESSED_TABLE_NAME = 'language'
