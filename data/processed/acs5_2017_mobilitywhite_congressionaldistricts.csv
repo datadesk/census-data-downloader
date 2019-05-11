@@ -1,4 +1,4 @@
-geoid,name,total,same_house,moved_within_county,moved_from_different_county_in_same_state,moved_from_different_state,moved_from_abroad,congressional district,state
+geoid,name,universe,same_house,moved_within_county,moved_from_different_county_in_same_state,moved_from_different_state,moved_from_abroad,congressional district,state
 0101,"Congressional District 1 (115th Congress), Alabama",453403.0,400203.0,35286.0,6532.0,10756.0,626.0,01,01
 0102,"Congressional District 2 (115th Congress), Alabama",418917.0,365240.0,25195.0,15560.0,11789.0,1133.0,02,01
 0103,"Congressional District 3 (115th Congress), Alabama",473840.0,402190.0,36113.0,19685.0,14769.0,1083.0,03,01

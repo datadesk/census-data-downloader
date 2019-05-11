@@ -1,4 +1,4 @@
-geoid,name,total,same_house,moved_within_county,moved_from_different_county_in_same_state,moved_from_different_state,moved_from_abroad,zip code tabulation area
+geoid,name,universe,same_house,moved_within_county,moved_from_different_county_in_same_state,moved_from_different_state,moved_from_abroad,zip code tabulation area
 01001,ZCTA5 01001,1145.0,952.0,175.0,5.0,12.0,1.0,01001
 01002,ZCTA5 01002,1907.0,1240.0,347.0,137.0,129.0,54.0,01002
 01003,ZCTA5 01003,594.0,102.0,282.0,160.0,24.0,26.0,01003

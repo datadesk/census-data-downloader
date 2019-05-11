@@ -1,4 +1,4 @@
-geoid,name,total,same_house,moved_within_county,moved_from_different_county_in_same_state,moved_from_different_state,moved_from_abroad,state
+geoid,name,universe,same_house,moved_within_county,moved_from_different_county_in_same_state,moved_from_different_state,moved_from_abroad,state
 72,Puerto Rico,,,,,,,72
 01,Alabama,62056.0,49272.0,5182.0,2325.0,2423.0,2854.0,01
 02,Alaska,45055.0,36516.0,4636.0,729.0,1519.0,1655.0,02

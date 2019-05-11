@@ -1,4 +1,4 @@
-geoid,name,total,same_house,moved_within_county,moved_from_different_county_in_same_state,moved_from_different_state,moved_from_abroad,place,state
+geoid,name,universe,same_house,moved_within_county,moved_from_different_county_in_same_state,moved_from_different_state,moved_from_abroad,place,state
 0100100,"Abanda CDP, Alabama",0.0,0.0,0.0,0.0,0.0,0.0,00100,01
 0100124,"Abbeville city, Alabama",117.0,103.0,0.0,6.0,0.0,8.0,00124,01
 0100460,"Adamsville city, Alabama",7.0,0.0,7.0,0.0,0.0,0.0,00460,01

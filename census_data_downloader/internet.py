@@ -9,9 +9,10 @@ from .registry import register_downloader
 class InternetDownloader(BaseDownloader):
     YEAR_LIST = (2017,)
     PROCESSED_TABLE_NAME = "internet"
+    UNIVERSE = "households"
     RAW_TABLE_NAME = 'B28003'
     RAW_FIELD_CROSSWALK = collections.OrderedDict({
-        '001E': 'total_households',
+        '001E': 'universe',
         '002E': 'total_with_computer',
         '003E': 'dialup_internet',
         '004E': 'broadband_internet',

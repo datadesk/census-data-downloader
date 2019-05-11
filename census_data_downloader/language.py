@@ -11,9 +11,10 @@ logger = logging.getLogger(__name__)
 class HouseholdLanguageDownloader(BaseDownloader):
     YEAR_LIST = (2017, 2016)
     PROCESSED_TABLE_NAME = 'householdlanguage'
+    UNIVERSE = "households"
     RAW_TABLE_NAME = 'C16002'
     RAW_FIELD_CROSSWALK = collections.OrderedDict({
-        "001E": "total",
+        "001E": "universe",
         "002E": "only_english",
         "003E": "total_spanish",
         "004E": "spanish_limited_english",
@@ -58,9 +59,10 @@ class HouseholdLanguageDownloader(BaseDownloader):
 class LanguageDownloader(BaseDownloader):
     YEAR_LIST = (2017, 2016)
     PROCESSED_TABLE_NAME = 'language'
+    UNIVERSE = "population 5 years and over"
     RAW_TABLE_NAME = 'B16001'
     RAW_FIELD_CROSSWALK = collections.OrderedDict({
-        '001E': 'total',
+        '001E': 'universe',
         '002E': 'only_english',
         '003E': 'total_spanish',
         '004E': 'spanish_and_english_very_well',

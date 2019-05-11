@@ -1,4 +1,4 @@
-geoid,name,total_households,total_with_computer,dialup_internet,broadband_internet,computer_no_internet,total_no_computer,zip code tabulation area,total_with_internet,total_no_internet
+geoid,name,universe,total_with_computer,dialup_internet,broadband_internet,computer_no_internet,total_no_computer,zip code tabulation area,total_with_internet,total_no_internet
 84306,ZCTA5 84306,132.0,118.0,0.0,118.0,0.0,14.0,84306,118.0,14.0
 84775,ZCTA5 84775,187.0,173.0,21.0,139.0,13.0,14.0,84775,160.0,27.0
 84762,ZCTA5 84762,63.0,63.0,0.0,63.0,0.0,0.0,84762,63.0,0.0

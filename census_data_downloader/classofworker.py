@@ -11,9 +11,10 @@ class ClassOfWorkerDownloader(BaseDownloader):
     Sex by Class of Worker for the Civilian Employed Population 16 Years and Over.
     """
     PROCESSED_TABLE_NAME = "classofworker"
+    UNIVERSE = "civilian employed population 16 years and over"
     RAW_TABLE_NAME = 'B24080'
     RAW_FIELD_CROSSWALK = collections.OrderedDict({
-        '001E': "total",
+        '001E': "universe",
         '002E': "male_total",
         '003E': "male_private_for_profit_wage_and_salary",
         '004E': "male_employee_of_private_company",

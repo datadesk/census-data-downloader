@@ -1,4 +1,4 @@
-geoid,name,total,white_alone,black_alone,american_indian_and_alaska_native,asian_alone,native_hawaiian_and_pacific_islander,other_alone,two_or_more_races,latino_alone,state,asian_all,other_all
+geoid,name,universe,white_alone,black_alone,american_indian_and_alaska_native,asian_alone,native_hawaiian_and_pacific_islander,other_alone,two_or_more_races,latino_alone,state,asian_all,other_all
 72,Puerto Rico,3468963.0,26416.0,2720.0,84.0,2225.0,55.0,1961.0,2891.0,3432611.0,72,2280.0,4936.0
 01,Alabama,4850771.0,3198079.0,1280946.0,22589.0,62100.0,1461.0,6988.0,80233.0,198375.0,01,63561.0,109810.0
 02,Alaska,738565.0,454498.0,22534.0,101704.0,44710.0,8784.0,1396.0,54777.0,50162.0,02,53494.0,157877.0

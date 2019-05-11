@@ -1,4 +1,4 @@
-geoid,name,housing_units,built_2014_or_later,built_2010_to_2013,built_2000_to_2009,built_1990_to_1999,built_1980_to_1989,built_1970_to_1979,built_1960_to_1969,built_1950_to_1959,built_1940_to_1949,built_1929_or_earlier,combined statistical area
+geoid,name,universe,built_2014_or_later,built_2010_to_2013,built_2000_to_2009,built_1990_to_1999,built_1980_to_1989,built_1970_to_1979,built_1960_to_1969,built_1950_to_1959,built_1940_to_1949,built_1929_or_earlier,combined statistical area
 118,"Appleton-Oshkosh-Neenah, WI CSA",171033.0,1398.0,4288.0,23976.0,26238.0,19510.0,23883.0,17235.0,16627.0,8261.0,29617.0,118
 104,"Albany-Schenectady, NY CSA",557706.0,3257.0,10579.0,48354.0,54289.0,62946.0,66023.0,49264.0,58468.0,33833.0,170693.0,104
 106,"Albuquerque-Santa Fe-Las Vegas, NM CSA",513442.0,3433.0,9279.0,91499.0,97191.0,85524.0,91281.0,49178.0,45312.0,19552.0,21193.0,106

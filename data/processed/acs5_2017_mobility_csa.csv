@@ -1,4 +1,4 @@
-geoid,name,total,same_house,moved_within_county,moved_from_different_county_in_same_state,moved_from_different_state,moved_from_abroad,combined statistical area
+geoid,name,universe,same_house,moved_within_county,moved_from_different_county_in_same_state,moved_from_different_state,moved_from_abroad,combined statistical area
 118,"Appleton-Oshkosh-Neenah, WI CSA",397977.0,346329.0,26038.0,19638.0,5171.0,801.0,118
 104,"Albany-Schenectady, NY CSA",1162373.0,1010256.0,75394.0,50824.0,19513.0,6386.0,104
 106,"Albuquerque-Santa Fe-Las Vegas, NM CSA",1152975.0,997612.0,93624.0,27933.0,29089.0,4717.0,106

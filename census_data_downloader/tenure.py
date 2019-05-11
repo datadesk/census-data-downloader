@@ -8,9 +8,10 @@ from .registry import register_downloader
 @register_downloader
 class TenureDownloader(BaseDownloader):
     PROCESSED_TABLE_NAME = "tenure"
+    UNIVERSE = "occupied housing units"
     RAW_TABLE_NAME = 'B25003'
     RAW_FIELD_CROSSWALK = collections.OrderedDict({
-        '001E': 'housing_units',
+        '001E': 'universe',
         '002E': 'owner_occupied',
         '003E': 'renter_occupied'
     })

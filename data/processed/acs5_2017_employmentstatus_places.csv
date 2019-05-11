@@ -1,4 +1,4 @@
-geoid,name,total_population_16over,in_labor_force,civilian,civilian_employed,civilian_unemployed,armed_forces,not_in_labor_force,place,state
+geoid,name,universe,in_labor_force,civilian,civilian_employed,civilian_unemployed,armed_forces,not_in_labor_force,place,state
 4809796,"Boys Ranch CDP, Texas",221.0,69.0,69.0,69.0,0.0,0.0,152.0,09796,48
 4831640,"Guthrie CDP, Texas",139.0,117.0,117.0,106.0,11.0,0.0,22.0,31640,48
 4827972,"Gail CDP, Texas",172.0,111.0,111.0,111.0,0.0,0.0,61.0,27972,48

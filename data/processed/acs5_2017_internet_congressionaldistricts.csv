@@ -1,4 +1,4 @@
-geoid,name,total_households,total_with_computer,dialup_internet,broadband_internet,computer_no_internet,total_no_computer,congressional district,state,total_with_internet,total_no_internet
+geoid,name,universe,total_with_computer,dialup_internet,broadband_internet,computer_no_internet,total_no_computer,congressional district,state,total_with_internet,total_no_internet
 0101,"Congressional District 1 (115th Congress), Alabama",260709.0,208388.0,1508.0,177293.0,29587.0,52321.0,01,01,178801.0,81908.0
 0102,"Congressional District 2 (115th Congress), Alabama",260577.0,209848.0,2274.0,181530.0,26044.0,50729.0,02,01,183804.0,76773.0
 0103,"Congressional District 3 (115th Congress), Alabama",273014.0,224447.0,1753.0,190424.0,32270.0,48567.0,03,01,192177.0,80837.0

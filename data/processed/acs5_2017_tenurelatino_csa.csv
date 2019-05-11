@@ -1,4 +1,4 @@
-geoid,name,housing_units,owner_occupied,renter_occupied,combined statistical area
+geoid,name,universe,owner_occupied,renter_occupied,combined statistical area
 118,"Appleton-Oshkosh-Neenah, WI CSA",4110.0,1603.0,2507.0,118
 104,"Albany-Schenectady, NY CSA",16211.0,5361.0,10850.0,104
 106,"Albuquerque-Santa Fe-Las Vegas, NM CSA",190262.0,125641.0,64621.0,106

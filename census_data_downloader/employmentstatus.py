@@ -8,6 +8,7 @@ from .registry import register_downloader
 @register_downloader
 class EmploymentStatusDownloader(BaseDownloader):
     PROCESSED_TABLE_NAME = "employmentstatus"
+    UNIVERSE = "population 16 years and over"
     RAW_TABLE_NAME = 'B23025'
     YEAR_LIST = (
         2017,
@@ -19,7 +20,7 @@ class EmploymentStatusDownloader(BaseDownloader):
         2011
     )
     RAW_FIELD_CROSSWALK = collections.OrderedDict({
-        '001E': 'total_population_16over',
+        '001E': 'universe',
         '002E': 'in_labor_force',
         '003E': 'civilian',
         '004E': 'civilian_employed',

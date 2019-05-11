@@ -1,4 +1,4 @@
-geoid,name,total,white_alone,black_alone,american_indian_and_alaska_native,asian_alone,native_hawaiian_and_pacific_islander,other_alone,two_or_more_races,latino_alone,zip code tabulation area,asian_all,other_all
+geoid,name,universe,white_alone,black_alone,american_indian_and_alaska_native,asian_alone,native_hawaiian_and_pacific_islander,other_alone,two_or_more_races,latino_alone,zip code tabulation area,asian_all,other_all
 84306,ZCTA5 84306,345.0,345.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,84306,0.0,0.0
 84775,ZCTA5 84775,421.0,402.0,0.0,0.0,0.0,0.0,0.0,2.0,17.0,84775,0.0,2.0
 84762,ZCTA5 84762,211.0,211.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,84762,0.0,0.0

@@ -1,4 +1,4 @@
-geoid,name,housing_units,owner_occupied,renter_occupied,metropolitan statistical area/micropolitan statistical area
+geoid,name,universe,owner_occupied,renter_occupied,metropolitan statistical area/micropolitan statistical area
 10100,"Aberdeen, SD Micro Area",17907.0,12090.0,5817.0,10100
 10140,"Aberdeen, WA Micro Area",28070.0,18547.0,9523.0,10140
 10180,"Abilene, TX Metro Area",60369.0,37666.0,22703.0,10180

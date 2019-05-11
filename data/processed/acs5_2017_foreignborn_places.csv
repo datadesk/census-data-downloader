@@ -1,4 +1,4 @@
-geoid,name,total,native,foreign_born,place,state
+geoid,name,universe,native,foreign_born,place,state
 4809796,"Boys Ranch CDP, Texas",480.0,480.0,0.0,09796,48
 4831640,"Guthrie CDP, Texas",184.0,184.0,0.0,31640,48
 4827972,"Gail CDP, Texas",232.0,218.0,14.0,27972,48

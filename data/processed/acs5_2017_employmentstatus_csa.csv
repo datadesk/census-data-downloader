@@ -1,4 +1,4 @@
-geoid,name,total_population_16over,in_labor_force,civilian,civilian_employed,civilian_unemployed,armed_forces,not_in_labor_force,combined statistical area
+geoid,name,universe,in_labor_force,civilian,civilian_employed,civilian_unemployed,armed_forces,not_in_labor_force,combined statistical area
 118,"Appleton-Oshkosh-Neenah, WI CSA",321143.0,221320.0,221193.0,214210.0,6983.0,127.0,99823.0,118
 104,"Albany-Schenectady, NY CSA",967089.0,618851.0,616662.0,581342.0,35320.0,2189.0,348238.0,104
 106,"Albuquerque-Santa Fe-Las Vegas, NM CSA",933705.0,560330.0,557346.0,518419.0,38927.0,2984.0,373375.0,106

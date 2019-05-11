@@ -1,4 +1,4 @@
-geoid,name,total,white_alone,black_alone,american_indian_and_alaska_native,asian_alone,native_hawaiian_and_pacific_islander,other_alone,two_or_more_races,latino_alone,place,state,asian_all,other_all
+geoid,name,universe,white_alone,black_alone,american_indian_and_alaska_native,asian_alone,native_hawaiian_and_pacific_islander,other_alone,two_or_more_races,latino_alone,place,state,asian_all,other_all
 4809796,"Boys Ranch CDP, Texas",480.0,300.0,77.0,0.0,0.0,0.0,0.0,23.0,80.0,09796,48,0.0,23.0
 4831640,"Guthrie CDP, Texas",184.0,161.0,0.0,0.0,0.0,0.0,0.0,0.0,23.0,31640,48,0.0,0.0
 4827972,"Gail CDP, Texas",232.0,210.0,0.0,0.0,0.0,0.0,0.0,0.0,22.0,27972,48,0.0,0.0

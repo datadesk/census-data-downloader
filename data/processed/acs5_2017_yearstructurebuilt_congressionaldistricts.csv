@@ -1,4 +1,4 @@
-geoid,name,housing_units,built_2014_or_later,built_2010_to_2013,built_2000_to_2009,built_1990_to_1999,built_1980_to_1989,built_1970_to_1979,built_1960_to_1969,built_1950_to_1959,built_1940_to_1949,built_1929_or_earlier,congressional district,state
+geoid,name,universe,built_2014_or_later,built_2010_to_2013,built_2000_to_2009,built_1990_to_1999,built_1980_to_1989,built_1970_to_1979,built_1960_to_1969,built_1950_to_1959,built_1940_to_1949,built_1929_or_earlier,congressional district,state
 0101,"Congressional District 1 (115th Congress), Alabama",332963.0,2512.0,9888.0,62746.0,62516.0,53629.0,56613.0,34053.0,27587.0,11758.0,11661.0,01,01
 0102,"Congressional District 2 (115th Congress), Alabama",313590.0,2490.0,9380.0,48762.0,61482.0,47715.0,56610.0,33148.0,25080.0,11301.0,17622.0,02,01
 0103,"Congressional District 3 (115th Congress), Alabama",327826.0,3265.0,14782.0,60176.0,64736.0,47780.0,51450.0,30197.0,24100.0,13907.0,17433.0,03,01

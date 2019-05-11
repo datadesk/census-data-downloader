@@ -1,4 +1,4 @@
-geoid,name,total,native,foreign_born,congressional district,state
+geoid,name,universe,native,foreign_born,congressional district,state
 0101,"Congressional District 1 (115th Congress), Alabama",702730.0,682324.0,20406.0,01,01
 0102,"Congressional District 2 (115th Congress), Alabama",681443.0,662588.0,18855.0,02,01
 0103,"Congressional District 3 (115th Congress), Alabama",703772.0,682304.0,21468.0,03,01

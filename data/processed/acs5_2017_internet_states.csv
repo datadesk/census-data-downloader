@@ -1,4 +1,4 @@
-geoid,name,total_households,total_with_computer,dialup_internet,broadband_internet,computer_no_internet,total_no_computer,state,total_with_internet,total_no_internet
+geoid,name,universe,total_with_computer,dialup_internet,broadband_internet,computer_no_internet,total_no_computer,state,total_with_internet,total_no_internet
 72,Puerto Rico,1222606.0,752502.0,10660.0,609833.0,132009.0,470104.0,72,620493.0,602113.0
 01,Alabama,1856695.0,1511468.0,12070.0,1290076.0,209322.0,345227.0,01,1302146.0,554549.0
 02,Alaska,252536.0,233425.0,1427.0,208250.0,23748.0,19111.0,02,209677.0,42859.0

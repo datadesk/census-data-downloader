@@ -1,4 +1,4 @@
-geoid,name,total_population_16over,in_labor_force,civilian,civilian_employed,civilian_unemployed,armed_forces,not_in_labor_force,congressional district,state
+geoid,name,universe,in_labor_force,civilian,civilian_employed,civilian_unemployed,armed_forces,not_in_labor_force,congressional district,state
 0101,"Congressional District 1 (115th Congress), Alabama",558691.0,314807.0,313909.0,289876.0,24033.0,898.0,243884.0,01,01
 0102,"Congressional District 2 (115th Congress), Alabama",543063.0,313296.0,307145.0,283196.0,23949.0,6151.0,229767.0,02,01
 0103,"Congressional District 3 (115th Congress), Alabama",565611.0,322732.0,319941.0,295620.0,24321.0,2791.0,242879.0,03,01

@@ -1,4 +1,4 @@
-geoid,name,housing_units,owner_occupied,renter_occupied,state
+geoid,name,universe,owner_occupied,renter_occupied,state
 72,Puerto Rico,2912.0,1469.0,1443.0,72
 01,Alabama,20372.0,10966.0,9406.0,01
 02,Alaska,11143.0,6248.0,4895.0,02

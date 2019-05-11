@@ -1,4 +1,4 @@
-geoid,name,housing_units,owner_occupied,renter_occupied,county,state
+geoid,name,universe,owner_occupied,renter_occupied,county,state
 72047,"Corozal Municipio, Puerto Rico",10919.0,8704.0,2215.0,047,72
 72095,"Maunabo Municipio, Puerto Rico",3950.0,3031.0,919.0,095,72
 72111,"Peñuelas Municipio, Puerto Rico",7132.0,5354.0,1778.0,111,72

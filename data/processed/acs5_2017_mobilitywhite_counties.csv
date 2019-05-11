@@ -1,4 +1,4 @@
-geoid,name,total,same_house,moved_within_county,moved_from_different_county_in_same_state,moved_from_different_state,moved_from_abroad,county,state
+geoid,name,universe,same_house,moved_within_county,moved_from_different_county_in_same_state,moved_from_different_state,moved_from_abroad,county,state
 72047,"Corozal Municipio, Puerto Rico",,,,,,,047,72
 72095,"Maunabo Municipio, Puerto Rico",,,,,,,095,72
 72111,"Peñuelas Municipio, Puerto Rico",,,,,,,111,72

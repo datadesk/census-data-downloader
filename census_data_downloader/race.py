@@ -8,9 +8,10 @@ from .registry import register_downloader
 @register_downloader
 class RaceDownloader(BaseDownloader):
     PROCESSED_TABLE_NAME = "race"
+    UNIVERSE = "total population"
     RAW_TABLE_NAME = 'B03002'
     RAW_FIELD_CROSSWALK = collections.OrderedDict({
-        '001E': "total",
+        '001E': "universe",
         '003E': "white_alone",
         '004E': "black_alone",
         '005E': "american_indian_and_alaska_native",
@@ -36,7 +37,8 @@ class RaceDownloader(BaseDownloader):
 @register_downloader
 class AmericanIndianAlaskaNativeAloneOrInComboDownloader(BaseDownloader):
     PROCESSED_TABLE_NAME = 'aianaloneorincombo'
+    UNIVERSE = "total population"
     RAW_TABLE_NAME = 'B02010'
     RAW_FIELD_CROSSWALK = collections.OrderedDict({
-        "001E": "total"
+        "001E": "universe"
     })

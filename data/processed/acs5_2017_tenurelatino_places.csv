@@ -1,4 +1,4 @@
-geoid,name,housing_units,owner_occupied,renter_occupied,place,state
+geoid,name,universe,owner_occupied,renter_occupied,place,state
 0100100,"Abanda CDP, Alabama",0.0,0.0,0.0,00100,01
 0100124,"Abbeville city, Alabama",6.0,6.0,0.0,00124,01
 0100460,"Adamsville city, Alabama",7.0,7.0,0.0,00460,01

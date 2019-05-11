@@ -1,4 +1,4 @@
-geoid,name,total_population_16over,in_labor_force,civilian,civilian_employed,civilian_unemployed,armed_forces,not_in_labor_force,state
+geoid,name,universe,in_labor_force,civilian,civilian_employed,civilian_unemployed,armed_forces,not_in_labor_force,state
 72,Puerto Rico,2836284.0,1262220.0,1260733.0,1040136.0,220597.0,1487.0,1574064.0,72
 01,Alabama,3876136.0,2233209.0,2220900.0,2055509.0,165391.0,12309.0,1642927.0,01
 02,Alaska,571453.0,400622.0,383593.0,354045.0,29548.0,17029.0,170831.0,02

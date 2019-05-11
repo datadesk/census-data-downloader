@@ -1,4 +1,4 @@
-geoid,name,housing_units,owner_occupied,renter_occupied,congressional district,state
+geoid,name,universe,owner_occupied,renter_occupied,congressional district,state
 0101,"Congressional District 1 (115th Congress), Alabama",68180.0,34648.0,33532.0,01,01
 0102,"Congressional District 2 (115th Congress), Alabama",77185.0,36353.0,40832.0,02,01
 0103,"Congressional District 3 (115th Congress), Alabama",69458.0,37467.0,31991.0,03,01

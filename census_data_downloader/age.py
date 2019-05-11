@@ -8,9 +8,10 @@ from .registry import register_downloader
 @register_downloader
 class AgeDownloader(BaseDownloader):
     PROCESSED_TABLE_NAME = "age"
+    UNIVERSE = "total population"
     RAW_TABLE_NAME = 'B01001'
     RAW_FIELD_CROSSWALK = collections.OrderedDict({
-        '001E': "total",
+        '001E': "universe",
         '002E': "male_total",
         '003E': "male_under_5",
         '004E': "male_5_to_9",

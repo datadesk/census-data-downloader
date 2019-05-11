@@ -1,4 +1,4 @@
-geoid,name,total,white_alone,black_alone,american_indian_and_alaska_native,asian_alone,native_hawaiian_and_pacific_islander,other_alone,two_or_more_races,latino_alone,county,state,asian_all,other_all
+geoid,name,universe,white_alone,black_alone,american_indian_and_alaska_native,asian_alone,native_hawaiian_and_pacific_islander,other_alone,two_or_more_races,latino_alone,county,state,asian_all,other_all
 72047,"Corozal Municipio, Puerto Rico",34933.0,301.0,0.0,0.0,0.0,0.0,21.0,14.0,34597.0,047,72,0.0,35.0
 72095,"Maunabo Municipio, Puerto Rico",11297.0,128.0,0.0,0.0,0.0,0.0,0.0,0.0,11169.0,095,72,0.0,0.0
 72111,"Peñuelas Municipio, Puerto Rico",21661.0,30.0,0.0,0.0,0.0,0.0,0.0,28.0,21603.0,111,72,0.0,28.0

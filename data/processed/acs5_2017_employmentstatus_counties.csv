@@ -1,4 +1,4 @@
-geoid,name,total_population_16over,in_labor_force,civilian,civilian_employed,civilian_unemployed,armed_forces,not_in_labor_force,county,state
+geoid,name,universe,in_labor_force,civilian,civilian_employed,civilian_unemployed,armed_forces,not_in_labor_force,county,state
 72047,"Corozal Municipio, Puerto Rico",28052.0,11323.0,11323.0,8027.0,3296.0,0.0,16729.0,047,72
 72095,"Maunabo Municipio, Puerto Rico",9308.0,2991.0,2991.0,2256.0,735.0,0.0,6317.0,095,72
 72111,"Peñuelas Municipio, Puerto Rico",17006.0,6895.0,6882.0,5281.0,1601.0,13.0,10111.0,111,72

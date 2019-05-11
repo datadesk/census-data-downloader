@@ -1,4 +1,4 @@
-geoid,name,housing_units,built_2014_or_later,built_2010_to_2013,built_2000_to_2009,built_1990_to_1999,built_1980_to_1989,built_1970_to_1979,built_1960_to_1969,built_1950_to_1959,built_1940_to_1949,built_1929_or_earlier,place,state
+geoid,name,universe,built_2014_or_later,built_2010_to_2013,built_2000_to_2009,built_1990_to_1999,built_1980_to_1989,built_1970_to_1979,built_1960_to_1969,built_1950_to_1959,built_1940_to_1949,built_1929_or_earlier,place,state
 4809796,"Boys Ranch CDP, Texas",62.0,0.0,0.0,0.0,4.0,5.0,24.0,25.0,4.0,0.0,0.0,09796,48
 4831640,"Guthrie CDP, Texas",74.0,0.0,2.0,13.0,0.0,11.0,15.0,16.0,0.0,7.0,10.0,31640,48
 4827972,"Gail CDP, Texas",131.0,0.0,3.0,23.0,17.0,15.0,40.0,6.0,17.0,0.0,10.0,27972,48

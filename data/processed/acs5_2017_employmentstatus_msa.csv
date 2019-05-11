@@ -1,4 +1,4 @@
-geoid,name,total_population_16over,in_labor_force,civilian,civilian_employed,civilian_unemployed,armed_forces,not_in_labor_force,metropolitan statistical area/micropolitan statistical area
+geoid,name,universe,in_labor_force,civilian,civilian_employed,civilian_unemployed,armed_forces,not_in_labor_force,metropolitan statistical area/micropolitan statistical area
 10100,"Aberdeen, SD Micro Area",33671.0,23195.0,23157.0,22744.0,413.0,38.0,10476.0,10100
 10140,"Aberdeen, WA Micro Area",58156.0,30231.0,30137.0,27104.0,3033.0,94.0,27925.0,10140
 10180,"Abilene, TX Metro Area",133221.0,80020.0,76381.0,73057.0,3324.0,3639.0,53201.0,10180

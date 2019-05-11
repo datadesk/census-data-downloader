@@ -1,4 +1,4 @@
-geoid,name,total,congressional district,state
+geoid,name,universe,congressional district,state
 0101,"Congressional District 1 (115th Congress), Alabama",12748.0,01,01
 0102,"Congressional District 2 (115th Congress), Alabama",7734.0,02,01
 0103,"Congressional District 3 (115th Congress), Alabama",6484.0,03,01

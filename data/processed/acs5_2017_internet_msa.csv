@@ -1,4 +1,4 @@
-geoid,name,total_households,total_with_computer,dialup_internet,broadband_internet,computer_no_internet,total_no_computer,metropolitan statistical area/micropolitan statistical area,total_with_internet,total_no_internet
+geoid,name,universe,total_with_computer,dialup_internet,broadband_internet,computer_no_internet,total_no_computer,metropolitan statistical area/micropolitan statistical area,total_with_internet,total_no_internet
 10100,"Aberdeen, SD Micro Area",17907.0,14968.0,77.0,13329.0,1562.0,2939.0,10100,13406.0,4501.0
 10140,"Aberdeen, WA Micro Area",28070.0,23839.0,189.0,21803.0,1847.0,4231.0,10140,21992.0,6078.0
 10180,"Abilene, TX Metro Area",60369.0,51467.0,418.0,41601.0,9448.0,8902.0,10180,42019.0,18350.0

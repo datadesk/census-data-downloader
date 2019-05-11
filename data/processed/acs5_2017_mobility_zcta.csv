@@ -1,4 +1,4 @@
-geoid,name,total,same_house,moved_within_county,moved_from_different_county_in_same_state,moved_from_different_state,moved_from_abroad,zip code tabulation area
+geoid,name,universe,same_house,moved_within_county,moved_from_different_county_in_same_state,moved_from_different_state,moved_from_abroad,zip code tabulation area
 84306,ZCTA5 84306,335.0,285.0,0.0,50.0,0.0,0.0,84306
 84775,ZCTA5 84775,411.0,402.0,2.0,0.0,7.0,0.0,84775
 84762,ZCTA5 84762,211.0,211.0,0.0,0.0,0.0,0.0,84762

@@ -1,4 +1,4 @@
-geoid,name,housing_units,owner_occupied,renter_occupied,zip code tabulation area
+geoid,name,universe,owner_occupied,renter_occupied,zip code tabulation area
 84306,ZCTA5 84306,0.0,0.0,0.0,84306
 84775,ZCTA5 84775,0.0,0.0,0.0,84775
 84762,ZCTA5 84762,0.0,0.0,0.0,84762

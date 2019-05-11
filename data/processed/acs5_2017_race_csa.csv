@@ -1,4 +1,4 @@
-geoid,name,total,white_alone,black_alone,american_indian_and_alaska_native,asian_alone,native_hawaiian_and_pacific_islander,other_alone,two_or_more_races,latino_alone,combined statistical area,asian_all,other_all
+geoid,name,universe,white_alone,black_alone,american_indian_and_alaska_native,asian_alone,native_hawaiian_and_pacific_islander,other_alone,two_or_more_races,latino_alone,combined statistical area,asian_all,other_all
 118,"Appleton-Oshkosh-Neenah, WI CSA",402565.0,358222.0,6140.0,4065.0,11683.0,77.0,357.0,5682.0,16339.0,118,11760.0,10104.0
 104,"Albany-Schenectady, NY CSA",1173682.0,972542.0,70976.0,1645.0,40197.0,260.0,4643.0,26445.0,56974.0,104,40457.0,32733.0
 106,"Albuquerque-Santa Fe-Las Vegas, NM CSA",1165301.0,453892.0,22067.0,66787.0,21386.0,614.0,2718.0,20209.0,577628.0,106,22000.0,89714.0

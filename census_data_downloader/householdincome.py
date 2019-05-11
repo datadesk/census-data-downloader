@@ -8,6 +8,7 @@ from .registry import register_downloader
 @register_downloader
 class HouseholdIncomeDownloader(BaseDownloader):
     PROCESSED_TABLE_NAME = "householdincome"
+    UNIVERSE = "households"
     RAW_TABLE_NAME = 'B19001'
     RAW_FIELD_CROSSWALK = collections.OrderedDict({
         '001E': "universe",

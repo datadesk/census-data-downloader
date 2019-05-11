@@ -1,4 +1,4 @@
-geoid,name,housing_units,built_2014_or_later,built_2010_to_2013,built_2000_to_2009,built_1990_to_1999,built_1980_to_1989,built_1970_to_1979,built_1960_to_1969,built_1950_to_1959,built_1940_to_1949,built_1929_or_earlier,county,state
+geoid,name,universe,built_2014_or_later,built_2010_to_2013,built_2000_to_2009,built_1990_to_1999,built_1980_to_1989,built_1970_to_1979,built_1960_to_1969,built_1950_to_1959,built_1940_to_1949,built_1929_or_earlier,county,state
 72047,"Corozal Municipio, Puerto Rico",13010.0,28.0,141.0,1273.0,2291.0,3062.0,2746.0,2019.0,954.0,346.0,150.0,047,72
 72095,"Maunabo Municipio, Puerto Rico",5332.0,0.0,67.0,496.0,1128.0,1006.0,960.0,1010.0,525.0,107.0,33.0,095,72
 72111,"Peñuelas Municipio, Puerto Rico",8726.0,15.0,76.0,1100.0,1740.0,1945.0,2126.0,808.0,404.0,220.0,292.0,111,72

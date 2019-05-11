@@ -1,4 +1,4 @@
-geoid,name,total_households,total_with_computer,dialup_internet,broadband_internet,computer_no_internet,total_no_computer,combined statistical area,total_with_internet,total_no_internet
+geoid,name,universe,total_with_computer,dialup_internet,broadband_internet,computer_no_internet,total_no_computer,combined statistical area,total_with_internet,total_no_internet
 118,"Appleton-Oshkosh-Neenah, WI CSA",161392.0,142796.0,1443.0,130389.0,10964.0,18596.0,118,131832.0,29560.0
 104,"Albany-Schenectady, NY CSA",468267.0,410167.0,2780.0,372180.0,35207.0,58100.0,104,374960.0,93307.0
 106,"Albuquerque-Santa Fe-Las Vegas, NM CSA",447536.0,377331.0,3768.0,325639.0,47924.0,70205.0,106,329407.0,118129.0

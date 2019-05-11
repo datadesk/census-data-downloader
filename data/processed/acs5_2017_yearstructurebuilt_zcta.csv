@@ -1,4 +1,4 @@
-geoid,name,housing_units,built_2014_or_later,built_2010_to_2013,built_2000_to_2009,built_1990_to_1999,built_1980_to_1989,built_1970_to_1979,built_1960_to_1969,built_1950_to_1959,built_1940_to_1949,built_1929_or_earlier,zip code tabulation area
+geoid,name,universe,built_2014_or_later,built_2010_to_2013,built_2000_to_2009,built_1990_to_1999,built_1980_to_1989,built_1970_to_1979,built_1960_to_1969,built_1950_to_1959,built_1940_to_1949,built_1929_or_earlier,zip code tabulation area
 84306,ZCTA5 84306,132.0,11.0,0.0,31.0,9.0,0.0,27.0,0.0,0.0,54.0,0.0,84306
 84775,ZCTA5 84775,354.0,0.0,0.0,89.0,49.0,77.0,55.0,29.0,17.0,5.0,33.0,84775
 84762,ZCTA5 84762,2675.0,0.0,36.0,803.0,682.0,527.0,366.0,141.0,35.0,11.0,74.0,84762

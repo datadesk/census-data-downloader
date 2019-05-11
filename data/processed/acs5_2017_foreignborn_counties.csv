@@ -1,4 +1,4 @@
-geoid,name,total,native,foreign_born,county,state
+geoid,name,universe,native,foreign_born,county,state
 72047,"Corozal Municipio, Puerto Rico",34933.0,34882.0,51.0,047,72
 72095,"Maunabo Municipio, Puerto Rico",11297.0,11200.0,97.0,095,72
 72111,"Peñuelas Municipio, Puerto Rico",21661.0,21610.0,51.0,111,72

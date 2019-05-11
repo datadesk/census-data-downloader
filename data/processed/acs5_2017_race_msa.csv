@@ -1,4 +1,4 @@
-geoid,name,total,white_alone,black_alone,american_indian_and_alaska_native,asian_alone,native_hawaiian_and_pacific_islander,other_alone,two_or_more_races,latino_alone,metropolitan statistical area/micropolitan statistical area,asian_all,other_all
+geoid,name,universe,white_alone,black_alone,american_indian_and_alaska_native,asian_alone,native_hawaiian_and_pacific_islander,other_alone,two_or_more_races,latino_alone,metropolitan statistical area/micropolitan statistical area,asian_all,other_all
 10100,"Aberdeen, SD Micro Area",42608.0,38096.0,631.0,1328.0,992.0,0.0,10.0,531.0,1020.0,10100,992.0,1869.0
 10140,"Aberdeen, WA Micro Area",71454.0,57064.0,686.0,2903.0,1130.0,217.0,17.0,2459.0,6978.0,10140,1347.0,5379.0
 10180,"Abilene, TX Metro Area",169000.0,110168.0,13111.0,706.0,2704.0,73.0,235.0,3111.0,38892.0,10180,2777.0,4052.0

@@ -1,4 +1,4 @@
-geoid,name,total,native,foreign_born,zip code tabulation area
+geoid,name,universe,native,foreign_born,zip code tabulation area
 84306,ZCTA5 84306,345.0,345.0,0.0,84306
 84775,ZCTA5 84775,421.0,412.0,9.0,84775
 84762,ZCTA5 84762,211.0,211.0,0.0,84762

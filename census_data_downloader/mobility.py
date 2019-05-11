@@ -8,9 +8,10 @@ from .registry import register_downloader
 @register_downloader
 class MobilityDownloader(BaseDownloader):
     PROCESSED_TABLE_NAME = "mobility"
+    UNIVERSE = "population 1 year and over"
     RAW_TABLE_NAME = 'B07003'
     RAW_FIELD_CROSSWALK = collections.OrderedDict({
-        "001E": "total",
+        "001E": "universe",
         "004E": "same_house",
         "007E": "moved_within_county",
         "010E": "moved_from_different_county_in_same_state",
@@ -23,7 +24,7 @@ class MobilityDownloader(BaseDownloader):
 class MobilityBySexDownloader(MobilityDownloader):
     PROCESSED_TABLE_NAME = "mobilitybysex"
     RAW_FIELD_CROSSWALK = collections.OrderedDict({
-        "001E": "total",
+        "001E": "universe",
         "002E": "male_total",
         "003E": "female_total",
         "004E": "total_same_house",
@@ -47,9 +48,10 @@ class MobilityBySexDownloader(MobilityDownloader):
 @register_downloader
 class MobilityWhiteDownloader(BaseDownloader):
     PROCESSED_TABLE_NAME = "mobilitywhite"
+    UNIVERSE = "population 1 year and over"
     RAW_TABLE_NAME = 'B07004H'
     RAW_FIELD_CROSSWALK = collections.OrderedDict({
-        "001E": "total",
+        "001E": "universe",
         "002E": "same_house",
         "003E": "moved_within_county",
         "004E": "moved_from_different_county_in_same_state",

@@ -1,4 +1,4 @@
-geoid,name,total,native,foreign_born,combined statistical area
+geoid,name,universe,native,foreign_born,combined statistical area
 118,"Appleton-Oshkosh-Neenah, WI CSA",402565.0,388004.0,14561.0,118
 104,"Albany-Schenectady, NY CSA",1173682.0,1095476.0,78206.0,104
 106,"Albuquerque-Santa Fe-Las Vegas, NM CSA",1165301.0,1057519.0,107782.0,106

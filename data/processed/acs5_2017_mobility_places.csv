@@ -1,4 +1,4 @@
-geoid,name,total,same_house,moved_within_county,moved_from_different_county_in_same_state,moved_from_different_state,moved_from_abroad,place,state
+geoid,name,universe,same_house,moved_within_county,moved_from_different_county_in_same_state,moved_from_different_state,moved_from_abroad,place,state
 4809796,"Boys Ranch CDP, Texas",476.0,322.0,11.0,119.0,24.0,0.0,09796,48
 4831640,"Guthrie CDP, Texas",184.0,184.0,0.0,0.0,0.0,0.0,31640,48
 4827972,"Gail CDP, Texas",223.0,196.0,0.0,21.0,2.0,4.0,27972,48

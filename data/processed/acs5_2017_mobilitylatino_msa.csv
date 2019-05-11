@@ -1,4 +1,4 @@
-geoid,name,total,same_house,moved_within_county,moved_from_different_county_in_same_state,moved_from_different_state,moved_from_abroad,metropolitan statistical area/micropolitan statistical area
+geoid,name,universe,same_house,moved_within_county,moved_from_different_county_in_same_state,moved_from_different_state,moved_from_abroad,metropolitan statistical area/micropolitan statistical area
 10100,"Aberdeen, SD Micro Area",1012.0,603.0,44.0,192.0,106.0,67.0,10100
 10140,"Aberdeen, WA Micro Area",6861.0,5603.0,673.0,507.0,78.0,0.0,10140
 10180,"Abilene, TX Metro Area",38280.0,29578.0,5469.0,2620.0,416.0,197.0,10180

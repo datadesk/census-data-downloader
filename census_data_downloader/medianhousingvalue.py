@@ -8,6 +8,7 @@ from .registry import register_downloader
 @register_downloader
 class MedianHousingValueDownloader(BaseDownloader):
     PROCESSED_TABLE_NAME = "medianhousingvalue"
+    UNIVERSE = "owner-occupied housing units"
     RAW_TABLE_NAME = 'B25077'
     RAW_FIELD_CROSSWALK = collections.OrderedDict({
         "001E": "median"

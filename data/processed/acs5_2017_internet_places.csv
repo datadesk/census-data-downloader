@@ -1,4 +1,4 @@
-geoid,name,total_households,total_with_computer,dialup_internet,broadband_internet,computer_no_internet,total_no_computer,place,state,total_with_internet,total_no_internet
+geoid,name,universe,total_with_computer,dialup_internet,broadband_internet,computer_no_internet,total_no_computer,place,state,total_with_internet,total_no_internet
 4809796,"Boys Ranch CDP, Texas",44.0,44.0,0.0,31.0,13.0,0.0,09796,48,31.0,13.0
 4831640,"Guthrie CDP, Texas",62.0,59.0,0.0,50.0,9.0,3.0,31640,48,50.0,12.0
 4827972,"Gail CDP, Texas",86.0,74.0,0.0,59.0,15.0,12.0,27972,48,59.0,27.0

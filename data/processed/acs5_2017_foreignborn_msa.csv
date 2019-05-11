@@ -1,4 +1,4 @@
-geoid,name,total,native,foreign_born,metropolitan statistical area/micropolitan statistical area
+geoid,name,universe,native,foreign_born,metropolitan statistical area/micropolitan statistical area
 10100,"Aberdeen, SD Micro Area",42608.0,41249.0,1359.0,10100
 10140,"Aberdeen, WA Micro Area",71454.0,67804.0,3650.0,10140
 10180,"Abilene, TX Metro Area",169000.0,160452.0,8548.0,10180

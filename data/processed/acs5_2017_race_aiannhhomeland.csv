@@ -1,4 +1,4 @@
-geoid,name,total,white_alone,black_alone,american_indian_and_alaska_native,asian_alone,native_hawaiian_and_pacific_islander,other_alone,two_or_more_races,latino_alone,american indian area/alaska native area/hawaiian home land,asian_all,other_all
+geoid,name,universe,white_alone,black_alone,american_indian_and_alaska_native,asian_alone,native_hawaiian_and_pacific_islander,other_alone,two_or_more_races,latino_alone,american indian area/alaska native area/hawaiian home land,asian_all,other_all
 0125,"Augustine Reservation, CA",0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0125,0.0,0.0
 0155,"Barona Reservation, CA",745.0,109.0,0.0,386.0,2.0,0.0,0.0,58.0,190.0,0155,2.0,444.0
 0185,"Benton Paiute Reservation and Off-Reservation Trust Land, CA",113.0,0.0,0.0,109.0,2.0,0.0,0.0,0.0,2.0,0185,2.0,109.0
