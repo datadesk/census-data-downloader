@@ -56,9 +56,89 @@ class HouseholdLanguageDownloader(BaseDownloader):
 
 
 @register_downloader
-class LanguageDownloader(BaseDownloader):
+class LanguageShortFormDownloader(BaseDownloader):
     YEAR_LIST = (2017, 2016)
-    PROCESSED_TABLE_NAME = 'language'
+    PROCESSED_TABLE_NAME = 'languageshortform'
+    UNIVERSE = "population 5 years and over"
+    RAW_TABLE_NAME = 'C16001'
+    RAW_FIELD_CROSSWALK = collections.OrderedDict({
+        '001E': 'universe',
+        '002E': 'only_english',
+        '003E': 'total_spanish',
+        '004E': 'spanish_and_english_very_well',
+        '005E': 'spanish_and_english_less_than_very_well',
+        '006E': 'total_french_haitan_or_cajun',
+        '007E': 'french_haitan_or_cajun_and_english_very_well',
+        '008E': 'french_haitan_or_cajun_and_english_less_than_very_well',
+        '009E': 'total_german_or_other_west_germanic',
+        '010E': 'german_or_other_west_germanic_and_english_very_well',
+        '011E': 'german_or_other_west_germanic_and_english_less_than_very_well',
+        '012E': 'total_russian_polish_or_other_slavic',
+        '013E': 'russian_polish_or_other_slavic_and_english_very_well',
+        '014E': 'russian_polish_or_other_slavic_and_english_less_than_very_well',
+        '015E': 'total_other_indo_european',
+        '016E': 'other_indo_european_and_english_very_well',
+        '017E': 'other_indo_european_and_english_less_than_very_well',
+        '018E': 'total_korean',
+        '019E': 'korean_and_english_very_well',
+        '020E': 'korean_and_english_less_than_very_well',
+        '021E': 'total_chinese',
+        '022E': 'chinese_and_english_very_well',
+        '023E': 'chinese_and_english_less_than_very_well',
+        '024E': 'total_vietnamese',
+        '025E': 'vietnamese_and_english_very_well',
+        '026E': 'vietnamese_and_english_less_than_very_well',
+        '027E': 'total_tagalog',
+        '028E': 'tagalog_and_english_very_well',
+        '029E': 'tagalog_and_english_less_than_very_well',
+        '030E': 'total_other_asian',
+        '031E': 'other_asian_and_english_very_well',
+        '032E': 'other_asian_and_english_less_than_very_well',
+        '033E': 'total_arabic',
+        '034E': 'arabic_and_english_very_well',
+        '035E': 'arabic_and_english_less_than_very_well',
+        '036E': 'total_other',
+        '037E': 'other_and_english_very_well',
+        '038E': 'other_and_english_less_than_very_well'
+    })
+
+    def _process_raw_data(self, *args, **kwargs):
+        """
+        Combine language counts to get total english/non-english speakers
+        """
+        df = super()._process_raw_data(*args, **kwargs)
+
+        languages = [
+            'spanish',
+            'french_haitan_or_cajun',
+            'german_or_other_west_germanic',
+            'russian_polish_or_other_slavic',
+            'other_indo_european',
+            'korean',
+            'chinese',
+            'vietnamese',
+            'tagalog',
+            'other_asian',
+            'arabic',
+            'other'
+        ]
+
+        # English vs. no English totals
+        df['total_english'] = df['only_english'] + df[
+            [f'{l}_and_english_very_well' for l in languages]
+        ].sum(axis=1)
+        df['total_english_less_than_very_well'] = df[
+            [f'{l}_and_english_less_than_very_well' for l in languages]
+        ].sum(axis=1)
+
+        # Pass it out
+        return df
+
+
+@register_downloader
+class LanguageLongFormDownloader(BaseDownloader):
+    YEAR_LIST = (2017, 2016)
+    PROCESSED_TABLE_NAME = 'languagelongform'
     UNIVERSE = "population 5 years and over"
     RAW_TABLE_NAME = 'B16001'
     RAW_FIELD_CROSSWALK = collections.OrderedDict({
