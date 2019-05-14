@@ -404,6 +404,9 @@ class LanguageLongFormDownloader(BaseDownloader):
     def download_zctas(self):
         logger.debug("ZCTA-level data not available for this table.")
 
+    def download_urban_areas(self):
+        logger.debug("Urban area data not available for this table.")
+
     def download_msas(self):
         logger.debug("MSA-level data not available for this table.")
 

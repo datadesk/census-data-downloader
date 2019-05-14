@@ -176,6 +176,15 @@ class BaseDownloader(object):
         geoid_function = lambda row: row['state'] + row['state legislative district (lower chamber)']
         self._download_tables(api_filter, csv_suffix, geoid_function)
 
+    def download_urban_areas(self):
+        """
+        Download data for all urban areas
+        """
+        csv_suffix = "urbanarea"
+        api_filter = {'for': 'urban area:*'}
+        geoid_function = lambda row: row['urban area']
+        self._download_tables(api_filter, csv_suffix, geoid_function)
+
     def download_msas(self):
         """
         Download data for Metropolitian Statistical Areas.
@@ -221,6 +230,7 @@ class BaseDownloader(object):
         self.download_congressional_districts()
         self.download_counties()
         self.download_places()
+        self.download_urban_areas()
         self.download_msas()
         self.download_csas()
         self.download_aiann_homelands()
