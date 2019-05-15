@@ -203,6 +203,15 @@ class BaseDownloader(object):
         geoid_function = lambda row: row['combined statistical area']
         self._download_tables(api_filter, csv_suffix, geoid_function)
 
+    def download_pumas(self):
+        """
+        Download data for Public Use Microdata Areas.
+        """
+        csv_suffix = "puma"
+        api_filter = {'for': 'public use microdata area:*'}
+        geoid_function = lambda row: row['public use microdata area']
+        self._download_tables(api_filter, csv_suffix, geoid_function)
+
     def download_aiann_homelands(self):
         """
         Download data for American Indian home lands.
@@ -233,6 +242,7 @@ class BaseDownloader(object):
         self.download_urban_areas()
         self.download_msas()
         self.download_csas()
+        self.download_pumas()
         self.download_aiann_homelands()
         self.download_zctas()
 
