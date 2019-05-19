@@ -29,17 +29,17 @@ class BaseDownloader(object):
     GEO_LIST = (
         "nationwide",
         "state",
-        "congressionaldistrict",
+        "congressional_district",
         "county",
         "place",
         "urbanarea",
         "msa",
         "csa",
         "puma",
-        "aiannhhomeland",
+        "aiannh_homeland",
         "zcta",
-        "statelegislativedistrictupper",
-        "statelegislativedistrictlower",
+        "state_legislative_district_upper",
+        "state_legislative_district_lower",
         "tract"
     )
 
@@ -134,7 +134,7 @@ class BaseDownloader(object):
         """
         Download data for all Congressional districts.
         """
-        if "congressionaldistrict" not in self.GEO_LIST:
+        if "congressional_district" not in self.GEO_LIST:
             raise NotImplementedError(f"Data only available for these geographies: {', '.join(self.GEO_LIST)}")
         csv_suffix = "congressionaldistricts"
         api_filter = {'for': 'congressional district:*'}
@@ -182,7 +182,7 @@ class BaseDownloader(object):
         """
         Download data for all Census upper legislative districts in the provided state.
         """
-        if "statelegislativedistrictupper" not in self.GEO_LIST:
+        if "state_legislative_district_upper" not in self.GEO_LIST:
             raise NotImplementedError(f"Data only available for these geographies: {', '.join(self.GEO_LIST)}")
         state_obj = getattr(states, state.upper())
         csv_suffix = f'statelegislativedistrictsupper_{state_obj.abbr.lower()}'
@@ -197,7 +197,7 @@ class BaseDownloader(object):
         """
         Download data for all Census lower legislative districts in the provided state.
         """
-        if "statelegislativedistrictlower" not in self.GEO_LIST:
+        if "state_legislative_district_lower" not in self.GEO_LIST:
             raise NotImplementedError(f"Data only available for these geographies: {', '.join(self.GEO_LIST)}")
         state_obj = getattr(states, state.upper())
         csv_suffix = f'statelegislativedistrictslower_{state_obj.abbr.lower()}'
@@ -212,7 +212,7 @@ class BaseDownloader(object):
         """
         Download data for all urban areas
         """
-        if "urbanarea" not in self.GEO_LIST:
+        if "urban_area" not in self.GEO_LIST:
             raise NotImplementedError(f"Data only available for these geographies: {', '.join(self.GEO_LIST)}")
         csv_suffix = "urbanarea"
         api_filter = {'for': 'urban area:*'}
@@ -282,13 +282,13 @@ class BaseDownloader(object):
             self.download_nationwide()
         if "state" in self.GEO_LIST:
             self.download_states()
-        if "congressionaldistrict" in self.GEO_LIST:
+        if "congressional_district" in self.GEO_LIST:
             self.download_congressional_districts()
         if "county" in self.GEO_LIST:
             self.download_counties()
         if "place" in self.GEO_LIST:
             self.download_places()
-        if "urbanarea" in self.GEO_LIST:
+        if "urban_area" in self.GEO_LIST:
             self.download_urban_areas()
         if "msa" in self.GEO_LIST:
             self.download_msas()
@@ -296,7 +296,7 @@ class BaseDownloader(object):
             self.download_csas()
         if "puma" in self.GEO_LIST:
             self.download_pumas()
-        if "aiannhhomeland" in self.GEO_LIST:
+        if "aiannh_homeland" in self.GEO_LIST:
             self.download_aiann_homelands()
         if "zcta" in self.GEO_LIST:
             self.download_zctas()
@@ -309,9 +309,9 @@ class BaseDownloader(object):
         for state in states.STATES:
             if "tract" in self.GEO_LIST:
                 self.download_tracts(state.abbr)
-            if "statelegislativedistrictupper" in self.GEO_LIST:
+            if "state_legislative_district_upper" in self.GEO_LIST:
                 self.download_state_legislative_districts_upper(state.abbr)
-            if "statelegislativedistrictlower" in self.GEO_LIST:
+            if "state_legislative_district_lower" in self.GEO_LIST:
                 self.download_state_legislative_districts_lower(state.abbr)
 
     def _download_tables(self, api_filter, csv_suffix, geoid_function):
