@@ -387,22 +387,7 @@ class BaseDownloader(object):
         Returns it polished for human analysis.
         """
         # Read in the raw CSV of data from the ACS
-        df = pd.read_csv(
-            path,
-            dtype={
-                "state": str,
-                "county": str,
-                "place": str,
-                "tract": str,
-                "congressional district": str,
-                "state legislative district (upper chamber)": str,
-                "state legislative district (lower chamber)": str,
-                "metropolitan statistical area/micropolitan statistical area": str,
-                "zip code tabulation area": str,
-                "combined statistical area": str,
-                "american indian area/alaska native area/hawaiian home land": str,
-            }
-        )
+        df = pd.read_csv(path, dtype=str)
 
         # Rename fields with humanized names
         field_name_mapper = dict(
@@ -411,7 +396,7 @@ class BaseDownloader(object):
         )
         df.rename(columns=field_name_mapper, inplace=True)
 
-        # Cast numbers to integers
+        # Cast numbers to floats
         for field in field_name_mapper.values():
             df[field].astype(pd.np.float64)
 
