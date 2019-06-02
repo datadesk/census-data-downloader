@@ -10,7 +10,7 @@ logger = logging.getLogger(__name__)
 @register_downloader
 class HouseholdLanguageDownloader(BaseDownloader):
     YEAR_LIST = (2017, 2016)
-    GEO_LIST = ("nationwide", "state", "county", "congressional_district", "place")
+    GEO_LIST = ("nationwide", "states", "counties", "congressional_districts", "places")
     PROCESSED_TABLE_NAME = 'householdlanguage'
     UNIVERSE = "households"
     RAW_TABLE_NAME = 'C16002'

@@ -26,21 +26,32 @@ class BaseDownloader(object):
         2010,
         2009
     )
+
+    # All available geographies
+    # (Subclasses can override this)
     GEO_LIST = (
         "nationwide",
-        "state",
-        "congressional_district",
-        "county",
-        "place",
-        "urbanarea",
-        "msa",
-        "csa",
-        "puma",
-        "aiannh_homeland",
-        "zcta",
-        "state_legislative_district_upper",
-        "state_legislative_district_lower",
-        "tract"
+        "states",
+        "congressional_districts",
+        "counties",
+        "places",
+        "urban_areas",
+        "msas",
+        "csas",
+        "pumas",
+        "aiann_homelands",
+        "zctas",
+        "state_legislative_districts_upper",
+        "state_legislative_districts_lower",
+        "tracts"
+    )
+
+    # Geographies only available on a per-state level
+    # (Subclasses should not override this)
+    STATE_ONLY_GEOS = (
+        "tracts",
+        "state_legislative_districts_upper",
+        "state_legislative_districts_lower"
     )
 
     def __init__(
@@ -123,7 +134,7 @@ class BaseDownloader(object):
         """
         Download data for all states.
         """
-        if "state" not in self.GEO_LIST:
+        if "states" not in self.GEO_LIST:
             raise NotImplementedError(f"Data only available for these geographies: {', '.join(self.GEO_LIST)}")
         csv_suffix = "states"
         api_filter = {'for': 'state:*'}
@@ -134,7 +145,7 @@ class BaseDownloader(object):
         """
         Download data for all Congressional districts.
         """
-        if "congressional_district" not in self.GEO_LIST:
+        if "congressional_districts" not in self.GEO_LIST:
             raise NotImplementedError(f"Data only available for these geographies: {', '.join(self.GEO_LIST)}")
         csv_suffix = "congressionaldistricts"
         api_filter = {'for': 'congressional district:*'}
@@ -145,7 +156,7 @@ class BaseDownloader(object):
         """
         Download data for all counties.
         """
-        if "county" not in self.GEO_LIST:
+        if "counties" not in self.GEO_LIST:
             raise NotImplementedError(f"Data only available for these geographies: {', '.join(self.GEO_LIST)}")
         csv_suffix = "counties"
         api_filter = {'for': 'county:*'}
@@ -156,7 +167,7 @@ class BaseDownloader(object):
         """
         Download data for all Census designated places.
         """
-        if "place" not in self.GEO_LIST:
+        if "places" not in self.GEO_LIST:
             raise NotImplementedError(f"Data only available for these geographies: {', '.join(self.GEO_LIST)}")
         csv_suffix = "places"
         api_filter = {'for': 'place:*'}
@@ -167,7 +178,7 @@ class BaseDownloader(object):
         """
         Download data for all Census tracts in the provided state.
         """
-        if "tract" not in self.GEO_LIST:
+        if "tracts" not in self.GEO_LIST:
             raise NotImplementedError(f"Data only available for these geographies: {', '.join(self.GEO_LIST)}")
         state_obj = getattr(states, state.upper())
         csv_suffix = f"tracts_{state_obj.abbr.lower()}"
@@ -182,7 +193,7 @@ class BaseDownloader(object):
         """
         Download data for all Census upper legislative districts in the provided state.
         """
-        if "state_legislative_district_upper" not in self.GEO_LIST:
+        if "state_legislative_districts_upper" not in self.GEO_LIST:
             raise NotImplementedError(f"Data only available for these geographies: {', '.join(self.GEO_LIST)}")
         state_obj = getattr(states, state.upper())
         csv_suffix = f'statelegislativedistrictsupper_{state_obj.abbr.lower()}'
@@ -197,7 +208,7 @@ class BaseDownloader(object):
         """
         Download data for all Census lower legislative districts in the provided state.
         """
-        if "state_legislative_district_lower" not in self.GEO_LIST:
+        if "state_legislative_districts_lower" not in self.GEO_LIST:
             raise NotImplementedError(f"Data only available for these geographies: {', '.join(self.GEO_LIST)}")
         state_obj = getattr(states, state.upper())
         csv_suffix = f'statelegislativedistrictslower_{state_obj.abbr.lower()}'
@@ -212,7 +223,7 @@ class BaseDownloader(object):
         """
         Download data for all urban areas
         """
-        if "urban_area" not in self.GEO_LIST:
+        if "urban_areas" not in self.GEO_LIST:
             raise NotImplementedError(f"Data only available for these geographies: {', '.join(self.GEO_LIST)}")
         csv_suffix = "urbanarea"
         api_filter = {'for': 'urban area:*'}
@@ -223,7 +234,7 @@ class BaseDownloader(object):
         """
         Download data for Metropolitian Statistical Areas.
         """
-        if "msa" not in self.GEO_LIST:
+        if "msas" not in self.GEO_LIST:
             raise NotImplementedError(f"Data only available for these geographies: {', '.join(self.GEO_LIST)}")
         csv_suffix = "msa"
         api_filter = {'for': 'metropolitan statistical area/micropolitan statistical area:*'}
@@ -234,7 +245,7 @@ class BaseDownloader(object):
         """
         Download data for Combined Statistical Areas.
         """
-        if "csa" not in self.GEO_LIST:
+        if "csas" not in self.GEO_LIST:
             raise NotImplementedError(f"Data only available for these geographies: {', '.join(self.GEO_LIST)}")
         csv_suffix = "csa"
         api_filter = {'for': 'combined statistical area:*'}
@@ -245,7 +256,7 @@ class BaseDownloader(object):
         """
         Download data for Public Use Microdata Areas.
         """
-        if "puma" not in self.GEO_LIST:
+        if "pumas" not in self.GEO_LIST:
             raise NotImplementedError(f"Data only available for these geographies: {', '.join(self.GEO_LIST)}")
         csv_suffix = "puma"
         api_filter = {'for': 'public use microdata area:*'}
@@ -256,7 +267,7 @@ class BaseDownloader(object):
         """
         Download data for American Indian home lands.
         """
-        if "aiannhhomeland" not in self.GEO_LIST:
+        if "aiann_homelands" not in self.GEO_LIST:
             raise NotImplementedError(f"Data only available for these geographies: {', '.join(self.GEO_LIST)}")
         csv_suffix = "aiannhhomeland"
         api_filter = {'for': 'american indian area/alaska native area/hawaiian home land:*'}
@@ -267,7 +278,7 @@ class BaseDownloader(object):
         """
         Download data for Zip Code Tabulation Areas
         """
-        if "zcta" not in self.GEO_LIST:
+        if "zctas" not in self.GEO_LIST:
             raise NotImplementedError(f"Data only available for these geographies: {', '.join(self.GEO_LIST)}")
         csv_suffix = "zcta"
         api_filter = {'for': 'zip code tabulation area:*'}
@@ -278,41 +289,26 @@ class BaseDownloader(object):
         """
         Download all datasets that provide full coverage for the entire country.
         """
-        if "nationwide" in self.GEO_LIST:
-            self.download_nationwide()
-        if "state" in self.GEO_LIST:
-            self.download_states()
-        if "congressional_district" in self.GEO_LIST:
-            self.download_congressional_districts()
-        if "county" in self.GEO_LIST:
-            self.download_counties()
-        if "place" in self.GEO_LIST:
-            self.download_places()
-        if "urban_area" in self.GEO_LIST:
-            self.download_urban_areas()
-        if "msa" in self.GEO_LIST:
-            self.download_msas()
-        if "csa" in self.GEO_LIST:
-            self.download_csas()
-        if "puma" in self.GEO_LIST:
-            self.download_pumas()
-        if "aiannh_homeland" in self.GEO_LIST:
-            self.download_aiann_homelands()
-        if "zcta" in self.GEO_LIST:
-            self.download_zctas()
+        # Call the downloader for every available geography
+        for geo in set(self.GEO_LIST) - set(self.STATE_ONLY_GEOS):
+            download = getattr(self, f"download_{geo}", None)
+            if not download or not callable(download):
+                raise NotImplementedError(f"Invalid geography type: {geo}")
+            else:
+                download()
 
     def download_everything(self):
         """
         Download 'em all.
         """
         self.download_usa()
-        for state in states.STATES:
-            if "tract" in self.GEO_LIST:
-                self.download_tracts(state.abbr)
-            if "state_legislative_district_upper" in self.GEO_LIST:
-                self.download_state_legislative_districts_upper(state.abbr)
-            if "state_legislative_district_lower" in self.GEO_LIST:
-                self.download_state_legislative_districts_lower(state.abbr)
+        for geo in set(self.GEO_LIST) & set(self.STATE_ONLY_GEOS):
+            download = getattr(self, f"download_{geo}", None)
+            if not download or not callable(download):
+                raise NotImplementedError(f"Invalid geography type: {geo}")
+            else:
+                for state in states.STATES:
+                    download(state.abbr)
 
     def _download_tables(self, api_filter, csv_suffix, geoid_function):
         """

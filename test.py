@@ -96,7 +96,7 @@ class GeographyTests(unittest.TestCase):
 
     def test_usa_limited(self, download_tables_mock):
         downloader = census_data_downloader.PopulationDownloader()
-        downloader.GEO_LIST = ("nationwide", "state", "county", "place")
+        downloader.GEO_LIST = ("nationwide", "states", "counties", "places")
         downloader.download_usa()
 
         download_tables_mock.assert_any_call({'for': 'us:1'}, mock.ANY, mock.ANY)
@@ -108,7 +108,7 @@ class GeographyTests(unittest.TestCase):
 
     def test_everything_limited(self, download_tables_mock):
         downloader = census_data_downloader.PopulationDownloader()
-        downloader.GEO_LIST = tuple(set(downloader.GEO_LIST) - set(('statelegislativedistrictupper', 'statelegislativedistrictlower')))
+        downloader.GEO_LIST = tuple(set(downloader.GEO_LIST) - set(('state_legislative_districts_upper', 'state_legislative_districts_lower')))
         downloader.download_everything()
 
         for geo in self.NATIONAL_GEOGRAPHIES:
