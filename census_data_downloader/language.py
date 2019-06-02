@@ -138,6 +138,7 @@ class LanguageShortFormDownloader(BaseDownloader):
 @register_downloader
 class LanguageLongFormDownloader(BaseDownloader):
     YEAR_LIST = (2017, 2016)
+    GEO_LIST = ("nationwide", "states", "counties", "congressional_districts", "places")
     PROCESSED_TABLE_NAME = 'languagelongform'
     UNIVERSE = "population 5 years and over"
     RAW_TABLE_NAME = 'B16001'
