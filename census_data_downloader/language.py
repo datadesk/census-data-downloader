@@ -395,21 +395,3 @@ class LanguageLongFormDownloader(BaseDownloader):
 
         # Pass it back
         return df
-
-    def download_tracts(self, state):
-        logger.debug("State-level data not available for this table.")
-
-    def download_aiann_homelands(self):
-        logger.debug("AIANN-level data not available for this table.")
-
-    def download_zctas(self):
-        logger.debug("ZCTA-level data not available for this table.")
-
-    def download_urban_areas(self):
-        logger.debug("Urban area data not available for this table.")
-
-    def download_msas(self):
-        logger.debug("MSA-level data not available for this table.")
-
-    def download_counties(self):
-        logger.debug("County-level data not available for this table.")

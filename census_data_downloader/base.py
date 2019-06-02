@@ -39,7 +39,7 @@ class BaseDownloader(object):
         "msas",
         "csas",
         "pumas",
-        "aiann_homelands",
+        "aiannh_homelands",
         "zctas",
         "state_legislative_districts_upper",
         "state_legislative_districts_lower",
@@ -263,11 +263,11 @@ class BaseDownloader(object):
         geoid_function = lambda row: row['public use microdata area']
         self._download_tables(api_filter, csv_suffix, geoid_function)
 
-    def download_aiann_homelands(self):
+    def download_aiannh_homelands(self):
         """
         Download data for American Indian home lands.
         """
-        if "aiann_homelands" not in self.GEO_LIST:
+        if "aiannh_homelands" not in self.GEO_LIST:
             raise NotImplementedError(f"Data only available for these geographies: {', '.join(self.GEO_LIST)}")
         csv_suffix = "aiannhhomeland"
         api_filter = {'for': 'american indian area/alaska native area/hawaiian home land:*'}
