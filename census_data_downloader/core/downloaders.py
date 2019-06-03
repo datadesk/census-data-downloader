@@ -22,6 +22,11 @@ class BaseRawDataDownloader(object):
             raise NotImplementedError(f"Data only available for {', '.join(self.config.GEO_LIST)}")
         # Prepare raw field list
         self.api_fields = self.get_api_fields()
+        # Set the CSV names
+        self.raw_csv_name = f"{self.config.source}_{self.year}_{self.config.PROCESSED_TABLE_NAME}_{self.slug}.csv"
+        self.raw_csv_path = self.config.raw_data_dir.joinpath(self.raw_csv_name)
+        self.processed_csv_name = f"{self.config.source}_{self.year}_{self.config.PROCESSED_TABLE_NAME}_{self.slug}.csv"
+        self.processed_csv_path = self.config.processed_data_dir.joinpath(self.processed_csv_name)
 
     def get_api_fields(self):
         """
@@ -30,7 +35,7 @@ class BaseRawDataDownloader(object):
         field_names = [f"{self.config.RAW_TABLE_NAME}_{f}" for f in self.config.RAW_FIELD_CROSSWALK.keys()]
         return ['NAME'] + field_names
 
-    def get_api_data(self):
+    def get_raw_data(self):
         """
         Returns the data we want from the API.
         """
@@ -38,63 +43,49 @@ class BaseRawDataDownloader(object):
         # Get the raw data
         return self.api.get(self.api_fields, self.api_filter)
 
-    def clean_api_data(self, api_data):
-        """
-        Tidy up raw data into a DataFrame.
-        """
-        # Convert it to a dataframe
-        df = pd.DataFrame.from_records(api_data)
-        # Rename the ugly NAME field
-        return df.rename(columns={"NAME": "name"})
-
-    def write_api_data(self, api_data, csv_path):
-        """
-        Write raw data to the file system.
-        """
-        # Clean it up
-        df = self.clean_api_data(api_data)
-        # Write it to disk
-        logger.debug(f"Writing raw ACS table to {csv_path}")
-        df.to_csv(csv_path, index=False, encoding="utf-8")
-
     def download(self):
-        # Set the CSV name
-        csv_name = f"{self.config.source}_{self.year}_{self.config.PROCESSED_TABLE_NAME}_{self.slug}.csv"
-        csv_path = self.config.raw_data_dir.joinpath(csv_name)
+        """
+        Downloads raw data from the Census API.
 
+        Returns path to CSV.
+        """
         # Skip hitting the API if we've already got the file, as long as we're not forcing it.
-        if csv_path.exists() and not self.config.force:
-            logger.debug(f"Raw CSV already exists at {csv_path}")
-            return csv_path
+        if self.raw_csv_path.exists() and not self.config.force:
+            logger.debug(f"Raw CSV already exists at {self.raw_csv_path}")
+            return self.raw_csv_path
 
         # Get the data
-        api_data = self.get_api_data()
+        data = self.get_raw_data()
 
-        # Write it out
-        self.write_api_data(api_data, csv_path)
+        # Convert it to a dataframe
+        df = pd.DataFrame.from_records(data)
+
+        # Rename the ugly NAME field
+        df.rename(columns={"NAME": "name"}, inplace=True)
+
+        # Write it to disk
+        logger.debug(f"Writing raw ACS table to {self.raw_csv_path}")
+        df.to_csv(self.raw_csv_path, index=False, encoding="utf-8")
 
         # Pause to be polite to the API.
         time.sleep(1)
 
-        # Set it to the object
-        self.api_csv_path = csv_path
-
         # Hand the path back
-        return csv_path
+        return self.raw_csv_path
 
     def process(self):
         """
         Converts the raw file to be used by humans.
+
+        Returns path to CSV.
         """
         # Figure out where to write it
-        csv_name = f"{self.config.source}_{self.year}_{self.config.PROCESSED_TABLE_NAME}_{self.slug}.csv"
-        csv_path = self.config.processed_data_dir.joinpath(csv_name)
-        if csv_path.exists() and not self.config.force:
-            logger.debug(f"Processed CSV already exists at {csv_path}")
-            return
+        if self.processed_csv_path.exists() and not self.config.force:
+            logger.debug(f"Processed CSV already exists at {self.processed_csv_path}")
+            return self.processed_csv_path
 
         # Read in the raw CSV of data from the ACS
-        df = pd.read_csv(self.api_csv_path, dtype=str)
+        df = pd.read_csv(self.raw_csv_path, dtype=str)
 
         # Rename fields with humanized names
         field_name_mapper = dict(
@@ -111,19 +102,20 @@ class BaseRawDataDownloader(object):
         df['geoid'] = df.apply(self.create_geoid, axis=1)
 
         # Write it out
-        logger.debug(f"Writing CSV to {csv_path}")
+        logger.debug(f"Writing CSV to {self.processed_csv_path}")
         df.set_index(["geoid", "name"]).to_csv(
-            csv_path,
+            self.processed_csv_path,
             index=True,
             encoding="utf-8"
         )
+        return self.processed_csv_path
 
 
 class BaseStateLevelRawDataDownloader(BaseRawDataDownloader):
     """
     Download and stitch together raw data the Census API only provides state by state.
     """
-    def get_api_data(self):
+    def get_raw_data(self):
         """
         Returns the data we want from the API.
         """
@@ -258,7 +250,7 @@ class ZctasRawDownloader(BaseRawDataDownloader):
         return row['zip code tabulation area']
 
 
-class StateLegislativeDistrictsUpperRawDownloader(BaseStateLevelRawDataDownloader):
+class StateLegislativeUpperDistrictsRawDownloader(BaseStateLevelRawDataDownloader):
     """
     Download raw data at the upper-level state-legislative-district level.
     """
@@ -281,7 +273,7 @@ class StateLegislativeLowerDistrictsRawDownloader(BaseStateLevelRawDataDownloade
     slug = "statelegislativelowerdistricts"
 
     def create_geoid(self, row):
-        return row['state'] + row['lower legislative district (upper chamber)']
+        return row['state'] + row['state legislative district (lower chamber)']
 
     def get_api_filter(self, state):
         return {
