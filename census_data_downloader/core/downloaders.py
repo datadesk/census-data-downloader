@@ -34,7 +34,7 @@ class BaseRawDataDownloader(object):
         """
         Returns the data we want from the API.
         """
-        logger.debug(f"Downloading {self.slug} {self.config.PROCESSED_TABLE_NAME} data from the raw {self.config.RAW_TABLE_NAME} table in the {self.year} {self.config.source} count")
+        logger.debug(f"Downloading {self.slug} {self.config.PROCESSED_TABLE_NAME} data from raw {self.config.RAW_TABLE_NAME} table in {self.year} {self.config.source} count")
         # Get the raw data
         return self.api.get(self.api_fields, self.api_filter)
 
@@ -76,8 +76,47 @@ class BaseRawDataDownloader(object):
         # Pause to be polite to the API.
         time.sleep(1)
 
+        # Set it to the object
+        self.api_csv_path = csv_path
+
         # Hand the path back
         return csv_path
+
+    def process(self):
+        """
+        Converts the raw file to be used by humans.
+        """
+        # Figure out where to write it
+        csv_name = f"{self.config.source}_{self.year}_{self.config.PROCESSED_TABLE_NAME}_{self.slug}.csv"
+        csv_path = self.config.processed_data_dir.joinpath(csv_name)
+        if csv_path.exists() and not self.config.force:
+            logger.debug(f"Processed CSV already exists at {csv_path}")
+            return
+
+        # Read in the raw CSV of data from the ACS
+        df = pd.read_csv(self.api_csv_path, dtype=str)
+
+        # Rename fields with humanized names
+        field_name_mapper = dict(
+            (f"{self.config.RAW_TABLE_NAME}_{raw}", processed)
+            for raw, processed in self.config.RAW_FIELD_CROSSWALK.items()
+        )
+        df.rename(columns=field_name_mapper, inplace=True)
+
+        # Cast numbers to floats
+        for field in field_name_mapper.values():
+            df[field].astype(pd.np.float64)
+
+        # Add a combined GEOID column with a Census unique identifer
+        df['geoid'] = df.apply(self.create_geoid, axis=1)
+
+        # Write it out
+        logger.debug(f"Writing CSV to {csv_path}")
+        df.set_index(["geoid", "name"]).to_csv(
+            csv_path,
+            index=True,
+            encoding="utf-8"
+        )
 
 
 class BaseStateLevelRawDataDownloader(BaseRawDataDownloader):
@@ -104,7 +143,9 @@ class NationwideRawDownloader(BaseRawDataDownloader):
     """
     slug = "nationwide"
     api_filter = {'for': 'us:1'}
-    geoid_function = lambda row: 1
+
+    def create_geoid(self, row):
+        return 1
 
 
 class StatesRawDownloader(BaseRawDataDownloader):
@@ -113,7 +154,9 @@ class StatesRawDownloader(BaseRawDataDownloader):
     """
     slug = "states"
     api_filter = {'for': 'state:*'}
-    geoid_function = lambda row: row['state']
+
+    def create_geoid(self, row):
+        return row['state']
 
 
 class CongressionalDistrictsRawDownloader(BaseRawDataDownloader):
@@ -122,7 +165,9 @@ class CongressionalDistrictsRawDownloader(BaseRawDataDownloader):
     """
     slug = "congressionaldistricts"
     api_filter = {'for': 'congressional district:*'}
-    geoid_function = lambda row: row['state'] + row['congressional district']
+
+    def create_geoid(self, row):
+        return row['state'] + row['congressional district']
 
 
 class CountiesRawDownloader(BaseRawDataDownloader):
@@ -131,7 +176,9 @@ class CountiesRawDownloader(BaseRawDataDownloader):
     """
     slug = "counties"
     api_filter = {'for': 'county:*'}
-    geoid_function = lambda row: row['state'] + row['county']
+
+    def create_geoid(self, row):
+        return row['state'] + row['county']
 
 
 class PlacesRawDownloader(BaseRawDataDownloader):
@@ -140,7 +187,9 @@ class PlacesRawDownloader(BaseRawDataDownloader):
     """
     slug = "places"
     api_filter = {'for': 'place:*'}
-    geoid_function = lambda row: row['state'] + row['place']
+
+    def create_geoid(self, row):
+        return row['state'] + row['place']
 
 
 class UrbanAreasRawDownloader(BaseRawDataDownloader):
@@ -149,7 +198,9 @@ class UrbanAreasRawDownloader(BaseRawDataDownloader):
     """
     slug = "urbanareas"
     api_filter = {'for': 'urban area:*'}
-    geoid_function = lambda row: row['urban area']
+
+    def create_geoid(self, row):
+        return row['urban area']
 
 
 class MsasRawDownloader(BaseRawDataDownloader):
@@ -158,7 +209,9 @@ class MsasRawDownloader(BaseRawDataDownloader):
     """
     slug = "msas"
     api_filter = {'for': 'metropolitan statistical area/micropolitan statistical area:*'}
-    geoid_function = lambda row: row['metropolitan statistical area/micropolitan statistical area']
+
+    def create_geoid(self, row):
+        return row['metropolitan statistical area/micropolitan statistical area']
 
 
 class CsasRawDownloader(BaseRawDataDownloader):
@@ -167,7 +220,9 @@ class CsasRawDownloader(BaseRawDataDownloader):
     """
     slug = "csas"
     api_filter = {'for': 'combined statistical area:*'}
-    geoid_function = lambda row: row['combined statistical area']
+
+    def create_geoid(self, row):
+        return row['combined statistical area']
 
 
 class PumasRawDownloader(BaseRawDataDownloader):
@@ -176,7 +231,9 @@ class PumasRawDownloader(BaseRawDataDownloader):
     """
     slug = "pumas"
     api_filter = {'for': 'public use microdata area:*'}
-    geoid_function = lambda row: row['public use microdata area']
+
+    def create_geoid(self, row):
+        return row['public use microdata area']
 
 
 class AiannhHomelandsRawDownloader(BaseRawDataDownloader):
@@ -185,7 +242,9 @@ class AiannhHomelandsRawDownloader(BaseRawDataDownloader):
     """
     slug = "aiannhhomelands"
     api_filter = {'for': 'american indian area/alaska native area/hawaiian home land:*'}
-    geoid_function = lambda row: row['american indian area/alaska native area/hawaiian home land']
+
+    def create_geoid(self, row):
+        return row['american indian area/alaska native area/hawaiian home land']
 
 
 class ZctasRawDownloader(BaseRawDataDownloader):
@@ -194,7 +253,9 @@ class ZctasRawDownloader(BaseRawDataDownloader):
     """
     slug = "zctas"
     api_filter = {'for': 'zip code tabulation area:*'}
-    geoid_function = lambda row: row['zip code tabulation area']
+
+    def create_geoid(self, row):
+        return row['zip code tabulation area']
 
 
 class StateLegislativeDistrictsUpperRawDownloader(BaseStateLevelRawDataDownloader):
@@ -202,7 +263,9 @@ class StateLegislativeDistrictsUpperRawDownloader(BaseStateLevelRawDataDownloade
     Download raw data at the upper-level state-legislative-district level.
     """
     slug = "statelegislativeupperdistricts"
-    geoid_function = lambda row: row['state'] + row['state legislative district (upper chamber)']
+
+    def create_geoid(self, row):
+        return row['state'] + row['state legislative district (upper chamber)']
 
     def get_api_filter(self, state):
         return {
@@ -216,7 +279,9 @@ class StateLegislativeLowerDistrictsRawDownloader(BaseStateLevelRawDataDownloade
     Download raw data at the lower-level state-legislative-district level.
     """
     slug = "statelegislativelowerdistricts"
-    geoid_function = lambda row: row['state'] + row['lower legislative district (upper chamber)']
+
+    def create_geoid(self, row):
+        return row['state'] + row['lower legislative district (upper chamber)']
 
     def get_api_filter(self, state):
         return {
@@ -230,7 +295,9 @@ class TractsRawDownloader(BaseStateLevelRawDataDownloader):
     Download raw data at the tract level.
     """
     slug = "tracts"
-    geoid_function = lambda row: row['state'] + row['county'] + row['tract']
+
+    def create_geoid(self, row):
+        return row['state'] + row['county'] + row['tract']
 
     def get_api_filter(self, state):
         return {

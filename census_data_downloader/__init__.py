@@ -57,17 +57,6 @@ from .yearstructurebuilt import YearStructureBuiltDownloader
 logger = logging.getLogger(__name__)
 
 
-def download_usa(*args, **kwargs):
-    """
-    Download all the nationwide data.
-    """
-    logger.debug("Downloading all datasets for all nationwide geographies")
-    for klass in DOWNLOADERS:
-        obj = klass(*args, **kwargs)
-        logger.debug(f"Downloading nationwide {klass.PROCESSED_TABLE_NAME} datasets")
-        obj.download_usa()
-
-
 def download_everything(*args, **kwargs):
     """
     Download all the data.
@@ -76,13 +65,7 @@ def download_everything(*args, **kwargs):
     for klass in DOWNLOADERS:
         obj = klass(*args, **kwargs)
         logger.debug(f"Downloading nationwide {klass.PROCESSED_TABLE_NAME} dataset")
-        obj.download_usa()
-        for state in states.STATES:
-            logger.debug(f"Downloading tract-level {klass.PROCESSED_TABLE_NAME} data in {state.name}")
-            obj.download_tracts(state.abbr)
-            logger.debug(f"Downloading legislative-district-level {klass.PROCESSED_TABLE_NAME} data in {state.name}")
-            obj.download_legislative_districts_upper(state.abbr)
-            obj.download_legislative_districts_upper(state.abbr)
+        obj.download_everything()
 
 
-__all__ = ("DOWNLOADERS", "download_usa", "download_everything")
+__all__ = ("DOWNLOADERS", "download_everything")
