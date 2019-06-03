@@ -3,7 +3,6 @@ Download all the data.
 """
 import logging
 import census_data_downloader
-from census_data_downloader import PopulationDownloader
 
 
 def main():

@@ -4,8 +4,8 @@
 Command-line interface.
 """
 import click
-from census_data_downloader import DOWNLOADERS
-DOWNLOADERS_LOOKUP = dict((k.PROCESSED_TABLE_NAME, k) for k in DOWNLOADERS)
+from census_data_downloader.tables import TABLE_LIST
+TABLES_LOOKUP = dict((k.PROCESSED_TABLE_NAME, k) for k in TABLE_LIST)
 
 
 @click.group(help="Download Census data and reformat it for humans")
@@ -39,7 +39,7 @@ def cmd(ctx, table, data_dir="./", year=None, force=False):
     ctx.obj['year'] = year
     ctx.obj['force'] = force
     try:
-        klass = DOWNLOADERS_LOOKUP[ctx.obj['table']]
+        klass = TABLES_LOOKUP[ctx.obj['table']]
         ctx.obj['klass'] = klass
         ctx.obj['runner'] = klass(
             data_dir=data_dir,
