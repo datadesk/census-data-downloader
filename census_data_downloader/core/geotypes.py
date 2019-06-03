@@ -1,5 +1,8 @@
 #! /usr/bin/env python
 # -*- coding: utf-8 -*
+"""
+Handlers to process table configurations for each of the Census' different geography types.
+"""
 import time
 import logging
 import pandas as pd
@@ -8,7 +11,7 @@ from census import Census
 logger = logging.getLogger(__name__)
 
 
-class BaseRawDataDownloader(object):
+class BaseGeoTypeDownloader(object):
     """
     Base class for downloading raw data from the Census API.
     """
@@ -111,7 +114,7 @@ class BaseRawDataDownloader(object):
         return self.processed_csv_path
 
 
-class BaseStateLevelRawDataDownloader(BaseRawDataDownloader):
+class BaseStateLevelGeoTypeDownloader(BaseGeoTypeDownloader):
     """
     Download and stitch together raw data the Census API only provides state by state.
     """
@@ -129,7 +132,7 @@ class BaseStateLevelRawDataDownloader(BaseRawDataDownloader):
         return api_data
 
 
-class NationwideRawDownloader(BaseRawDataDownloader):
+class NationwideDownloader(BaseGeoTypeDownloader):
     """
     Download raw data at the nationwide level.
     """
@@ -140,7 +143,7 @@ class NationwideRawDownloader(BaseRawDataDownloader):
         return 1
 
 
-class StatesRawDownloader(BaseRawDataDownloader):
+class StatesDownloader(BaseGeoTypeDownloader):
     """
     Download raw data at the state level.
     """
@@ -151,7 +154,7 @@ class StatesRawDownloader(BaseRawDataDownloader):
         return row['state']
 
 
-class CongressionalDistrictsRawDownloader(BaseRawDataDownloader):
+class CongressionalDistrictsDownloader(BaseGeoTypeDownloader):
     """
     Download raw data at the congressional-district level.
     """
@@ -162,7 +165,7 @@ class CongressionalDistrictsRawDownloader(BaseRawDataDownloader):
         return row['state'] + row['congressional district']
 
 
-class CountiesRawDownloader(BaseRawDataDownloader):
+class CountiesDownloader(BaseGeoTypeDownloader):
     """
     Download raw data at the county level.
     """
@@ -173,7 +176,7 @@ class CountiesRawDownloader(BaseRawDataDownloader):
         return row['state'] + row['county']
 
 
-class PlacesRawDownloader(BaseRawDataDownloader):
+class PlacesDownloader(BaseGeoTypeDownloader):
     """
     Download raw data at the place level.
     """
@@ -184,7 +187,7 @@ class PlacesRawDownloader(BaseRawDataDownloader):
         return row['state'] + row['place']
 
 
-class UrbanAreasRawDownloader(BaseRawDataDownloader):
+class UrbanAreasDownloader(BaseGeoTypeDownloader):
     """
     Download raw data at the urban-area level.
     """
@@ -195,7 +198,7 @@ class UrbanAreasRawDownloader(BaseRawDataDownloader):
         return row['urban area']
 
 
-class MsasRawDownloader(BaseRawDataDownloader):
+class MsasDownloader(BaseGeoTypeDownloader):
     """
     Download raw data at the metropolitan-statistical-area level.
     """
@@ -206,7 +209,7 @@ class MsasRawDownloader(BaseRawDataDownloader):
         return row['metropolitan statistical area/micropolitan statistical area']
 
 
-class CsasRawDownloader(BaseRawDataDownloader):
+class CsasDownloader(BaseGeoTypeDownloader):
     """
     Download raw data at the combined-statistical-area level.
     """
@@ -217,7 +220,7 @@ class CsasRawDownloader(BaseRawDataDownloader):
         return row['combined statistical area']
 
 
-class PumasRawDownloader(BaseRawDataDownloader):
+class PumasDownloader(BaseGeoTypeDownloader):
     """
     Download raw data at the public-use-microdata level.
     """
@@ -228,7 +231,7 @@ class PumasRawDownloader(BaseRawDataDownloader):
         return row['public use microdata area']
 
 
-class AiannhHomelandsRawDownloader(BaseRawDataDownloader):
+class AiannhHomelandsDownloader(BaseGeoTypeDownloader):
     """
     Download raw data at the Native American homeland level.
     """
@@ -239,7 +242,7 @@ class AiannhHomelandsRawDownloader(BaseRawDataDownloader):
         return row['american indian area/alaska native area/hawaiian home land']
 
 
-class ZctasRawDownloader(BaseRawDataDownloader):
+class ZctasDownloader(BaseGeoTypeDownloader):
     """
     Download raw data at the zipcode-tabulation-area level.
     """
@@ -250,7 +253,7 @@ class ZctasRawDownloader(BaseRawDataDownloader):
         return row['zip code tabulation area']
 
 
-class StateLegislativeUpperDistrictsRawDownloader(BaseStateLevelRawDataDownloader):
+class StateLegislativeUpperDistrictsDownloader(BaseStateLevelGeoTypeDownloader):
     """
     Download raw data at the upper-level state-legislative-district level.
     """
@@ -266,7 +269,7 @@ class StateLegislativeUpperDistrictsRawDownloader(BaseStateLevelRawDataDownloade
         }
 
 
-class StateLegislativeLowerDistrictsRawDownloader(BaseStateLevelRawDataDownloader):
+class StateLegislativeLowerDistrictsDownloader(BaseStateLevelGeoTypeDownloader):
     """
     Download raw data at the lower-level state-legislative-district level.
     """
@@ -282,7 +285,7 @@ class StateLegislativeLowerDistrictsRawDownloader(BaseStateLevelRawDataDownloade
         }
 
 
-class TractsRawDownloader(BaseStateLevelRawDataDownloader):
+class TractsDownloader(BaseStateLevelGeoTypeDownloader):
     """
     Download raw data at the tract level.
     """

@@ -3,8 +3,8 @@
 import os
 import logging
 import pathlib
+from . import geotypes
 from . import decorators
-from . import downloaders
 logger = logging.getLogger(__name__)
 
 
@@ -115,98 +115,98 @@ class BaseTableConfig(object):
         """
         Download nationwide data.
         """
-        return downloaders.NationwideRawDownloader
+        return geotypes.NationwideDownloader
 
     @decorators.downloader
     def download_states(self):
         """
         Download data for all states.
         """
-        return downloaders.StatesRawDownloader
+        return geotypes.StatesDownloader
 
     @decorators.downloader
     def download_congressional_districts(self):
         """
         Download data for all Congressional districts.
         """
-        return downloaders.CongressionalDistrictsRawDownloader
+        return geotypes.CongressionalDistrictsDownloader
 
     @decorators.downloader
     def download_counties(self):
         """
         Download data for all counties.
         """
-        return downloaders.CountiesRawDownloader
+        return geotypes.CountiesDownloader
 
     @decorators.downloader
     def download_places(self):
         """
         Download data for all Census designated places.
         """
-        return downloaders.PlacesRawDownloader
+        return geotypes.PlacesDownloader
 
     @decorators.downloader
     def download_tracts(self):
         """
         Download data for all Census tracts in the provided state.
         """
-        return downloaders.TractsRawDownloader
+        return geotypes.TractsDownloader
 
     @decorators.downloader
     def download_state_legislative_upper_districts(self):
         """
         Download data for all Census upper legislative districts in the provided state.
         """
-        return downloaders.StateLegislativeUpperDistrictsRawDownloader
+        return geotypes.StateLegislativeUpperDistrictsDownloader
 
     @decorators.downloader
     def download_state_legislative_lower_districts(self):
         """
         Download data for all Census lower legislative districts in the provided state.
         """
-        return downloaders.StateLegislativeLowerDistrictsRawDownloader
+        return geotypes.StateLegislativeLowerDistrictsDownloader
 
     @decorators.downloader
     def download_urban_areas(self):
         """
         Download data for all urban areas
         """
-        return downloaders.UrbanAreasRawDownloader
+        return geotypes.UrbanAreasDownloader
 
     @decorators.downloader
     def download_msas(self):
         """
         Download data for Metropolitian Statistical Areas.
         """
-        return downloaders.MsasRawDownloader
+        return geotypes.MsasDownloader
 
     @decorators.downloader
     def download_csas(self):
         """
         Download data for Combined Statistical Areas.
         """
-        return downloaders.CsasRawDownloader
+        return geotypes.CsasDownloader
 
     @decorators.downloader
     def download_pumas(self):
         """
         Download data for Public Use Microdata Areas.
         """
-        return downloaders.PumasRawDownloader
+        return geotypes.PumasDownloader
 
     @decorators.downloader
     def download_aiannh_homelands(self):
         """
         Download data for American Indian home lands.
         """
-        return downloaders.AiannhHomelandsRawDownloader
+        return geotypes.AiannhHomelandsDownloader
 
     @decorators.downloader
     def download_zctas(self):
         """
         Download data for Zip Code Tabulation Areas
         """
-        return downloaders.ZctasRawDownloader
+        return geotypes.ZctasDownloader
 
     def download_everything(self):
         """
