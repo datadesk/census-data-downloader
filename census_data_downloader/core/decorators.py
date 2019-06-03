@@ -4,7 +4,7 @@
 
 def downloader(func):
     """
-    A decorator to download all data for the return class
+    A decorator to download data for the class returned by the parent method.
     """
     def inner(*args, **kwargs):
         config = args[0]
