@@ -7,6 +7,7 @@ import pathlib
 import pandas as pd
 from us import states
 from census import Census
+from .core import downloaders
 logger = logging.getLogger(__name__)
 
 
@@ -41,8 +42,8 @@ class BaseDownloader(object):
         "pumas",
         "aiannh_homelands",
         "zctas",
-        "state_legislative_districts_upper",
-        "state_legislative_districts_lower",
+        "state_legislative_upper_districts",
+        "state_legislative_lower_districts",
         "tracts"
     )
 
@@ -123,167 +124,113 @@ class BaseDownloader(object):
         """
         Download nationwide data.
         """
-        if "nationwide" not in self.GEO_LIST:
-            raise NotImplementedError(f"Data only available for these geographies: {', '.join(self.GEO_LIST)}")
-        csv_suffix = "nationwide"
-        api_filter = {'for': 'us:1'}
-        geoid_function = lambda row: 1
-        self._download_tables(api_filter, csv_suffix, geoid_function)
+        for year in self.years_to_download:
+            dl = downloaders.NationwideRawDownloader(self, year)
+            dl.download()
 
     def download_states(self):
         """
         Download data for all states.
         """
-        if "states" not in self.GEO_LIST:
-            raise NotImplementedError(f"Data only available for these geographies: {', '.join(self.GEO_LIST)}")
-        csv_suffix = "states"
-        api_filter = {'for': 'state:*'}
-        geoid_function = lambda row: row['state']
-        self._download_tables(api_filter, csv_suffix, geoid_function)
+        for year in self.years_to_download:
+            dl = downloaders.StatesRawDownloader(self, year)
+            dl.download()
 
     def download_congressional_districts(self):
         """
         Download data for all Congressional districts.
         """
-        if "congressional_districts" not in self.GEO_LIST:
-            raise NotImplementedError(f"Data only available for these geographies: {', '.join(self.GEO_LIST)}")
-        csv_suffix = "congressionaldistricts"
-        api_filter = {'for': 'congressional district:*'}
-        geoid_function = lambda row: row['state'] + row['congressional district']
-        self._download_tables(api_filter, csv_suffix, geoid_function)
+        for year in self.years_to_download:
+            dl = downloaders.CongressionalDistrictsRawDownloader(self, year)
+            dl.download()
 
     def download_counties(self):
         """
         Download data for all counties.
         """
-        if "counties" not in self.GEO_LIST:
-            raise NotImplementedError(f"Data only available for these geographies: {', '.join(self.GEO_LIST)}")
-        csv_suffix = "counties"
-        api_filter = {'for': 'county:*'}
-        geoid_function = lambda row: row['state'] + row['county']
-        self._download_tables(api_filter, csv_suffix, geoid_function)
+        for year in self.years_to_download:
+            dl = downloaders.CountiesRawDownloader(self, year)
+            dl.download()
 
     def download_places(self):
         """
         Download data for all Census designated places.
         """
-        if "places" not in self.GEO_LIST:
-            raise NotImplementedError(f"Data only available for these geographies: {', '.join(self.GEO_LIST)}")
-        csv_suffix = "places"
-        api_filter = {'for': 'place:*'}
-        geoid_function = lambda row: row['state'] + row['place']
-        self._download_tables(api_filter, csv_suffix, geoid_function)
+        for year in self.years_to_download:
+            dl = downloaders.PlacesRawDownloader(self, year)
+            dl.download()
 
-    def download_tracts(self, state):
+    def download_tracts(self):
         """
         Download data for all Census tracts in the provided state.
         """
-        if "tracts" not in self.GEO_LIST:
-            raise NotImplementedError(f"Data only available for these geographies: {', '.join(self.GEO_LIST)}")
-        state_obj = getattr(states, state.upper())
-        csv_suffix = f"tracts_{state_obj.abbr.lower()}"
-        api_filter = {
-            'for': 'tract:*',
-            'in': f'state: {state_obj.fips}'
-        }
-        geoid_function = lambda row: row['state'] + row['county'] + row['tract']
-        self._download_tables(api_filter, csv_suffix, geoid_function)
+        for year in self.years_to_download:
+            dl = downloaders.TractsRawDownloader(self, year)
+            dl.download()
 
-    def download_state_legislative_districts_upper(self, state):
+    def download_state_legislative_upper_districts(self):
         """
         Download data for all Census upper legislative districts in the provided state.
         """
-        if "state_legislative_districts_upper" not in self.GEO_LIST:
-            raise NotImplementedError(f"Data only available for these geographies: {', '.join(self.GEO_LIST)}")
-        state_obj = getattr(states, state.upper())
-        csv_suffix = f'statelegislativedistrictsupper_{state_obj.abbr.lower()}'
-        api_filter = {
-            'for': 'state legislative district (upper chamber):*',
-            'in': f'state: {state_obj.fips}'
-        }
-        geoid_function = lambda row: row['state'] + row['state legislative district (upper chamber)']
-        self._download_tables(api_filter, csv_suffix, geoid_function)
+        for year in self.years_to_download:
+            dl = downloaders.StateLegislativeUpperDistrictsRawDownloader(self, year)
+            dl.download()
 
-    def download_state_legislative_districts_lower(self, state):
+    def download_state_legislative_lower_districts(self):
         """
         Download data for all Census lower legislative districts in the provided state.
         """
-        if "state_legislative_districts_lower" not in self.GEO_LIST:
-            raise NotImplementedError(f"Data only available for these geographies: {', '.join(self.GEO_LIST)}")
-        state_obj = getattr(states, state.upper())
-        csv_suffix = f'statelegislativedistrictslower_{state_obj.abbr.lower()}'
-        api_filter = {
-            'for': 'state legislative district (lower chamber):*',
-            'in': f'state: {state_obj.fips}'
-        }
-        geoid_function = lambda row: row['state'] + row['state legislative district (lower chamber)']
-        self._download_tables(api_filter, csv_suffix, geoid_function)
+        for year in self.years_to_download:
+            dl = downloaders.StateLegislativeLowerDistrictsRawDownloader(self, year)
+            dl.download()
 
     def download_urban_areas(self):
         """
         Download data for all urban areas
         """
-        if "urban_areas" not in self.GEO_LIST:
-            raise NotImplementedError(f"Data only available for these geographies: {', '.join(self.GEO_LIST)}")
-        csv_suffix = "urbanarea"
-        api_filter = {'for': 'urban area:*'}
-        geoid_function = lambda row: row['urban area']
-        self._download_tables(api_filter, csv_suffix, geoid_function)
+        for year in self.years_to_download:
+            dl = downloaders.UrbanAreasRawDownloader(self, year)
+            dl.download()
 
     def download_msas(self):
         """
         Download data for Metropolitian Statistical Areas.
         """
-        if "msas" not in self.GEO_LIST:
-            raise NotImplementedError(f"Data only available for these geographies: {', '.join(self.GEO_LIST)}")
-        csv_suffix = "msa"
-        api_filter = {'for': 'metropolitan statistical area/micropolitan statistical area:*'}
-        geoid_function = lambda row: row['metropolitan statistical area/micropolitan statistical area']
-        self._download_tables(api_filter, csv_suffix, geoid_function)
+        for year in self.years_to_download:
+            dl = downloaders.MsasRawDownloader(self, year)
+            dl.download()
 
     def download_csas(self):
         """
         Download data for Combined Statistical Areas.
         """
-        if "csas" not in self.GEO_LIST:
-            raise NotImplementedError(f"Data only available for these geographies: {', '.join(self.GEO_LIST)}")
-        csv_suffix = "csa"
-        api_filter = {'for': 'combined statistical area:*'}
-        geoid_function = lambda row: row['combined statistical area']
-        self._download_tables(api_filter, csv_suffix, geoid_function)
+        for year in self.years_to_download:
+            dl = downloaders.CsasRawDownloader(self, year)
+            dl.download()
 
     def download_pumas(self):
         """
         Download data for Public Use Microdata Areas.
         """
-        if "pumas" not in self.GEO_LIST:
-            raise NotImplementedError(f"Data only available for these geographies: {', '.join(self.GEO_LIST)}")
-        csv_suffix = "puma"
-        api_filter = {'for': 'public use microdata area:*'}
-        geoid_function = lambda row: row['public use microdata area']
-        self._download_tables(api_filter, csv_suffix, geoid_function)
+        for year in self.years_to_download:
+            dl = downloaders.PumasRawDownloader(self, year)
+            dl.download()
 
     def download_aiannh_homelands(self):
         """
         Download data for American Indian home lands.
         """
-        if "aiannh_homelands" not in self.GEO_LIST:
-            raise NotImplementedError(f"Data only available for these geographies: {', '.join(self.GEO_LIST)}")
-        csv_suffix = "aiannhhomeland"
-        api_filter = {'for': 'american indian area/alaska native area/hawaiian home land:*'}
-        geoid_function = lambda row: row['american indian area/alaska native area/hawaiian home land']
-        self._download_tables(api_filter, csv_suffix, geoid_function)
+        for year in self.years_to_download:
+            dl = downloaders.AiannhHomelandsRawDownloader(self, year)
+            dl.download()
 
     def download_zctas(self):
         """
         Download data for Zip Code Tabulation Areas
         """
-        if "zctas" not in self.GEO_LIST:
-            raise NotImplementedError(f"Data only available for these geographies: {', '.join(self.GEO_LIST)}")
-        csv_suffix = "zcta"
-        api_filter = {'for': 'zip code tabulation area:*'}
-        geoid_function = lambda row: row['zip code tabulation area']
-        self._download_tables(api_filter, csv_suffix, geoid_function)
+        for year in self.years_to_download:
+            dl = downloaders.ZctasRawDownloader(self, year)
+            dl.download()
 
     def download_usa(self):
         """
@@ -310,84 +257,47 @@ class BaseDownloader(object):
                 for state in states.STATES:
                     download(state.abbr)
 
-    def _download_tables(self, api_filter, csv_suffix, geoid_function):
-        """
-        Download and process data.
-        """
-        for year in self.years_to_download:
-            # Set the year as a sneaky private variable we can access elsewhere
-            self._year = year
+    # def _download_tables(self, api_filter, csv_suffix, geoid_function):
+    #     """
+    #     Download and process data.
+    #     """
+    #     self.get_raw_tables()
+    #     :
+    #         # Set the year as a sneaky private variable we can access elsewhere
+    #         self._year = year
+    #
+    #         # Get the raw table
+    #         raw_table = self._get_raw_table(year, api_filter, csv_suffix)
+    #
+    #         # Process it
+    #         processed_table = self._process_raw_data(raw_table)
+    #
+    #         # Add a combined GEOID column with a Census unique identifer
+    #         processed_table['geoid'] = processed_table.apply(geoid_function, axis=1)
+    #
+    #         # Write it out
+    #         logger.debug(f"Writing CSV to {csv_path}")
+    #         processed_table.set_index(["geoid", "name"]).to_csv(
+    #             csv_path,
+    #             index=True,
+    #             encoding="utf-8"
+    #         )
 
-            # Get the raw table
-            raw_table = self._get_raw_table(year, api_filter, csv_suffix)
-
-            # Figure out where to write it
-            csv_name = f"{self.source}_{year}_{self.PROCESSED_TABLE_NAME}_{csv_suffix}.csv"
-            csv_path = self.processed_data_dir.joinpath(csv_name)
-            if csv_path.exists() and not self.force:
-                logger.debug(f"Processed CSV already exists at {csv_path}")
-                continue
-
-            # Process it
-            processed_table = self._process_raw_data(raw_table)
-
-            # Add a combined GEOID column with a Census unique identifer
-            processed_table['geoid'] = processed_table.apply(geoid_function, axis=1)
-
-            # Write it out
-            logger.debug(f"Writing CSV to {csv_path}")
-            processed_table.set_index(["geoid", "name"]).to_csv(
-                csv_path,
-                index=True,
-                encoding="utf-8"
-            )
-
-    def _get_raw_table(self, year, api_filter, csv_suffix):
-        """
-        Retrieve the Census API data and return it as an dataframe.
-        """
-        # Set the CSV name
-        csv_name = f"{self.source}_{year}_{self.PROCESSED_TABLE_NAME}_{csv_suffix}.csv"
-        csv_path = self.raw_data_dir.joinpath(csv_name)
-
-        # Skip hitting the API if we've already got the file, as long as we're not forcing it.
-        if csv_path.exists() and not self.force:
-            logger.debug(f"Raw CSV already exists at {csv_path}")
-            return csv_path
-
-        # Set the fields we want to pull from API
-        field_names = [f"{self.RAW_TABLE_NAME}_{f}" for f in self.RAW_FIELD_CROSSWALK.keys()]
-        field_list = ['NAME'] + field_names
-
-        # Hit the API
-        logger.debug(f"Downloading raw {self.source} {self.RAW_TABLE_NAME} table for {year} filtered to {api_filter}")
-        self.api = getattr(Census(self.CENSUS_API_KEY, year=year), self.source)
-        data = self.api.get(field_list, api_filter)
-
-        # Convert it to a DataFrame
-        df = pd.DataFrame.from_records(data)
-
-        # Rename the ugly NAME field
-        df.rename(columns={"NAME": "name"}, inplace=True)
-
-        # Write it to disk
-        logger.debug(f"Writing raw ACS table to {csv_path}")
-        df.to_csv(csv_path, index=False, encoding="utf-8")
-
-        # Pause to be polite to the API.
-        time.sleep(1)
-
-        # Return the path
-        return csv_path
-
-    def _process_raw_data(self, path):
+    def _process_raw_data(self, raw_path, year, api_filter, csv_suffix):
         """
         Accepts a path to a CSV with raw ACS data from the Census API.
 
         Returns it polished for human analysis.
         """
+        # Figure out where to write it
+        csv_name = f"{self.source}_{year}_{self.PROCESSED_TABLE_NAME}_{csv_suffix}.csv"
+        csv_path = self.processed_data_dir.joinpath(csv_name)
+        if csv_path.exists() and not self.force:
+            logger.debug(f"Processed CSV already exists at {csv_path}")
+            return
+
         # Read in the raw CSV of data from the ACS
-        df = pd.read_csv(path, dtype=str)
+        df = pd.read_csv(raw_path, dtype=str)
 
         # Rename fields with humanized names
         field_name_mapper = dict(
