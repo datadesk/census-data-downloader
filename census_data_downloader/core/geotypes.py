@@ -31,6 +31,13 @@ class BaseGeoTypeDownloader(object):
         self.processed_csv_name = f"{self.config.source}_{self.year}_{self.config.PROCESSED_TABLE_NAME}_{self.slug}.csv"
         self.processed_csv_path = self.config.processed_data_dir.joinpath(self.processed_csv_name)
 
+    @property
+    def api_filter(self):
+        """
+        Returns the filter that will retrieve the correct data from the API.
+        """
+        return {'for': f'{self.raw_name}:*'}
+
     def get_api_fields(self):
         """
         Returns the fields to be fetched from the API.
@@ -118,6 +125,15 @@ class BaseStateLevelGeoTypeDownloader(BaseGeoTypeDownloader):
     """
     Download and stitch together raw data the Census API only provides state by state.
     """
+    def get_api_filter(self, state):
+        """
+        Returns an API filter to retrieve the correct data for the provided state.
+        """
+        return {
+            'for': f'{self.raw_name}:*',
+            'in': f'state: {state.fips}'
+        }
+
     def get_raw_data(self):
         """
         Returns the data we want from the API.
@@ -137,7 +153,11 @@ class NationwideDownloader(BaseGeoTypeDownloader):
     Download raw data at the nationwide level.
     """
     slug = "nationwide"
-    api_filter = {'for': 'us:1'}
+    raw_name = "us"
+
+    @property
+    def api_filter(self):
+        return {'for': 'us:1'}
 
     def create_geoid(self, row):
         return 1
@@ -148,10 +168,10 @@ class StatesDownloader(BaseGeoTypeDownloader):
     Download raw data at the state level.
     """
     slug = "states"
-    api_filter = {'for': 'state:*'}
+    raw_name = "state"
 
     def create_geoid(self, row):
-        return row['state']
+        return row[self.raw_name]
 
 
 class CongressionalDistrictsDownloader(BaseGeoTypeDownloader):
@@ -159,10 +179,10 @@ class CongressionalDistrictsDownloader(BaseGeoTypeDownloader):
     Download raw data at the congressional-district level.
     """
     slug = "congressionaldistricts"
-    api_filter = {'for': 'congressional district:*'}
+    raw_name = "congressional district"
 
     def create_geoid(self, row):
-        return row['state'] + row['congressional district']
+        return row['state'] + row[self.raw_name]
 
 
 class CountiesDownloader(BaseGeoTypeDownloader):
@@ -170,10 +190,10 @@ class CountiesDownloader(BaseGeoTypeDownloader):
     Download raw data at the county level.
     """
     slug = "counties"
-    api_filter = {'for': 'county:*'}
+    raw_name = "county"
 
     def create_geoid(self, row):
-        return row['state'] + row['county']
+        return row['state'] + row[self.raw_name]
 
 
 class PlacesDownloader(BaseGeoTypeDownloader):
@@ -181,10 +201,10 @@ class PlacesDownloader(BaseGeoTypeDownloader):
     Download raw data at the place level.
     """
     slug = "places"
-    api_filter = {'for': 'place:*'}
+    raw_name = "place"
 
     def create_geoid(self, row):
-        return row['state'] + row['place']
+        return row['state'] + row[self.raw_name]
 
 
 class UrbanAreasDownloader(BaseGeoTypeDownloader):
@@ -192,10 +212,10 @@ class UrbanAreasDownloader(BaseGeoTypeDownloader):
     Download raw data at the urban-area level.
     """
     slug = "urbanareas"
-    api_filter = {'for': 'urban area:*'}
+    raw_name = "urban area"
 
     def create_geoid(self, row):
-        return row['urban area']
+        return row[self.raw_name]
 
 
 class MsasDownloader(BaseGeoTypeDownloader):
@@ -203,10 +223,10 @@ class MsasDownloader(BaseGeoTypeDownloader):
     Download raw data at the metropolitan-statistical-area level.
     """
     slug = "msas"
-    api_filter = {'for': 'metropolitan statistical area/micropolitan statistical area:*'}
+    raw_name = "metropolitan statistical area/micropolitan statistical area"
 
     def create_geoid(self, row):
-        return row['metropolitan statistical area/micropolitan statistical area']
+        return row[self.raw_name]
 
 
 class CsasDownloader(BaseGeoTypeDownloader):
@@ -214,10 +234,10 @@ class CsasDownloader(BaseGeoTypeDownloader):
     Download raw data at the combined-statistical-area level.
     """
     slug = "csas"
-    api_filter = {'for': 'combined statistical area:*'}
+    raw_name = "combined statistical area"
 
     def create_geoid(self, row):
-        return row['combined statistical area']
+        return row[self.raw_name]
 
 
 class PumasDownloader(BaseGeoTypeDownloader):
@@ -225,10 +245,10 @@ class PumasDownloader(BaseGeoTypeDownloader):
     Download raw data at the public-use-microdata level.
     """
     slug = "pumas"
-    api_filter = {'for': 'public use microdata area:*'}
+    raw_name = "public use microdata area"
 
     def create_geoid(self, row):
-        return row['public use microdata area']
+        return row[self.raw_name]
 
 
 class AiannhHomelandsDownloader(BaseGeoTypeDownloader):
@@ -236,10 +256,10 @@ class AiannhHomelandsDownloader(BaseGeoTypeDownloader):
     Download raw data at the Native American homeland level.
     """
     slug = "aiannhhomelands"
-    api_filter = {'for': 'american indian area/alaska native area/hawaiian home land:*'}
+    raw_name = "american indian area/alaska native area/hawaiian home land"
 
     def create_geoid(self, row):
-        return row['american indian area/alaska native area/hawaiian home land']
+        return row[self.raw_name]
 
 
 class ZctasDownloader(BaseGeoTypeDownloader):
@@ -247,10 +267,10 @@ class ZctasDownloader(BaseGeoTypeDownloader):
     Download raw data at the zipcode-tabulation-area level.
     """
     slug = "zctas"
-    api_filter = {'for': 'zip code tabulation area:*'}
+    raw_name = "zip code tabulation area"
 
     def create_geoid(self, row):
-        return row['zip code tabulation area']
+        return row[self.raw_name]
 
 
 class StateLegislativeUpperDistrictsDownloader(BaseStateLevelGeoTypeDownloader):
@@ -258,15 +278,10 @@ class StateLegislativeUpperDistrictsDownloader(BaseStateLevelGeoTypeDownloader):
     Download raw data at the upper-level state-legislative-district level.
     """
     slug = "statelegislativeupperdistricts"
+    raw_name = "state legislative district (upper chamber)"
 
     def create_geoid(self, row):
-        return row['state'] + row['state legislative district (upper chamber)']
-
-    def get_api_filter(self, state):
-        return {
-            'for': 'state legislative district (upper chamber):*',
-            'in': 'state: {}'.format(state.fips)
-        }
+        return row['state'] + row[self.raw_name]
 
 
 class StateLegislativeLowerDistrictsDownloader(BaseStateLevelGeoTypeDownloader):
@@ -274,15 +289,10 @@ class StateLegislativeLowerDistrictsDownloader(BaseStateLevelGeoTypeDownloader):
     Download raw data at the lower-level state-legislative-district level.
     """
     slug = "statelegislativelowerdistricts"
+    raw_name = "state legislative district (lower chamber)"
 
     def create_geoid(self, row):
-        return row['state'] + row['state legislative district (lower chamber)']
-
-    def get_api_filter(self, state):
-        return {
-            'for': 'state legislative district (lower chamber):*',
-            'in': 'state: {}'.format(state.fips)
-        }
+        return row['state'] + row[self.raw_name]
 
 
 class TractsDownloader(BaseStateLevelGeoTypeDownloader):
@@ -290,12 +300,7 @@ class TractsDownloader(BaseStateLevelGeoTypeDownloader):
     Download raw data at the tract level.
     """
     slug = "tracts"
+    raw_name = "tract"
 
     def create_geoid(self, row):
-        return row['state'] + row['county'] + row['tract']
-
-    def get_api_filter(self, state):
-        return {
-            'for': 'tract:*',
-            'in': 'state: {}'.format(state.fips)
-        }
+        return row['state'] + row['county'] + row[self.raw_name]
