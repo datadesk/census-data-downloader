@@ -68,12 +68,6 @@ def divisions(ctx):
     ctx.obj['runner'].download_divisions()
 
 
-@cmd.command(help="Download states")
-@click.pass_context
-def states(ctx):
-    ctx.obj['runner'].download_states()
-
-
 @cmd.command(help="Download Congressional districts")
 @click.pass_context
 def congressionaldistricts(ctx):
@@ -118,7 +112,7 @@ def pumas(ctx):
 
 @cmd.command(help="Download American Indian, Alaska Native and Native Hawaiian homelands")
 @click.pass_context
-def pumas(ctx):
+def aiannh_homelands(ctx):
     ctx.obj['runner'].download_aiannh_homelands()
 
 
