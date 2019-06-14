@@ -56,6 +56,12 @@ def nationwide(ctx):
     ctx.obj['runner'].download_nationwide()
 
 
+@cmd.command(help="Download regions")
+@click.pass_context
+def states(ctx):
+    ctx.obj['runner'].download_regions()
+
+
 @cmd.command(help="Download states")
 @click.pass_context
 def states(ctx):

@@ -30,6 +30,7 @@ class BaseTableConfig(object):
     # (Subclasses can override this)
     GEO_LIST = (
         "nationwide",
+        "regions",
         "states",
         "congressional_districts",
         "counties",
@@ -116,6 +117,13 @@ class BaseTableConfig(object):
         Download nationwide data.
         """
         return geotypes.NationwideDownloader
+
+    @decorators.downloader
+    def download_regions(self):
+        """
+        Download data for all regions.
+        """
+        return geotypes.RegionsDownloader
 
     @decorators.downloader
     def download_states(self):
