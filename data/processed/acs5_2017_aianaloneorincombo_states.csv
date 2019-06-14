@@ -1,0 +1,53 @@
+geoid,name,universe,state
+72,Puerto Rico,30830.0,72
+01,Alabama,60147.0,01
+02,Alaska,144878.0,02
+04,Arizona,378237.0,04
+05,Arkansas,53647.0,05
+06,California,740935.0,06
+08,Colorado,113069.0,08
+09,Connecticut,36335.0,09
+11,District of Columbia,6304.0,11
+10,Delaware,9708.0,10
+12,Florida,166957.0,12
+13,Georgia,91594.0,13
+15,Hawaii,33975.0,15
+16,Idaho,39543.0,16
+17,Illinois,97789.0,17
+18,Indiana,51026.0,18
+19,Iowa,26239.0,19
+20,Kansas,61431.0,20
+21,Kentucky,33175.0,21
+23,Maine,22876.0,23
+22,Louisiana,59074.0,22
+25,Massachusetts,47956.0,25
+24,Maryland,61922.0,24
+26,Michigan,147777.0,26
+27,Minnesota,105477.0,27
+28,Mississippi,24286.0,28
+29,Missouri,79443.0,29
+30,Montana,84180.0,30
+31,Nebraska,31357.0,31
+33,New Hampshire,10966.0,33
+32,Nevada,59246.0,32
+34,New Jersey,60528.0,34
+35,New Mexico,222594.0,35
+36,New York,207483.0,36
+37,North Carolina,195193.0,37
+38,North Dakota,48817.0,38
+39,Ohio,98691.0,39
+40,Oklahoma,519272.0,40
+41,Oregon,125819.0,41
+42,Pennsylvania,96851.0,42
+44,Rhode Island,13693.0,44
+45,South Carolina,45999.0,45
+46,South Dakota,88330.0,46
+47,Tennessee,62812.0,47
+48,Texas,334224.0,48
+49,Utah,52230.0,49
+50,Vermont,8178.0,50
+51,Virginia,83309.0,51
+54,West Virginia,14195.0,54
+53,Washington,216062.0,53
+56,Wyoming,21061.0,56
+55,Wisconsin,92241.0,55

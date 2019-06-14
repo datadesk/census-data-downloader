@@ -1,0 +1,1947 @@
+geoid,name,universe,same_house,moved_within_county,moved_from_different_county_in_same_state,moved_from_different_state,moved_from_abroad,state,state legislative district (upper chamber)
+01001,"State Senate District 1 (2016), Alabama",1171.0,902.0,34.0,207.0,6.0,22.0,01,001
+01002,"State Senate District 2 (2016), Alabama",4737.0,3969.0,280.0,93.0,191.0,204.0,01,002
+01003,"State Senate District 3 (2016), Alabama",1765.0,1211.0,246.0,206.0,102.0,0.0,01,003
+01004,"State Senate District 4 (2016), Alabama",612.0,585.0,27.0,0.0,0.0,0.0,01,004
+01005,"State Senate District 5 (2016), Alabama",609.0,540.0,57.0,4.0,8.0,0.0,01,005
+01006,"State Senate District 6 (2016), Alabama",532.0,400.0,126.0,6.0,0.0,0.0,01,006
+01007,"State Senate District 7 (2016), Alabama",2077.0,1426.0,329.0,61.0,105.0,156.0,01,007
+01008,"State Senate District 8 (2016), Alabama",1320.0,1180.0,103.0,2.0,0.0,35.0,01,008
+01009,"State Senate District 9 (2016), Alabama",1385.0,1216.0,26.0,13.0,118.0,12.0,01,009
+01010,"State Senate District 10 (2016), Alabama",743.0,560.0,49.0,129.0,5.0,0.0,01,010
+01011,"State Senate District 11 (2016), Alabama",999.0,936.0,19.0,44.0,0.0,0.0,01,011
+01012,"State Senate District 12 (2016), Alabama",1314.0,1074.0,41.0,90.0,102.0,7.0,01,012
+01013,"State Senate District 13 (2016), Alabama",1152.0,1086.0,27.0,6.0,20.0,13.0,01,013
+01014,"State Senate District 14 (2016), Alabama",1546.0,1506.0,0.0,5.0,35.0,0.0,01,014
+01015,"State Senate District 15 (2016), Alabama",2110.0,1792.0,140.0,106.0,15.0,57.0,01,015
+01016,"State Senate District 16 (2016), Alabama",5836.0,4853.0,342.0,82.0,461.0,98.0,01,016
+01017,"State Senate District 17 (2016), Alabama",1128.0,757.0,166.0,183.0,0.0,22.0,01,017
+01018,"State Senate District 18 (2016), Alabama",2487.0,1467.0,242.0,139.0,266.0,373.0,01,018
+01019,"State Senate District 19 (2016), Alabama",429.0,347.0,66.0,0.0,0.0,16.0,01,019
+01020,"State Senate District 20 (2016), Alabama",717.0,676.0,13.0,4.0,8.0,16.0,01,020
+01021,"State Senate District 21 (2016), Alabama",2409.0,1708.0,421.0,32.0,103.0,145.0,01,021
+01022,"State Senate District 22 (2016), Alabama",614.0,581.0,0.0,32.0,0.0,1.0,01,022
+01023,"State Senate District 23 (2016), Alabama",464.0,337.0,0.0,23.0,10.0,94.0,01,023
+01024,"State Senate District 24 (2016), Alabama",1019.0,910.0,23.0,0.0,23.0,63.0,01,024
+01025,"State Senate District 25 (2016), Alabama",4168.0,3005.0,636.0,172.0,132.0,223.0,01,025
+01026,"State Senate District 26 (2016), Alabama",1791.0,1227.0,190.0,19.0,85.0,270.0,01,026
+01027,"State Senate District 27 (2016), Alabama",5018.0,3334.0,712.0,332.0,124.0,516.0,01,027
+01028,"State Senate District 28 (2016), Alabama",972.0,724.0,64.0,0.0,49.0,135.0,01,028
+01029,"State Senate District 29 (2016), Alabama",1295.0,1146.0,31.0,38.0,42.0,38.0,01,029
+01030,"State Senate District 30 (2016), Alabama",698.0,515.0,0.0,83.0,59.0,41.0,01,030
+01031,"State Senate District 31 (2016), Alabama",1665.0,1191.0,175.0,97.0,168.0,34.0,01,031
+01032,"State Senate District 32 (2016), Alabama",1249.0,1155.0,21.0,21.0,32.0,20.0,01,032
+01033,"State Senate District 33 (2016), Alabama",921.0,769.0,48.0,57.0,23.0,24.0,01,033
+01034,"State Senate District 34 (2016), Alabama",1930.0,1329.0,299.0,26.0,131.0,145.0,01,034
+01035,"State Senate District 35 (2016), Alabama",5174.0,4858.0,229.0,13.0,0.0,74.0,01,035
+0200H,"State Senate District H (2016), Alaska",3712.0,3125.0,296.0,11.0,214.0,66.0,02,00H
+0200I,"State Senate District I (2016), Alaska",4508.0,3847.0,433.0,35.0,94.0,99.0,02,00I
+0200J,"State Senate District J (2016), Alaska",3067.0,2304.0,643.0,34.0,42.0,44.0,02,00J
+0200K,"State Senate District K (2016), Alaska",3841.0,3272.0,397.0,0.0,55.0,117.0,02,00K
+0200L,"State Senate District L (2016), Alaska",4584.0,3648.0,568.0,14.0,107.0,247.0,02,00L
+0200M,"State Senate District M (2016), Alaska",4122.0,3738.0,195.0,12.0,82.0,95.0,02,00M
+0200N,"State Senate District N (2016), Alaska",2066.0,1661.0,359.0,19.0,27.0,0.0,02,00N
+0200O,"State Senate District O (2016), Alaska",632.0,497.0,46.0,0.0,6.0,83.0,02,00O
+0200P,"State Senate District P (2016), Alaska",3305.0,2879.0,226.0,117.0,25.0,58.0,02,00P
+0200Q,"State Senate District Q (2016), Alaska",2523.0,1875.0,286.0,27.0,229.0,106.0,02,00Q
+0200R,"State Senate District R (2016), Alaska",2139.0,1809.0,170.0,34.0,54.0,72.0,02,00R
+0200S,"State Senate District S (2016), Alaska",3371.0,2726.0,241.0,77.0,141.0,186.0,02,00S
+0200T,"State Senate District T (2016), Alaska",822.0,700.0,43.0,13.0,60.0,6.0,02,00T
+0200A,"State Senate District A (2016), Alaska",1617.0,1003.0,197.0,6.0,172.0,239.0,02,00A
+0200B,"State Senate District B (2016), Alaska",478.0,381.0,1.0,39.0,0.0,57.0,02,00B
+0200C,"State Senate District C (2016), Alaska",1167.0,825.0,172.0,18.0,109.0,43.0,02,00C
+0200D,"State Senate District D (2016), Alaska",640.0,562.0,0.0,61.0,7.0,10.0,02,00D
+0200E,"State Senate District E (2016), Alaska",579.0,403.0,34.0,84.0,14.0,44.0,02,00E
+0200F,"State Senate District F (2016), Alaska",450.0,395.0,22.0,23.0,8.0,2.0,02,00F
+0200G,"State Senate District G (2016), Alaska",1432.0,866.0,307.0,105.0,73.0,81.0,02,00G
+04001,"State Senate District 1 (2016), Arizona",3400.0,2731.0,297.0,111.0,210.0,51.0,04,001
+04002,"State Senate District 2 (2016), Arizona",2515.0,2236.0,78.0,80.0,92.0,29.0,04,002
+04003,"State Senate District 3 (2016), Arizona",5634.0,3600.0,1025.0,251.0,313.0,445.0,04,003
+04004,"State Senate District 4 (2016), Arizona",2592.0,2056.0,149.0,0.0,326.0,61.0,04,004
+04005,"State Senate District 5 (2016), Arizona",2656.0,2171.0,102.0,47.0,278.0,58.0,04,005
+04006,"State Senate District 6 (2016), Arizona",2966.0,1845.0,452.0,201.0,290.0,178.0,04,006
+04007,"State Senate District 7 (2016), Arizona",1144.0,1025.0,19.0,31.0,25.0,44.0,04,007
+04008,"State Senate District 8 (2016), Arizona",3400.0,2416.0,211.0,569.0,84.0,120.0,04,008
+04009,"State Senate District 9 (2016), Arizona",8053.0,6085.0,1109.0,100.0,457.0,302.0,04,009
+04010,"State Senate District 10 (2016), Arizona",7288.0,5899.0,986.0,56.0,147.0,200.0,04,010
+04011,"State Senate District 11 (2016), Arizona",6204.0,5172.0,302.0,324.0,115.0,291.0,04,011
+04012,"State Senate District 12 (2016), Arizona",12834.0,11074.0,1169.0,7.0,184.0,400.0,04,012
+04013,"State Senate District 13 (2016), Arizona",6492.0,5468.0,493.0,109.0,215.0,207.0,04,013
+04014,"State Senate District 14 (2016), Arizona",3495.0,2740.0,237.0,109.0,293.0,116.0,04,014
+04015,"State Senate District 15 (2016), Arizona",16819.0,12950.0,1558.0,27.0,980.0,1304.0,04,015
+04016,"State Senate District 16 (2016), Arizona",4230.0,3195.0,473.0,167.0,148.0,247.0,04,016
+04017,"State Senate District 17 (2016), Arizona",19626.0,16100.0,1972.0,80.0,897.0,577.0,04,017
+04018,"State Senate District 18 (2016), Arizona",15713.0,12394.0,1803.0,30.0,841.0,645.0,04,018
+04019,"State Senate District 19 (2016), Arizona",5656.0,4623.0,679.0,83.0,167.0,104.0,04,019
+04020,"State Senate District 20 (2016), Arizona",8567.0,6955.0,770.0,50.0,450.0,342.0,04,020
+04021,"State Senate District 21 (2016), Arizona",5108.0,4531.0,273.0,31.0,231.0,42.0,04,021
+04022,"State Senate District 22 (2016), Arizona",8608.0,7153.0,812.0,34.0,392.0,217.0,04,022
+04023,"State Senate District 23 (2016), Arizona",9838.0,7635.0,1049.0,101.0,796.0,257.0,04,023
+04024,"State Senate District 24 (2016), Arizona",5044.0,3661.0,780.0,114.0,334.0,155.0,04,024
+04025,"State Senate District 25 (2016), Arizona",4017.0,3106.0,586.0,0.0,162.0,163.0,04,025
+04026,"State Senate District 26 (2016), Arizona",11331.0,6290.0,2683.0,48.0,766.0,1544.0,04,026
+04027,"State Senate District 27 (2016), Arizona",6562.0,5643.0,682.0,79.0,64.0,94.0,04,027
+04028,"State Senate District 28 (2016), Arizona",7319.0,6137.0,704.0,40.0,189.0,249.0,04,028
+04029,"State Senate District 29 (2016), Arizona",5476.0,4597.0,678.0,21.0,100.0,80.0,04,029
+04030,"State Senate District 30 (2016), Arizona",8738.0,7712.0,691.0,27.0,198.0,110.0,04,030
+05013,"State Senate District 13 (2016), Arkansas",417.0,268.0,24.0,69.0,56.0,0.0,05,013
+05014,"State Senate District 14 (2016), Arkansas",247.0,189.0,29.0,5.0,24.0,0.0,05,014
+05015,"State Senate District 15 (2016), Arkansas",670.0,609.0,5.0,56.0,0.0,0.0,05,015
+05016,"State Senate District 16 (2016), Arkansas",693.0,577.0,7.0,12.0,48.0,49.0,05,016
+05017,"State Senate District 17 (2016), Arkansas",328.0,282.0,0.0,19.0,0.0,27.0,05,017
+05018,"State Senate District 18 (2016), Arkansas",434.0,424.0,0.0,10.0,0.0,0.0,05,018
+05019,"State Senate District 19 (2016), Arkansas",358.0,225.0,32.0,30.0,51.0,20.0,05,019
+05020,"State Senate District 20 (2016), Arkansas",135.0,123.0,0.0,0.0,0.0,12.0,05,020
+05021,"State Senate District 21 (2016), Arkansas",1173.0,741.0,199.0,2.0,10.0,221.0,05,021
+05022,"State Senate District 22 (2016), Arkansas",260.0,192.0,45.0,7.0,16.0,0.0,05,022
+05023,"State Senate District 23 (2016), Arkansas",192.0,167.0,2.0,23.0,0.0,0.0,05,023
+05024,"State Senate District 24 (2016), Arkansas",449.0,417.0,0.0,11.0,0.0,21.0,05,024
+05025,"State Senate District 25 (2016), Arkansas",435.0,390.0,21.0,17.0,7.0,0.0,05,025
+05026,"State Senate District 26 (2016), Arkansas",94.0,81.0,4.0,0.0,9.0,0.0,05,026
+05027,"State Senate District 27 (2016), Arkansas",361.0,221.0,21.0,85.0,18.0,16.0,05,027
+05028,"State Senate District 28 (2016), Arkansas",458.0,270.0,58.0,29.0,27.0,74.0,05,028
+05029,"State Senate District 29 (2016), Arkansas",656.0,521.0,114.0,21.0,0.0,0.0,05,029
+05030,"State Senate District 30 (2016), Arkansas",634.0,542.0,46.0,0.0,46.0,0.0,05,030
+05031,"State Senate District 31 (2016), Arkansas",1185.0,1083.0,52.0,8.0,21.0,21.0,05,031
+05032,"State Senate District 32 (2016), Arkansas",3964.0,3248.0,405.0,94.0,153.0,64.0,05,032
+05033,"State Senate District 33 (2016), Arkansas",1892.0,1603.0,32.0,89.0,159.0,9.0,05,033
+05034,"State Senate District 34 (2016), Arkansas",1134.0,1050.0,22.0,19.0,19.0,24.0,05,034
+05035,"State Senate District 35 (2016), Arkansas",1475.0,1003.0,214.0,105.0,75.0,78.0,05,035
+05001,"State Senate District 1 (2016), Arkansas",6621.0,4632.0,680.0,131.0,569.0,609.0,05,001
+05002,"State Senate District 2 (2016), Arkansas",1684.0,1495.0,105.0,33.0,30.0,21.0,05,002
+05003,"State Senate District 3 (2016), Arkansas",1390.0,1137.0,103.0,11.0,0.0,139.0,05,003
+05004,"State Senate District 4 (2016), Arkansas",2752.0,2202.0,137.0,59.0,180.0,174.0,05,004
+05005,"State Senate District 5 (2016), Arkansas",473.0,415.0,5.0,0.0,0.0,53.0,05,005
+05006,"State Senate District 6 (2016), Arkansas",1101.0,998.0,20.0,0.0,0.0,83.0,05,006
+05007,"State Senate District 7 (2016), Arkansas",1984.0,1830.0,114.0,6.0,34.0,0.0,05,007
+05008,"State Senate District 8 (2016), Arkansas",3397.0,2430.0,500.0,179.0,188.0,100.0,05,008
+05009,"State Senate District 9 (2016), Arkansas",3475.0,3156.0,154.0,155.0,0.0,10.0,05,009
+05010,"State Senate District 10 (2016), Arkansas",398.0,337.0,0.0,0.0,58.0,3.0,05,010
+05011,"State Senate District 11 (2016), Arkansas",294.0,273.0,14.0,7.0,0.0,0.0,05,011
+05012,"State Senate District 12 (2016), Arkansas",606.0,530.0,53.0,6.0,0.0,17.0,05,012
+06031,"State Senate District 31 (2016), California",78606.0,67443.0,4621.0,4079.0,845.0,1618.0,06,031
+06032,"State Senate District 32 (2016), California",148865.0,134657.0,8713.0,2434.0,1049.0,2012.0,06,032
+06033,"State Senate District 33 (2016), California",61602.0,54656.0,4897.0,863.0,374.0,812.0,06,033
+06034,"State Senate District 34 (2016), California",208408.0,186249.0,14938.0,3394.0,1424.0,2403.0,06,034
+06035,"State Senate District 35 (2016), California",115274.0,101296.0,9747.0,832.0,1293.0,2106.0,06,035
+06036,"State Senate District 36 (2016), California",75078.0,61730.0,7829.0,2057.0,1445.0,2017.0,06,036
+06037,"State Senate District 37 (2016), California",200312.0,162383.0,19938.0,6985.0,3421.0,7585.0,06,037
+06038,"State Senate District 38 (2016), California",75712.0,64680.0,7642.0,1092.0,911.0,1387.0,06,038
+06039,"State Senate District 39 (2016), California",159500.0,125835.0,20485.0,3434.0,3758.0,5988.0,06,039
+06040,"State Senate District 40 (2016), California",117704.0,107221.0,7751.0,707.0,650.0,1375.0,06,040
+06001,"State Senate District 1 (2016), California",43199.0,35668.0,2775.0,3173.0,639.0,944.0,06,001
+06002,"State Senate District 2 (2016), California",35869.0,30220.0,2577.0,2080.0,540.0,452.0,06,002
+06003,"State Senate District 3 (2016), California",114818.0,92504.0,9945.0,7660.0,1400.0,3309.0,06,003
+06004,"State Senate District 4 (2016), California",64405.0,54077.0,5784.0,2970.0,439.0,1135.0,06,004
+06005,"State Senate District 5 (2016), California",126367.0,107257.0,10504.0,5764.0,595.0,2247.0,06,005
+06006,"State Senate District 6 (2016), California",188496.0,159584.0,18874.0,5868.0,2071.0,2099.0,06,006
+06007,"State Senate District 7 (2016), California",174050.0,146516.0,11856.0,8819.0,2437.0,4422.0,06,007
+06008,"State Senate District 8 (2016), California",87724.0,74662.0,7804.0,2197.0,976.0,2085.0,06,008
+06009,"State Senate District 9 (2016), California",205161.0,173021.0,14358.0,9286.0,3074.0,5422.0,06,009
+06010,"State Senate District 10 (2016), California",434522.0,373346.0,29844.0,11013.0,7278.0,13041.0,06,010
+06011,"State Senate District 11 (2016), California",367034.0,328871.0,16962.0,10528.0,4506.0,6167.0,06,011
+06012,"State Senate District 12 (2016), California",45793.0,40037.0,2478.0,2158.0,284.0,836.0,06,012
+06013,"State Senate District 13 (2016), California",263448.0,214976.0,20283.0,10056.0,7087.0,11046.0,06,013
+06014,"State Senate District 14 (2016), California",41983.0,36521.0,3856.0,706.0,421.0,479.0,06,014
+06015,"State Senate District 15 (2016), California",323174.0,280641.0,25709.0,5240.0,3543.0,8041.0,06,015
+06016,"State Senate District 16 (2016), California",44472.0,36903.0,4297.0,1189.0,1075.0,1008.0,06,016
+06017,"State Senate District 17 (2016), California",73662.0,60150.0,6410.0,3916.0,1081.0,2105.0,06,017
+06018,"State Senate District 18 (2016), California",82689.0,73021.0,7321.0,666.0,579.0,1102.0,06,018
+06019,"State Senate District 19 (2016), California",54078.0,42168.0,6543.0,3310.0,637.0,1420.0,06,019
+06020,"State Senate District 20 (2016), California",63099.0,54184.0,4574.0,3269.0,361.0,711.0,06,020
+06021,"State Senate District 21 (2016), California",48859.0,42715.0,4059.0,664.0,417.0,1004.0,06,021
+06022,"State Senate District 22 (2016), California",323018.0,292805.0,19155.0,2138.0,1608.0,7312.0,06,022
+06023,"State Senate District 23 (2016), California",65892.0,55898.0,4383.0,3444.0,770.0,1397.0,06,023
+06024,"State Senate District 24 (2016), California",160578.0,139780.0,15401.0,1516.0,1423.0,2458.0,06,024
+06025,"State Senate District 25 (2016), California",138214.0,118073.0,12951.0,2146.0,1396.0,3648.0,06,025
+06026,"State Senate District 26 (2016), California",141089.0,108912.0,19052.0,4344.0,3492.0,5289.0,06,026
+06027,"State Senate District 27 (2016), California",116436.0,102224.0,7750.0,2135.0,2019.0,2308.0,06,027
+06028,"State Senate District 28 (2016), California",52942.0,45351.0,3960.0,2193.0,486.0,952.0,06,028
+06029,"State Senate District 29 (2016), California",271153.0,236802.0,18374.0,8264.0,1776.0,5937.0,06,029
+06030,"State Senate District 30 (2016), California",61365.0,47208.0,8089.0,1467.0,1576.0,3025.0,06,030
+08001,"State Senate District 1 (2016), Colorado",847.0,758.0,41.0,24.0,12.0,12.0,08,001
+08002,"State Senate District 2 (2016), Colorado",2210.0,1314.0,176.0,122.0,425.0,173.0,08,002
+08003,"State Senate District 3 (2016), Colorado",1220.0,981.0,109.0,33.0,60.0,37.0,08,003
+08004,"State Senate District 4 (2016), Colorado",3713.0,3267.0,192.0,84.0,140.0,30.0,08,004
+08005,"State Senate District 5 (2016), Colorado",1253.0,900.0,39.0,70.0,75.0,169.0,08,005
+08006,"State Senate District 6 (2016), Colorado",907.0,773.0,88.0,10.0,20.0,16.0,08,006
+08007,"State Senate District 7 (2016), Colorado",1067.0,854.0,103.0,35.0,59.0,16.0,08,007
+08008,"State Senate District 8 (2016), Colorado",1169.0,909.0,69.0,105.0,61.0,25.0,08,008
+08009,"State Senate District 9 (2016), Colorado",4491.0,3788.0,311.0,93.0,178.0,121.0,08,009
+08010,"State Senate District 10 (2016), Colorado",4211.0,3110.0,592.0,165.0,207.0,137.0,08,010
+08011,"State Senate District 11 (2016), Colorado",3596.0,2648.0,369.0,43.0,374.0,162.0,08,011
+08012,"State Senate District 12 (2016), Colorado",4728.0,3569.0,649.0,83.0,197.0,230.0,08,012
+08013,"State Senate District 13 (2016), Colorado",1879.0,1451.0,92.0,268.0,68.0,0.0,08,013
+08014,"State Senate District 14 (2016), Colorado",4880.0,3196.0,734.0,372.0,226.0,352.0,08,014
+08015,"State Senate District 15 (2016), Colorado",1271.0,1008.0,171.0,11.0,81.0,0.0,08,015
+08016,"State Senate District 16 (2016), Colorado",5964.0,4873.0,243.0,190.0,244.0,414.0,08,016
+08017,"State Senate District 17 (2016), Colorado",5616.0,4781.0,265.0,173.0,246.0,151.0,08,017
+08018,"State Senate District 18 (2016), Colorado",6288.0,4283.0,592.0,302.0,495.0,616.0,08,018
+08019,"State Senate District 19 (2016), Colorado",4582.0,3857.0,381.0,230.0,62.0,52.0,08,019
+08020,"State Senate District 20 (2016), Colorado",3809.0,3053.0,408.0,105.0,124.0,119.0,08,020
+08021,"State Senate District 21 (2016), Colorado",4421.0,3889.0,292.0,130.0,59.0,51.0,08,021
+08022,"State Senate District 22 (2016), Colorado",4809.0,4075.0,252.0,218.0,119.0,145.0,08,022
+08023,"State Senate District 23 (2016), Colorado",6632.0,5290.0,220.0,566.0,428.0,128.0,08,023
+08024,"State Senate District 24 (2016), Colorado",7431.0,5776.0,1209.0,265.0,89.0,92.0,08,024
+08025,"State Senate District 25 (2016), Colorado",7039.0,5370.0,842.0,335.0,182.0,310.0,08,025
+08026,"State Senate District 26 (2016), Colorado",6604.0,4837.0,522.0,246.0,542.0,457.0,08,026
+08027,"State Senate District 27 (2016), Colorado",10618.0,8730.0,1083.0,254.0,149.0,402.0,08,027
+08028,"State Senate District 28 (2016), Colorado",10624.0,8930.0,1029.0,331.0,268.0,66.0,08,028
+08029,"State Senate District 29 (2016), Colorado",7199.0,5667.0,621.0,437.0,161.0,313.0,08,029
+08030,"State Senate District 30 (2016), Colorado",10366.0,7937.0,781.0,471.0,690.0,487.0,08,030
+08031,"State Senate District 31 (2016), Colorado",6655.0,4190.0,676.0,766.0,563.0,460.0,08,031
+08032,"State Senate District 32 (2016), Colorado",7103.0,5202.0,899.0,350.0,222.0,430.0,08,032
+08033,"State Senate District 33 (2016), Colorado",5807.0,4479.0,490.0,575.0,160.0,103.0,08,033
+08034,"State Senate District 34 (2016), Colorado",3323.0,2543.0,320.0,260.0,153.0,47.0,08,034
+08035,"State Senate District 35 (2016), Colorado",988.0,851.0,85.0,18.0,15.0,19.0,08,035
+09034,"State Senate District 34 (2016), Connecticut",4262.0,3942.0,186.0,26.0,80.0,28.0,09,034
+09035,"State Senate District 35 (2016), Connecticut",2693.0,1918.0,181.0,357.0,110.0,127.0,09,035
+09036,"State Senate District 36 (2016), Connecticut",6660.0,5471.0,584.0,10.0,255.0,340.0,09,036
+09001,"State Senate District 1 (2016), Connecticut",3339.0,2535.0,426.0,41.0,140.0,197.0,09,001
+09002,"State Senate District 2 (2016), Connecticut",2931.0,2038.0,296.0,44.0,380.0,173.0,09,002
+09003,"State Senate District 3 (2016), Connecticut",6060.0,5299.0,464.0,111.0,159.0,27.0,09,003
+09004,"State Senate District 4 (2016), Connecticut",9083.0,6068.0,1232.0,232.0,636.0,915.0,09,004
+09005,"State Senate District 5 (2016), Connecticut",7551.0,6310.0,676.0,141.0,270.0,154.0,09,005
+09006,"State Senate District 6 (2016), Connecticut",2898.0,2325.0,237.0,35.0,193.0,108.0,09,006
+09007,"State Senate District 7 (2016), Connecticut",2824.0,2172.0,327.0,19.0,200.0,106.0,09,007
+09008,"State Senate District 8 (2016), Connecticut",4664.0,3714.0,382.0,142.0,110.0,316.0,09,008
+09009,"State Senate District 9 (2016), Connecticut",7746.0,5806.0,724.0,196.0,466.0,554.0,09,009
+09010,"State Senate District 10 (2016), Connecticut",3744.0,2426.0,512.0,29.0,193.0,584.0,09,010
+09011,"State Senate District 11 (2016), Connecticut",5664.0,3930.0,562.0,110.0,466.0,596.0,09,011
+09012,"State Senate District 12 (2016), Connecticut",2744.0,2412.0,165.0,75.0,92.0,0.0,09,012
+09013,"State Senate District 13 (2016), Connecticut",3115.0,2899.0,157.0,0.0,59.0,0.0,09,013
+09014,"State Senate District 14 (2016), Connecticut",4865.0,4253.0,150.0,82.0,246.0,134.0,09,014
+09015,"State Senate District 15 (2016), Connecticut",2807.0,2512.0,122.0,0.0,51.0,122.0,09,015
+09016,"State Senate District 16 (2016), Connecticut",2815.0,2615.0,128.0,8.0,0.0,64.0,09,016
+09017,"State Senate District 17 (2016), Connecticut",3837.0,3205.0,236.0,12.0,105.0,279.0,09,017
+09018,"State Senate District 18 (2016), Connecticut",3769.0,3267.0,243.0,45.0,98.0,116.0,09,018
+09019,"State Senate District 19 (2016), Connecticut",4330.0,3710.0,382.0,48.0,51.0,139.0,09,019
+09020,"State Senate District 20 (2016), Connecticut",3259.0,3034.0,165.0,3.0,12.0,45.0,09,020
+09021,"State Senate District 21 (2016), Connecticut",3372.0,2908.0,329.0,31.0,72.0,32.0,09,021
+09022,"State Senate District 22 (2016), Connecticut",4261.0,3541.0,210.0,70.0,291.0,149.0,09,022
+09023,"State Senate District 23 (2016), Connecticut",3351.0,2599.0,239.0,57.0,217.0,239.0,09,023
+09024,"State Senate District 24 (2016), Connecticut",5694.0,5030.0,277.0,12.0,146.0,229.0,09,024
+09025,"State Senate District 25 (2016), Connecticut",5629.0,5039.0,230.0,35.0,101.0,224.0,09,025
+09026,"State Senate District 26 (2016), Connecticut",5329.0,4505.0,445.0,0.0,185.0,194.0,09,026
+09027,"State Senate District 27 (2016), Connecticut",9526.0,6907.0,1093.0,200.0,677.0,649.0,09,027
+09028,"State Senate District 28 (2016), Connecticut",3785.0,3087.0,269.0,34.0,277.0,118.0,09,028
+09029,"State Senate District 29 (2016), Connecticut",3770.0,2572.0,95.0,781.0,117.0,205.0,09,029
+09030,"State Senate District 30 (2016), Connecticut",2547.0,1986.0,154.0,118.0,69.0,220.0,09,030
+09031,"State Senate District 31 (2016), Connecticut",1655.0,1254.0,90.0,50.0,236.0,25.0,09,031
+09032,"State Senate District 32 (2016), Connecticut",2316.0,1827.0,193.0,195.0,96.0,5.0,09,032
+09033,"State Senate District 33 (2016), Connecticut",1977.0,1779.0,44.0,20.0,109.0,25.0,09,033
+10020,"State Senate District 20 (2016), Delaware",451.0,329.0,40.0,15.0,67.0,0.0,10,020
+10021,"State Senate District 21 (2016), Delaware",379.0,336.0,0.0,10.0,28.0,5.0,10,021
+10001,"State Senate District 1 (2016), Delaware",1752.0,1331.0,157.0,53.0,124.0,87.0,10,001
+10002,"State Senate District 2 (2016), Delaware",608.0,540.0,42.0,0.0,26.0,0.0,10,002
+10003,"State Senate District 3 (2016), Delaware",532.0,396.0,54.0,4.0,78.0,0.0,10,003
+10004,"State Senate District 4 (2016), Delaware",4482.0,3748.0,194.0,26.0,200.0,314.0,10,004
+10005,"State Senate District 5 (2016), Delaware",3308.0,2432.0,156.0,15.0,346.0,359.0,10,005
+10006,"State Senate District 6 (2016), Delaware",868.0,649.0,78.0,53.0,83.0,5.0,10,006
+10007,"State Senate District 7 (2016), Delaware",1030.0,825.0,184.0,0.0,21.0,0.0,10,007
+10008,"State Senate District 8 (2016), Delaware",3969.0,2833.0,562.0,17.0,180.0,377.0,10,008
+10009,"State Senate District 9 (2016), Delaware",1908.0,1560.0,165.0,0.0,83.0,100.0,10,009
+10010,"State Senate District 10 (2016), Delaware",3509.0,3220.0,120.0,0.0,87.0,82.0,10,010
+10011,"State Senate District 11 (2016), Delaware",2647.0,2325.0,191.0,0.0,48.0,83.0,10,011
+10012,"State Senate District 12 (2016), Delaware",2421.0,1685.0,418.0,0.0,83.0,235.0,10,012
+10013,"State Senate District 13 (2016), Delaware",3229.0,2684.0,228.0,0.0,163.0,154.0,10,013
+10014,"State Senate District 14 (2016), Delaware",620.0,530.0,44.0,15.0,31.0,0.0,10,014
+10015,"State Senate District 15 (2016), Delaware",677.0,582.0,58.0,0.0,37.0,0.0,10,015
+10016,"State Senate District 16 (2016), Delaware",1197.0,1126.0,0.0,0.0,61.0,10.0,10,016
+10017,"State Senate District 17 (2016), Delaware",1404.0,1092.0,141.0,78.0,22.0,71.0,10,017
+10018,"State Senate District 18 (2016), Delaware",523.0,501.0,0.0,0.0,1.0,21.0,10,018
+10019,"State Senate District 19 (2016), Delaware",466.0,466.0,0.0,0.0,0.0,0.0,10,019
+11001,"Ward 1 (2016), District of Columbia",3807.0,2628.0,588.0,0.0,483.0,108.0,11,001
+11002,"Ward 2 (2016), District of Columbia",7546.0,4494.0,1208.0,0.0,1227.0,617.0,11,002
+11003,"Ward 3 (2016), District of Columbia",5629.0,3871.0,447.0,0.0,785.0,526.0,11,003
+11004,"Ward 4 (2016), District of Columbia",1906.0,1326.0,329.0,0.0,203.0,48.0,11,004
+11005,"Ward 5 (2016), District of Columbia",1989.0,1427.0,318.0,0.0,148.0,96.0,11,005
+11006,"Ward 6 (2016), District of Columbia",3851.0,2660.0,570.0,0.0,538.0,83.0,11,006
+11007,"Ward 7 (2016), District of Columbia",400.0,189.0,176.0,0.0,35.0,0.0,11,007
+11008,"Ward 8 (2016), District of Columbia",290.0,156.0,95.0,0.0,29.0,10.0,11,008
+12001,"State Senate District 1 (2016), Florida",13328.0,11352.0,721.0,245.0,620.0,390.0,12,001
+12002,"State Senate District 2 (2016), Florida",9758.0,8182.0,567.0,409.0,414.0,186.0,12,002
+12003,"State Senate District 3 (2016), Florida",10384.0,7290.0,1682.0,369.0,338.0,705.0,12,003
+12004,"State Senate District 4 (2016), Florida",24714.0,19681.0,2416.0,485.0,1112.0,1020.0,12,004
+12005,"State Senate District 5 (2016), Florida",8002.0,7176.0,181.0,313.0,244.0,88.0,12,005
+12006,"State Senate District 6 (2016), Florida",17691.0,14598.0,2068.0,219.0,397.0,409.0,12,006
+12007,"State Senate District 7 (2016), Florida",12564.0,10976.0,285.0,410.0,529.0,364.0,12,007
+12008,"State Senate District 8 (2016), Florida",17849.0,12245.0,2493.0,1210.0,563.0,1338.0,12,008
+12009,"State Senate District 9 (2016), Florida",19760.0,16701.0,1029.0,899.0,561.0,570.0,12,009
+12010,"State Senate District 10 (2016), Florida",8069.0,7200.0,357.0,228.0,116.0,168.0,12,010
+12011,"State Senate District 11 (2016), Florida",20316.0,17113.0,1687.0,389.0,599.0,528.0,12,011
+12012,"State Senate District 12 (2016), Florida",6337.0,5469.0,142.0,161.0,363.0,202.0,12,012
+12013,"State Senate District 13 (2016), Florida",24657.0,20627.0,1793.0,1159.0,361.0,717.0,12,013
+12014,"State Senate District 14 (2016), Florida",8463.0,7301.0,309.0,307.0,256.0,290.0,12,014
+12015,"State Senate District 15 (2016), Florida",29607.0,24956.0,1445.0,591.0,1412.0,1203.0,12,015
+12016,"State Senate District 16 (2016), Florida",11256.0,9214.0,1271.0,280.0,393.0,98.0,12,016
+12017,"State Senate District 17 (2016), Florida",11624.0,9674.0,525.0,152.0,657.0,616.0,12,017
+12018,"State Senate District 18 (2016), Florida",19237.0,15747.0,1694.0,367.0,628.0,801.0,12,018
+12019,"State Senate District 19 (2016), Florida",14344.0,11820.0,1090.0,260.0,652.0,522.0,12,019
+12020,"State Senate District 20 (2016), Florida",24018.0,18984.0,1809.0,864.0,1038.0,1323.0,12,020
+12021,"State Senate District 21 (2016), Florida",11614.0,9675.0,712.0,487.0,436.0,304.0,12,021
+12022,"State Senate District 22 (2016), Florida",10240.0,8893.0,267.0,750.0,295.0,35.0,12,022
+12023,"State Senate District 23 (2016), Florida",7896.0,6536.0,406.0,461.0,260.0,233.0,12,023
+12024,"State Senate District 24 (2016), Florida",20291.0,17698.0,1344.0,338.0,541.0,370.0,12,024
+12025,"State Senate District 25 (2016), Florida",8030.0,6848.0,269.0,632.0,220.0,61.0,12,025
+12026,"State Senate District 26 (2016), Florida",5868.0,5261.0,62.0,204.0,241.0,100.0,12,026
+12027,"State Senate District 27 (2016), Florida",8556.0,7688.0,421.0,214.0,198.0,35.0,12,027
+12028,"State Senate District 28 (2016), Florida",6755.0,5251.0,399.0,396.0,340.0,369.0,12,028
+12029,"State Senate District 29 (2016), Florida",18792.0,15981.0,1884.0,389.0,284.0,254.0,12,029
+12030,"State Senate District 30 (2016), Florida",13771.0,11128.0,1514.0,164.0,560.0,405.0,12,030
+12031,"State Senate District 31 (2016), Florida",11215.0,9368.0,938.0,270.0,305.0,334.0,12,031
+12032,"State Senate District 32 (2016), Florida",25487.0,21222.0,2169.0,325.0,925.0,846.0,12,032
+12033,"State Senate District 33 (2016), Florida",12244.0,10094.0,1112.0,296.0,177.0,565.0,12,033
+12034,"State Senate District 34 (2016), Florida",10056.0,8661.0,772.0,123.0,215.0,285.0,12,034
+12035,"State Senate District 35 (2016), Florida",14752.0,13291.0,987.0,277.0,53.0,144.0,12,035
+12036,"State Senate District 36 (2016), Florida",4780.0,3620.0,415.0,311.0,94.0,340.0,12,036
+12037,"State Senate District 37 (2016), Florida",9016.0,7031.0,932.0,232.0,471.0,350.0,12,037
+12038,"State Senate District 38 (2016), Florida",7401.0,6211.0,627.0,55.0,190.0,318.0,12,038
+12039,"State Senate District 39 (2016), Florida",7022.0,5619.0,771.0,100.0,192.0,340.0,12,039
+12040,"State Senate District 40 (2016), Florida",12374.0,11404.0,453.0,127.0,252.0,138.0,12,040
+13037,"State Senate District 37 (2016), Georgia",7761.0,7016.0,379.0,69.0,171.0,126.0,13,037
+13038,"State Senate District 38 (2016), Georgia",4422.0,3057.0,422.0,309.0,442.0,192.0,13,038
+13039,"State Senate District 39 (2016), Georgia",8923.0,4517.0,1593.0,562.0,898.0,1353.0,13,039
+13040,"State Senate District 40 (2016), Georgia",18513.0,13514.0,1357.0,791.0,1143.0,1708.0,13,040
+13041,"State Senate District 41 (2016), Georgia",21571.0,18060.0,1812.0,628.0,247.0,824.0,13,041
+13042,"State Senate District 42 (2016), Georgia",12571.0,8425.0,1512.0,1079.0,915.0,640.0,13,042
+13043,"State Senate District 43 (2016), Georgia",2481.0,2196.0,24.0,98.0,73.0,90.0,13,043
+13044,"State Senate District 44 (2016), Georgia",8514.0,7881.0,307.0,230.0,36.0,60.0,13,044
+13045,"State Senate District 45 (2016), Georgia",20889.0,18070.0,1255.0,483.0,563.0,518.0,13,045
+13046,"State Senate District 46 (2016), Georgia",6506.0,4726.0,345.0,984.0,137.0,314.0,13,046
+13047,"State Senate District 47 (2016), Georgia",4761.0,4077.0,220.0,227.0,96.0,141.0,13,047
+13048,"State Senate District 48 (2016), Georgia",46971.0,39700.0,2665.0,1525.0,1521.0,1560.0,13,048
+13049,"State Senate District 49 (2016), Georgia",3303.0,3091.0,72.0,42.0,36.0,62.0,13,049
+13050,"State Senate District 50 (2016), Georgia",2134.0,2030.0,32.0,18.0,34.0,20.0,13,050
+13051,"State Senate District 51 (2016), Georgia",895.0,792.0,0.0,55.0,31.0,17.0,13,051
+13052,"State Senate District 52 (2016), Georgia",2503.0,2201.0,117.0,142.0,42.0,1.0,13,052
+13053,"State Senate District 53 (2016), Georgia",1728.0,1406.0,197.0,31.0,56.0,38.0,13,053
+13054,"State Senate District 54 (2016), Georgia",1537.0,1301.0,109.0,59.0,32.0,36.0,13,054
+13055,"State Senate District 55 (2016), Georgia",4875.0,4293.0,243.0,77.0,148.0,114.0,13,055
+13001,"State Senate District 1 (2016), Georgia",4611.0,3889.0,401.0,45.0,157.0,119.0,13,001
+13002,"State Senate District 2 (2016), Georgia",4086.0,2860.0,275.0,167.0,551.0,233.0,13,002
+13003,"State Senate District 3 (2016), Georgia",1987.0,1746.0,94.0,56.0,60.0,31.0,13,003
+13004,"State Senate District 4 (2016), Georgia",2044.0,1714.0,98.0,175.0,20.0,37.0,13,004
+13005,"State Senate District 5 (2016), Georgia",20269.0,17903.0,1255.0,494.0,377.0,240.0,13,005
+13006,"State Senate District 6 (2016), Georgia",14086.0,9571.0,1621.0,795.0,965.0,1134.0,13,006
+13007,"State Senate District 7 (2016), Georgia",1130.0,891.0,70.0,0.0,169.0,0.0,13,007
+13008,"State Senate District 8 (2016), Georgia",2383.0,1773.0,35.0,36.0,261.0,278.0,13,008
+13009,"State Senate District 9 (2016), Georgia",15480.0,14365.0,438.0,201.0,353.0,123.0,13,009
+13010,"State Senate District 10 (2016), Georgia",5842.0,4871.0,156.0,482.0,111.0,222.0,13,010
+13056,"State Senate District 56 (2016), Georgia",13051.0,10256.0,684.0,795.0,746.0,570.0,13,056
+13011,"State Senate District 11 (2016), Georgia",1168.0,948.0,64.0,133.0,1.0,22.0,13,011
+13012,"State Senate District 12 (2016), Georgia",1375.0,1021.0,16.0,118.0,95.0,125.0,13,012
+13013,"State Senate District 13 (2016), Georgia",1876.0,1495.0,171.0,17.0,76.0,117.0,13,013
+13014,"State Senate District 14 (2016), Georgia",3160.0,2836.0,220.0,23.0,46.0,35.0,13,014
+13015,"State Senate District 15 (2016), Georgia",1851.0,1286.0,93.0,45.0,376.0,51.0,13,015
+13016,"State Senate District 16 (2016), Georgia",4367.0,3624.0,205.0,161.0,129.0,248.0,13,016
+13017,"State Senate District 17 (2016), Georgia",2615.0,2385.0,0.0,167.0,23.0,40.0,13,017
+13018,"State Senate District 18 (2016), Georgia",3100.0,2646.0,104.0,225.0,77.0,48.0,13,018
+13019,"State Senate District 19 (2016), Georgia",1205.0,899.0,238.0,34.0,34.0,0.0,13,019
+13020,"State Senate District 20 (2016), Georgia",3790.0,3239.0,59.0,77.0,34.0,381.0,13,020
+13021,"State Senate District 21 (2016), Georgia",13116.0,10480.0,1105.0,258.0,604.0,669.0,13,021
+13022,"State Senate District 22 (2016), Georgia",2610.0,1993.0,214.0,193.0,142.0,68.0,13,022
+13023,"State Senate District 23 (2016), Georgia",1938.0,1433.0,34.0,357.0,62.0,52.0,13,023
+13024,"State Senate District 24 (2016), Georgia",5583.0,5294.0,18.0,42.0,37.0,192.0,13,024
+13025,"State Senate District 25 (2016), Georgia",2130.0,1654.0,194.0,139.0,113.0,30.0,13,025
+13026,"State Senate District 26 (2016), Georgia",1298.0,924.0,196.0,73.0,41.0,64.0,13,026
+13027,"State Senate District 27 (2016), Georgia",21976.0,18088.0,850.0,1778.0,741.0,519.0,13,027
+13028,"State Senate District 28 (2016), Georgia",3139.0,2598.0,128.0,103.0,128.0,182.0,13,028
+13029,"State Senate District 29 (2016), Georgia",4930.0,3904.0,287.0,62.0,485.0,192.0,13,029
+13030,"State Senate District 30 (2016), Georgia",2109.0,1849.0,184.0,51.0,25.0,0.0,13,030
+13031,"State Senate District 31 (2016), Georgia",1351.0,1279.0,44.0,0.0,28.0,0.0,13,031
+13032,"State Senate District 32 (2016), Georgia",15797.0,12268.0,1006.0,441.0,1010.0,1072.0,13,032
+13033,"State Senate District 33 (2016), Georgia",4145.0,3400.0,266.0,196.0,232.0,51.0,13,033
+13034,"State Senate District 34 (2016), Georgia",7454.0,6445.0,652.0,314.0,9.0,34.0,13,034
+13035,"State Senate District 35 (2016), Georgia",1840.0,1567.0,190.0,82.0,1.0,0.0,13,035
+13036,"State Senate District 36 (2016), Georgia",5067.0,2723.0,1000.0,609.0,359.0,376.0,13,036
+15012,"State Senate District 12 (2016), Hawaii",29215.0,24721.0,2685.0,45.0,594.0,1170.0,15,012
+15013,"State Senate District 13 (2016), Hawaii",32617.0,29881.0,2244.0,110.0,105.0,277.0,15,013
+15014,"State Senate District 14 (2016), Hawaii",31204.0,28936.0,1598.0,29.0,154.0,487.0,15,014
+15015,"State Senate District 15 (2016), Hawaii",33769.0,30452.0,2212.0,20.0,516.0,569.0,15,015
+15016,"State Senate District 16 (2016), Hawaii",28062.0,26122.0,1462.0,22.0,311.0,145.0,15,016
+15017,"State Senate District 17 (2016), Hawaii",33862.0,31195.0,2008.0,20.0,143.0,496.0,15,017
+15018,"State Senate District 18 (2016), Hawaii",28001.0,26273.0,1428.0,11.0,209.0,80.0,15,018
+15019,"State Senate District 19 (2016), Hawaii",26068.0,23568.0,1823.0,3.0,196.0,478.0,15,019
+15020,"State Senate District 20 (2016), Hawaii",22063.0,20158.0,1503.0,12.0,163.0,227.0,15,020
+15021,"State Senate District 21 (2016), Hawaii",7093.0,6354.0,617.0,0.0,53.0,69.0,15,021
+15022,"State Senate District 22 (2016), Hawaii",22651.0,21178.0,817.0,218.0,251.0,187.0,15,022
+15023,"State Senate District 23 (2016), Hawaii",8679.0,7870.0,405.0,0.0,184.0,220.0,15,023
+15024,"State Senate District 24 (2016), Hawaii",18433.0,17450.0,577.0,0.0,207.0,199.0,15,024
+15025,"State Senate District 25 (2016), Hawaii",12468.0,11518.0,712.0,5.0,152.0,81.0,15,025
+15001,"State Senate District 1 (2016), Hawaii",15450.0,14533.0,660.0,63.0,89.0,105.0,15,001
+15002,"State Senate District 2 (2016), Hawaii",8610.0,8382.0,135.0,0.0,34.0,59.0,15,002
+15003,"State Senate District 3 (2016), Hawaii",9107.0,8061.0,698.0,31.0,195.0,122.0,15,003
+15004,"State Senate District 4 (2016), Hawaii",10141.0,9211.0,740.0,117.0,73.0,0.0,15,004
+15005,"State Senate District 5 (2016), Hawaii",25487.0,23616.0,1212.0,169.0,52.0,438.0,15,005
+15006,"State Senate District 6 (2016), Hawaii",12134.0,10812.0,557.0,45.0,223.0,497.0,15,006
+15007,"State Senate District 7 (2016), Hawaii",9825.0,9379.0,278.0,105.0,7.0,56.0,15,007
+15008,"State Senate District 8 (2016), Hawaii",24570.0,22616.0,1114.0,281.0,130.0,429.0,15,008
+15009,"State Senate District 9 (2016), Hawaii",26380.0,24744.0,1178.0,0.0,347.0,111.0,15,009
+15010,"State Senate District 10 (2016), Hawaii",31184.0,28260.0,2228.0,118.0,210.0,368.0,15,010
+15011,"State Senate District 11 (2016), Hawaii",29984.0,26423.0,2714.0,88.0,247.0,512.0,15,011
+16021,"State Senate District 21 (2016), Idaho",1610.0,1414.0,112.0,18.0,66.0,0.0,16,021
+16022,"State Senate District 22 (2016), Idaho",516.0,376.0,0.0,0.0,123.0,17.0,16,022
+16023,"State Senate District 23 (2016), Idaho",808.0,467.0,27.0,38.0,20.0,256.0,16,023
+16024,"State Senate District 24 (2016), Idaho",1391.0,1139.0,136.0,0.0,116.0,0.0,16,024
+16025,"State Senate District 25 (2016), Idaho",181.0,157.0,0.0,5.0,0.0,19.0,16,025
+16026,"State Senate District 26 (2016), Idaho",327.0,291.0,0.0,36.0,0.0,0.0,16,026
+16027,"State Senate District 27 (2016), Idaho",216.0,204.0,0.0,0.0,0.0,12.0,16,027
+16028,"State Senate District 28 (2016), Idaho",605.0,431.0,106.0,19.0,11.0,38.0,16,028
+16029,"State Senate District 29 (2016), Idaho",540.0,349.0,117.0,18.0,29.0,27.0,16,029
+16030,"State Senate District 30 (2016), Idaho",356.0,305.0,0.0,19.0,0.0,32.0,16,030
+16031,"State Senate District 31 (2016), Idaho",427.0,290.0,11.0,4.0,108.0,14.0,16,031
+16032,"State Senate District 32 (2016), Idaho",81.0,70.0,0.0,1.0,0.0,10.0,16,032
+16033,"State Senate District 33 (2016), Idaho",589.0,443.0,39.0,20.0,38.0,49.0,16,033
+16034,"State Senate District 34 (2016), Idaho",427.0,229.0,109.0,30.0,34.0,25.0,16,034
+16035,"State Senate District 35 (2016), Idaho",84.0,41.0,0.0,37.0,0.0,6.0,16,035
+16001,"State Senate District 1 (2016), Idaho",350.0,305.0,0.0,14.0,29.0,2.0,16,001
+16002,"State Senate District 2 (2016), Idaho",335.0,278.0,0.0,1.0,32.0,24.0,16,002
+16003,"State Senate District 3 (2016), Idaho",293.0,262.0,17.0,0.0,14.0,0.0,16,003
+16004,"State Senate District 4 (2016), Idaho",442.0,394.0,26.0,22.0,0.0,0.0,16,004
+16005,"State Senate District 5 (2016), Idaho",1124.0,609.0,82.0,75.0,180.0,178.0,16,005
+16006,"State Senate District 6 (2016), Idaho",388.0,349.0,0.0,8.0,4.0,27.0,16,006
+16007,"State Senate District 7 (2016), Idaho",158.0,97.0,12.0,32.0,10.0,7.0,16,007
+16008,"State Senate District 8 (2016), Idaho",219.0,175.0,26.0,13.0,5.0,0.0,16,008
+16009,"State Senate District 9 (2016), Idaho",286.0,264.0,11.0,0.0,11.0,0.0,16,009
+16010,"State Senate District 10 (2016), Idaho",378.0,286.0,81.0,11.0,0.0,0.0,16,010
+16011,"State Senate District 11 (2016), Idaho",450.0,343.0,14.0,17.0,76.0,0.0,16,011
+16012,"State Senate District 12 (2016), Idaho",483.0,338.0,114.0,6.0,0.0,25.0,16,012
+16013,"State Senate District 13 (2016), Idaho",355.0,336.0,0.0,19.0,0.0,0.0,16,013
+16014,"State Senate District 14 (2016), Idaho",900.0,817.0,56.0,0.0,0.0,27.0,16,014
+16015,"State Senate District 15 (2016), Idaho",1868.0,1710.0,112.0,0.0,46.0,0.0,16,015
+16016,"State Senate District 16 (2016), Idaho",1289.0,612.0,551.0,1.0,86.0,39.0,16,016
+16017,"State Senate District 17 (2016), Idaho",840.0,459.0,301.0,21.0,50.0,9.0,16,017
+16018,"State Senate District 18 (2016), Idaho",2480.0,1950.0,158.0,0.0,157.0,215.0,16,018
+16019,"State Senate District 19 (2016), Idaho",501.0,405.0,92.0,0.0,4.0,0.0,16,019
+16020,"State Senate District 20 (2016), Idaho",1208.0,1029.0,54.0,113.0,12.0,0.0,16,020
+17007,"State Senate District 7 (2016), Illinois",24292.0,20522.0,2339.0,217.0,571.0,643.0,17,007
+17008,"State Senate District 8 (2016), Illinois",52111.0,45733.0,4727.0,130.0,515.0,1006.0,17,008
+17009,"State Senate District 9 (2016), Illinois",29343.0,23423.0,3184.0,447.0,821.0,1468.0,17,009
+17010,"State Senate District 10 (2016), Illinois",15784.0,14045.0,1197.0,77.0,258.0,207.0,17,010
+17011,"State Senate District 11 (2016), Illinois",4071.0,3475.0,521.0,28.0,40.0,7.0,17,011
+17012,"State Senate District 12 (2016), Illinois",2737.0,2390.0,188.0,82.0,16.0,61.0,17,012
+17013,"State Senate District 13 (2016), Illinois",13952.0,8393.0,2330.0,273.0,1169.0,1787.0,17,013
+17014,"State Senate District 14 (2016), Illinois",2005.0,1749.0,45.0,19.0,129.0,63.0,17,014
+17015,"State Senate District 15 (2016), Illinois",2009.0,1801.0,84.0,21.0,17.0,86.0,17,015
+17016,"State Senate District 16 (2016), Illinois",2524.0,2332.0,141.0,0.0,22.0,29.0,17,016
+17017,"State Senate District 17 (2016), Illinois",847.0,769.0,66.0,0.0,0.0,12.0,17,017
+17018,"State Senate District 18 (2016), Illinois",5326.0,4805.0,133.0,73.0,52.0,263.0,17,018
+17019,"State Senate District 19 (2016), Illinois",4883.0,4655.0,107.0,58.0,1.0,62.0,17,019
+17020,"State Senate District 20 (2016), Illinois",13534.0,11495.0,1503.0,135.0,131.0,270.0,17,020
+17021,"State Senate District 21 (2016), Illinois",24432.0,21213.0,1148.0,796.0,658.0,617.0,17,021
+17022,"State Senate District 22 (2016), Illinois",25172.0,20911.0,2065.0,592.0,608.0,996.0,17,022
+17023,"State Senate District 23 (2016), Illinois",30235.0,26610.0,1789.0,677.0,394.0,765.0,17,023
+17024,"State Senate District 24 (2016), Illinois",21443.0,17816.0,1483.0,772.0,688.0,684.0,17,024
+17025,"State Senate District 25 (2016), Illinois",12681.0,11207.0,413.0,390.0,393.0,278.0,17,025
+17026,"State Senate District 26 (2016), Illinois",17961.0,15724.0,807.0,702.0,460.0,268.0,17,026
+17027,"State Senate District 27 (2016), Illinois",22561.0,18585.0,2479.0,223.0,405.0,869.0,17,027
+17028,"State Senate District 28 (2016), Illinois",30879.0,25195.0,3281.0,538.0,729.0,1136.0,17,028
+17029,"State Senate District 29 (2016), Illinois",20241.0,16208.0,1462.0,655.0,1251.0,665.0,17,029
+17030,"State Senate District 30 (2016), Illinois",21836.0,16974.0,2412.0,751.0,686.0,1013.0,17,030
+17031,"State Senate District 31 (2016), Illinois",12702.0,10936.0,958.0,231.0,230.0,347.0,17,031
+17032,"State Senate District 32 (2016), Illinois",3522.0,3183.0,205.0,21.0,46.0,67.0,17,032
+17033,"State Senate District 33 (2016), Illinois",14157.0,12880.0,404.0,657.0,63.0,153.0,17,033
+17034,"State Senate District 34 (2016), Illinois",5668.0,4807.0,309.0,145.0,275.0,132.0,17,034
+17035,"State Senate District 35 (2016), Illinois",4407.0,3399.0,169.0,153.0,205.0,481.0,17,035
+17036,"State Senate District 36 (2016), Illinois",3816.0,2862.0,454.0,182.0,112.0,206.0,17,036
+17037,"State Senate District 37 (2016), Illinois",5778.0,4531.0,673.0,65.0,292.0,217.0,17,037
+17038,"State Senate District 38 (2016), Illinois",2525.0,2271.0,36.0,128.0,71.0,19.0,17,038
+17039,"State Senate District 39 (2016), Illinois",6340.0,5157.0,549.0,247.0,138.0,249.0,17,039
+17040,"State Senate District 40 (2016), Illinois",1760.0,1543.0,96.0,76.0,12.0,33.0,17,040
+17041,"State Senate District 41 (2016), Illinois",17958.0,15631.0,868.0,826.0,248.0,385.0,17,041
+17042,"State Senate District 42 (2016), Illinois",18714.0,14975.0,1317.0,1224.0,429.0,769.0,17,042
+17043,"State Senate District 43 (2016), Illinois",7835.0,6943.0,393.0,353.0,82.0,64.0,17,043
+17044,"State Senate District 44 (2016), Illinois",3418.0,2510.0,398.0,215.0,132.0,163.0,17,044
+17045,"State Senate District 45 (2016), Illinois",1557.0,1333.0,134.0,56.0,26.0,8.0,17,045
+17046,"State Senate District 46 (2016), Illinois",2835.0,2282.0,155.0,245.0,64.0,89.0,17,046
+17047,"State Senate District 47 (2016), Illinois",2097.0,1571.0,237.0,41.0,35.0,213.0,17,047
+17048,"State Senate District 48 (2016), Illinois",1447.0,1270.0,45.0,44.0,20.0,68.0,17,048
+17049,"State Senate District 49 (2016), Illinois",14884.0,13314.0,267.0,877.0,179.0,247.0,17,049
+17050,"State Senate District 50 (2016), Illinois",3694.0,2795.0,273.0,131.0,248.0,247.0,17,050
+17051,"State Senate District 51 (2016), Illinois",3303.0,2808.0,216.0,102.0,15.0,162.0,17,051
+17052,"State Senate District 52 (2016), Illinois",19484.0,10566.0,3718.0,1600.0,1552.0,2048.0,17,052
+17053,"State Senate District 53 (2016), Illinois",7351.0,5855.0,518.0,572.0,51.0,355.0,17,053
+17054,"State Senate District 54 (2016), Illinois",2022.0,1538.0,224.0,74.0,42.0,144.0,17,054
+17055,"State Senate District 55 (2016), Illinois",1499.0,1036.0,113.0,141.0,20.0,189.0,17,055
+17056,"State Senate District 56 (2016), Illinois",2208.0,1904.0,86.0,26.0,60.0,132.0,17,056
+17057,"State Senate District 57 (2016), Illinois",2397.0,1911.0,179.0,62.0,207.0,38.0,17,057
+17058,"State Senate District 58 (2016), Illinois",2588.0,1886.0,237.0,82.0,244.0,139.0,17,058
+17059,"State Senate District 59 (2016), Illinois",1852.0,1395.0,256.0,19.0,182.0,0.0,17,059
+17001,"State Senate District 1 (2016), Illinois",28273.0,25181.0,1907.0,117.0,280.0,788.0,17,001
+17002,"State Senate District 2 (2016), Illinois",6287.0,5146.0,997.0,34.0,80.0,30.0,17,002
+17003,"State Senate District 3 (2016), Illinois",17770.0,12654.0,2758.0,251.0,1214.0,893.0,17,003
+17004,"State Senate District 4 (2016), Illinois",5390.0,4310.0,861.0,36.0,109.0,74.0,17,004
+17005,"State Senate District 5 (2016), Illinois",13653.0,8333.0,2991.0,679.0,802.0,848.0,17,005
+17006,"State Senate District 6 (2016), Illinois",14479.0,10890.0,2246.0,245.0,776.0,322.0,17,006
+18001,"State Senate District 1 (2016), Indiana",3518.0,2769.0,396.0,23.0,62.0,268.0,18,001
+18002,"State Senate District 2 (2016), Indiana",632.0,485.0,4.0,0.0,143.0,0.0,18,002
+18003,"State Senate District 3 (2016), Indiana",987.0,816.0,102.0,0.0,36.0,33.0,18,003
+18004,"State Senate District 4 (2016), Indiana",1530.0,1227.0,94.0,14.0,87.0,108.0,18,004
+18005,"State Senate District 5 (2016), Indiana",1285.0,992.0,90.0,70.0,95.0,38.0,18,005
+18006,"State Senate District 6 (2016), Indiana",1536.0,1363.0,109.0,8.0,42.0,14.0,18,006
+18007,"State Senate District 7 (2016), Indiana",972.0,720.0,60.0,42.0,89.0,61.0,18,007
+18008,"State Senate District 8 (2016), Indiana",680.0,569.0,22.0,59.0,22.0,8.0,18,008
+18009,"State Senate District 9 (2016), Indiana",1367.0,967.0,207.0,101.0,81.0,11.0,18,009
+18010,"State Senate District 10 (2016), Indiana",2502.0,1632.0,429.0,78.0,124.0,239.0,18,010
+18011,"State Senate District 11 (2016), Indiana",3751.0,3363.0,102.0,80.0,145.0,61.0,18,011
+18012,"State Senate District 12 (2016), Indiana",987.0,854.0,19.0,9.0,11.0,94.0,18,012
+18013,"State Senate District 13 (2016), Indiana",576.0,356.0,88.0,102.0,25.0,5.0,18,013
+18014,"State Senate District 14 (2016), Indiana",3433.0,2514.0,483.0,29.0,196.0,211.0,18,014
+18015,"State Senate District 15 (2016), Indiana",4995.0,4072.0,562.0,85.0,212.0,64.0,18,015
+18016,"State Senate District 16 (2016), Indiana",4374.0,3453.0,546.0,35.0,255.0,85.0,18,016
+18017,"State Senate District 17 (2016), Indiana",812.0,447.0,332.0,0.0,26.0,7.0,18,017
+18018,"State Senate District 18 (2016), Indiana",923.0,822.0,26.0,47.0,0.0,28.0,18,018
+18019,"State Senate District 19 (2016), Indiana",595.0,413.0,59.0,55.0,0.0,68.0,18,019
+18020,"State Senate District 20 (2016), Indiana",5751.0,4691.0,333.0,123.0,447.0,157.0,18,020
+18021,"State Senate District 21 (2016), Indiana",1210.0,866.0,0.0,271.0,21.0,52.0,18,021
+18022,"State Senate District 22 (2016), Indiana",14140.0,6691.0,3296.0,372.0,1182.0,2599.0,18,022
+18023,"State Senate District 23 (2016), Indiana",1088.0,759.0,66.0,252.0,0.0,11.0,18,023
+18024,"State Senate District 24 (2016), Indiana",3385.0,3034.0,224.0,22.0,15.0,90.0,18,024
+18025,"State Senate District 25 (2016), Indiana",1522.0,975.0,137.0,290.0,83.0,37.0,18,025
+18026,"State Senate District 26 (2016), Indiana",686.0,661.0,20.0,5.0,0.0,0.0,18,026
+18027,"State Senate District 27 (2016), Indiana",777.0,562.0,22.0,24.0,28.0,141.0,18,027
+18028,"State Senate District 28 (2016), Indiana",1079.0,1052.0,27.0,0.0,0.0,0.0,18,028
+18029,"State Senate District 29 (2016), Indiana",8742.0,6968.0,427.0,428.0,729.0,190.0,18,029
+18030,"State Senate District 30 (2016), Indiana",4116.0,2943.0,395.0,207.0,466.0,105.0,18,030
+18031,"State Senate District 31 (2016), Indiana",6187.0,5332.0,216.0,95.0,180.0,364.0,18,031
+18032,"State Senate District 32 (2016), Indiana",4957.0,4471.0,247.0,73.0,8.0,158.0,18,032
+18033,"State Senate District 33 (2016), Indiana",2730.0,2047.0,224.0,128.0,119.0,212.0,18,033
+18034,"State Senate District 34 (2016), Indiana",645.0,498.0,32.0,24.0,91.0,0.0,18,034
+18035,"State Senate District 35 (2016), Indiana",2499.0,2126.0,97.0,95.0,62.0,119.0,18,035
+18036,"State Senate District 36 (2016), Indiana",10105.0,8201.0,1091.0,162.0,247.0,404.0,18,036
+18037,"State Senate District 37 (2016), Indiana",1454.0,1122.0,41.0,218.0,29.0,44.0,18,037
+18038,"State Senate District 38 (2016), Indiana",2079.0,1513.0,153.0,114.0,166.0,133.0,18,038
+18039,"State Senate District 39 (2016), Indiana",474.0,410.0,4.0,23.0,37.0,0.0,18,039
+18040,"State Senate District 40 (2016), Indiana",8929.0,4004.0,2164.0,630.0,880.0,1251.0,18,040
+18041,"State Senate District 41 (2016), Indiana",5033.0,3832.0,251.0,111.0,514.0,325.0,18,041
+18042,"State Senate District 42 (2016), Indiana",727.0,612.0,82.0,0.0,22.0,11.0,18,042
+18043,"State Senate District 43 (2016), Indiana",872.0,550.0,122.0,114.0,86.0,0.0,18,043
+18044,"State Senate District 44 (2016), Indiana",4117.0,2897.0,284.0,64.0,238.0,634.0,18,044
+18045,"State Senate District 45 (2016), Indiana",798.0,722.0,61.0,0.0,5.0,10.0,18,045
+18046,"State Senate District 46 (2016), Indiana",1323.0,1091.0,56.0,75.0,32.0,69.0,18,046
+18047,"State Senate District 47 (2016), Indiana",386.0,295.0,0.0,6.0,73.0,12.0,18,047
+18048,"State Senate District 48 (2016), Indiana",973.0,663.0,162.0,33.0,112.0,3.0,18,048
+18049,"State Senate District 49 (2016), Indiana",1030.0,759.0,41.0,39.0,130.0,61.0,18,049
+18050,"State Senate District 50 (2016), Indiana",2638.0,1810.0,407.0,102.0,178.0,141.0,18,050
+19005,"State Senate District 5 (2016), Iowa",587.0,338.0,14.0,33.0,33.0,169.0,19,005
+19006,"State Senate District 6 (2016), Iowa",1883.0,1280.0,364.0,226.0,7.0,6.0,19,006
+19007,"State Senate District 7 (2016), Iowa",2474.0,2073.0,243.0,11.0,103.0,44.0,19,007
+19008,"State Senate District 8 (2016), Iowa",375.0,231.0,0.0,4.0,19.0,121.0,19,008
+19009,"State Senate District 9 (2016), Iowa",446.0,397.0,24.0,24.0,1.0,0.0,19,009
+19010,"State Senate District 10 (2016), Iowa",1108.0,958.0,74.0,66.0,10.0,0.0,19,010
+19011,"State Senate District 11 (2016), Iowa",371.0,292.0,35.0,3.0,11.0,30.0,19,011
+19012,"State Senate District 12 (2016), Iowa",258.0,144.0,5.0,28.0,79.0,2.0,19,012
+19013,"State Senate District 13 (2016), Iowa",443.0,306.0,20.0,66.0,32.0,19.0,19,013
+19014,"State Senate District 14 (2016), Iowa",252.0,214.0,4.0,17.0,9.0,8.0,19,014
+19015,"State Senate District 15 (2016), Iowa",408.0,357.0,17.0,31.0,0.0,3.0,19,015
+19016,"State Senate District 16 (2016), Iowa",2591.0,1848.0,668.0,50.0,3.0,22.0,19,016
+19017,"State Senate District 17 (2016), Iowa",3848.0,3351.0,396.0,9.0,84.0,8.0,19,017
+19018,"State Senate District 18 (2016), Iowa",5339.0,4156.0,414.0,38.0,407.0,324.0,19,018
+19019,"State Senate District 19 (2016), Iowa",1490.0,1262.0,53.0,28.0,147.0,0.0,19,019
+19020,"State Senate District 20 (2016), Iowa",1768.0,1522.0,105.0,53.0,33.0,55.0,19,020
+19021,"State Senate District 21 (2016), Iowa",2911.0,1845.0,476.0,102.0,337.0,151.0,19,021
+19022,"State Senate District 22 (2016), Iowa",4130.0,3305.0,168.0,338.0,167.0,152.0,19,022
+19023,"State Senate District 23 (2016), Iowa",6687.0,3317.0,1851.0,194.0,257.0,1068.0,19,023
+19024,"State Senate District 24 (2016), Iowa",769.0,766.0,0.0,1.0,0.0,2.0,19,024
+19025,"State Senate District 25 (2016), Iowa",325.0,288.0,32.0,5.0,0.0,0.0,19,025
+19026,"State Senate District 26 (2016), Iowa",442.0,341.0,8.0,24.0,63.0,6.0,19,026
+19027,"State Senate District 27 (2016), Iowa",549.0,536.0,0.0,0.0,13.0,0.0,19,027
+19028,"State Senate District 28 (2016), Iowa",479.0,355.0,5.0,0.0,21.0,98.0,19,028
+19029,"State Senate District 29 (2016), Iowa",407.0,332.0,13.0,20.0,3.0,39.0,19,029
+19030,"State Senate District 30 (2016), Iowa",1442.0,1107.0,84.0,94.0,75.0,82.0,19,030
+19031,"State Senate District 31 (2016), Iowa",1188.0,926.0,174.0,68.0,20.0,0.0,19,031
+19032,"State Senate District 32 (2016), Iowa",469.0,367.0,28.0,17.0,18.0,39.0,19,032
+19033,"State Senate District 33 (2016), Iowa",1605.0,1089.0,162.0,37.0,11.0,306.0,19,033
+19034,"State Senate District 34 (2016), Iowa",1801.0,1605.0,76.0,23.0,33.0,64.0,19,034
+19035,"State Senate District 35 (2016), Iowa",1245.0,1032.0,65.0,92.0,56.0,0.0,19,035
+19036,"State Senate District 36 (2016), Iowa",1352.0,907.0,209.0,100.0,69.0,67.0,19,036
+19037,"State Senate District 37 (2016), Iowa",4666.0,3180.0,551.0,82.0,289.0,564.0,19,037
+19038,"State Senate District 38 (2016), Iowa",493.0,169.0,160.0,73.0,38.0,53.0,19,038
+19039,"State Senate District 39 (2016), Iowa",1126.0,1009.0,14.0,0.0,29.0,74.0,19,039
+19040,"State Senate District 40 (2016), Iowa",799.0,636.0,77.0,24.0,62.0,0.0,19,040
+19041,"State Senate District 41 (2016), Iowa",1244.0,1008.0,25.0,5.0,0.0,206.0,19,041
+19042,"State Senate District 42 (2016), Iowa",731.0,653.0,37.0,11.0,26.0,4.0,19,042
+19043,"State Senate District 43 (2016), Iowa",3333.0,1853.0,957.0,152.0,147.0,224.0,19,043
+19044,"State Senate District 44 (2016), Iowa",833.0,614.0,41.0,31.0,127.0,20.0,19,044
+19045,"State Senate District 45 (2016), Iowa",1460.0,1300.0,89.0,13.0,36.0,22.0,19,045
+19046,"State Senate District 46 (2016), Iowa",722.0,557.0,112.0,18.0,27.0,8.0,19,046
+19047,"State Senate District 47 (2016), Iowa",2378.0,1844.0,51.0,0.0,186.0,297.0,19,047
+19048,"State Senate District 48 (2016), Iowa",274.0,266.0,5.0,0.0,0.0,3.0,19,048
+19049,"State Senate District 49 (2016), Iowa",374.0,255.0,6.0,5.0,18.0,90.0,19,049
+19050,"State Senate District 50 (2016), Iowa",907.0,594.0,45.0,9.0,125.0,134.0,19,050
+19001,"State Senate District 1 (2016), Iowa",229.0,182.0,15.0,0.0,0.0,32.0,19,001
+19002,"State Senate District 2 (2016), Iowa",423.0,360.0,0.0,32.0,8.0,23.0,19,002
+19003,"State Senate District 3 (2016), Iowa",540.0,448.0,8.0,2.0,66.0,16.0,19,003
+19004,"State Senate District 4 (2016), Iowa",329.0,258.0,40.0,3.0,16.0,12.0,19,004
+20017,"State Senate District 17 (2016), Kansas",1757.0,1389.0,163.0,43.0,82.0,80.0,20,017
+20018,"State Senate District 18 (2016), Kansas",648.0,417.0,38.0,41.0,80.0,72.0,20,018
+20019,"State Senate District 19 (2016), Kansas",182.0,135.0,0.0,47.0,0.0,0.0,20,019
+20020,"State Senate District 20 (2016), Kansas",1488.0,1263.0,80.0,69.0,6.0,70.0,20,020
+20021,"State Senate District 21 (2016), Kansas",2767.0,2254.0,286.0,85.0,76.0,66.0,20,021
+20022,"State Senate District 22 (2016), Kansas",3787.0,2698.0,381.0,85.0,189.0,434.0,20,022
+20023,"State Senate District 23 (2016), Kansas",3518.0,2992.0,382.0,0.0,97.0,47.0,20,023
+20024,"State Senate District 24 (2016), Kansas",1310.0,1241.0,14.0,26.0,15.0,14.0,20,024
+20025,"State Senate District 25 (2016), Kansas",1114.0,884.0,143.0,7.0,33.0,47.0,20,025
+20026,"State Senate District 26 (2016), Kansas",1892.0,1825.0,39.0,0.0,12.0,16.0,20,026
+20027,"State Senate District 27 (2016), Kansas",2222.0,1864.0,274.0,37.0,27.0,20.0,20,027
+20028,"State Senate District 28 (2016), Kansas",3926.0,3641.0,166.0,55.0,18.0,46.0,20,028
+20029,"State Senate District 29 (2016), Kansas",2832.0,2157.0,287.0,38.0,22.0,328.0,20,029
+20030,"State Senate District 30 (2016), Kansas",6005.0,5123.0,546.0,51.0,125.0,160.0,20,030
+20031,"State Senate District 31 (2016), Kansas",1600.0,1484.0,52.0,22.0,0.0,42.0,20,031
+20032,"State Senate District 32 (2016), Kansas",692.0,610.0,31.0,15.0,30.0,6.0,20,032
+20033,"State Senate District 33 (2016), Kansas",241.0,206.0,0.0,0.0,20.0,15.0,20,033
+20034,"State Senate District 34 (2016), Kansas",357.0,262.0,36.0,26.0,0.0,33.0,20,034
+20035,"State Senate District 35 (2016), Kansas",355.0,224.0,2.0,75.0,12.0,42.0,20,035
+20036,"State Senate District 36 (2016), Kansas",203.0,165.0,30.0,0.0,8.0,0.0,20,036
+20037,"State Senate District 37 (2016), Kansas",3352.0,2579.0,390.0,195.0,104.0,84.0,20,037
+20038,"State Senate District 38 (2016), Kansas",1199.0,889.0,226.0,11.0,20.0,53.0,20,038
+20039,"State Senate District 39 (2016), Kansas",1533.0,1320.0,162.0,51.0,0.0,0.0,20,039
+20040,"State Senate District 40 (2016), Kansas",707.0,358.0,223.0,37.0,39.0,50.0,20,040
+20001,"State Senate District 1 (2016), Kansas",288.0,190.0,13.0,8.0,63.0,14.0,20,001
+20002,"State Senate District 2 (2016), Kansas",3835.0,2767.0,304.0,247.0,145.0,372.0,20,002
+20003,"State Senate District 3 (2016), Kansas",1991.0,992.0,279.0,5.0,23.0,692.0,20,003
+20004,"State Senate District 4 (2016), Kansas",3601.0,2460.0,732.0,40.0,215.0,154.0,20,004
+20005,"State Senate District 5 (2016), Kansas",1151.0,736.0,119.0,37.0,119.0,140.0,20,005
+20006,"State Senate District 6 (2016), Kansas",2641.0,2114.0,271.0,13.0,131.0,112.0,20,006
+20007,"State Senate District 7 (2016), Kansas",1768.0,1376.0,75.0,90.0,172.0,55.0,20,007
+20008,"State Senate District 8 (2016), Kansas",4181.0,3359.0,329.0,30.0,282.0,181.0,20,008
+20009,"State Senate District 9 (2016), Kansas",2463.0,2154.0,81.0,56.0,97.0,75.0,20,009
+20010,"State Senate District 10 (2016), Kansas",2648.0,1770.0,592.0,64.0,211.0,11.0,20,010
+20011,"State Senate District 11 (2016), Kansas",6329.0,4237.0,998.0,34.0,531.0,529.0,20,011
+20012,"State Senate District 12 (2016), Kansas",214.0,160.0,34.0,15.0,0.0,5.0,20,012
+20013,"State Senate District 13 (2016), Kansas",851.0,437.0,23.0,22.0,5.0,364.0,20,013
+20014,"State Senate District 14 (2016), Kansas",245.0,197.0,0.0,21.0,19.0,8.0,20,014
+20015,"State Senate District 15 (2016), Kansas",466.0,377.0,15.0,10.0,0.0,64.0,20,015
+20016,"State Senate District 16 (2016), Kansas",3265.0,2874.0,277.0,0.0,72.0,42.0,20,016
+21024,"State Senate District 24 (2016), Kentucky",982.0,750.0,21.0,34.0,152.0,25.0,21,024
+21025,"State Senate District 25 (2016), Kentucky",188.0,146.0,40.0,2.0,0.0,0.0,21,025
+21026,"State Senate District 26 (2016), Kentucky",3022.0,2495.0,306.0,53.0,129.0,39.0,21,026
+21027,"State Senate District 27 (2016), Kentucky",386.0,304.0,16.0,0.0,20.0,46.0,21,027
+21028,"State Senate District 28 (2016), Kentucky",860.0,798.0,40.0,8.0,8.0,6.0,21,028
+21029,"State Senate District 29 (2016), Kentucky",302.0,273.0,22.0,0.0,0.0,7.0,21,029
+21030,"State Senate District 30 (2016), Kentucky",629.0,281.0,0.0,113.0,0.0,235.0,21,030
+21031,"State Senate District 31 (2016), Kentucky",479.0,424.0,19.0,36.0,0.0,0.0,21,031
+21032,"State Senate District 32 (2016), Kentucky",4062.0,2991.0,290.0,160.0,468.0,153.0,21,032
+21033,"State Senate District 33 (2016), Kentucky",906.0,751.0,74.0,14.0,41.0,26.0,21,033
+21034,"State Senate District 34 (2016), Kentucky",1364.0,998.0,159.0,13.0,64.0,130.0,21,034
+21035,"State Senate District 35 (2016), Kentucky",2995.0,2087.0,495.0,17.0,190.0,206.0,21,035
+21036,"State Senate District 36 (2016), Kentucky",5128.0,4246.0,327.0,70.0,160.0,325.0,21,036
+21037,"State Senate District 37 (2016), Kentucky",3996.0,3310.0,482.0,156.0,36.0,12.0,21,037
+21038,"State Senate District 38 (2016), Kentucky",1429.0,1259.0,2.0,91.0,0.0,77.0,21,038
+21001,"State Senate District 1 (2016), Kentucky",996.0,884.0,19.0,7.0,5.0,81.0,21,001
+21002,"State Senate District 2 (2016), Kentucky",660.0,601.0,0.0,59.0,0.0,0.0,21,002
+21003,"State Senate District 3 (2016), Kentucky",1012.0,700.0,24.0,16.0,196.0,76.0,21,003
+21004,"State Senate District 4 (2016), Kentucky",246.0,222.0,0.0,0.0,24.0,0.0,21,004
+21005,"State Senate District 5 (2016), Kentucky",439.0,328.0,0.0,41.0,61.0,9.0,21,005
+21006,"State Senate District 6 (2016), Kentucky",409.0,401.0,8.0,0.0,0.0,0.0,21,006
+21007,"State Senate District 7 (2016), Kentucky",1103.0,801.0,73.0,31.0,64.0,134.0,21,007
+21008,"State Senate District 8 (2016), Kentucky",1372.0,1054.0,123.0,66.0,15.0,114.0,21,008
+21009,"State Senate District 9 (2016), Kentucky",481.0,296.0,14.0,163.0,0.0,8.0,21,009
+21010,"State Senate District 10 (2016), Kentucky",2163.0,1507.0,187.0,259.0,111.0,99.0,21,010
+21011,"State Senate District 11 (2016), Kentucky",2940.0,1914.0,113.0,28.0,156.0,729.0,21,011
+21012,"State Senate District 12 (2016), Kentucky",5364.0,4315.0,477.0,0.0,192.0,380.0,21,012
+21013,"State Senate District 13 (2016), Kentucky",4497.0,2486.0,674.0,126.0,477.0,734.0,21,013
+21014,"State Senate District 14 (2016), Kentucky",715.0,584.0,4.0,0.0,123.0,4.0,21,014
+21015,"State Senate District 15 (2016), Kentucky",701.0,568.0,46.0,0.0,38.0,49.0,21,015
+21016,"State Senate District 16 (2016), Kentucky",473.0,355.0,0.0,59.0,9.0,50.0,21,016
+21017,"State Senate District 17 (2016), Kentucky",1139.0,897.0,87.0,65.0,31.0,59.0,21,017
+21018,"State Senate District 18 (2016), Kentucky",346.0,323.0,0.0,23.0,0.0,0.0,21,018
+21019,"State Senate District 19 (2016), Kentucky",2130.0,1784.0,238.0,17.0,72.0,19.0,21,019
+21020,"State Senate District 20 (2016), Kentucky",2111.0,1645.0,140.0,70.0,117.0,139.0,21,020
+21021,"State Senate District 21 (2016), Kentucky",487.0,461.0,0.0,0.0,5.0,21.0,21,021
+21022,"State Senate District 22 (2016), Kentucky",1036.0,858.0,36.0,36.0,0.0,106.0,21,022
+21023,"State Senate District 23 (2016), Kentucky",1465.0,1335.0,24.0,0.0,106.0,0.0,21,023
+22012,"State Senate District 12 (2016), Louisiana",530.0,519.0,0.0,10.0,0.0,1.0,22,012
+22030,"State Senate District 30 (2016), Louisiana",1177.0,960.0,55.0,27.0,89.0,46.0,22,030
+22031,"State Senate District 31 (2016), Louisiana",1381.0,1300.0,45.0,5.0,25.0,6.0,22,031
+22032,"State Senate District 32 (2016), Louisiana",152.0,92.0,60.0,0.0,0.0,0.0,22,032
+22033,"State Senate District 33 (2016), Louisiana",807.0,657.0,51.0,23.0,64.0,12.0,22,033
+22034,"State Senate District 34 (2016), Louisiana",553.0,401.0,102.0,0.0,0.0,50.0,22,034
+22035,"State Senate District 35 (2016), Louisiana",1405.0,824.0,454.0,43.0,84.0,0.0,22,035
+22036,"State Senate District 36 (2016), Louisiana",828.0,709.0,44.0,35.0,39.0,1.0,22,036
+22037,"State Senate District 37 (2016), Louisiana",2188.0,1817.0,147.0,41.0,143.0,40.0,22,037
+22038,"State Senate District 38 (2016), Louisiana",1329.0,1206.0,80.0,4.0,3.0,36.0,22,038
+22039,"State Senate District 39 (2016), Louisiana",751.0,589.0,93.0,62.0,7.0,0.0,22,039
+22013,"State Senate District 13 (2016), Louisiana",594.0,572.0,0.0,22.0,0.0,0.0,22,013
+22014,"State Senate District 14 (2016), Louisiana",2791.0,2016.0,208.0,10.0,328.0,229.0,22,014
+22015,"State Senate District 15 (2016), Louisiana",3000.0,2683.0,166.0,46.0,54.0,51.0,22,015
+22016,"State Senate District 16 (2016), Louisiana",5967.0,4995.0,501.0,99.0,146.0,226.0,22,016
+22017,"State Senate District 17 (2016), Louisiana",212.0,193.0,19.0,0.0,0.0,0.0,22,017
+22018,"State Senate District 18 (2016), Louisiana",1117.0,922.0,127.0,0.0,49.0,19.0,22,018
+22019,"State Senate District 19 (2016), Louisiana",1052.0,845.0,63.0,0.0,0.0,144.0,22,019
+22020,"State Senate District 20 (2016), Louisiana",835.0,748.0,3.0,22.0,54.0,8.0,22,020
+22021,"State Senate District 21 (2016), Louisiana",1448.0,1346.0,34.0,39.0,29.0,0.0,22,021
+22022,"State Senate District 22 (2016), Louisiana",2465.0,2244.0,157.0,35.0,18.0,11.0,22,022
+22023,"State Senate District 23 (2016), Louisiana",3320.0,2635.0,261.0,62.0,225.0,137.0,22,023
+22024,"State Senate District 24 (2016), Louisiana",482.0,377.0,34.0,16.0,55.0,0.0,22,024
+22025,"State Senate District 25 (2016), Louisiana",1699.0,1483.0,145.0,22.0,49.0,0.0,22,025
+22026,"State Senate District 26 (2016), Louisiana",1913.0,1815.0,49.0,48.0,1.0,0.0,22,026
+22027,"State Senate District 27 (2016), Louisiana",1117.0,799.0,148.0,22.0,79.0,69.0,22,027
+22028,"State Senate District 28 (2016), Louisiana",366.0,341.0,0.0,3.0,0.0,22.0,22,028
+22029,"State Senate District 29 (2016), Louisiana",1047.0,954.0,22.0,60.0,1.0,10.0,22,029
+22001,"State Senate District 1 (2016), Louisiana",2072.0,1800.0,158.0,56.0,45.0,13.0,22,001
+22002,"State Senate District 2 (2016), Louisiana",369.0,310.0,46.0,13.0,0.0,0.0,22,002
+22003,"State Senate District 3 (2016), Louisiana",7838.0,6925.0,570.0,219.0,73.0,51.0,22,003
+22004,"State Senate District 4 (2016), Louisiana",1282.0,1016.0,100.0,25.0,54.0,87.0,22,004
+22005,"State Senate District 5 (2016), Louisiana",2624.0,1638.0,246.0,114.0,225.0,401.0,22,005
+22006,"State Senate District 6 (2016), Louisiana",3500.0,3089.0,217.0,58.0,136.0,0.0,22,006
+22007,"State Senate District 7 (2016), Louisiana",3102.0,2827.0,86.0,48.0,77.0,64.0,22,007
+22008,"State Senate District 8 (2016), Louisiana",7566.0,7311.0,91.0,69.0,95.0,0.0,22,008
+22009,"State Senate District 9 (2016), Louisiana",4415.0,3316.0,582.0,128.0,118.0,271.0,22,009
+22010,"State Senate District 10 (2016), Louisiana",4565.0,4074.0,330.0,53.0,83.0,25.0,22,010
+22011,"State Senate District 11 (2016), Louisiana",2243.0,1757.0,262.0,112.0,112.0,0.0,22,011
+23001,"State Senate District 1 (2016), Maine",90.0,83.0,3.0,4.0,0.0,0.0,23,001
+23002,"State Senate District 2 (2016), Maine",213.0,185.0,6.0,0.0,9.0,13.0,23,002
+23003,"State Senate District 3 (2016), Maine",140.0,130.0,6.0,0.0,0.0,4.0,23,003
+23004,"State Senate District 4 (2016), Maine",163.0,134.0,7.0,0.0,16.0,6.0,23,004
+23005,"State Senate District 5 (2016), Maine",450.0,295.0,78.0,12.0,40.0,25.0,23,005
+23006,"State Senate District 6 (2016), Maine",160.0,145.0,9.0,0.0,6.0,0.0,23,006
+23007,"State Senate District 7 (2016), Maine",485.0,332.0,83.0,0.0,27.0,43.0,23,007
+23008,"State Senate District 8 (2016), Maine",110.0,75.0,4.0,13.0,13.0,5.0,23,008
+23009,"State Senate District 9 (2016), Maine",800.0,713.0,43.0,14.0,26.0,4.0,23,009
+23010,"State Senate District 10 (2016), Maine",242.0,242.0,0.0,0.0,0.0,0.0,23,010
+23011,"State Senate District 11 (2016), Maine",176.0,175.0,1.0,0.0,0.0,0.0,23,011
+23012,"State Senate District 12 (2016), Maine",236.0,190.0,18.0,0.0,21.0,7.0,23,012
+23013,"State Senate District 13 (2016), Maine",323.0,295.0,0.0,16.0,12.0,0.0,23,013
+23014,"State Senate District 14 (2016), Maine",339.0,292.0,0.0,0.0,17.0,30.0,23,014
+23015,"State Senate District 15 (2016), Maine",192.0,150.0,33.0,0.0,0.0,9.0,23,015
+23016,"State Senate District 16 (2016), Maine",484.0,345.0,76.0,0.0,0.0,63.0,23,016
+23017,"State Senate District 17 (2016), Maine",159.0,152.0,0.0,0.0,1.0,6.0,23,017
+23018,"State Senate District 18 (2016), Maine",257.0,201.0,33.0,23.0,0.0,0.0,23,018
+23019,"State Senate District 19 (2016), Maine",189.0,178.0,0.0,0.0,0.0,11.0,23,019
+23020,"State Senate District 20 (2016), Maine",482.0,467.0,8.0,0.0,7.0,0.0,23,020
+23021,"State Senate District 21 (2016), Maine",364.0,284.0,16.0,0.0,38.0,26.0,23,021
+23022,"State Senate District 22 (2016), Maine",128.0,116.0,5.0,7.0,0.0,0.0,23,022
+23023,"State Senate District 23 (2016), Maine",228.0,136.0,14.0,78.0,0.0,0.0,23,023
+23024,"State Senate District 24 (2016), Maine",663.0,550.0,0.0,14.0,43.0,56.0,23,024
+23025,"State Senate District 25 (2016), Maine",860.0,815.0,7.0,0.0,38.0,0.0,23,025
+23026,"State Senate District 26 (2016), Maine",45.0,14.0,7.0,0.0,4.0,20.0,23,026
+23027,"State Senate District 27 (2016), Maine",1032.0,849.0,120.0,41.0,9.0,13.0,23,027
+23028,"State Senate District 28 (2016), Maine",1609.0,1178.0,362.0,0.0,35.0,34.0,23,028
+23029,"State Senate District 29 (2016), Maine",736.0,645.0,29.0,0.0,23.0,39.0,23,029
+23030,"State Senate District 30 (2016), Maine",969.0,909.0,60.0,0.0,0.0,0.0,23,030
+23031,"State Senate District 31 (2016), Maine",243.0,203.0,24.0,0.0,0.0,16.0,23,031
+23032,"State Senate District 32 (2016), Maine",766.0,688.0,57.0,5.0,12.0,4.0,23,032
+23033,"State Senate District 33 (2016), Maine",651.0,505.0,146.0,0.0,0.0,0.0,23,033
+23034,"State Senate District 34 (2016), Maine",282.0,267.0,0.0,0.0,15.0,0.0,23,034
+23035,"State Senate District 35 (2016), Maine",468.0,468.0,0.0,0.0,0.0,0.0,23,035
+24006,"State Senate District 6 (2016), Maryland",3230.0,2435.0,392.0,266.0,57.0,80.0,24,006
+24007,"State Senate District 7 (2016), Maryland",4229.0,3755.0,291.0,82.0,101.0,0.0,24,007
+24008,"State Senate District 8 (2016), Maryland",8553.0,7367.0,545.0,263.0,263.0,115.0,24,008
+24009,"State Senate District 9 (2016), Maryland",25008.0,21285.0,1801.0,805.0,619.0,498.0,24,009
+24010,"State Senate District 10 (2016), Maryland",6275.0,5501.0,535.0,96.0,73.0,70.0,24,010
+24011,"State Senate District 11 (2016), Maryland",10399.0,8275.0,795.0,191.0,562.0,576.0,24,011
+24012,"State Senate District 12 (2016), Maryland",11645.0,8879.0,890.0,805.0,363.0,708.0,24,012
+24013,"State Senate District 13 (2016), Maryland",21434.0,17556.0,1026.0,1433.0,864.0,555.0,24,013
+24014,"State Senate District 14 (2016), Maryland",16536.0,14875.0,788.0,92.0,445.0,336.0,24,014
+24015,"State Senate District 15 (2016), Maryland",30718.0,26979.0,1987.0,79.0,963.0,710.0,24,015
+24016,"State Senate District 16 (2016), Maryland",15346.0,12783.0,842.0,171.0,670.0,880.0,24,016
+24017,"State Senate District 17 (2016), Maryland",26700.0,22048.0,2496.0,87.0,1021.0,1048.0,24,017
+24018,"State Senate District 18 (2016), Maryland",12783.0,10587.0,1030.0,448.0,326.0,392.0,24,018
+24019,"State Senate District 19 (2016), Maryland",17103.0,15923.0,754.0,82.0,178.0,166.0,24,019
+24020,"State Senate District 20 (2016), Maryland",10316.0,8856.0,738.0,133.0,485.0,104.0,24,020
+24021,"State Senate District 21 (2016), Maryland",14025.0,10702.0,991.0,960.0,474.0,898.0,24,021
+24022,"State Senate District 22 (2016), Maryland",6810.0,5420.0,698.0,157.0,187.0,348.0,24,022
+24023,"State Senate District 23 (2016), Maryland",5537.0,5158.0,119.0,105.0,28.0,127.0,24,023
+24024,"State Senate District 24 (2016), Maryland",2681.0,2498.0,77.0,0.0,59.0,47.0,24,024
+24025,"State Senate District 25 (2016), Maryland",1424.0,1293.0,72.0,8.0,37.0,14.0,24,025
+24026,"State Senate District 26 (2016), Maryland",4707.0,4182.0,347.0,9.0,154.0,15.0,24,026
+24027,"State Senate District 27 (2016), Maryland",3405.0,3080.0,82.0,49.0,141.0,53.0,24,027
+24028,"State Senate District 28 (2016), Maryland",4318.0,4027.0,68.0,120.0,60.0,43.0,24,028
+24029,"State Senate District 29 (2016), Maryland",3258.0,2838.0,109.0,83.0,114.0,114.0,24,029
+24030,"State Senate District 30 (2016), Maryland",2419.0,2018.0,92.0,91.0,190.0,28.0,24,030
+24031,"State Senate District 31 (2016), Maryland",4220.0,3950.0,144.0,67.0,0.0,59.0,24,031
+24032,"State Senate District 32 (2016), Maryland",8534.0,7097.0,504.0,360.0,431.0,142.0,24,032
+24033,"State Senate District 33 (2016), Maryland",4342.0,3678.0,308.0,146.0,158.0,52.0,24,033
+24034,"State Senate District 34 (2016), Maryland",3917.0,3324.0,206.0,69.0,279.0,39.0,24,034
+24035,"State Senate District 35 (2016), Maryland",2409.0,2041.0,123.0,0.0,82.0,163.0,24,035
+24036,"State Senate District 36 (2016), Maryland",1164.0,916.0,16.0,36.0,106.0,90.0,24,036
+24037,"State Senate District 37 (2016), Maryland",1747.0,1446.0,38.0,133.0,74.0,56.0,24,037
+24038,"State Senate District 38 (2016), Maryland",3450.0,3037.0,202.0,82.0,84.0,45.0,24,038
+24039,"State Senate District 39 (2016), Maryland",22790.0,19316.0,2130.0,98.0,588.0,658.0,24,039
+24040,"State Senate District 40 (2016), Maryland",3244.0,2104.0,410.0,219.0,330.0,181.0,24,040
+24041,"State Senate District 41 (2016), Maryland",2165.0,1379.0,486.0,83.0,62.0,155.0,24,041
+24042,"State Senate District 42 (2016), Maryland",7210.0,5831.0,423.0,296.0,335.0,325.0,24,042
+24043,"State Senate District 43 (2016), Maryland",4448.0,3203.0,539.0,138.0,224.0,344.0,24,043
+24044,"State Senate District 44 (2016), Maryland",6119.0,5197.0,409.0,86.0,238.0,189.0,24,044
+24045,"State Senate District 45 (2016), Maryland",1787.0,1480.0,105.0,67.0,73.0,62.0,24,045
+24046,"State Senate District 46 (2016), Maryland",3722.0,2602.0,298.0,220.0,454.0,148.0,24,046
+24047,"State Senate District 47 (2016), Maryland",2915.0,2629.0,111.0,52.0,82.0,41.0,24,047
+24001,"State Senate District 1 (2016), Maryland",816.0,463.0,84.0,78.0,79.0,112.0,24,001
+24002,"State Senate District 2 (2016), Maryland",2502.0,1901.0,252.0,84.0,229.0,36.0,24,002
+24003,"State Senate District 3 (2016), Maryland",7645.0,6742.0,329.0,218.0,256.0,100.0,24,003
+24004,"State Senate District 4 (2016), Maryland",3608.0,3277.0,22.0,161.0,64.0,84.0,24,004
+24005,"State Senate District 5 (2016), Maryland",1877.0,1611.0,8.0,233.0,4.0,21.0,24,005
+25023,"Fifth Middlesex District (2016), Massachusetts",19808.0,15860.0,1247.0,929.0,516.0,1256.0,25,023
+25024,"Fourth Middlesex District (2016), Massachusetts",20513.0,16646.0,1783.0,273.0,956.0,855.0,25,024
+25025,"Second Middlesex District (2016), Massachusetts",18346.0,13346.0,1597.0,799.0,899.0,1705.0,25,025
+25026,"Middlesex & Suffolk District (2016), Massachusetts",18590.0,13784.0,1812.0,737.0,1274.0,983.0,25,026
+25027,"First Suffolk & Middlesex District (2016), Massachusetts",17171.0,13224.0,1440.0,893.0,765.0,849.0,25,027
+25028,"Second Suffolk & Middlesex District (2016), Massachusetts",25211.0,16512.0,3117.0,1698.0,1680.0,2204.0,25,028
+25029,"First Middlesex & Norfolk District (2016), Massachusetts",23620.0,18967.0,1317.0,1145.0,633.0,1558.0,25,029
+25030,"Norfolk & Suffolk District (2016), Massachusetts",8698.0,7266.0,522.0,361.0,212.0,337.0,25,030
+25031,"Bristol & Norfolk District (2016), Massachusetts",6859.0,5859.0,404.0,257.0,164.0,175.0,25,031
+25032,"Norfolk, Bristol & Plymouth District (2016); Massachusetts",12341.0,10916.0,471.0,605.0,229.0,120.0,25,032
+25033,"Norfolk & Plymouth District (2016), Massachusetts",30512.0,25635.0,2063.0,642.0,1257.0,915.0,25,033
+25034,"Plymouth & Norfolk District (2016), Massachusetts",4225.0,3158.0,268.0,536.0,51.0,212.0,25,034
+25035,"Second Plymouth & Bristol District (2016), Massachusetts",2538.0,2280.0,78.0,46.0,55.0,79.0,25,035
+25036,"First Plymouth & Bristol District (2016), Massachusetts",2015.0,1896.0,13.0,88.0,1.0,17.0,25,036
+25037,"First Bristol & Plymouth District (2016), Massachusetts",2177.0,1840.0,262.0,18.0,16.0,41.0,25,037
+25038,"Second Bristol & Plymouth District (2016), Massachusetts",3445.0,2430.0,595.0,14.0,62.0,344.0,25,038
+25039,"Plymouth & Barnstable District (2016), Massachusetts",2531.0,2427.0,67.0,12.0,25.0,0.0,25,039
+25040,"Cape & Islands District (2016), Massachusetts",1935.0,1767.0,66.0,36.0,51.0,15.0,25,040
+25001,"First Suffolk District (2016), Massachusetts",14020.0,11769.0,1332.0,375.0,171.0,373.0,25,001
+25002,"Second Suffolk District (2016), Massachusetts",11214.0,7912.0,1200.0,612.0,588.0,902.0,25,002
+25003,"Hampden District (2016), Massachusetts",3813.0,2973.0,450.0,72.0,200.0,118.0,25,003
+25004,"Berkshire, Hampshire, Franklin & Hampden District (2016); Massachusetts",2270.0,1738.0,234.0,103.0,97.0,98.0,25,004
+25005,"Second Hampden & Hampshire District (2016), Massachusetts",2927.0,2200.0,417.0,131.0,68.0,111.0,25,005
+25006,"Hampshire, Franklin & Worcester District (2016); Massachusetts",8490.0,4853.0,1582.0,952.0,383.0,720.0,25,006
+25007,"First Hampden & Hampshire District (2016), Massachusetts",4384.0,3922.0,256.0,29.0,2.0,175.0,25,007
+25008,"Worcester, Hampden, Hampshire & Middlesex District (2016); Massachusetts",1694.0,1567.0,105.0,0.0,9.0,13.0,25,008
+25009,"Worcester & Middlesex District (2016), Massachusetts",4020.0,3690.0,113.0,72.0,52.0,93.0,25,009
+25010,"First Worcester District (2016), Massachusetts",10311.0,8430.0,731.0,347.0,325.0,478.0,25,010
+25011,"Second Worcester District (2016), Massachusetts",14007.0,12228.0,650.0,367.0,219.0,543.0,25,011
+25012,"Worcester & Norfolk District (2016), Massachusetts",2969.0,2706.0,102.0,53.0,83.0,25.0,25,012
+25013,"First Middlesex District (2016), Massachusetts",29176.0,25128.0,2637.0,509.0,277.0,625.0,25,013
+25014,"Middlesex & Worcester District (2016), Massachusetts",18138.0,14986.0,1490.0,466.0,637.0,559.0,25,014
+25015,"Second Middlesex & Norfolk District (2016), Massachusetts",13723.0,10527.0,1443.0,499.0,724.0,530.0,25,015
+25016,"Third Middlesex District (2016), Massachusetts",20504.0,15618.0,2267.0,438.0,784.0,1397.0,25,016
+25017,"Norfolk, Bristol & Middlesex District (2016); Massachusetts",8711.0,7387.0,378.0,317.0,315.0,314.0,25,017
+25018,"Second Essex & Middlesex District (2016), Massachusetts",8572.0,7237.0,395.0,536.0,209.0,195.0,25,018
+25019,"First Essex District (2016), Massachusetts",3893.0,3694.0,146.0,34.0,19.0,0.0,25,019
+25020,"First Essex & Middlesex District (2016), Massachusetts",5079.0,4346.0,314.0,224.0,142.0,53.0,25,020
+25021,"Second Essex District (2016), Massachusetts",3263.0,2202.0,530.0,84.0,156.0,291.0,25,021
+25022,"Third Essex District (2016), Massachusetts",9842.0,8594.0,912.0,220.0,54.0,62.0,25,022
+26035,"State Senate District 35 (2016), Michigan",1184.0,987.0,98.0,24.0,11.0,64.0,26,035
+26036,"State Senate District 36 (2016), Michigan",2523.0,2027.0,139.0,17.0,208.0,132.0,26,036
+26037,"State Senate District 37 (2016), Michigan",1506.0,1154.0,181.0,35.0,118.0,18.0,26,037
+26038,"State Senate District 38 (2016), Michigan",2187.0,1473.0,138.0,57.0,283.0,236.0,26,038
+26001,"State Senate District 1 (2016), Michigan",3867.0,2576.0,425.0,279.0,172.0,415.0,26,001
+26002,"State Senate District 2 (2016), Michigan",12407.0,11042.0,756.0,56.0,251.0,302.0,26,002
+26003,"State Senate District 3 (2016), Michigan",2785.0,2053.0,393.0,57.0,73.0,209.0,26,003
+26004,"State Senate District 4 (2016), Michigan",1893.0,1284.0,273.0,40.0,198.0,98.0,26,004
+26005,"State Senate District 5 (2016), Michigan",1851.0,1433.0,140.0,59.0,34.0,185.0,26,005
+26006,"State Senate District 6 (2016), Michigan",7110.0,5879.0,635.0,195.0,74.0,327.0,26,006
+26007,"State Senate District 7 (2016), Michigan",24429.0,20993.0,1552.0,376.0,776.0,732.0,26,007
+26008,"State Senate District 8 (2016), Michigan",5535.0,4887.0,266.0,198.0,56.0,128.0,26,008
+26009,"State Senate District 9 (2016), Michigan",12817.0,10915.0,804.0,675.0,179.0,244.0,26,009
+26010,"State Senate District 10 (2016), Michigan",12890.0,11515.0,436.0,403.0,167.0,369.0,26,010
+26011,"State Senate District 11 (2016), Michigan",15650.0,12074.0,979.0,587.0,1137.0,873.0,26,011
+26012,"State Senate District 12 (2016), Michigan",12022.0,9707.0,924.0,242.0,411.0,738.0,26,012
+26013,"State Senate District 13 (2016), Michigan",32290.0,26653.0,2224.0,762.0,1187.0,1464.0,26,013
+26014,"State Senate District 14 (2016), Michigan",4294.0,3883.0,248.0,66.0,71.0,26.0,26,014
+26015,"State Senate District 15 (2016), Michigan",22227.0,18943.0,1254.0,302.0,435.0,1293.0,26,015
+26016,"State Senate District 16 (2016), Michigan",1582.0,1336.0,64.0,14.0,55.0,113.0,26,016
+26017,"State Senate District 17 (2016), Michigan",1214.0,1087.0,43.0,47.0,22.0,15.0,26,017
+26018,"State Senate District 18 (2016), Michigan",28649.0,18122.0,4218.0,1634.0,1497.0,3178.0,26,018
+26019,"State Senate District 19 (2016), Michigan",3355.0,2466.0,431.0,147.0,38.0,273.0,26,019
+26020,"State Senate District 20 (2016), Michigan",6211.0,4513.0,664.0,426.0,94.0,514.0,26,020
+26021,"State Senate District 21 (2016), Michigan",3758.0,3029.0,337.0,75.0,129.0,188.0,26,021
+26022,"State Senate District 22 (2016), Michigan",4386.0,3725.0,208.0,115.0,266.0,72.0,26,022
+26023,"State Senate District 23 (2016), Michigan",17110.0,10708.0,2724.0,1160.0,809.0,1709.0,26,023
+26024,"State Senate District 24 (2016), Michigan",3839.0,3097.0,207.0,174.0,62.0,299.0,26,024
+26025,"State Senate District 25 (2016), Michigan",1639.0,1465.0,77.0,53.0,17.0,27.0,26,025
+26026,"State Senate District 26 (2016), Michigan",6986.0,5531.0,910.0,106.0,302.0,137.0,26,026
+26027,"State Senate District 27 (2016), Michigan",1384.0,1170.0,169.0,14.0,0.0,31.0,26,027
+26028,"State Senate District 28 (2016), Michigan",4743.0,3564.0,865.0,95.0,72.0,147.0,26,028
+26029,"State Senate District 29 (2016), Michigan",7358.0,5776.0,825.0,197.0,215.0,345.0,26,029
+26030,"State Senate District 30 (2016), Michigan",7539.0,6209.0,764.0,310.0,106.0,150.0,26,030
+26031,"State Senate District 31 (2016), Michigan",1210.0,922.0,92.0,60.0,19.0,117.0,26,031
+26032,"State Senate District 32 (2016), Michigan",2717.0,2038.0,296.0,101.0,121.0,161.0,26,032
+26033,"State Senate District 33 (2016), Michigan",2016.0,1394.0,274.0,180.0,32.0,136.0,26,033
+26034,"State Senate District 34 (2016), Michigan",1128.0,958.0,63.0,47.0,22.0,38.0,26,034
+27050,"State Senate District 50 (2016), Minnesota",4725.0,3860.0,325.0,88.0,210.0,242.0,27,050
+27051,"State Senate District 51 (2016), Minnesota",6228.0,4880.0,587.0,338.0,291.0,132.0,27,051
+27052,"State Senate District 52 (2016), Minnesota",3346.0,2787.0,104.0,200.0,91.0,164.0,27,052
+27053,"State Senate District 53 (2016), Minnesota",8105.0,6465.0,232.0,1053.0,77.0,278.0,27,053
+27054,"State Senate District 54 (2016), Minnesota",3413.0,3002.0,162.0,225.0,15.0,9.0,27,054
+27055,"State Senate District 55 (2016), Minnesota",5643.0,4686.0,185.0,619.0,107.0,46.0,27,055
+27056,"State Senate District 56 (2016), Minnesota",4363.0,3727.0,120.0,318.0,55.0,143.0,27,056
+27057,"State Senate District 57 (2016), Minnesota",4826.0,4090.0,295.0,171.0,94.0,176.0,27,057
+27058,"State Senate District 58 (2016), Minnesota",2654.0,2232.0,253.0,5.0,83.0,81.0,27,058
+27059,"State Senate District 59 (2016), Minnesota",10173.0,8131.0,1125.0,326.0,282.0,309.0,27,059
+27060,"State Senate District 60 (2016), Minnesota",6897.0,3698.0,1365.0,712.0,476.0,646.0,27,060
+27061,"State Senate District 61 (2016), Minnesota",3094.0,2568.0,318.0,41.0,114.0,53.0,27,061
+27062,"State Senate District 62 (2016), Minnesota",3086.0,2613.0,265.0,70.0,59.0,79.0,27,062
+27063,"State Senate District 63 (2016), Minnesota",2409.0,2036.0,84.0,173.0,99.0,17.0,27,063
+27064,"State Senate District 64 (2016), Minnesota",3161.0,2187.0,394.0,320.0,128.0,132.0,27,064
+27065,"State Senate District 65 (2016), Minnesota",12315.0,9020.0,2281.0,383.0,396.0,235.0,27,065
+27066,"State Senate District 66 (2016), Minnesota",16186.0,12487.0,1748.0,613.0,772.0,566.0,27,066
+27067,"State Senate District 67 (2016), Minnesota",24694.0,18969.0,4259.0,587.0,593.0,286.0,27,067
+27001,"State Senate District 01 (2016), Minnesota",835.0,720.0,67.0,8.0,26.0,14.0,27,001
+27002,"State Senate District 02 (2016), Minnesota",398.0,342.0,35.0,2.0,7.0,12.0,27,002
+27003,"State Senate District 03 (2016), Minnesota",613.0,477.0,78.0,44.0,10.0,4.0,27,003
+27004,"State Senate District 04 (2016), Minnesota",859.0,623.0,70.0,28.0,44.0,94.0,27,004
+27005,"State Senate District 05 (2016), Minnesota",609.0,499.0,28.0,71.0,5.0,6.0,27,005
+27006,"State Senate District 06 (2016), Minnesota",544.0,418.0,100.0,12.0,14.0,0.0,27,006
+27007,"State Senate District 07 (2016), Minnesota",1158.0,706.0,218.0,189.0,15.0,30.0,27,007
+27008,"State Senate District 08 (2016), Minnesota",370.0,301.0,29.0,34.0,6.0,0.0,27,008
+27009,"State Senate District 09 (2016), Minnesota",301.0,271.0,8.0,16.0,0.0,6.0,27,009
+27010,"State Senate District 10 (2016), Minnesota",343.0,321.0,0.0,17.0,0.0,5.0,27,010
+27011,"State Senate District 11 (2016), Minnesota",387.0,338.0,4.0,26.0,5.0,14.0,27,011
+27012,"State Senate District 12 (2016), Minnesota",312.0,129.0,32.0,30.0,26.0,95.0,27,012
+27013,"State Senate District 13 (2016), Minnesota",1418.0,872.0,169.0,254.0,22.0,101.0,27,013
+27014,"State Senate District 14 (2016), Minnesota",2376.0,1311.0,388.0,520.0,0.0,157.0,27,014
+27015,"State Senate District 15 (2016), Minnesota",529.0,469.0,0.0,49.0,0.0,11.0,27,015
+27016,"State Senate District 16 (2016), Minnesota",1056.0,715.0,134.0,109.0,58.0,40.0,27,016
+27017,"State Senate District 17 (2016), Minnesota",515.0,335.0,56.0,33.0,82.0,9.0,27,017
+27018,"State Senate District 18 (2016), Minnesota",386.0,350.0,15.0,14.0,0.0,7.0,27,018
+27019,"State Senate District 19 (2016), Minnesota",1874.0,1439.0,157.0,117.0,70.0,91.0,27,019
+27020,"State Senate District 20 (2016), Minnesota",1155.0,861.0,58.0,81.0,31.0,124.0,27,020
+27021,"State Senate District 21 (2016), Minnesota",885.0,760.0,47.0,57.0,11.0,10.0,27,021
+27022,"State Senate District 22 (2016), Minnesota",2569.0,2136.0,339.0,40.0,51.0,3.0,27,022
+27023,"State Senate District 23 (2016), Minnesota",697.0,553.0,96.0,4.0,14.0,30.0,27,023
+27024,"State Senate District 24 (2016), Minnesota",1162.0,1084.0,16.0,33.0,10.0,19.0,27,024
+27025,"State Senate District 25 (2016), Minnesota",4524.0,3843.0,392.0,19.0,160.0,110.0,27,025
+27026,"State Senate District 26 (2016), Minnesota",4303.0,3414.0,272.0,8.0,114.0,495.0,27,026
+27027,"State Senate District 27 (2016), Minnesota",1540.0,1124.0,18.0,261.0,0.0,137.0,27,027
+27028,"State Senate District 28 (2016), Minnesota",987.0,631.0,109.0,48.0,93.0,106.0,27,028
+27029,"State Senate District 29 (2016), Minnesota",519.0,516.0,0.0,3.0,0.0,0.0,27,029
+27030,"State Senate District 30 (2016), Minnesota",1462.0,1358.0,12.0,60.0,5.0,27.0,27,030
+27031,"State Senate District 31 (2016), Minnesota",1626.0,1519.0,60.0,0.0,45.0,2.0,27,031
+27032,"State Senate District 32 (2016), Minnesota",853.0,756.0,19.0,47.0,5.0,26.0,27,032
+27033,"State Senate District 33 (2016), Minnesota",1930.0,1565.0,237.0,22.0,69.0,37.0,27,033
+27034,"State Senate District 34 (2016), Minnesota",5835.0,5247.0,415.0,71.0,0.0,102.0,27,034
+27035,"State Senate District 35 (2016), Minnesota",1939.0,1811.0,35.0,59.0,5.0,29.0,27,035
+27036,"State Senate District 36 (2016), Minnesota",6990.0,6616.0,184.0,138.0,40.0,12.0,27,036
+27037,"State Senate District 37 (2016), Minnesota",5764.0,4926.0,357.0,345.0,118.0,18.0,27,037
+27038,"State Senate District 38 (2016), Minnesota",2555.0,2181.0,162.0,90.0,96.0,26.0,27,038
+27039,"State Senate District 39 (2016), Minnesota",1089.0,1000.0,25.0,20.0,15.0,29.0,27,039
+27040,"State Senate District 40 (2016), Minnesota",13420.0,12024.0,894.0,278.0,116.0,108.0,27,040
+27041,"State Senate District 41 (2016), Minnesota",4834.0,3973.0,292.0,376.0,146.0,47.0,27,041
+27042,"State Senate District 42 (2016), Minnesota",7709.0,6705.0,490.0,202.0,73.0,239.0,27,042
+27043,"State Senate District 43 (2016), Minnesota",8373.0,6961.0,555.0,359.0,195.0,303.0,27,043
+27044,"State Senate District 44 (2016), Minnesota",7269.0,4698.0,1344.0,248.0,320.0,659.0,27,044
+27045,"State Senate District 45 (2016), Minnesota",2799.0,2329.0,366.0,72.0,23.0,9.0,27,045
+27046,"State Senate District 46 (2016), Minnesota",4434.0,3111.0,669.0,74.0,268.0,312.0,27,046
+27047,"State Senate District 47 (2016), Minnesota",2187.0,1626.0,41.0,356.0,86.0,78.0,27,047
+27048,"State Senate District 48 (2016), Minnesota",6723.0,5024.0,855.0,233.0,218.0,393.0,27,048
+27049,"State Senate District 49 (2016), Minnesota",5912.0,4434.0,445.0,121.0,523.0,389.0,27,049
+28049,"State Senate District 49 (2016), Mississippi",940.0,602.0,328.0,0.0,10.0,0.0,28,049
+28050,"State Senate District 50 (2016), Mississippi",3270.0,2736.0,109.0,116.0,271.0,38.0,28,050
+28051,"State Senate District 51 (2016), Mississippi",812.0,638.0,89.0,0.0,63.0,22.0,28,051
+28052,"State Senate District 52 (2016), Mississippi",1001.0,941.0,0.0,20.0,40.0,0.0,28,052
+28001,"State Senate District 1 (2016), Mississippi",534.0,489.0,3.0,0.0,14.0,28.0,28,001
+28002,"State Senate District 2 (2016), Mississippi",723.0,647.0,0.0,0.0,76.0,0.0,28,002
+28003,"State Senate District 3 (2016), Mississippi",502.0,497.0,0.0,5.0,0.0,0.0,28,003
+28004,"State Senate District 4 (2016), Mississippi",209.0,189.0,0.0,0.0,13.0,7.0,28,004
+28005,"State Senate District 5 (2016), Mississippi",94.0,55.0,0.0,39.0,0.0,0.0,28,005
+28006,"State Senate District 6 (2016), Mississippi",508.0,452.0,36.0,0.0,5.0,15.0,28,006
+28007,"State Senate District 7 (2016), Mississippi",173.0,173.0,0.0,0.0,0.0,0.0,28,007
+28008,"State Senate District 8 (2016), Mississippi",52.0,52.0,0.0,0.0,0.0,0.0,28,008
+28009,"State Senate District 9 (2016), Mississippi",1095.0,844.0,115.0,54.0,51.0,31.0,28,009
+28010,"State Senate District 10 (2016), Mississippi",80.0,71.0,0.0,9.0,0.0,0.0,28,010
+28011,"State Senate District 11 (2016), Mississippi",217.0,213.0,0.0,0.0,4.0,0.0,28,011
+28012,"State Senate District 12 (2016), Mississippi",335.0,280.0,0.0,0.0,19.0,36.0,28,012
+28013,"State Senate District 13 (2016), Mississippi",290.0,215.0,0.0,5.0,70.0,0.0,28,013
+28014,"State Senate District 14 (2016), Mississippi",240.0,214.0,0.0,0.0,21.0,5.0,28,014
+28015,"State Senate District 15 (2016), Mississippi",1174.0,619.0,348.0,71.0,66.0,70.0,28,015
+28016,"State Senate District 16 (2016), Mississippi",640.0,524.0,0.0,53.0,50.0,13.0,28,016
+28017,"State Senate District 17 (2016), Mississippi",407.0,347.0,0.0,0.0,0.0,60.0,28,017
+28018,"State Senate District 18 (2016), Mississippi",150.0,143.0,7.0,0.0,0.0,0.0,28,018
+28019,"State Senate District 19 (2016), Mississippi",873.0,410.0,25.0,127.0,267.0,44.0,28,019
+28020,"State Senate District 20 (2016), Mississippi",1107.0,917.0,46.0,42.0,30.0,72.0,28,020
+28021,"State Senate District 21 (2016), Mississippi",72.0,72.0,0.0,0.0,0.0,0.0,28,021
+28022,"State Senate District 22 (2016), Mississippi",679.0,275.0,48.0,137.0,219.0,0.0,28,022
+28023,"State Senate District 23 (2016), Mississippi",229.0,184.0,0.0,30.0,15.0,0.0,28,023
+28024,"State Senate District 24 (2016), Mississippi",171.0,159.0,12.0,0.0,0.0,0.0,28,024
+28025,"State Senate District 25 (2016), Mississippi",2151.0,1808.0,71.0,35.0,168.0,69.0,28,025
+28026,"State Senate District 26 (2016), Mississippi",709.0,623.0,20.0,0.0,0.0,66.0,28,026
+28027,"State Senate District 27 (2016), Mississippi",795.0,729.0,0.0,17.0,49.0,0.0,28,027
+28028,"State Senate District 28 (2016), Mississippi",249.0,220.0,6.0,0.0,0.0,23.0,28,028
+28029,"State Senate District 29 (2016), Mississippi",279.0,159.0,0.0,89.0,13.0,18.0,28,029
+28030,"State Senate District 30 (2016), Mississippi",590.0,551.0,0.0,10.0,29.0,0.0,28,030
+28031,"State Senate District 31 (2016), Mississippi",208.0,208.0,0.0,0.0,0.0,0.0,28,031
+28032,"State Senate District 32 (2016), Mississippi",395.0,385.0,0.0,0.0,10.0,0.0,28,032
+28033,"State Senate District 33 (2016), Mississippi",98.0,72.0,0.0,0.0,26.0,0.0,28,033
+28034,"State Senate District 34 (2016), Mississippi",195.0,166.0,0.0,0.0,0.0,29.0,28,034
+28035,"State Senate District 35 (2016), Mississippi",68.0,58.0,10.0,0.0,0.0,0.0,28,035
+28036,"State Senate District 36 (2016), Mississippi",140.0,136.0,0.0,0.0,0.0,4.0,28,036
+28037,"State Senate District 37 (2016), Mississippi",215.0,202.0,0.0,5.0,0.0,8.0,28,037
+28038,"State Senate District 38 (2016), Mississippi",190.0,129.0,55.0,0.0,6.0,0.0,28,038
+28039,"State Senate District 39 (2016), Mississippi",251.0,251.0,0.0,0.0,0.0,0.0,28,039
+28040,"State Senate District 40 (2016), Mississippi",289.0,289.0,0.0,0.0,0.0,0.0,28,040
+28041,"State Senate District 41 (2016), Mississippi",98.0,43.0,55.0,0.0,0.0,0.0,28,041
+28042,"State Senate District 42 (2016), Mississippi",314.0,271.0,0.0,43.0,0.0,0.0,28,042
+28043,"State Senate District 43 (2016), Mississippi",295.0,295.0,0.0,0.0,0.0,0.0,28,043
+28044,"State Senate District 44 (2016), Mississippi",816.0,669.0,0.0,42.0,105.0,0.0,28,044
+28045,"State Senate District 45 (2016), Mississippi",508.0,201.0,115.0,42.0,0.0,150.0,28,045
+28046,"State Senate District 46 (2016), Mississippi",335.0,227.0,0.0,0.0,0.0,108.0,28,046
+28047,"State Senate District 47 (2016), Mississippi",1322.0,1274.0,40.0,0.0,8.0,0.0,28,047
+28048,"State Senate District 48 (2016), Mississippi",1363.0,1050.0,80.0,85.0,115.0,33.0,28,048
+29001,"State Senate District 1 (2016), Missouri",4172.0,3655.0,219.0,70.0,83.0,145.0,29,001
+29002,"State Senate District 2 (2016), Missouri",3982.0,3227.0,259.0,149.0,178.0,169.0,29,002
+29003,"State Senate District 3 (2016), Missouri",520.0,323.0,45.0,0.0,141.0,11.0,29,003
+29004,"State Senate District 4 (2016), Missouri",5035.0,3463.0,458.0,257.0,365.0,492.0,29,004
+29005,"State Senate District 5 (2016), Missouri",6873.0,5269.0,660.0,228.0,465.0,251.0,29,005
+29006,"State Senate District 6 (2016), Missouri",1260.0,872.0,225.0,24.0,64.0,75.0,29,006
+29007,"State Senate District 7 (2016), Missouri",4670.0,3441.0,428.0,130.0,450.0,221.0,29,007
+29008,"State Senate District 8 (2016), Missouri",2403.0,2055.0,154.0,65.0,26.0,103.0,29,008
+29009,"State Senate District 9 (2016), Missouri",2674.0,2126.0,185.0,131.0,129.0,103.0,29,009
+29010,"State Senate District 10 (2016), Missouri",830.0,743.0,25.0,54.0,0.0,8.0,29,010
+29011,"State Senate District 11 (2016), Missouri",2898.0,2491.0,74.0,0.0,300.0,33.0,29,011
+29012,"State Senate District 12 (2016), Missouri",1345.0,1070.0,104.0,26.0,97.0,48.0,29,012
+29013,"State Senate District 13 (2016), Missouri",1628.0,1492.0,100.0,0.0,29.0,7.0,29,013
+29014,"State Senate District 14 (2016), Missouri",4188.0,2849.0,502.0,234.0,334.0,269.0,29,014
+29015,"State Senate District 15 (2016), Missouri",6870.0,5774.0,518.0,262.0,253.0,63.0,29,015
+29016,"State Senate District 16 (2016), Missouri",3269.0,1892.0,302.0,188.0,562.0,325.0,29,016
+29017,"State Senate District 17 (2016), Missouri",4679.0,3820.0,214.0,203.0,91.0,351.0,29,017
+29018,"State Senate District 18 (2016), Missouri",1284.0,906.0,120.0,112.0,52.0,94.0,29,018
+29019,"State Senate District 19 (2016), Missouri",7455.0,4830.0,1238.0,123.0,445.0,819.0,29,019
+29020,"State Senate District 20 (2016), Missouri",1851.0,1723.0,59.0,60.0,9.0,0.0,29,020
+29021,"State Senate District 21 (2016), Missouri",1345.0,859.0,141.0,67.0,2.0,276.0,29,021
+29022,"State Senate District 22 (2016), Missouri",1507.0,1248.0,77.0,129.0,18.0,35.0,29,022
+29023,"State Senate District 23 (2016), Missouri",5088.0,4177.0,551.0,86.0,144.0,130.0,29,023
+29024,"State Senate District 24 (2016), Missouri",14913.0,11487.0,1462.0,316.0,1001.0,647.0,29,024
+29025,"State Senate District 25 (2016), Missouri",451.0,380.0,41.0,30.0,0.0,0.0,29,025
+29026,"State Senate District 26 (2016), Missouri",6050.0,5109.0,287.0,348.0,249.0,57.0,29,026
+29027,"State Senate District 27 (2016), Missouri",1500.0,1067.0,152.0,5.0,39.0,237.0,29,027
+29028,"State Senate District 28 (2016), Missouri",548.0,472.0,38.0,7.0,0.0,31.0,29,028
+29029,"State Senate District 29 (2016), Missouri",1540.0,1298.0,113.0,10.0,12.0,107.0,29,029
+29030,"State Senate District 30 (2016), Missouri",3898.0,2724.0,621.0,117.0,97.0,339.0,29,030
+29031,"State Senate District 31 (2016), Missouri",1123.0,1057.0,23.0,31.0,0.0,12.0,29,031
+29032,"State Senate District 32 (2016), Missouri",2087.0,1805.0,34.0,173.0,34.0,41.0,29,032
+29033,"State Senate District 33 (2016), Missouri",580.0,541.0,12.0,13.0,14.0,0.0,29,033
+29034,"State Senate District 34 (2016), Missouri",3566.0,2994.0,181.0,178.0,100.0,113.0,29,034
+30003,"State Senate District 3 (2016), Montana",44.0,44.0,0.0,0.0,0.0,0.0,30,003
+30004,"State Senate District 4 (2016), Montana",196.0,177.0,0.0,0.0,19.0,0.0,30,004
+30005,"State Senate District 5 (2016), Montana",77.0,73.0,4.0,0.0,0.0,0.0,30,005
+30006,"State Senate District 6 (2016), Montana",32.0,9.0,0.0,22.0,0.0,1.0,30,006
+30007,"State Senate District 7 (2016), Montana",195.0,195.0,0.0,0.0,0.0,0.0,30,007
+30008,"State Senate District 8 (2016), Montana",93.0,88.0,0.0,5.0,0.0,0.0,30,008
+30009,"State Senate District 9 (2016), Montana",71.0,68.0,0.0,0.0,3.0,0.0,30,009
+30010,"State Senate District 10 (2016), Montana",183.0,92.0,20.0,0.0,26.0,45.0,30,010
+30011,"State Senate District 11 (2016), Montana",181.0,89.0,92.0,0.0,0.0,0.0,30,011
+30012,"State Senate District 12 (2016), Montana",224.0,109.0,63.0,0.0,52.0,0.0,30,012
+30013,"State Senate District 13 (2016), Montana",139.0,65.0,24.0,0.0,35.0,15.0,30,013
+30014,"State Senate District 14 (2016), Montana",107.0,81.0,26.0,0.0,0.0,0.0,30,014
+30015,"State Senate District 15 (2016), Montana",101.0,33.0,54.0,0.0,0.0,14.0,30,015
+30016,"State Senate District 16 (2016), Montana",46.0,40.0,0.0,0.0,6.0,0.0,30,016
+30017,"State Senate District 17 (2016), Montana",74.0,68.0,0.0,0.0,0.0,6.0,30,017
+30018,"State Senate District 18 (2016), Montana",94.0,94.0,0.0,0.0,0.0,0.0,30,018
+30019,"State Senate District 19 (2016), Montana",76.0,59.0,0.0,0.0,17.0,0.0,30,019
+30020,"State Senate District 20 (2016), Montana",130.0,117.0,0.0,0.0,0.0,13.0,30,020
+30021,"State Senate District 21 (2016), Montana",80.0,40.0,0.0,0.0,22.0,18.0,30,021
+30022,"State Senate District 22 (2016), Montana",192.0,175.0,0.0,0.0,17.0,0.0,30,022
+30023,"State Senate District 23 (2016), Montana",234.0,199.0,0.0,0.0,35.0,0.0,30,023
+30024,"State Senate District 24 (2016), Montana",61.0,26.0,8.0,0.0,11.0,16.0,30,024
+30025,"State Senate District 25 (2016), Montana",159.0,109.0,0.0,0.0,50.0,0.0,30,025
+30026,"State Senate District 26 (2016), Montana",80.0,79.0,1.0,0.0,0.0,0.0,30,026
+30027,"State Senate District 27 (2016), Montana",132.0,132.0,0.0,0.0,0.0,0.0,30,027
+30028,"State Senate District 28 (2016), Montana",60.0,17.0,0.0,0.0,43.0,0.0,30,028
+30029,"State Senate District 29 (2016), Montana",75.0,72.0,0.0,3.0,0.0,0.0,30,029
+30030,"State Senate District 30 (2016), Montana",49.0,48.0,0.0,0.0,0.0,1.0,30,030
+30031,"State Senate District 31 (2016), Montana",367.0,293.0,27.0,0.0,12.0,35.0,30,031
+30032,"State Senate District 32 (2016), Montana",429.0,284.0,26.0,18.0,14.0,87.0,30,032
+30033,"State Senate District 33 (2016), Montana",402.0,270.0,23.0,91.0,18.0,0.0,30,033
+30034,"State Senate District 34 (2016), Montana",28.0,28.0,0.0,0.0,0.0,0.0,30,034
+30035,"State Senate District 35 (2016), Montana",136.0,128.0,8.0,0.0,0.0,0.0,30,035
+30036,"State Senate District 36 (2016), Montana",272.0,268.0,0.0,1.0,0.0,3.0,30,036
+30037,"State Senate District 37 (2016), Montana",42.0,31.0,0.0,0.0,11.0,0.0,30,037
+30038,"State Senate District 38 (2016), Montana",40.0,39.0,0.0,0.0,0.0,1.0,30,038
+30039,"State Senate District 39 (2016), Montana",130.0,128.0,0.0,0.0,0.0,2.0,30,039
+30040,"State Senate District 40 (2016), Montana",187.0,90.0,86.0,9.0,2.0,0.0,30,040
+30041,"State Senate District 41 (2016), Montana",95.0,70.0,9.0,0.0,16.0,0.0,30,041
+30042,"State Senate District 42 (2016), Montana",125.0,80.0,45.0,0.0,0.0,0.0,30,042
+30043,"State Senate District 43 (2016), Montana",127.0,123.0,0.0,0.0,0.0,4.0,30,043
+30044,"State Senate District 44 (2016), Montana",123.0,123.0,0.0,0.0,0.0,0.0,30,044
+30045,"State Senate District 45 (2016), Montana",695.0,573.0,23.0,4.0,18.0,77.0,30,045
+30046,"State Senate District 46 (2016), Montana",408.0,335.0,43.0,4.0,0.0,26.0,30,046
+30047,"State Senate District 47 (2016), Montana",157.0,152.0,0.0,0.0,0.0,5.0,30,047
+30048,"State Senate District 48 (2016), Montana",40.0,40.0,0.0,0.0,0.0,0.0,30,048
+30049,"State Senate District 49 (2016), Montana",90.0,90.0,0.0,0.0,0.0,0.0,30,049
+30050,"State Senate District 50 (2016), Montana",198.0,166.0,22.0,0.0,10.0,0.0,30,050
+30001,"State Senate District 1 (2016), Montana",69.0,59.0,10.0,0.0,0.0,0.0,30,001
+30002,"State Senate District 2 (2016), Montana",53.0,49.0,4.0,0.0,0.0,0.0,30,002
+31007,"State Senate District 7 (2016), Nebraska",474.0,339.0,33.0,16.0,54.0,32.0,31,007
+31008,"State Senate District 8 (2016), Nebraska",1830.0,1439.0,158.0,34.0,18.0,181.0,31,008
+31009,"State Senate District 9 (2016), Nebraska",2099.0,1370.0,249.0,19.0,167.0,294.0,31,009
+31010,"State Senate District 10 (2016), Nebraska",1033.0,869.0,117.0,14.0,25.0,8.0,31,010
+31011,"State Senate District 11 (2016), Nebraska",1524.0,1220.0,43.0,0.0,226.0,35.0,31,011
+31012,"State Senate District 12 (2016), Nebraska",1092.0,801.0,101.0,42.0,45.0,103.0,31,012
+31013,"State Senate District 13 (2016), Nebraska",2128.0,1726.0,149.0,0.0,68.0,185.0,31,013
+31014,"State Senate District 14 (2016), Nebraska",1036.0,902.0,7.0,0.0,127.0,0.0,31,014
+31015,"State Senate District 15 (2016), Nebraska",225.0,211.0,5.0,6.0,0.0,3.0,31,015
+31016,"State Senate District 16 (2016), Nebraska",102.0,96.0,0.0,0.0,0.0,6.0,31,016
+31017,"State Senate District 17 (2016), Nebraska",697.0,540.0,109.0,27.0,21.0,0.0,31,017
+31018,"State Senate District 18 (2016), Nebraska",1463.0,1189.0,181.0,23.0,26.0,44.0,31,018
+31019,"State Senate District 19 (2016), Nebraska",385.0,372.0,0.0,0.0,7.0,6.0,31,019
+31020,"State Senate District 20 (2016), Nebraska",875.0,556.0,128.0,0.0,148.0,43.0,31,020
+31021,"State Senate District 21 (2016), Nebraska",1872.0,1527.0,207.0,90.0,0.0,48.0,31,021
+31022,"State Senate District 22 (2016), Nebraska",224.0,168.0,0.0,0.0,56.0,0.0,31,022
+31023,"State Senate District 23 (2016), Nebraska",160.0,128.0,0.0,14.0,0.0,18.0,31,023
+31024,"State Senate District 24 (2016), Nebraska",143.0,92.0,5.0,32.0,9.0,5.0,31,024
+31025,"State Senate District 25 (2016), Nebraska",771.0,572.0,109.0,0.0,9.0,81.0,31,025
+31026,"State Senate District 26 (2016), Nebraska",1577.0,1262.0,174.0,9.0,82.0,50.0,31,026
+31027,"State Senate District 27 (2016), Nebraska",2119.0,1695.0,158.0,6.0,16.0,244.0,31,027
+31028,"State Senate District 28 (2016), Nebraska",2104.0,1578.0,74.0,184.0,23.0,245.0,31,028
+31029,"State Senate District 29 (2016), Nebraska",796.0,639.0,74.0,28.0,36.0,19.0,31,029
+31030,"State Senate District 30 (2016), Nebraska",288.0,249.0,17.0,0.0,0.0,22.0,31,030
+31031,"State Senate District 31 (2016), Nebraska",1548.0,1324.0,47.0,7.0,18.0,152.0,31,031
+31032,"State Senate District 32 (2016), Nebraska",455.0,373.0,0.0,10.0,0.0,72.0,31,032
+31033,"State Senate District 33 (2016), Nebraska",453.0,375.0,76.0,2.0,0.0,0.0,31,033
+31034,"State Senate District 34 (2016), Nebraska",190.0,187.0,0.0,3.0,0.0,0.0,31,034
+31035,"State Senate District 35 (2016), Nebraska",583.0,498.0,47.0,24.0,14.0,0.0,31,035
+31036,"State Senate District 36 (2016), Nebraska",97.0,96.0,0.0,0.0,0.0,1.0,31,036
+31037,"State Senate District 37 (2016), Nebraska",618.0,413.0,75.0,50.0,4.0,76.0,31,037
+31038,"State Senate District 38 (2016), Nebraska",128.0,101.0,14.0,6.0,7.0,0.0,31,038
+31039,"State Senate District 39 (2016), Nebraska",1138.0,1010.0,89.0,0.0,29.0,10.0,31,039
+31040,"State Senate District 40 (2016), Nebraska",98.0,97.0,1.0,0.0,0.0,0.0,31,040
+31041,"State Senate District 41 (2016), Nebraska",93.0,92.0,0.0,1.0,0.0,0.0,31,041
+31042,"State Senate District 42 (2016), Nebraska",218.0,174.0,11.0,10.0,15.0,8.0,31,042
+31043,"State Senate District 43 (2016), Nebraska",161.0,83.0,38.0,29.0,5.0,6.0,31,043
+31044,"State Senate District 44 (2016), Nebraska",62.0,61.0,0.0,1.0,0.0,0.0,31,044
+31045,"State Senate District 45 (2016), Nebraska",946.0,767.0,68.0,31.0,20.0,60.0,31,045
+31046,"State Senate District 46 (2016), Nebraska",3374.0,2441.0,332.0,47.0,79.0,475.0,31,046
+31047,"State Senate District 47 (2016), Nebraska",235.0,223.0,0.0,0.0,12.0,0.0,31,047
+31048,"State Senate District 48 (2016), Nebraska",228.0,201.0,14.0,0.0,9.0,4.0,31,048
+31049,"State Senate District 49 (2016), Nebraska",1029.0,835.0,108.0,61.0,12.0,13.0,31,049
+31001,"State Senate District 1 (2016), Nebraska",191.0,118.0,11.0,1.0,61.0,0.0,31,001
+31002,"State Senate District 2 (2016), Nebraska",145.0,143.0,0.0,2.0,0.0,0.0,31,002
+31003,"State Senate District 3 (2016), Nebraska",1252.0,865.0,83.0,46.0,89.0,169.0,31,003
+31004,"State Senate District 4 (2016), Nebraska",1414.0,997.0,317.0,26.0,74.0,0.0,31,004
+31005,"State Senate District 5 (2016), Nebraska",276.0,237.0,33.0,0.0,6.0,0.0,31,005
+31006,"State Senate District 6 (2016), Nebraska",1658.0,1023.0,277.0,41.0,84.0,233.0,31,006
+32001,"State Senate District 1 (2016), Nevada",11427.0,10094.0,717.0,0.0,422.0,194.0,32,001
+32002,"State Senate District 2 (2016), Nevada",3836.0,3090.0,519.0,0.0,202.0,25.0,32,002
+32003,"State Senate District 3 (2016), Nevada",7974.0,6449.0,782.0,0.0,338.0,405.0,32,003
+32004,"State Senate District 4 (2016), Nevada",5334.0,4562.0,558.0,0.0,133.0,81.0,32,004
+32005,"State Senate District 5 (2016), Nevada",11766.0,9562.0,1458.0,32.0,508.0,206.0,32,005
+32006,"State Senate District 6 (2016), Nevada",10564.0,8350.0,1224.0,5.0,852.0,133.0,32,006
+32007,"State Senate District 7 (2016), Nevada",10906.0,8600.0,1701.0,0.0,388.0,217.0,32,007
+32008,"State Senate District 8 (2016), Nevada",17506.0,14284.0,1660.0,0.0,1053.0,509.0,32,008
+32009,"State Senate District 9 (2016), Nevada",36977.0,31542.0,3672.0,79.0,1211.0,473.0,32,009
+32010,"State Senate District 10 (2016), Nevada",9225.0,6879.0,1583.0,0.0,419.0,344.0,32,010
+32011,"State Senate District 11 (2016), Nevada",26285.0,21676.0,2894.0,83.0,898.0,734.0,32,011
+32012,"State Senate District 12 (2016), Nevada",7053.0,5810.0,731.0,126.0,310.0,76.0,32,012
+32013,"State Senate District 13 (2016), Nevada",8235.0,6617.0,1040.0,81.0,255.0,242.0,32,013
+32014,"State Senate District 14 (2016), Nevada",4177.0,3567.0,340.0,101.0,113.0,56.0,32,014
+32015,"State Senate District 15 (2016), Nevada",7385.0,6196.0,707.0,109.0,242.0,131.0,32,015
+32016,"State Senate District 16 (2016), Nevada",5541.0,4121.0,670.0,73.0,480.0,197.0,32,016
+32017,"State Senate District 17 (2016), Nevada",1934.0,1663.0,132.0,28.0,81.0,30.0,32,017
+32018,"State Senate District 18 (2016), Nevada",9187.0,7718.0,1147.0,0.0,270.0,52.0,32,018
+32019,"State Senate District 19 (2016), Nevada",2885.0,2403.0,340.0,68.0,53.0,21.0,32,019
+32020,"State Senate District 20 (2016), Nevada",20898.0,17248.0,2235.0,51.0,1137.0,227.0,32,020
+32021,"State Senate District 21 (2016), Nevada",11853.0,10316.0,1210.0,0.0,260.0,67.0,32,021
+33012,"State Senate District 12 (2016), New Hampshire",2557.0,2156.0,54.0,0.0,227.0,120.0,33,012
+33013,"State Senate District 13 (2016), New Hampshire",4546.0,3292.0,387.0,0.0,432.0,435.0,33,013
+33014,"State Senate District 14 (2016), New Hampshire",1038.0,796.0,169.0,20.0,53.0,0.0,33,014
+33015,"State Senate District 15 (2016), New Hampshire",1721.0,1528.0,80.0,47.0,66.0,0.0,33,015
+33016,"State Senate District 16 (2016), New Hampshire",2166.0,1590.0,114.0,50.0,83.0,329.0,33,016
+33017,"State Senate District 17 (2016), New Hampshire",416.0,316.0,29.0,0.0,0.0,71.0,33,017
+33018,"State Senate District 18 (2016), New Hampshire",2182.0,2063.0,43.0,0.0,0.0,76.0,33,018
+33019,"State Senate District 19 (2016), New Hampshire",1053.0,937.0,7.0,0.0,61.0,48.0,33,019
+33020,"State Senate District 20 (2016), New Hampshire",1330.0,1103.0,172.0,0.0,27.0,28.0,33,020
+33021,"State Senate District 21 (2016), New Hampshire",2534.0,1605.0,298.0,123.0,349.0,159.0,33,021
+33022,"State Senate District 22 (2016), New Hampshire",1214.0,1128.0,0.0,16.0,51.0,19.0,33,022
+33023,"State Senate District 23 (2016), New Hampshire",439.0,422.0,0.0,8.0,9.0,0.0,33,023
+33024,"State Senate District 24 (2016), New Hampshire",1186.0,1035.0,36.0,0.0,93.0,22.0,33,024
+33001,"State Senate District 1 (2016), New Hampshire",374.0,358.0,2.0,0.0,14.0,0.0,33,001
+33002,"State Senate District 2 (2016), New Hampshire",630.0,393.0,29.0,29.0,18.0,161.0,33,002
+33003,"State Senate District 3 (2016), New Hampshire",282.0,271.0,0.0,0.0,8.0,3.0,33,003
+33004,"State Senate District 4 (2016), New Hampshire",2569.0,1974.0,272.0,0.0,104.0,219.0,33,004
+33005,"State Senate District 5 (2016), New Hampshire",2457.0,1715.0,171.0,49.0,185.0,337.0,33,005
+33006,"State Senate District 6 (2016), New Hampshire",562.0,459.0,49.0,27.0,0.0,27.0,33,006
+33007,"State Senate District 7 (2016), New Hampshire",488.0,471.0,0.0,0.0,17.0,0.0,33,007
+33008,"State Senate District 8 (2016), New Hampshire",349.0,343.0,6.0,0.0,0.0,0.0,33,008
+33009,"State Senate District 9 (2016), New Hampshire",886.0,833.0,9.0,0.0,5.0,39.0,33,009
+33010,"State Senate District 10 (2016), New Hampshire",672.0,558.0,25.0,18.0,11.0,60.0,33,010
+33011,"State Senate District 11 (2016), New Hampshire",1281.0,1165.0,23.0,35.0,58.0,0.0,33,011
+34014,"State Senate District 14 (2016), New Jersey",34264.0,28850.0,2070.0,763.0,1075.0,1506.0,34,014
+34015,"State Senate District 15 (2016), New Jersey",22661.0,19107.0,865.0,1089.0,930.0,670.0,34,015
+34016,"State Senate District 16 (2016), New Jersey",43624.0,37180.0,2436.0,1765.0,897.0,1346.0,34,016
+34017,"State Senate District 17 (2016), New Jersey",52699.0,45659.0,2154.0,2612.0,1093.0,1181.0,34,017
+34018,"State Senate District 18 (2016), New Jersey",70721.0,59729.0,4644.0,1938.0,1793.0,2617.0,34,018
+34019,"State Senate District 19 (2016), New Jersey",38278.0,33907.0,1719.0,591.0,852.0,1209.0,34,019
+34020,"State Senate District 20 (2016), New Jersey",9599.0,9053.0,117.0,183.0,189.0,57.0,34,020
+34021,"State Senate District 21 (2016), New Jersey",21645.0,18779.0,785.0,635.0,745.0,701.0,34,021
+34022,"State Senate District 22 (2016), New Jersey",10923.0,9742.0,414.0,546.0,107.0,114.0,34,022
+34023,"State Senate District 23 (2016), New Jersey",17198.0,14842.0,610.0,607.0,541.0,598.0,34,023
+34024,"State Senate District 24 (2016), New Jersey",5948.0,5566.0,199.0,124.0,19.0,40.0,34,024
+34025,"State Senate District 25 (2016), New Jersey",13280.0,11272.0,965.0,362.0,291.0,390.0,34,025
+34026,"State Senate District 26 (2016), New Jersey",28750.0,25922.0,984.0,795.0,637.0,412.0,34,026
+34027,"State Senate District 27 (2016), New Jersey",24279.0,21060.0,1133.0,982.0,407.0,697.0,34,027
+34028,"State Senate District 28 (2016), New Jersey",10975.0,9667.0,606.0,242.0,224.0,236.0,34,028
+34029,"State Senate District 29 (2016), New Jersey",6998.0,6320.0,129.0,217.0,230.0,102.0,34,029
+34030,"State Senate District 30 (2016), New Jersey",4633.0,3907.0,354.0,185.0,152.0,35.0,34,030
+34031,"State Senate District 31 (2016), New Jersey",44802.0,36755.0,3750.0,606.0,1891.0,1800.0,34,031
+34032,"State Senate District 32 (2016), New Jersey",24514.0,19416.0,2113.0,715.0,1080.0,1190.0,34,032
+34033,"State Senate District 33 (2016), New Jersey",36698.0,27613.0,3783.0,436.0,1816.0,3050.0,34,033
+34034,"State Senate District 34 (2016), New Jersey",10846.0,9804.0,158.0,487.0,273.0,124.0,34,034
+34035,"State Senate District 35 (2016), New Jersey",8956.0,8397.0,356.0,66.0,119.0,18.0,34,035
+34036,"State Senate District 36 (2016), New Jersey",25137.0,21931.0,1416.0,281.0,1134.0,375.0,34,036
+34037,"State Senate District 37 (2016), New Jersey",52660.0,45885.0,3287.0,639.0,1605.0,1244.0,34,037
+34038,"State Senate District 38 (2016), New Jersey",35777.0,32078.0,2063.0,742.0,451.0,443.0,34,038
+34039,"State Senate District 39 (2016), New Jersey",26726.0,23265.0,1631.0,462.0,644.0,724.0,34,039
+34040,"State Senate District 40 (2016), New Jersey",16438.0,14389.0,886.0,462.0,258.0,443.0,34,040
+34001,"State Senate District 1 (2016), New Jersey",2646.0,2035.0,426.0,90.0,69.0,26.0,34,001
+34002,"State Senate District 2 (2016), New Jersey",18317.0,16840.0,960.0,88.0,235.0,194.0,34,002
+34003,"State Senate District 3 (2016), New Jersey",4032.0,3412.0,142.0,116.0,287.0,75.0,34,003
+34004,"State Senate District 4 (2016), New Jersey",7056.0,6087.0,330.0,246.0,207.0,186.0,34,004
+34005,"State Senate District 5 (2016), New Jersey",7821.0,6977.0,391.0,140.0,149.0,164.0,34,005
+34006,"State Senate District 6 (2016), New Jersey",21026.0,18065.0,1261.0,572.0,535.0,593.0,34,006
+34007,"State Senate District 7 (2016), New Jersey",11758.0,10482.0,331.0,316.0,248.0,381.0,34,007
+34008,"State Senate District 8 (2016), New Jersey",7767.0,6773.0,365.0,286.0,253.0,90.0,34,008
+34009,"State Senate District 9 (2016), New Jersey",6423.0,5495.0,433.0,70.0,61.0,364.0,34,009
+34010,"State Senate District 10 (2016), New Jersey",6425.0,5749.0,252.0,289.0,47.0,88.0,34,010
+34011,"State Senate District 11 (2016), New Jersey",9329.0,8071.0,554.0,173.0,264.0,267.0,34,011
+34012,"State Senate District 12 (2016), New Jersey",17357.0,15531.0,891.0,550.0,242.0,143.0,34,012
+34013,"State Senate District 13 (2016), New Jersey",16289.0,14499.0,451.0,549.0,434.0,356.0,34,013
+35034,"State Senate District 34 (2016), New Mexico",635.0,497.0,56.0,0.0,75.0,7.0,35,034
+35035,"State Senate District 35 (2016), New Mexico",188.0,141.0,0.0,0.0,28.0,19.0,35,035
+35036,"State Senate District 36 (2016), New Mexico",132.0,106.0,0.0,0.0,0.0,26.0,35,036
+35037,"State Senate District 37 (2016), New Mexico",670.0,592.0,45.0,0.0,33.0,0.0,35,037
+35038,"State Senate District 38 (2016), New Mexico",770.0,560.0,61.0,5.0,67.0,77.0,35,038
+35039,"State Senate District 39 (2016), New Mexico",649.0,587.0,29.0,28.0,0.0,5.0,35,039
+35040,"State Senate District 40 (2016), New Mexico",699.0,440.0,115.0,34.0,92.0,18.0,35,040
+35041,"State Senate District 41 (2016), New Mexico",44.0,33.0,0.0,11.0,0.0,0.0,35,041
+35042,"State Senate District 42 (2016), New Mexico",210.0,196.0,0.0,0.0,0.0,14.0,35,042
+35001,"State Senate District 1 (2016), New Mexico",354.0,290.0,10.0,11.0,41.0,2.0,35,001
+35002,"State Senate District 2 (2016), New Mexico",144.0,126.0,0.0,3.0,15.0,0.0,35,002
+35003,"State Senate District 3 (2016), New Mexico",545.0,529.0,0.0,0.0,14.0,2.0,35,003
+35004,"State Senate District 4 (2016), New Mexico",415.0,235.0,49.0,44.0,75.0,12.0,35,004
+35005,"State Senate District 5 (2016), New Mexico",1021.0,862.0,24.0,51.0,25.0,59.0,35,005
+35006,"State Senate District 6 (2016), New Mexico",275.0,266.0,0.0,9.0,0.0,0.0,35,006
+35007,"State Senate District 7 (2016), New Mexico",547.0,412.0,0.0,10.0,86.0,39.0,35,007
+35008,"State Senate District 8 (2016), New Mexico",313.0,199.0,27.0,0.0,34.0,53.0,35,008
+35009,"State Senate District 9 (2016), New Mexico",836.0,739.0,31.0,33.0,33.0,0.0,35,009
+35010,"State Senate District 10 (2016), New Mexico",1929.0,1766.0,121.0,0.0,14.0,28.0,35,010
+35011,"State Senate District 11 (2016), New Mexico",302.0,258.0,20.0,0.0,0.0,24.0,35,011
+35012,"State Senate District 12 (2016), New Mexico",917.0,568.0,149.0,41.0,43.0,116.0,35,012
+35013,"State Senate District 13 (2016), New Mexico",708.0,685.0,23.0,0.0,0.0,0.0,35,013
+35014,"State Senate District 14 (2016), New Mexico",201.0,167.0,14.0,0.0,20.0,0.0,35,014
+35015,"State Senate District 15 (2016), New Mexico",937.0,647.0,113.0,0.0,166.0,11.0,35,015
+35016,"State Senate District 16 (2016), New Mexico",1354.0,898.0,247.0,0.0,87.0,122.0,35,016
+35017,"State Senate District 17 (2016), New Mexico",1400.0,1297.0,61.0,36.0,0.0,6.0,35,017
+35018,"State Senate District 18 (2016), New Mexico",1463.0,1349.0,90.0,0.0,24.0,0.0,35,018
+35019,"State Senate District 19 (2016), New Mexico",1168.0,1051.0,57.0,0.0,36.0,24.0,35,019
+35020,"State Senate District 20 (2016), New Mexico",1538.0,1371.0,131.0,0.0,25.0,11.0,35,020
+35021,"State Senate District 21 (2016), New Mexico",2926.0,2339.0,236.0,0.0,265.0,86.0,35,021
+35022,"State Senate District 22 (2016), New Mexico",485.0,472.0,4.0,0.0,2.0,7.0,35,022
+35023,"State Senate District 23 (2016), New Mexico",1152.0,942.0,110.0,0.0,57.0,43.0,35,023
+35024,"State Senate District 24 (2016), New Mexico",675.0,499.0,36.0,18.0,77.0,45.0,35,024
+35025,"State Senate District 25 (2016), New Mexico",598.0,455.0,56.0,0.0,74.0,13.0,35,025
+35026,"State Senate District 26 (2016), New Mexico",748.0,622.0,111.0,0.0,0.0,15.0,35,026
+35027,"State Senate District 27 (2016), New Mexico",336.0,228.0,0.0,0.0,83.0,25.0,35,027
+35028,"State Senate District 28 (2016), New Mexico",463.0,297.0,28.0,0.0,46.0,92.0,35,028
+35029,"State Senate District 29 (2016), New Mexico",352.0,343.0,9.0,0.0,0.0,0.0,35,029
+35030,"State Senate District 30 (2016), New Mexico",376.0,352.0,21.0,3.0,0.0,0.0,35,030
+35031,"State Senate District 31 (2016), New Mexico",507.0,282.0,60.0,139.0,3.0,23.0,35,031
+35032,"State Senate District 32 (2016), New Mexico",339.0,168.0,11.0,3.0,0.0,157.0,35,032
+35033,"State Senate District 33 (2016), New Mexico",415.0,322.0,11.0,81.0,1.0,0.0,35,033
+36046,"State Senate District 46 (2016), New York",6494.0,5388.0,395.0,147.0,231.0,333.0,36,046
+36047,"State Senate District 47 (2016), New York",9635.0,7902.0,950.0,237.0,10.0,536.0,36,047
+36048,"State Senate District 48 (2016), New York",3012.0,2105.0,211.0,200.0,149.0,347.0,36,048
+36049,"State Senate District 49 (2016), New York",10093.0,8455.0,338.0,425.0,281.0,594.0,36,049
+36050,"State Senate District 50 (2016), New York",10535.0,8528.0,997.0,159.0,297.0,554.0,36,050
+36051,"State Senate District 51 (2016), New York",2660.0,2142.0,102.0,270.0,50.0,96.0,36,051
+36052,"State Senate District 52 (2016), New York",8854.0,6162.0,1022.0,688.0,412.0,570.0,36,052
+36053,"State Senate District 53 (2016), New York",8604.0,5513.0,954.0,268.0,602.0,1267.0,36,053
+36054,"State Senate District 54 (2016), New York",5187.0,3484.0,373.0,98.0,405.0,827.0,36,054
+36055,"State Senate District 55 (2016), New York",8050.0,7091.0,387.0,235.0,132.0,205.0,36,055
+36056,"State Senate District 56 (2016), New York",11603.0,8640.0,1310.0,345.0,392.0,916.0,36,056
+36057,"State Senate District 57 (2016), New York",2129.0,1685.0,109.0,106.0,58.0,171.0,36,057
+36058,"State Senate District 58 (2016), New York",11815.0,6997.0,2179.0,381.0,776.0,1482.0,36,058
+36059,"State Senate District 59 (2016), New York",5533.0,3951.0,820.0,195.0,189.0,378.0,36,059
+36060,"State Senate District 60 (2016), New York",8178.0,6562.0,677.0,106.0,132.0,701.0,36,060
+36061,"State Senate District 61 (2016), New York",14845.0,10410.0,1872.0,810.0,379.0,1374.0,36,061
+36062,"State Senate District 62 (2016), New York",2886.0,2369.0,137.0,166.0,64.0,150.0,36,062
+36063,"State Senate District 63 (2016), New York",10087.0,7439.0,1101.0,480.0,173.0,894.0,36,063
+36001,"State Senate District 1 (2016), New York",7713.0,6543.0,454.0,164.0,222.0,330.0,36,001
+36002,"State Senate District 2 (2016), New York",22627.0,18346.0,1770.0,1155.0,295.0,1061.0,36,002
+36003,"State Senate District 3 (2016), New York",8130.0,7548.0,147.0,121.0,155.0,159.0,36,003
+36004,"State Senate District 4 (2016), New York",9702.0,8589.0,423.0,328.0,216.0,146.0,36,004
+36005,"State Senate District 5 (2016), New York",28881.0,25027.0,1351.0,1265.0,402.0,836.0,36,005
+36006,"State Senate District 6 (2016), New York",19209.0,16987.0,650.0,900.0,297.0,375.0,36,006
+36007,"State Senate District 7 (2016), New York",56347.0,50503.0,1233.0,3022.0,203.0,1386.0,36,007
+36008,"State Senate District 8 (2016), New York",7784.0,7146.0,443.0,115.0,46.0,34.0,36,008
+36009,"State Senate District 9 (2016), New York",19624.0,18402.0,446.0,395.0,77.0,304.0,36,009
+36010,"State Senate District 10 (2016), New York",49981.0,45304.0,3382.0,289.0,266.0,740.0,36,010
+36011,"State Senate District 11 (2016), New York",128773.0,116002.0,7847.0,1922.0,1004.0,1998.0,36,011
+36012,"State Senate District 12 (2016), New York",69982.0,62321.0,3372.0,1586.0,1040.0,1663.0,36,012
+36013,"State Senate District 13 (2016), New York",56413.0,51526.0,2892.0,436.0,507.0,1052.0,36,013
+36014,"State Senate District 14 (2016), New York",55011.0,49345.0,3615.0,893.0,267.0,891.0,36,014
+36015,"State Senate District 15 (2016), New York",46617.0,42714.0,2023.0,651.0,443.0,786.0,36,015
+36016,"State Senate District 16 (2016), New York",179514.0,163029.0,9266.0,1722.0,1152.0,4345.0,36,016
+36017,"State Senate District 17 (2016), New York",63422.0,57576.0,3865.0,526.0,651.0,804.0,36,017
+36018,"State Senate District 18 (2016), New York",20924.0,18415.0,1126.0,889.0,315.0,179.0,36,018
+36019,"State Senate District 19 (2016), New York",25192.0,23560.0,1170.0,177.0,19.0,266.0,36,019
+36020,"State Senate District 20 (2016), New York",31705.0,27949.0,2253.0,413.0,544.0,546.0,36,020
+36021,"State Senate District 21 (2016), New York",22630.0,19982.0,1400.0,355.0,268.0,625.0,36,021
+36022,"State Senate District 22 (2016), New York",88568.0,79082.0,6633.0,1132.0,636.0,1085.0,36,022
+36023,"State Senate District 23 (2016), New York",42547.0,38656.0,2418.0,460.0,244.0,769.0,36,023
+36024,"State Senate District 24 (2016), New York",27582.0,25082.0,778.0,1314.0,231.0,177.0,36,024
+36025,"State Senate District 25 (2016), New York",19979.0,15994.0,1588.0,1134.0,592.0,671.0,36,025
+36026,"State Senate District 26 (2016), New York",71166.0,63484.0,3312.0,1446.0,1895.0,1029.0,36,026
+36027,"State Senate District 27 (2016), New York",46144.0,33535.0,4202.0,1151.0,4108.0,3148.0,36,027
+36028,"State Senate District 28 (2016), New York",34962.0,27112.0,3646.0,926.0,1800.0,1478.0,36,028
+36029,"State Senate District 29 (2016), New York",16732.0,13267.0,1040.0,704.0,512.0,1209.0,36,029
+36030,"State Senate District 30 (2016), New York",21620.0,16743.0,1777.0,685.0,1201.0,1214.0,36,030
+36031,"State Senate District 31 (2016), New York",16077.0,12672.0,1300.0,460.0,885.0,760.0,36,031
+36032,"State Senate District 32 (2016), New York",11092.0,9805.0,827.0,261.0,54.0,145.0,36,032
+36033,"State Senate District 33 (2016), New York",7910.0,7306.0,245.0,151.0,32.0,176.0,36,033
+36034,"State Senate District 34 (2016), New York",21506.0,18700.0,1247.0,482.0,371.0,706.0,36,034
+36035,"State Senate District 35 (2016), New York",24616.0,21091.0,1552.0,863.0,458.0,652.0,36,035
+36036,"State Senate District 36 (2016), New York",12076.0,11267.0,430.0,97.0,39.0,243.0,36,036
+36037,"State Senate District 37 (2016), New York",18880.0,16288.0,641.0,816.0,239.0,896.0,36,037
+36038,"State Senate District 38 (2016), New York",19526.0,17950.0,589.0,433.0,331.0,223.0,36,038
+36039,"State Senate District 39 (2016), New York",8111.0,7344.0,263.0,169.0,155.0,180.0,36,039
+36040,"State Senate District 40 (2016), New York",11625.0,10303.0,579.0,312.0,207.0,224.0,36,040
+36041,"State Senate District 41 (2016), New York",10981.0,9348.0,507.0,413.0,313.0,400.0,36,041
+36042,"State Senate District 42 (2016), New York",6672.0,5502.0,313.0,613.0,66.0,178.0,36,042
+36043,"State Senate District 43 (2016), New York",5580.0,4314.0,205.0,318.0,373.0,370.0,36,043
+36044,"State Senate District 44 (2016), New York",19126.0,14854.0,1576.0,972.0,575.0,1149.0,36,044
+36045,"State Senate District 45 (2016), New York",2599.0,1908.0,349.0,186.0,122.0,34.0,36,045
+37037,"State Senate District 37 (2016), North Carolina",11841.0,9197.0,1800.0,45.0,423.0,376.0,37,037
+37038,"State Senate District 38 (2016), North Carolina",12589.0,9184.0,1362.0,303.0,739.0,1001.0,37,038
+37039,"State Senate District 39 (2016), North Carolina",15289.0,11623.0,1414.0,94.0,1409.0,749.0,37,039
+37040,"State Senate District 40 (2016), North Carolina",9811.0,6885.0,1318.0,557.0,648.0,403.0,37,040
+37041,"State Senate District 41 (2016), North Carolina",6385.0,5231.0,593.0,127.0,301.0,133.0,37,041
+37042,"State Senate District 42 (2016), North Carolina",6698.0,5693.0,427.0,159.0,372.0,47.0,37,042
+37043,"State Senate District 43 (2016), North Carolina",2985.0,2496.0,324.0,56.0,109.0,0.0,37,043
+37044,"State Senate District 44 (2016), North Carolina",3933.0,3412.0,213.0,9.0,223.0,76.0,37,044
+37045,"State Senate District 45 (2016), North Carolina",1198.0,977.0,97.0,97.0,0.0,27.0,37,045
+37046,"State Senate District 46 (2016), North Carolina",4145.0,3458.0,474.0,107.0,8.0,98.0,37,046
+37047,"State Senate District 47 (2016), North Carolina",916.0,900.0,0.0,7.0,6.0,3.0,37,047
+37048,"State Senate District 48 (2016), North Carolina",3121.0,2600.0,310.0,110.0,101.0,0.0,37,048
+37049,"State Senate District 49 (2016), North Carolina",1451.0,1213.0,49.0,38.0,123.0,28.0,37,049
+37050,"State Senate District 50 (2016), North Carolina",1259.0,1029.0,33.0,138.0,43.0,16.0,37,050
+37001,"State Senate District 1 (2016), North Carolina",1320.0,1210.0,23.0,11.0,66.0,10.0,37,001
+37002,"State Senate District 2 (2016), North Carolina",3659.0,2730.0,390.0,90.0,67.0,382.0,37,002
+37003,"State Senate District 3 (2016), North Carolina",718.0,594.0,63.0,12.0,8.0,41.0,37,003
+37004,"State Senate District 4 (2016), North Carolina",1370.0,1206.0,45.0,41.0,68.0,10.0,37,004
+37005,"State Senate District 5 (2016), North Carolina",1598.0,1150.0,134.0,166.0,66.0,82.0,37,005
+37006,"State Senate District 6 (2016), North Carolina",4004.0,3141.0,272.0,76.0,449.0,66.0,37,006
+37007,"State Senate District 7 (2016), North Carolina",3227.0,2709.0,168.0,114.0,186.0,50.0,37,007
+37008,"State Senate District 8 (2016), North Carolina",1036.0,878.0,16.0,15.0,95.0,32.0,37,008
+37009,"State Senate District 9 (2016), North Carolina",2874.0,1888.0,213.0,93.0,133.0,547.0,37,009
+37010,"State Senate District 10 (2016), North Carolina",880.0,764.0,84.0,0.0,32.0,0.0,37,010
+37011,"State Senate District 11 (2016), North Carolina",1726.0,1258.0,154.0,100.0,174.0,40.0,37,011
+37012,"State Senate District 12 (2016), North Carolina",2142.0,1802.0,47.0,71.0,174.0,48.0,37,012
+37013,"State Senate District 13 (2016), North Carolina",1121.0,1046.0,16.0,48.0,4.0,7.0,37,013
+37014,"State Senate District 14 (2016), North Carolina",6575.0,5371.0,564.0,85.0,291.0,264.0,37,014
+37015,"State Senate District 15 (2016), North Carolina",6243.0,5477.0,337.0,119.0,146.0,164.0,37,015
+37016,"State Senate District 16 (2016), North Carolina",27007.0,20086.0,2664.0,789.0,1588.0,1880.0,37,016
+37017,"State Senate District 17 (2016), North Carolina",23451.0,19356.0,864.0,514.0,1833.0,884.0,37,017
+37018,"State Senate District 18 (2016), North Carolina",2334.0,2137.0,33.0,66.0,41.0,57.0,37,018
+37019,"State Senate District 19 (2016), North Carolina",5523.0,4179.0,392.0,70.0,644.0,238.0,37,019
+37020,"State Senate District 20 (2016), North Carolina",4218.0,2829.0,480.0,295.0,192.0,422.0,37,020
+37021,"State Senate District 21 (2016), North Carolina",3475.0,2535.0,364.0,123.0,193.0,260.0,37,021
+37022,"State Senate District 22 (2016), North Carolina",10313.0,7063.0,900.0,667.0,644.0,1039.0,37,022
+37023,"State Senate District 23 (2016), North Carolina",11811.0,8055.0,1240.0,611.0,738.0,1167.0,37,023
+37024,"State Senate District 24 (2016), North Carolina",2492.0,1875.0,64.0,305.0,86.0,162.0,37,024
+37025,"State Senate District 25 (2016), North Carolina",2376.0,2156.0,171.0,44.0,5.0,0.0,37,025
+37026,"State Senate District 26 (2016), North Carolina",4402.0,3612.0,534.0,38.0,57.0,161.0,37,026
+37027,"State Senate District 27 (2016), North Carolina",9900.0,8420.0,593.0,59.0,632.0,196.0,37,027
+37028,"State Senate District 28 (2016), North Carolina",10667.0,9492.0,454.0,366.0,174.0,181.0,37,028
+37029,"State Senate District 29 (2016), North Carolina",2613.0,1796.0,128.0,330.0,90.0,269.0,37,029
+37030,"State Senate District 30 (2016), North Carolina",962.0,911.0,33.0,18.0,0.0,0.0,37,030
+37031,"State Senate District 31 (2016), North Carolina",4004.0,3231.0,184.0,128.0,258.0,203.0,37,031
+37032,"State Senate District 32 (2016), North Carolina",4054.0,3110.0,402.0,35.0,213.0,294.0,37,032
+37033,"State Senate District 33 (2016), North Carolina",2831.0,2508.0,197.0,99.0,27.0,0.0,37,033
+37034,"State Senate District 34 (2016), North Carolina",1876.0,1694.0,31.0,78.0,73.0,0.0,37,034
+37035,"State Senate District 35 (2016), North Carolina",5121.0,4354.0,130.0,402.0,106.0,129.0,37,035
+37036,"State Senate District 36 (2016), North Carolina",6092.0,4562.0,499.0,613.0,288.0,130.0,37,036
+38037,"State Senate District 37 (2016), North Dakota",341.0,202.0,7.0,5.0,0.0,127.0,38,037
+38038,"State Senate District 38 (2016), North Dakota",527.0,330.0,1.0,0.0,112.0,84.0,38,038
+38039,"State Senate District 39 (2016), North Dakota",170.0,129.0,13.0,0.0,8.0,20.0,38,039
+38040,"State Senate District 40 (2016), North Dakota",318.0,195.0,80.0,0.0,41.0,2.0,38,040
+38041,"State Senate District 41 (2016), North Dakota",531.0,453.0,46.0,0.0,0.0,32.0,38,041
+38042,"State Senate District 42 (2016), North Dakota",752.0,313.0,52.0,191.0,54.0,142.0,38,042
+38043,"State Senate District 43 (2016), North Dakota",594.0,556.0,10.0,0.0,12.0,16.0,38,043
+38044,"State Senate District 44 (2016), North Dakota",232.0,151.0,48.0,0.0,33.0,0.0,38,044
+38045,"State Senate District 45 (2016), North Dakota",619.0,434.0,53.0,7.0,35.0,90.0,38,045
+38046,"State Senate District 46 (2016), North Dakota",561.0,494.0,43.0,0.0,5.0,19.0,38,046
+38047,"State Senate District 47 (2016), North Dakota",460.0,316.0,50.0,0.0,61.0,33.0,38,047
+38001,"State Senate District 1 (2016), North Dakota",71.0,71.0,0.0,0.0,0.0,0.0,38,001
+38002,"State Senate District 2 (2016), North Dakota",207.0,193.0,0.0,0.0,0.0,14.0,38,002
+38003,"State Senate District 3 (2016), North Dakota",110.0,50.0,24.0,13.0,17.0,6.0,38,003
+38004,"State Senate District 4 (2016), North Dakota",30.0,29.0,1.0,0.0,0.0,0.0,38,004
+38005,"State Senate District 5 (2016), North Dakota",80.0,23.0,0.0,0.0,17.0,40.0,38,005
+38006,"State Senate District 6 (2016), North Dakota",42.0,42.0,0.0,0.0,0.0,0.0,38,006
+38007,"State Senate District 7 (2016), North Dakota",16.0,0.0,0.0,0.0,0.0,16.0,38,007
+38008,"State Senate District 8 (2016), North Dakota",18.0,18.0,0.0,0.0,0.0,0.0,38,008
+38009,"State Senate District 9 (2016), North Dakota",49.0,16.0,33.0,0.0,0.0,0.0,38,009
+38010,"State Senate District 10 (2016), North Dakota",37.0,23.0,14.0,0.0,0.0,0.0,38,010
+38011,"State Senate District 11 (2016), North Dakota",185.0,185.0,0.0,0.0,0.0,0.0,38,011
+38012,"State Senate District 12 (2016), North Dakota",88.0,36.0,16.0,6.0,15.0,15.0,38,012
+38013,"State Senate District 13 (2016), North Dakota",227.0,227.0,0.0,0.0,0.0,0.0,38,013
+38014,"State Senate District 14 (2016), North Dakota",8.0,8.0,0.0,0.0,0.0,0.0,38,014
+38015,"State Senate District 15 (2016), North Dakota",69.0,5.0,0.0,3.0,0.0,61.0,38,015
+38016,"State Senate District 16 (2016), North Dakota",921.0,712.0,166.0,43.0,0.0,0.0,38,016
+38017,"State Senate District 17 (2016), North Dakota",318.0,318.0,0.0,0.0,0.0,0.0,38,017
+38018,"State Senate District 18 (2016), North Dakota",59.0,24.0,2.0,14.0,19.0,0.0,38,018
+38019,"State Senate District 19 (2016), North Dakota",126.0,126.0,0.0,0.0,0.0,0.0,38,019
+38020,"State Senate District 20 (2016), North Dakota",55.0,26.0,13.0,0.0,13.0,3.0,38,020
+38021,"State Senate District 21 (2016), North Dakota",605.0,472.0,90.0,10.0,33.0,0.0,38,021
+38022,"State Senate District 22 (2016), North Dakota",43.0,43.0,0.0,0.0,0.0,0.0,38,022
+38023,"State Senate District 23 (2016), North Dakota",5.0,5.0,0.0,0.0,0.0,0.0,38,023
+38024,"State Senate District 24 (2016), North Dakota",89.0,85.0,0.0,4.0,0.0,0.0,38,024
+38025,"State Senate District 25 (2016), North Dakota",62.0,60.0,2.0,0.0,0.0,0.0,38,025
+38026,"State Senate District 26 (2016), North Dakota",34.0,27.0,0.0,3.0,0.0,4.0,38,026
+38027,"State Senate District 27 (2016), North Dakota",997.0,567.0,410.0,0.0,10.0,10.0,38,027
+38028,"State Senate District 28 (2016), North Dakota",72.0,63.0,0.0,0.0,4.0,5.0,38,028
+38029,"State Senate District 29 (2016), North Dakota",38.0,33.0,0.0,5.0,0.0,0.0,38,029
+38030,"State Senate District 30 (2016), North Dakota",70.0,0.0,70.0,0.0,0.0,0.0,38,030
+38031,"State Senate District 31 (2016), North Dakota",4.0,4.0,0.0,0.0,0.0,0.0,38,031
+38032,"State Senate District 32 (2016), North Dakota",10.0,10.0,0.0,0.0,0.0,0.0,38,032
+38033,"State Senate District 33 (2016), North Dakota",48.0,43.0,0.0,0.0,0.0,5.0,38,033
+38034,"State Senate District 34 (2016), North Dakota",29.0,29.0,0.0,0.0,0.0,0.0,38,034
+38035,"State Senate District 35 (2016), North Dakota",113.0,87.0,0.0,0.0,0.0,26.0,38,035
+38036,"State Senate District 36 (2016), North Dakota",48.0,46.0,0.0,2.0,0.0,0.0,38,036
+39001,"State Senate District 1 (2016), Ohio",2567.0,1932.0,243.0,24.0,180.0,188.0,39,001
+39002,"State Senate District 2 (2016), Ohio",5100.0,4305.0,352.0,123.0,111.0,209.0,39,002
+39003,"State Senate District 3 (2016), Ohio",11822.0,8876.0,1813.0,129.0,566.0,438.0,39,003
+39004,"State Senate District 4 (2016), Ohio",10475.0,8528.0,630.0,189.0,324.0,804.0,39,004
+39005,"State Senate District 5 (2016), Ohio",2773.0,1879.0,420.0,79.0,108.0,287.0,39,005
+39006,"State Senate District 6 (2016), Ohio",9337.0,7474.0,343.0,103.0,697.0,720.0,39,006
+39007,"State Senate District 7 (2016), Ohio",15839.0,12695.0,534.0,1139.0,461.0,1010.0,39,007
+39008,"State Senate District 8 (2016), Ohio",8921.0,6916.0,543.0,101.0,894.0,467.0,39,008
+39009,"State Senate District 9 (2016), Ohio",6487.0,3875.0,946.0,335.0,512.0,819.0,39,009
+39010,"State Senate District 10 (2016), Ohio",6230.0,5068.0,307.0,139.0,216.0,500.0,39,010
+39011,"State Senate District 11 (2016), Ohio",5336.0,3764.0,766.0,231.0,208.0,367.0,39,011
+39012,"State Senate District 12 (2016), Ohio",2222.0,1830.0,185.0,20.0,89.0,98.0,39,012
+39013,"State Senate District 13 (2016), Ohio",3194.0,2450.0,342.0,8.0,111.0,283.0,39,013
+39014,"State Senate District 14 (2016), Ohio",2781.0,2286.0,63.0,159.0,229.0,44.0,39,014
+39015,"State Senate District 15 (2016), Ohio",10639.0,6662.0,1561.0,487.0,1045.0,884.0,39,015
+39016,"State Senate District 16 (2016), Ohio",25384.0,18858.0,3145.0,603.0,1303.0,1475.0,39,016
+39017,"State Senate District 17 (2016), Ohio",1743.0,1489.0,44.0,50.0,0.0,160.0,39,017
+39018,"State Senate District 18 (2016), Ohio",5067.0,3331.0,472.0,356.0,354.0,554.0,39,018
+39019,"State Senate District 19 (2016), Ohio",22298.0,15916.0,2333.0,935.0,1697.0,1417.0,39,019
+39020,"State Senate District 20 (2016), Ohio",2932.0,2293.0,32.0,58.0,437.0,112.0,39,020
+39021,"State Senate District 21 (2016), Ohio",9224.0,6048.0,1373.0,240.0,605.0,958.0,39,021
+39022,"State Senate District 22 (2016), Ohio",3329.0,2860.0,156.0,147.0,59.0,107.0,39,022
+39023,"State Senate District 23 (2016), Ohio",7845.0,5890.0,863.0,95.0,692.0,305.0,39,023
+39024,"State Senate District 24 (2016), Ohio",13264.0,11277.0,992.0,248.0,383.0,364.0,39,024
+39025,"State Senate District 25 (2016), Ohio",6118.0,5097.0,282.0,110.0,212.0,417.0,39,025
+39026,"State Senate District 26 (2016), Ohio",2968.0,2270.0,105.0,353.0,70.0,170.0,39,026
+39027,"State Senate District 27 (2016), Ohio",7717.0,6771.0,242.0,266.0,158.0,280.0,39,027
+39028,"State Senate District 28 (2016), Ohio",9584.0,7748.0,870.0,216.0,212.0,538.0,39,028
+39029,"State Senate District 29 (2016), Ohio",2956.0,2500.0,127.0,127.0,64.0,138.0,39,029
+39030,"State Senate District 30 (2016), Ohio",3012.0,2114.0,363.0,220.0,81.0,234.0,39,030
+39031,"State Senate District 31 (2016), Ohio",2241.0,1683.0,162.0,212.0,76.0,108.0,39,031
+39032,"State Senate District 32 (2016), Ohio",1665.0,1434.0,163.0,22.0,46.0,0.0,39,032
+39033,"State Senate District 33 (2016), Ohio",2176.0,1838.0,77.0,68.0,129.0,64.0,39,033
+40011,"State Senate District 11 (2016), Oklahoma",459.0,188.0,214.0,15.0,19.0,23.0,40,011
+40012,"State Senate District 12 (2016), Oklahoma",444.0,396.0,28.0,20.0,0.0,0.0,40,012
+40013,"State Senate District 13 (2016), Oklahoma",444.0,294.0,117.0,0.0,21.0,12.0,40,013
+40014,"State Senate District 14 (2016), Oklahoma",704.0,664.0,0.0,22.0,0.0,18.0,40,014
+40015,"State Senate District 15 (2016), Oklahoma",3717.0,2527.0,434.0,286.0,136.0,334.0,40,015
+40016,"State Senate District 16 (2016), Oklahoma",2816.0,1655.0,529.0,195.0,206.0,231.0,40,016
+40017,"State Senate District 17 (2016), Oklahoma",762.0,666.0,75.0,0.0,8.0,13.0,40,017
+40018,"State Senate District 18 (2016), Oklahoma",835.0,722.0,31.0,34.0,42.0,6.0,40,018
+40019,"State Senate District 19 (2016), Oklahoma",493.0,336.0,59.0,0.0,98.0,0.0,40,019
+40020,"State Senate District 20 (2016), Oklahoma",293.0,229.0,30.0,28.0,0.0,6.0,40,020
+40021,"State Senate District 21 (2016), Oklahoma",3529.0,2318.0,257.0,50.0,92.0,812.0,40,021
+40022,"State Senate District 22 (2016), Oklahoma",3176.0,2831.0,131.0,57.0,14.0,143.0,40,022
+40023,"State Senate District 23 (2016), Oklahoma",780.0,685.0,4.0,28.0,21.0,42.0,40,023
+40024,"State Senate District 24 (2016), Oklahoma",3855.0,3327.0,242.0,118.0,140.0,28.0,40,024
+40027,"State Senate District 27 (2016), Oklahoma",870.0,692.0,135.0,0.0,28.0,15.0,40,027
+40028,"State Senate District 28 (2016), Oklahoma",316.0,255.0,39.0,0.0,10.0,12.0,40,028
+40029,"State Senate District 29 (2016), Oklahoma",1203.0,788.0,155.0,0.0,80.0,180.0,40,029
+40030,"State Senate District 30 (2016), Oklahoma",2289.0,2009.0,142.0,22.0,48.0,68.0,40,030
+40031,"State Senate District 31 (2016), Oklahoma",1058.0,667.0,36.0,147.0,171.0,37.0,40,031
+40032,"State Senate District 32 (2016), Oklahoma",1953.0,1399.0,204.0,29.0,150.0,171.0,40,032
+40033,"State Senate District 33 (2016), Oklahoma",3382.0,2780.0,351.0,27.0,95.0,129.0,40,033
+40034,"State Senate District 34 (2016), Oklahoma",1944.0,1460.0,233.0,10.0,158.0,83.0,40,034
+40035,"State Senate District 35 (2016), Oklahoma",4368.0,2707.0,647.0,70.0,487.0,457.0,40,035
+40036,"State Senate District 36 (2016), Oklahoma",3681.0,3250.0,268.0,43.0,88.0,32.0,40,036
+40037,"State Senate District 37 (2016), Oklahoma",1445.0,1066.0,178.0,69.0,33.0,99.0,40,037
+40038,"State Senate District 38 (2016), Oklahoma",782.0,617.0,56.0,35.0,64.0,10.0,40,038
+40039,"State Senate District 39 (2016), Oklahoma",1642.0,1310.0,210.0,17.0,54.0,51.0,40,039
+40040,"State Senate District 40 (2016), Oklahoma",4512.0,3724.0,315.0,21.0,102.0,350.0,40,040
+40041,"State Senate District 41 (2016), Oklahoma",2657.0,1949.0,209.0,116.0,72.0,311.0,40,041
+40042,"State Senate District 42 (2016), Oklahoma",1508.0,1306.0,48.0,28.0,25.0,101.0,40,042
+40043,"State Senate District 43 (2016), Oklahoma",419.0,381.0,0.0,36.0,0.0,2.0,40,043
+40044,"State Senate District 44 (2016), Oklahoma",3185.0,2750.0,88.0,116.0,222.0,9.0,40,044
+40045,"State Senate District 45 (2016), Oklahoma",3498.0,2973.0,157.0,235.0,33.0,100.0,40,045
+40046,"State Senate District 46 (2016), Oklahoma",1707.0,1453.0,133.0,21.0,22.0,78.0,40,046
+40047,"State Senate District 47 (2016), Oklahoma",6587.0,5744.0,405.0,4.0,196.0,238.0,40,047
+40048,"State Senate District 48 (2016), Oklahoma",954.0,566.0,206.0,61.0,55.0,66.0,40,048
+40025,"State Senate District 25 (2016), Oklahoma",2518.0,2134.0,160.0,46.0,97.0,81.0,40,025
+40026,"State Senate District 26 (2016), Oklahoma",350.0,344.0,0.0,3.0,3.0,0.0,40,026
+40001,"State Senate District 1 (2016), Oklahoma",459.0,402.0,24.0,23.0,6.0,4.0,40,001
+40002,"State Senate District 2 (2016), Oklahoma",721.0,607.0,23.0,91.0,0.0,0.0,40,002
+40003,"State Senate District 3 (2016), Oklahoma",799.0,773.0,7.0,1.0,18.0,0.0,40,003
+40004,"State Senate District 4 (2016), Oklahoma",360.0,225.0,93.0,7.0,35.0,0.0,40,004
+40005,"State Senate District 5 (2016), Oklahoma",395.0,340.0,33.0,0.0,22.0,0.0,40,005
+40006,"State Senate District 6 (2016), Oklahoma",347.0,294.0,0.0,0.0,50.0,3.0,40,006
+40007,"State Senate District 7 (2016), Oklahoma",325.0,286.0,13.0,26.0,0.0,0.0,40,007
+40008,"State Senate District 8 (2016), Oklahoma",179.0,98.0,60.0,16.0,0.0,5.0,40,008
+40009,"State Senate District 9 (2016), Oklahoma",633.0,447.0,55.0,57.0,71.0,3.0,40,009
+40010,"State Senate District 10 (2016), Oklahoma",442.0,416.0,6.0,4.0,0.0,16.0,40,010
+41017,"State Senate District 17 (2016), Oregon",22654.0,17519.0,2289.0,287.0,1289.0,1270.0,41,017
+41018,"State Senate District 18 (2016), Oregon",8694.0,6342.0,851.0,314.0,682.0,505.0,41,018
+41019,"State Senate District 19 (2016), Oregon",6860.0,5551.0,330.0,385.0,332.0,262.0,41,019
+41020,"State Senate District 20 (2016), Oregon",2155.0,2001.0,17.0,60.0,48.0,29.0,41,020
+41021,"State Senate District 21 (2016), Oregon",6245.0,5074.0,390.0,236.0,404.0,141.0,41,021
+41022,"State Senate District 22 (2016), Oregon",5779.0,4794.0,428.0,189.0,304.0,64.0,41,022
+41023,"State Senate District 23 (2016), Oregon",14694.0,12512.0,1338.0,147.0,257.0,440.0,41,023
+41024,"State Senate District 24 (2016), Oregon",14730.0,12898.0,890.0,520.0,75.0,347.0,41,024
+41025,"State Senate District 25 (2016), Oregon",5312.0,4849.0,165.0,131.0,59.0,108.0,41,025
+41026,"State Senate District 26 (2016), Oregon",8807.0,7627.0,588.0,237.0,62.0,293.0,41,026
+41027,"State Senate District 27 (2016), Oregon",1970.0,1353.0,233.0,149.0,163.0,72.0,41,027
+41028,"State Senate District 28 (2016), Oregon",937.0,807.0,50.0,21.0,58.0,1.0,41,028
+41029,"State Senate District 29 (2016), Oregon",951.0,814.0,89.0,27.0,21.0,0.0,41,029
+41030,"State Senate District 30 (2016), Oregon",1053.0,858.0,18.0,42.0,109.0,26.0,41,030
+41001,"State Senate District 1 (2016), Oregon",1163.0,990.0,75.0,24.0,40.0,34.0,41,001
+41002,"State Senate District 2 (2016), Oregon",745.0,670.0,46.0,0.0,19.0,10.0,41,002
+41003,"State Senate District 3 (2016), Oregon",2103.0,1669.0,312.0,30.0,26.0,66.0,41,003
+41004,"State Senate District 4 (2016), Oregon",2269.0,1535.0,342.0,92.0,192.0,108.0,41,004
+41005,"State Senate District 5 (2016), Oregon",1619.0,1334.0,126.0,107.0,47.0,5.0,41,005
+41006,"State Senate District 6 (2016), Oregon",2775.0,1569.0,690.0,265.0,167.0,84.0,41,006
+41007,"State Senate District 7 (2016), Oregon",4228.0,2985.0,597.0,171.0,129.0,346.0,41,007
+41008,"State Senate District 8 (2016), Oregon",6707.0,3888.0,1220.0,502.0,216.0,881.0,41,008
+41009,"State Senate District 9 (2016), Oregon",1161.0,1032.0,59.0,16.0,23.0,31.0,41,009
+41010,"State Senate District 10 (2016), Oregon",2965.0,2311.0,234.0,126.0,172.0,122.0,41,010
+41011,"State Senate District 11 (2016), Oregon",3507.0,2990.0,149.0,203.0,63.0,102.0,41,011
+41012,"State Senate District 12 (2016), Oregon",2028.0,1427.0,280.0,227.0,0.0,94.0,41,012
+41013,"State Senate District 13 (2016), Oregon",5114.0,4046.0,425.0,302.0,314.0,27.0,41,013
+41014,"State Senate District 14 (2016), Oregon",11146.0,9216.0,1195.0,375.0,150.0,210.0,41,014
+41015,"State Senate District 15 (2016), Oregon",13452.0,9882.0,1429.0,165.0,1459.0,517.0,41,015
+41016,"State Senate District 16 (2016), Oregon",3058.0,2630.0,337.0,23.0,65.0,3.0,41,016
+42002,"State Senate District 2 (2016), Pennsylvania",18068.0,16122.0,838.0,226.0,431.0,451.0,42,002
+42003,"State Senate District 3 (2016), Pennsylvania",13905.0,10993.0,1502.0,460.0,560.0,390.0,42,003
+42004,"State Senate District 4 (2016), Pennsylvania",8033.0,6766.0,480.0,404.0,303.0,80.0,42,004
+42005,"State Senate District 5 (2016), Pennsylvania",23791.0,21462.0,1177.0,327.0,256.0,569.0,42,005
+42006,"State Senate District 6 (2016), Pennsylvania",14470.0,12423.0,663.0,211.0,463.0,710.0,42,006
+42007,"State Senate District 7 (2016), Pennsylvania",11139.0,8127.0,1097.0,565.0,861.0,489.0,42,007
+42008,"State Senate District 8 (2016), Pennsylvania",14060.0,12156.0,729.0,228.0,498.0,449.0,42,008
+42009,"State Senate District 9 (2016), Pennsylvania",10792.0,8271.0,590.0,203.0,1141.0,587.0,42,009
+42010,"State Senate District 10 (2016), Pennsylvania",10147.0,9014.0,460.0,255.0,295.0,123.0,42,010
+42011,"State Senate District 11 (2016), Pennsylvania",3389.0,2885.0,273.0,114.0,39.0,78.0,42,011
+42012,"State Senate District 12 (2016), Pennsylvania",21581.0,19092.0,934.0,511.0,373.0,671.0,42,012
+42013,"State Senate District 13 (2016), Pennsylvania",7309.0,6080.0,497.0,295.0,237.0,200.0,42,013
+42014,"State Senate District 14 (2016), Pennsylvania",2501.0,1797.0,264.0,57.0,122.0,261.0,42,014
+42015,"State Senate District 15 (2016), Pennsylvania",8809.0,6812.0,748.0,257.0,597.0,395.0,42,015
+42016,"State Senate District 16 (2016), Pennsylvania",9132.0,8380.0,197.0,127.0,301.0,127.0,42,016
+42017,"State Senate District 17 (2016), Pennsylvania",20334.0,15907.0,989.0,622.0,1436.0,1380.0,42,017
+42018,"State Senate District 18 (2016), Pennsylvania",8639.0,6641.0,702.0,284.0,593.0,419.0,42,018
+42019,"State Senate District 19 (2016), Pennsylvania",12718.0,10765.0,762.0,429.0,468.0,294.0,42,019
+42020,"State Senate District 20 (2016), Pennsylvania",2643.0,2387.0,128.0,29.0,91.0,8.0,42,020
+42021,"State Senate District 21 (2016), Pennsylvania",2558.0,2189.0,83.0,239.0,41.0,6.0,42,021
+42022,"State Senate District 22 (2016), Pennsylvania",5843.0,4736.0,597.0,96.0,171.0,243.0,42,022
+42023,"State Senate District 23 (2016), Pennsylvania",1945.0,1589.0,121.0,46.0,120.0,69.0,42,023
+42024,"State Senate District 24 (2016), Pennsylvania",7581.0,6798.0,433.0,180.0,128.0,42.0,42,024
+42025,"State Senate District 25 (2016), Pennsylvania",1077.0,852.0,153.0,11.0,24.0,37.0,42,025
+42026,"State Senate District 26 (2016), Pennsylvania",18916.0,16815.0,853.0,248.0,397.0,603.0,42,026
+42027,"State Senate District 27 (2016), Pennsylvania",2123.0,1527.0,173.0,201.0,86.0,136.0,42,027
+42028,"State Senate District 28 (2016), Pennsylvania",3598.0,2808.0,302.0,74.0,160.0,254.0,42,028
+42029,"State Senate District 29 (2016), Pennsylvania",2730.0,2363.0,147.0,16.0,69.0,135.0,42,029
+42030,"State Senate District 30 (2016), Pennsylvania",1329.0,1174.0,12.0,53.0,59.0,31.0,42,030
+42031,"State Senate District 31 (2016), Pennsylvania",10064.0,8079.0,667.0,551.0,480.0,287.0,42,031
+42032,"State Senate District 32 (2016), Pennsylvania",869.0,844.0,1.0,0.0,7.0,17.0,42,032
+42033,"State Senate District 33 (2016), Pennsylvania",2882.0,2351.0,166.0,105.0,184.0,76.0,42,033
+42034,"State Senate District 34 (2016), Pennsylvania",10023.0,5261.0,1368.0,903.0,1306.0,1185.0,42,034
+42035,"State Senate District 35 (2016), Pennsylvania",1169.0,895.0,26.0,112.0,60.0,76.0,42,035
+42036,"State Senate District 36 (2016), Pennsylvania",4111.0,3416.0,70.0,157.0,294.0,174.0,42,036
+42037,"State Senate District 37 (2016), Pennsylvania",9779.0,7926.0,793.0,130.0,463.0,467.0,42,037
+42038,"State Senate District 38 (2016), Pennsylvania",10054.0,7658.0,989.0,199.0,643.0,565.0,42,038
+42039,"State Senate District 39 (2016), Pennsylvania",1316.0,1102.0,106.0,17.0,52.0,39.0,42,039
+42040,"State Senate District 40 (2016), Pennsylvania",5651.0,5209.0,152.0,55.0,121.0,114.0,42,040
+42041,"State Senate District 41 (2016), Pennsylvania",2369.0,1950.0,75.0,80.0,40.0,224.0,42,041
+42042,"State Senate District 42 (2016), Pennsylvania",6878.0,4663.0,1043.0,197.0,541.0,434.0,42,042
+42043,"State Senate District 43 (2016), Pennsylvania",13516.0,7455.0,2219.0,414.0,1511.0,1917.0,42,043
+42044,"State Senate District 44 (2016), Pennsylvania",15788.0,12870.0,1213.0,140.0,690.0,875.0,42,044
+42045,"State Senate District 45 (2016), Pennsylvania",3599.0,3034.0,316.0,72.0,53.0,124.0,42,045
+42046,"State Senate District 46 (2016), Pennsylvania",1732.0,1523.0,9.0,147.0,4.0,49.0,42,046
+42047,"State Senate District 47 (2016), Pennsylvania",1054.0,934.0,53.0,2.0,8.0,57.0,42,047
+42048,"State Senate District 48 (2016), Pennsylvania",5048.0,4169.0,266.0,203.0,203.0,207.0,42,048
+42049,"State Senate District 49 (2016), Pennsylvania",4138.0,2886.0,715.0,100.0,109.0,328.0,42,049
+42050,"State Senate District 50 (2016), Pennsylvania",1359.0,1046.0,147.0,21.0,78.0,67.0,42,050
+42001,"State Senate District 1 (2016), Pennsylvania",32168.0,26131.0,2509.0,922.0,1641.0,965.0,42,001
+44022,"State Senate District 22 (2016), Rhode Island",841.0,597.0,42.0,0.0,80.0,122.0,44,022
+44023,"State Senate District 23 (2016), Rhode Island",214.0,204.0,0.0,5.0,0.0,5.0,44,023
+44024,"State Senate District 24 (2016), Rhode Island",1537.0,1383.0,99.0,5.0,28.0,22.0,44,024
+44025,"State Senate District 25 (2016), Rhode Island",712.0,654.0,32.0,4.0,22.0,0.0,44,025
+44026,"State Senate District 26 (2016), Rhode Island",1474.0,1346.0,105.0,0.0,0.0,23.0,44,026
+44027,"State Senate District 27 (2016), Rhode Island",1119.0,1005.0,59.0,1.0,22.0,32.0,44,027
+44028,"State Senate District 28 (2016), Rhode Island",2180.0,1858.0,225.0,68.0,27.0,2.0,44,028
+44029,"State Senate District 29 (2016), Rhode Island",521.0,412.0,0.0,93.0,3.0,13.0,44,029
+44030,"State Senate District 30 (2016), Rhode Island",650.0,613.0,15.0,22.0,0.0,0.0,44,030
+44031,"State Senate District 31 (2016), Rhode Island",1021.0,832.0,77.0,27.0,83.0,2.0,44,031
+44032,"State Senate District 32 (2016), Rhode Island",802.0,703.0,9.0,30.0,42.0,18.0,44,032
+44001,"State Senate District 1 (2016), Rhode Island",1121.0,732.0,206.0,22.0,97.0,64.0,44,001
+44002,"State Senate District 2 (2016), Rhode Island",2512.0,1916.0,329.0,99.0,13.0,155.0,44,002
+44003,"State Senate District 3 (2016), Rhode Island",3751.0,2199.0,525.0,41.0,593.0,393.0,44,003
+44004,"State Senate District 4 (2016), Rhode Island",890.0,632.0,80.0,0.0,124.0,54.0,44,004
+44005,"State Senate District 5 (2016), Rhode Island",1123.0,786.0,114.0,41.0,90.0,92.0,44,005
+44006,"State Senate District 6 (2016), Rhode Island",1366.0,894.0,99.0,0.0,122.0,251.0,44,006
+44007,"State Senate District 7 (2016), Rhode Island",799.0,743.0,50.0,0.0,0.0,6.0,44,007
+44008,"State Senate District 8 (2016), Rhode Island",411.0,394.0,4.0,1.0,0.0,12.0,44,008
+44009,"State Senate District 9 (2016), Rhode Island",710.0,688.0,9.0,0.0,13.0,0.0,44,009
+44010,"State Senate District 10 (2016), Rhode Island",141.0,102.0,39.0,0.0,0.0,0.0,44,010
+44011,"State Senate District 11 (2016), Rhode Island",496.0,406.0,12.0,13.0,52.0,13.0,44,011
+44012,"State Senate District 12 (2016), Rhode Island",524.0,407.0,35.0,0.0,34.0,48.0,44,012
+44013,"State Senate District 13 (2016), Rhode Island",720.0,503.0,0.0,0.0,217.0,0.0,44,013
+44014,"State Senate District 14 (2016), Rhode Island",1314.0,810.0,413.0,0.0,0.0,91.0,44,014
+44015,"State Senate District 15 (2016), Rhode Island",711.0,578.0,55.0,0.0,78.0,0.0,44,015
+44016,"State Senate District 16 (2016), Rhode Island",93.0,83.0,0.0,0.0,2.0,8.0,44,016
+44017,"State Senate District 17 (2016), Rhode Island",957.0,893.0,36.0,0.0,0.0,28.0,44,017
+44018,"State Senate District 18 (2016), Rhode Island",371.0,323.0,37.0,0.0,11.0,0.0,44,018
+44019,"State Senate District 19 (2016), Rhode Island",608.0,487.0,0.0,0.0,48.0,73.0,44,019
+44020,"State Senate District 20 (2016), Rhode Island",1866.0,1537.0,69.0,0.0,260.0,0.0,44,020
+44021,"State Senate District 21 (2016), Rhode Island",449.0,415.0,33.0,0.0,0.0,1.0,44,021
+44033,"State Senate District 33 (2016), Rhode Island",275.0,132.0,0.0,0.0,71.0,72.0,44,033
+44034,"State Senate District 34 (2016), Rhode Island",331.0,274.0,27.0,2.0,22.0,6.0,44,034
+44035,"State Senate District 35 (2016), Rhode Island",720.0,713.0,0.0,0.0,0.0,7.0,44,035
+44036,"State Senate District 36 (2016), Rhode Island",559.0,475.0,13.0,37.0,34.0,0.0,44,036
+44037,"State Senate District 37 (2016), Rhode Island",467.0,334.0,87.0,6.0,36.0,4.0,44,037
+44038,"State Senate District 38 (2016), Rhode Island",784.0,689.0,0.0,30.0,0.0,65.0,44,038
+45004,"State Senate District 4 (2016), South Carolina",396.0,316.0,6.0,6.0,68.0,0.0,45,004
+45005,"State Senate District 5 (2016), South Carolina",1352.0,892.0,104.0,167.0,6.0,183.0,45,005
+45006,"State Senate District 6 (2016), South Carolina",2409.0,2088.0,91.0,23.0,50.0,157.0,45,006
+45007,"State Senate District 7 (2016), South Carolina",642.0,532.0,64.0,0.0,36.0,10.0,45,007
+45008,"State Senate District 8 (2016), South Carolina",3423.0,2397.0,284.0,408.0,77.0,257.0,45,008
+45009,"State Senate District 9 (2016), South Carolina",397.0,286.0,58.0,0.0,16.0,37.0,45,009
+45010,"State Senate District 10 (2016), South Carolina",538.0,506.0,15.0,0.0,0.0,17.0,45,010
+45011,"State Senate District 11 (2016), South Carolina",2690.0,2208.0,253.0,10.0,82.0,137.0,45,011
+45012,"State Senate District 12 (2016), South Carolina",4922.0,4136.0,320.0,92.0,181.0,193.0,45,012
+45013,"State Senate District 13 (2016), South Carolina",1811.0,1730.0,9.0,0.0,42.0,30.0,45,013
+45014,"State Senate District 14 (2016), South Carolina",1026.0,865.0,9.0,53.0,19.0,80.0,45,014
+45015,"State Senate District 15 (2016), South Carolina",2312.0,1893.0,75.0,137.0,45.0,162.0,45,015
+45016,"State Senate District 16 (2016), South Carolina",2254.0,1892.0,88.0,93.0,164.0,17.0,45,016
+45017,"State Senate District 17 (2016), South Carolina",473.0,465.0,0.0,0.0,0.0,8.0,45,017
+45018,"State Senate District 18 (2016), South Carolina",1692.0,1281.0,251.0,96.0,21.0,43.0,45,018
+45019,"State Senate District 19 (2016), South Carolina",2282.0,1561.0,190.0,85.0,275.0,171.0,45,019
+45020,"State Senate District 20 (2016), South Carolina",3243.0,2134.0,288.0,152.0,216.0,453.0,45,020
+45021,"State Senate District 21 (2016), South Carolina",1447.0,800.0,166.0,65.0,409.0,7.0,45,021
+45022,"State Senate District 22 (2016), South Carolina",4280.0,3575.0,284.0,103.0,81.0,237.0,45,022
+45023,"State Senate District 23 (2016), South Carolina",1159.0,868.0,0.0,47.0,118.0,126.0,45,023
+45024,"State Senate District 24 (2016), South Carolina",931.0,658.0,259.0,14.0,0.0,0.0,45,024
+45025,"State Senate District 25 (2016), South Carolina",1057.0,618.0,172.0,46.0,162.0,59.0,45,025
+45026,"State Senate District 26 (2016), South Carolina",826.0,610.0,49.0,63.0,88.0,16.0,45,026
+45027,"State Senate District 27 (2016), South Carolina",341.0,280.0,27.0,0.0,34.0,0.0,45,027
+45028,"State Senate District 28 (2016), South Carolina",935.0,808.0,104.0,0.0,23.0,0.0,45,028
+45029,"State Senate District 29 (2016), South Carolina",367.0,177.0,0.0,95.0,95.0,0.0,45,029
+45030,"State Senate District 30 (2016), South Carolina",397.0,362.0,5.0,17.0,0.0,13.0,45,030
+45031,"State Senate District 31 (2016), South Carolina",1580.0,1489.0,22.0,0.0,69.0,0.0,45,031
+45032,"State Senate District 32 (2016), South Carolina",394.0,141.0,123.0,20.0,0.0,110.0,45,032
+45033,"State Senate District 33 (2016), South Carolina",1857.0,1629.0,79.0,0.0,92.0,57.0,45,033
+45034,"State Senate District 34 (2016), South Carolina",1419.0,1174.0,128.0,29.0,72.0,16.0,45,034
+45035,"State Senate District 35 (2016), South Carolina",1764.0,1427.0,215.0,0.0,41.0,81.0,45,035
+45036,"State Senate District 36 (2016), South Carolina",428.0,364.0,45.0,19.0,0.0,0.0,45,036
+45037,"State Senate District 37 (2016), South Carolina",1857.0,1506.0,82.0,6.0,249.0,14.0,45,037
+45038,"State Senate District 38 (2016), South Carolina",2374.0,1876.0,42.0,91.0,218.0,147.0,45,038
+45039,"State Senate District 39 (2016), South Carolina",287.0,260.0,12.0,0.0,0.0,15.0,45,039
+45040,"State Senate District 40 (2016), South Carolina",851.0,787.0,0.0,41.0,0.0,23.0,45,040
+45041,"State Senate District 41 (2016), South Carolina",2580.0,2187.0,73.0,123.0,178.0,19.0,45,041
+45042,"State Senate District 42 (2016), South Carolina",1218.0,859.0,49.0,55.0,52.0,203.0,45,042
+45043,"State Senate District 43 (2016), South Carolina",1780.0,1299.0,213.0,15.0,151.0,102.0,45,043
+45044,"State Senate District 44 (2016), South Carolina",3241.0,2802.0,247.0,69.0,62.0,61.0,45,044
+45045,"State Senate District 45 (2016), South Carolina",388.0,299.0,78.0,0.0,11.0,0.0,45,045
+45046,"State Senate District 46 (2016), South Carolina",1389.0,1091.0,13.0,55.0,144.0,86.0,45,046
+45001,"State Senate District 1 (2016), South Carolina",1818.0,812.0,423.0,269.0,229.0,85.0,45,001
+45002,"State Senate District 2 (2016), South Carolina",909.0,562.0,205.0,61.0,60.0,21.0,45,002
+45003,"State Senate District 3 (2016), South Carolina",1567.0,1251.0,8.0,102.0,104.0,102.0,45,003
+46010,"State Senate District 10 (2016), South Dakota",1118.0,962.0,135.0,7.0,5.0,9.0,46,010
+46011,"State Senate District 11 (2016), South Dakota",532.0,474.0,58.0,0.0,0.0,0.0,46,011
+46012,"State Senate District 12 (2016), South Dakota",338.0,293.0,43.0,0.0,2.0,0.0,46,012
+46013,"State Senate District 13 (2016), South Dakota",213.0,195.0,13.0,0.0,0.0,5.0,46,013
+46014,"State Senate District 14 (2016), South Dakota",279.0,279.0,0.0,0.0,0.0,0.0,46,014
+46015,"State Senate District 15 (2016), South Dakota",565.0,280.0,256.0,26.0,3.0,0.0,46,015
+46016,"State Senate District 16 (2016), South Dakota",189.0,166.0,0.0,0.0,22.0,1.0,46,016
+46017,"State Senate District 17 (2016), South Dakota",336.0,82.0,121.0,10.0,32.0,91.0,46,017
+46018,"State Senate District 18 (2016), South Dakota",150.0,140.0,0.0,0.0,2.0,8.0,46,018
+46019,"State Senate District 19 (2016), South Dakota",100.0,90.0,0.0,0.0,10.0,0.0,46,019
+46020,"State Senate District 20 (2016), South Dakota",18.0,18.0,0.0,0.0,0.0,0.0,46,020
+46021,"State Senate District 21 (2016), South Dakota",54.0,54.0,0.0,0.0,0.0,0.0,46,021
+46022,"State Senate District 22 (2016), South Dakota",1680.0,1266.0,392.0,11.0,0.0,11.0,46,022
+46023,"State Senate District 23 (2016), South Dakota",176.0,65.0,0.0,0.0,0.0,111.0,46,023
+46024,"State Senate District 24 (2016), South Dakota",65.0,65.0,0.0,0.0,0.0,0.0,46,024
+46025,"State Senate District 25 (2016), South Dakota",186.0,99.0,22.0,8.0,26.0,31.0,46,025
+46026,"State Senate District 26 (2016), South Dakota",166.0,166.0,0.0,0.0,0.0,0.0,46,026
+46027,"State Senate District 27 (2016), South Dakota",27.0,19.0,0.0,0.0,2.0,6.0,46,027
+46028,"State Senate District 28 (2016), South Dakota",51.0,51.0,0.0,0.0,0.0,0.0,46,028
+46029,"State Senate District 29 (2016), South Dakota",325.0,212.0,48.0,54.0,11.0,0.0,46,029
+46030,"State Senate District 30 (2016), South Dakota",197.0,166.0,3.0,10.0,0.0,18.0,46,030
+46031,"State Senate District 31 (2016), South Dakota",234.0,141.0,0.0,55.0,0.0,38.0,46,031
+46032,"State Senate District 32 (2016), South Dakota",251.0,242.0,9.0,0.0,0.0,0.0,46,032
+46033,"State Senate District 33 (2016), South Dakota",357.0,262.0,25.0,45.0,0.0,25.0,46,033
+46034,"State Senate District 34 (2016), South Dakota",183.0,111.0,28.0,7.0,37.0,0.0,46,034
+46035,"State Senate District 35 (2016), South Dakota",331.0,276.0,0.0,0.0,6.0,49.0,46,035
+46001,"State Senate District 1 (2016), South Dakota",66.0,66.0,0.0,0.0,0.0,0.0,46,001
+46002,"State Senate District 2 (2016), South Dakota",51.0,49.0,0.0,0.0,2.0,0.0,46,002
+46003,"State Senate District 3 (2016), South Dakota",943.0,467.0,77.0,125.0,181.0,93.0,46,003
+46004,"State Senate District 4 (2016), South Dakota",102.0,83.0,10.0,0.0,0.0,9.0,46,004
+46005,"State Senate District 5 (2016), South Dakota",129.0,91.0,20.0,0.0,18.0,0.0,46,005
+46006,"State Senate District 6 (2016), South Dakota",309.0,224.0,0.0,69.0,16.0,0.0,46,006
+46007,"State Senate District 7 (2016), South Dakota",911.0,647.0,39.0,13.0,87.0,125.0,46,007
+46008,"State Senate District 8 (2016), South Dakota",392.0,284.0,53.0,3.0,0.0,52.0,46,008
+46009,"State Senate District 9 (2016), South Dakota",486.0,343.0,20.0,0.0,120.0,3.0,46,009
+47003,"State Senate District 3 (2016), Tennessee",2285.0,1649.0,280.0,50.0,154.0,152.0,47,003
+47004,"State Senate District 4 (2016), Tennessee",937.0,886.0,0.0,0.0,14.0,37.0,47,004
+47005,"State Senate District 5 (2016), Tennessee",2134.0,1610.0,268.0,56.0,110.0,90.0,47,005
+47006,"State Senate District 6 (2016), Tennessee",3383.0,2818.0,203.0,23.0,90.0,249.0,47,006
+47007,"State Senate District 7 (2016), Tennessee",5360.0,3901.0,847.0,157.0,282.0,173.0,47,007
+47008,"State Senate District 8 (2016), Tennessee",931.0,663.0,122.0,31.0,68.0,47.0,47,008
+47009,"State Senate District 9 (2016), Tennessee",1593.0,1417.0,70.0,0.0,42.0,64.0,47,009
+47010,"State Senate District 10 (2016), Tennessee",3434.0,2726.0,298.0,79.0,172.0,159.0,47,010
+47011,"State Senate District 11 (2016), Tennessee",3764.0,3157.0,520.0,25.0,39.0,23.0,47,011
+47012,"State Senate District 12 (2016), Tennessee",750.0,700.0,16.0,12.0,17.0,5.0,47,012
+47013,"State Senate District 13 (2016), Tennessee",6500.0,5927.0,157.0,208.0,139.0,69.0,47,013
+47014,"State Senate District 14 (2016), Tennessee",3212.0,2917.0,154.0,18.0,101.0,22.0,47,014
+47015,"State Senate District 15 (2016), Tennessee",1444.0,1162.0,113.0,35.0,45.0,89.0,47,015
+47016,"State Senate District 16 (2016), Tennessee",1137.0,973.0,28.0,92.0,11.0,33.0,47,016
+47017,"State Senate District 17 (2016), Tennessee",2158.0,1908.0,39.0,31.0,159.0,21.0,47,017
+47018,"State Senate District 18 (2016), Tennessee",3431.0,2383.0,520.0,174.0,346.0,8.0,47,018
+47019,"State Senate District 19 (2016), Tennessee",4588.0,3454.0,470.0,36.0,263.0,365.0,47,019
+47020,"State Senate District 20 (2016), Tennessee",7532.0,5370.0,916.0,223.0,331.0,692.0,47,020
+47021,"State Senate District 21 (2016), Tennessee",10367.0,7671.0,1253.0,75.0,625.0,743.0,47,021
+47022,"State Senate District 22 (2016), Tennessee",4302.0,3566.0,239.0,103.0,227.0,167.0,47,022
+47023,"State Senate District 23 (2016), Tennessee",8473.0,6423.0,544.0,538.0,488.0,480.0,47,023
+47024,"State Senate District 24 (2016), Tennessee",468.0,405.0,18.0,5.0,15.0,25.0,47,024
+47025,"State Senate District 25 (2016), Tennessee",876.0,811.0,8.0,12.0,45.0,0.0,47,025
+47026,"State Senate District 26 (2016), Tennessee",895.0,759.0,100.0,26.0,5.0,5.0,47,026
+47027,"State Senate District 27 (2016), Tennessee",1414.0,1225.0,72.0,26.0,89.0,2.0,47,027
+47028,"State Senate District 28 (2016), Tennessee",1685.0,1486.0,16.0,103.0,38.0,42.0,47,028
+47029,"State Senate District 29 (2016), Tennessee",2429.0,1802.0,334.0,29.0,115.0,149.0,47,029
+47030,"State Senate District 30 (2016), Tennessee",2848.0,2337.0,297.0,27.0,74.0,113.0,47,030
+47031,"State Senate District 31 (2016), Tennessee",8884.0,7153.0,1095.0,40.0,226.0,370.0,47,031
+47032,"State Senate District 32 (2016), Tennessee",7028.0,5941.0,657.0,62.0,243.0,125.0,47,032
+47033,"State Senate District 33 (2016), Tennessee",2499.0,2131.0,197.0,0.0,73.0,98.0,47,033
+47001,"State Senate District 1 (2016), Tennessee",908.0,751.0,40.0,27.0,19.0,71.0,47,001
+47002,"State Senate District 2 (2016), Tennessee",1536.0,1278.0,111.0,43.0,13.0,91.0,47,002
+48001,"State Senate District 1 (2016), Texas",7892.0,6359.0,329.0,640.0,418.0,146.0,48,001
+48002,"State Senate District 2 (2016), Texas",19400.0,16647.0,911.0,544.0,442.0,856.0,48,002
+48003,"State Senate District 3 (2016), Texas",6501.0,5582.0,367.0,337.0,88.0,127.0,48,003
+48004,"State Senate District 4 (2016), Texas",28160.0,22956.0,1724.0,1406.0,1342.0,732.0,48,004
+48005,"State Senate District 5 (2016), Texas",44733.0,32959.0,3770.0,3012.0,2003.0,2989.0,48,005
+48006,"State Senate District 6 (2016), Texas",16527.0,13952.0,1592.0,259.0,366.0,358.0,48,006
+48007,"State Senate District 7 (2016), Texas",83438.0,71305.0,6854.0,1450.0,1715.0,2114.0,48,007
+48008,"State Senate District 8 (2016), Texas",134609.0,109832.0,9330.0,4610.0,5452.0,5385.0,48,008
+48009,"State Senate District 9 (2016), Texas",53779.0,44816.0,4027.0,1412.0,1700.0,1824.0,48,009
+48010,"State Senate District 10 (2016), Texas",33953.0,28484.0,2729.0,701.0,739.0,1300.0,48,010
+48011,"State Senate District 11 (2016), Texas",50429.0,44970.0,2035.0,1470.0,1097.0,857.0,48,011
+48012,"State Senate District 12 (2016), Texas",66289.0,54128.0,4398.0,3247.0,2393.0,2123.0,48,012
+48013,"State Senate District 13 (2016), Texas",70668.0,55019.0,7245.0,1903.0,2142.0,4359.0,48,013
+48014,"State Senate District 14 (2016), Texas",63178.0,47332.0,7925.0,2419.0,2793.0,2709.0,48,014
+48015,"State Senate District 15 (2016), Texas",44069.0,37737.0,3671.0,736.0,754.0,1171.0,48,015
+48016,"State Senate District 16 (2016), Texas",97869.0,75166.0,9767.0,3342.0,4426.0,5168.0,48,016
+48017,"State Senate District 17 (2016), Texas",130209.0,109242.0,9679.0,3623.0,2787.0,4878.0,48,017
+48018,"State Senate District 18 (2016), Texas",79167.0,68720.0,2390.0,3825.0,1526.0,2706.0,48,018
+48019,"State Senate District 19 (2016), Texas",13470.0,10896.0,1254.0,285.0,366.0,669.0,48,019
+48020,"State Senate District 20 (2016), Texas",14269.0,12406.0,590.0,520.0,242.0,511.0,48,020
+48021,"State Senate District 21 (2016), Texas",7736.0,5988.0,710.0,354.0,232.0,452.0,48,021
+48022,"State Senate District 22 (2016), Texas",20426.0,17255.0,1444.0,840.0,522.0,365.0,48,022
+48023,"State Senate District 23 (2016), Texas",12895.0,10049.0,1372.0,726.0,436.0,312.0,48,023
+48024,"State Senate District 24 (2016), Texas",18221.0,13769.0,1570.0,959.0,1299.0,624.0,48,024
+48025,"State Senate District 25 (2016), Texas",26888.0,22180.0,1982.0,1038.0,961.0,727.0,48,025
+48026,"State Senate District 26 (2016), Texas",23145.0,16910.0,2691.0,772.0,920.0,1852.0,48,026
+48027,"State Senate District 27 (2016), Texas",4599.0,3717.0,164.0,503.0,32.0,183.0,48,027
+48028,"State Senate District 28 (2016), Texas",9530.0,6541.0,1117.0,758.0,672.0,442.0,48,028
+48029,"State Senate District 29 (2016), Texas",9936.0,7850.0,1258.0,82.0,485.0,261.0,48,029
+48030,"State Senate District 30 (2016), Texas",14149.0,10663.0,1181.0,991.0,704.0,610.0,48,030
+48031,"State Senate District 31 (2016), Texas",15787.0,12333.0,1831.0,420.0,580.0,623.0,48,031
+49019,"State Senate District 19 (2016), Utah",841.0,788.0,42.0,0.0,11.0,0.0,49,019
+49020,"State Senate District 20 (2016), Utah",1674.0,1473.0,34.0,70.0,32.0,65.0,49,020
+49021,"State Senate District 21 (2016), Utah",1908.0,1442.0,185.0,119.0,57.0,105.0,49,021
+49022,"State Senate District 22 (2016), Utah",1779.0,1470.0,171.0,98.0,32.0,8.0,49,022
+49023,"State Senate District 23 (2016), Utah",2290.0,1864.0,123.0,75.0,207.0,21.0,49,023
+49024,"State Senate District 24 (2016), Utah",347.0,272.0,25.0,10.0,0.0,40.0,49,024
+49025,"State Senate District 25 (2016), Utah",2499.0,1957.0,253.0,56.0,24.0,209.0,49,025
+49026,"State Senate District 26 (2016), Utah",1076.0,833.0,133.0,23.0,87.0,0.0,49,026
+49027,"State Senate District 27 (2016), Utah",441.0,355.0,62.0,3.0,0.0,21.0,49,027
+49028,"State Senate District 28 (2016), Utah",627.0,519.0,40.0,25.0,43.0,0.0,49,028
+49029,"State Senate District 29 (2016), Utah",781.0,666.0,34.0,18.0,3.0,60.0,49,029
+49001,"State Senate District 1 (2016), Utah",4831.0,3780.0,599.0,256.0,121.0,75.0,49,001
+49002,"State Senate District 2 (2016), Utah",6068.0,3955.0,845.0,98.0,730.0,440.0,49,002
+49003,"State Senate District 3 (2016), Utah",5845.0,4751.0,404.0,71.0,362.0,257.0,49,003
+49004,"State Senate District 4 (2016), Utah",2787.0,2367.0,193.0,36.0,112.0,79.0,49,004
+49005,"State Senate District 5 (2016), Utah",4149.0,3210.0,409.0,0.0,235.0,295.0,49,005
+49006,"State Senate District 6 (2016), Utah",3833.0,3349.0,132.0,0.0,158.0,194.0,49,006
+49007,"State Senate District 7 (2016), Utah",629.0,453.0,50.0,45.0,27.0,54.0,49,007
+49008,"State Senate District 8 (2016), Utah",3105.0,2512.0,223.0,49.0,213.0,108.0,49,008
+49009,"State Senate District 9 (2016), Utah",3092.0,2841.0,148.0,8.0,61.0,34.0,49,009
+49010,"State Senate District 10 (2016), Utah",3511.0,3072.0,255.0,25.0,84.0,75.0,49,010
+49011,"State Senate District 11 (2016), Utah",2773.0,2249.0,222.0,78.0,41.0,183.0,49,011
+49012,"State Senate District 12 (2016), Utah",2074.0,1806.0,268.0,0.0,0.0,0.0,49,012
+49013,"State Senate District 13 (2016), Utah",1502.0,1288.0,97.0,46.0,41.0,30.0,49,013
+49014,"State Senate District 14 (2016), Utah",1074.0,932.0,77.0,6.0,11.0,48.0,49,014
+49015,"State Senate District 15 (2016), Utah",2335.0,1662.0,328.0,118.0,174.0,53.0,49,015
+49016,"State Senate District 16 (2016), Utah",2738.0,1752.0,452.0,72.0,138.0,324.0,49,016
+49017,"State Senate District 17 (2016), Utah",802.0,640.0,74.0,8.0,68.0,12.0,49,017
+49018,"State Senate District 18 (2016), Utah",1319.0,1048.0,34.0,0.0,57.0,180.0,49,018
+50ADD,"Addison State Senate District (2016), Vermont",720.0,575.0,37.0,9.0,30.0,69.0,50,ADD
+50BEN,"Bennington State Senate District (2016), Vermont",156.0,133.0,0.0,0.0,2.0,21.0,50,BEN
+50CAL,"Caledonia State Senate District (2016), Vermont",280.0,195.0,2.0,43.0,40.0,0.0,50,CAL
+50CGI,"Grand-Isle-Chittenden State Senate District (2016), Vermont",346.0,279.0,17.0,8.0,12.0,30.0,50,CGI
+50CHI,"Chittenden State Senate District (2016), Vermont",5757.0,4151.0,735.0,108.0,204.0,559.0,50,CHI
+50E-O,"Essex-Orleans State Senate District (2016), Vermont",122.0,115.0,4.0,0.0,3.0,0.0,50,E-O
+50FRA,"Franklin State Senate District (2016), Vermont",163.0,143.0,0.0,16.0,4.0,0.0,50,FRA
+50LAM,"Lamoille State Senate District (2016), Vermont",161.0,147.0,0.0,14.0,0.0,0.0,50,LAM
+50ORA,"Orange State Senate District (2016), Vermont",30.0,27.0,0.0,3.0,0.0,0.0,50,ORA
+50RUT,"Rutland State Senate District (2016), Vermont",626.0,372.0,113.0,0.0,53.0,88.0,50,RUT
+50WAS,"Washington State Senate District (2016), Vermont",389.0,320.0,36.0,9.0,24.0,0.0,50,WAS
+50WDM,"Windham State Senate District (2016), Vermont",425.0,342.0,0.0,13.0,8.0,62.0,50,WDM
+50WSR,"Windsor State Senate District (2016), Vermont",449.0,303.0,21.0,0.0,113.0,12.0,50,WSR
+51018,"State Senate District 18 (2016), Virginia",2109.0,1703.0,72.0,127.0,187.0,20.0,51,018
+51019,"State Senate District 19 (2016), Virginia",3022.0,2854.0,18.0,66.0,19.0,65.0,51,019
+51020,"State Senate District 20 (2016), Virginia",931.0,684.0,60.0,162.0,25.0,0.0,51,020
+51021,"State Senate District 21 (2016), Virginia",9585.0,6125.0,1357.0,806.0,503.0,794.0,51,021
+51022,"State Senate District 22 (2016), Virginia",1679.0,1190.0,276.0,99.0,13.0,101.0,51,022
+51023,"State Senate District 23 (2016), Virginia",3408.0,2477.0,455.0,88.0,274.0,114.0,51,023
+51024,"State Senate District 24 (2016), Virginia",1967.0,1383.0,112.0,279.0,96.0,97.0,51,024
+51025,"State Senate District 25 (2016), Virginia",8402.0,5686.0,674.0,1011.0,446.0,585.0,51,025
+51026,"State Senate District 26 (2016), Virginia",3416.0,2425.0,330.0,289.0,148.0,224.0,51,026
+51027,"State Senate District 27 (2016), Virginia",3225.0,2461.0,74.0,447.0,202.0,41.0,51,027
+51028,"State Senate District 28 (2016), Virginia",8029.0,6936.0,127.0,523.0,268.0,175.0,51,028
+51029,"State Senate District 29 (2016), Virginia",19778.0,16560.0,1003.0,1319.0,278.0,618.0,51,029
+51030,"State Senate District 30 (2016), Virginia",16636.0,12375.0,1269.0,441.0,1447.0,1104.0,51,030
+51031,"State Senate District 31 (2016), Virginia",27532.0,22563.0,1530.0,1092.0,1302.0,1045.0,51,031
+51032,"State Senate District 32 (2016), Virginia",32625.0,26962.0,2168.0,652.0,1336.0,1507.0,51,032
+51033,"State Senate District 33 (2016), Virginia",47808.0,37581.0,4051.0,1493.0,2490.0,2193.0,51,033
+51034,"State Senate District 34 (2016), Virginia",42027.0,35078.0,3016.0,1235.0,1196.0,1502.0,51,034
+51035,"State Senate District 35 (2016), Virginia",34014.0,28204.0,2279.0,1145.0,1401.0,985.0,51,035
+51036,"State Senate District 36 (2016), Virginia",16137.0,13604.0,1301.0,400.0,437.0,395.0,51,036
+51037,"State Senate District 37 (2016), Virginia",50237.0,43151.0,4209.0,735.0,1169.0,973.0,51,037
+51038,"State Senate District 38 (2016), Virginia",1036.0,843.0,3.0,150.0,40.0,0.0,51,038
+51039,"State Senate District 39 (2016), Virginia",26213.0,23035.0,1154.0,1085.0,554.0,385.0,51,039
+51040,"State Senate District 40 (2016), Virginia",821.0,694.0,45.0,22.0,56.0,4.0,51,040
+51001,"State Senate District 1 (2016), Virginia",6973.0,5390.0,521.0,460.0,293.0,309.0,51,001
+51002,"State Senate District 2 (2016), Virginia",5767.0,5007.0,310.0,192.0,200.0,58.0,51,002
+51003,"State Senate District 3 (2016), Virginia",4148.0,3551.0,197.0,145.0,71.0,184.0,51,003
+51004,"State Senate District 4 (2016), Virginia",2596.0,2385.0,33.0,21.0,105.0,52.0,51,004
+51005,"State Senate District 5 (2016), Virginia",5589.0,4720.0,412.0,281.0,116.0,60.0,51,005
+51006,"State Senate District 6 (2016), Virginia",5850.0,4105.0,581.0,299.0,562.0,303.0,51,006
+51007,"State Senate District 7 (2016), Virginia",13777.0,11893.0,746.0,312.0,343.0,483.0,51,007
+51008,"State Senate District 8 (2016), Virginia",11235.0,9670.0,911.0,166.0,303.0,185.0,51,008
+51009,"State Senate District 9 (2016), Virginia",3800.0,2892.0,300.0,376.0,151.0,81.0,51,009
+51010,"State Senate District 10 (2016), Virginia",7241.0,5235.0,808.0,661.0,304.0,233.0,51,010
+51011,"State Senate District 11 (2016), Virginia",5994.0,5167.0,580.0,103.0,18.0,126.0,51,011
+51012,"State Senate District 12 (2016), Virginia",23755.0,18552.0,1955.0,844.0,1204.0,1200.0,51,012
+51013,"State Senate District 13 (2016), Virginia",38900.0,33847.0,1395.0,1332.0,1361.0,965.0,51,013
+51014,"State Senate District 14 (2016), Virginia",9699.0,8583.0,540.0,180.0,211.0,185.0,51,014
+51015,"State Senate District 15 (2016), Virginia",1282.0,1176.0,25.0,81.0,0.0,0.0,51,015
+51016,"State Senate District 16 (2016), Virginia",3478.0,2668.0,215.0,133.0,241.0,221.0,51,016
+51017,"State Senate District 17 (2016), Virginia",4645.0,3985.0,319.0,86.0,173.0,82.0,51,017
+53026,"State Senate District 26 (2016), Washington",4617.0,3467.0,269.0,221.0,311.0,349.0,53,026
+53027,"State Senate District 27 (2016), Washington",11403.0,9805.0,557.0,346.0,391.0,304.0,53,027
+53028,"State Senate District 28 (2016), Washington",9780.0,8092.0,766.0,113.0,604.0,205.0,53,028
+53029,"State Senate District 29 (2016), Washington",12735.0,10457.0,1390.0,295.0,366.0,227.0,53,029
+53030,"State Senate District 30 (2016), Washington",17051.0,14623.0,1378.0,474.0,418.0,158.0,53,030
+53031,"State Senate District 31 (2016), Washington",4522.0,3600.0,354.0,344.0,132.0,92.0,53,031
+53032,"State Senate District 32 (2016), Washington",20340.0,17455.0,1511.0,440.0,410.0,524.0,53,032
+53033,"State Senate District 33 (2016), Washington",20288.0,16808.0,2212.0,221.0,489.0,558.0,53,033
+53034,"State Senate District 34 (2016), Washington",14991.0,12777.0,1336.0,174.0,311.0,393.0,53,034
+53035,"State Senate District 35 (2016), Washington",4045.0,3428.0,132.0,165.0,259.0,61.0,53,035
+53036,"State Senate District 36 (2016), Washington",15552.0,10157.0,2499.0,151.0,1622.0,1123.0,53,036
+53037,"State Senate District 37 (2016), Washington",38847.0,33431.0,3821.0,210.0,577.0,808.0,53,037
+53038,"State Senate District 38 (2016), Washington",9338.0,7858.0,1024.0,189.0,128.0,139.0,53,038
+53039,"State Senate District 39 (2016), Washington",2347.0,1982.0,122.0,57.0,142.0,44.0,53,039
+53040,"State Senate District 40 (2016), Washington",3965.0,2654.0,647.0,375.0,119.0,170.0,53,040
+53041,"State Senate District 41 (2016), Washington",41065.0,32566.0,4591.0,181.0,1857.0,1870.0,53,041
+53042,"State Senate District 42 (2016), Washington",6171.0,5134.0,527.0,171.0,205.0,134.0,53,042
+53043,"State Senate District 43 (2016), Washington",21107.0,11336.0,5515.0,651.0,2060.0,1545.0,53,043
+53044,"State Senate District 44 (2016), Washington",14914.0,12984.0,1093.0,389.0,215.0,233.0,53,044
+53045,"State Senate District 45 (2016), Washington",24980.0,20845.0,2237.0,211.0,641.0,1046.0,53,045
+53046,"State Senate District 46 (2016), Washington",18903.0,14619.0,2283.0,305.0,880.0,816.0,53,046
+53047,"State Senate District 47 (2016), Washington",25403.0,21496.0,2691.0,271.0,576.0,369.0,53,047
+53048,"State Senate District 48 (2016), Washington",45839.0,31729.0,6133.0,190.0,2611.0,5176.0,53,048
+53049,"State Senate District 49 (2016), Washington",5942.0,4951.0,334.0,165.0,375.0,117.0,53,049
+53001,"State Senate District 1 (2016), Washington",21811.0,17481.0,1366.0,1526.0,680.0,758.0,53,001
+53002,"State Senate District 2 (2016), Washington",6519.0,5592.0,447.0,37.0,154.0,289.0,53,002
+53003,"State Senate District 3 (2016), Washington",3957.0,2938.0,201.0,173.0,531.0,114.0,53,003
+53004,"State Senate District 4 (2016), Washington",2438.0,2142.0,187.0,71.0,11.0,27.0,53,004
+53005,"State Senate District 5 (2016), Washington",13569.0,11050.0,1174.0,142.0,898.0,305.0,53,005
+53006,"State Senate District 6 (2016), Washington",4077.0,3459.0,328.0,140.0,81.0,69.0,53,006
+53007,"State Senate District 7 (2016), Washington",1230.0,907.0,114.0,58.0,62.0,89.0,53,007
+53008,"State Senate District 8 (2016), Washington",4611.0,3935.0,246.0,63.0,115.0,252.0,53,008
+53009,"State Senate District 9 (2016), Washington",5938.0,3857.0,804.0,435.0,332.0,510.0,53,009
+53010,"State Senate District 10 (2016), Washington",4531.0,3708.0,495.0,92.0,161.0,75.0,53,010
+53011,"State Senate District 11 (2016), Washington",32894.0,28003.0,2809.0,441.0,907.0,734.0,53,011
+53012,"State Senate District 12 (2016), Washington",1242.0,1164.0,26.0,45.0,0.0,7.0,53,012
+53013,"State Senate District 13 (2016), Washington",1902.0,1340.0,102.0,324.0,38.0,98.0,53,013
+53014,"State Senate District 14 (2016), Washington",1783.0,1401.0,61.0,188.0,31.0,102.0,53,014
+53015,"State Senate District 15 (2016), Washington",960.0,846.0,37.0,63.0,8.0,6.0,53,015
+53016,"State Senate District 16 (2016), Washington",1484.0,1182.0,114.0,69.0,32.0,87.0,53,016
+53017,"State Senate District 17 (2016), Washington",6925.0,6018.0,414.0,115.0,158.0,220.0,53,017
+53018,"State Senate District 18 (2016), Washington",7494.0,6603.0,413.0,57.0,304.0,117.0,53,018
+53019,"State Senate District 19 (2016), Washington",2156.0,1790.0,285.0,22.0,25.0,34.0,53,019
+53020,"State Senate District 20 (2016), Washington",1778.0,1481.0,74.0,66.0,0.0,157.0,53,020
+53021,"State Senate District 21 (2016), Washington",22584.0,18927.0,1836.0,512.0,589.0,720.0,53,021
+53022,"State Senate District 22 (2016), Washington",10259.0,8448.0,614.0,404.0,212.0,581.0,53,022
+53023,"State Senate District 23 (2016), Washington",7883.0,6614.0,479.0,220.0,346.0,224.0,53,023
+53024,"State Senate District 24 (2016), Washington",2230.0,1678.0,51.0,203.0,112.0,186.0,53,024
+53025,"State Senate District 25 (2016), Washington",9102.0,7378.0,717.0,460.0,150.0,397.0,53,025
+54001,"State Senate District 1 (2016), West Virginia",564.0,519.0,26.0,0.0,19.0,0.0,54,001
+54002,"State Senate District 2 (2016), West Virginia",509.0,452.0,16.0,0.0,0.0,41.0,54,002
+54003,"State Senate District 3 (2016), West Virginia",479.0,448.0,31.0,0.0,0.0,0.0,54,003
+54004,"State Senate District 4 (2016), West Virginia",456.0,438.0,0.0,0.0,0.0,18.0,54,004
+54005,"State Senate District 5 (2016), West Virginia",1275.0,876.0,117.0,45.0,149.0,88.0,54,005
+54006,"State Senate District 6 (2016), West Virginia",421.0,359.0,2.0,11.0,0.0,49.0,54,006
+54007,"State Senate District 7 (2016), West Virginia",231.0,223.0,0.0,8.0,0.0,0.0,54,007
+54008,"State Senate District 8 (2016), West Virginia",931.0,801.0,17.0,0.0,64.0,49.0,54,008
+54009,"State Senate District 9 (2016), West Virginia",873.0,859.0,0.0,0.0,0.0,14.0,54,009
+54010,"State Senate District 10 (2016), West Virginia",136.0,115.0,0.0,0.0,0.0,21.0,54,010
+54011,"State Senate District 11 (2016), West Virginia",253.0,148.0,76.0,14.0,0.0,15.0,54,011
+54012,"State Senate District 12 (2016), West Virginia",488.0,355.0,77.0,0.0,38.0,18.0,54,012
+54013,"State Senate District 13 (2016), West Virginia",3402.0,2625.0,336.0,50.0,77.0,314.0,54,013
+54014,"State Senate District 14 (2016), West Virginia",730.0,486.0,18.0,178.0,48.0,0.0,54,014
+54015,"State Senate District 15 (2016), West Virginia",865.0,860.0,0.0,0.0,5.0,0.0,54,015
+54016,"State Senate District 16 (2016), West Virginia",1367.0,1197.0,22.0,6.0,89.0,53.0,54,016
+54017,"State Senate District 17 (2016), West Virginia",1045.0,897.0,60.0,32.0,29.0,27.0,54,017
+55001,"State Senate District 1 (2016), Wisconsin",2583.0,2185.0,93.0,140.0,130.0,35.0,55,001
+55002,"State Senate District 2 (2016), Wisconsin",2362.0,1662.0,262.0,82.0,313.0,43.0,55,002
+55003,"State Senate District 3 (2016), Wisconsin",4798.0,3919.0,683.0,26.0,38.0,132.0,55,003
+55004,"State Senate District 4 (2016), Wisconsin",9125.0,7263.0,1692.0,68.0,18.0,84.0,55,004
+55005,"State Senate District 5 (2016), Wisconsin",8124.0,6072.0,423.0,501.0,651.0,477.0,55,005
+55006,"State Senate District 6 (2016), Wisconsin",7354.0,6318.0,516.0,31.0,226.0,263.0,55,006
+55007,"State Senate District 7 (2016), Wisconsin",6085.0,4169.0,1083.0,92.0,393.0,348.0,55,007
+55008,"State Senate District 8 (2016), Wisconsin",6705.0,5461.0,281.0,498.0,206.0,259.0,55,008
+55009,"State Senate District 9 (2016), Wisconsin",8016.0,6731.0,975.0,153.0,78.0,79.0,55,009
+55010,"State Senate District 10 (2016), Wisconsin",2167.0,1436.0,276.0,180.0,220.0,55.0,55,010
+55011,"State Senate District 11 (2016), Wisconsin",1553.0,1242.0,85.0,48.0,143.0,35.0,55,011
+55012,"State Senate District 12 (2016), Wisconsin",641.0,585.0,17.0,4.0,4.0,31.0,55,012
+55013,"State Senate District 13 (2016), Wisconsin",1333.0,1149.0,94.0,15.0,8.0,67.0,55,013
+55014,"State Senate District 14 (2016), Wisconsin",953.0,744.0,48.0,79.0,50.0,32.0,55,014
+55015,"State Senate District 15 (2016), Wisconsin",1879.0,1295.0,453.0,56.0,34.0,41.0,55,015
+55016,"State Senate District 16 (2016), Wisconsin",7945.0,6395.0,868.0,71.0,353.0,258.0,55,016
+55017,"State Senate District 17 (2016), Wisconsin",1068.0,890.0,45.0,47.0,38.0,48.0,55,017
+55018,"State Senate District 18 (2016), Wisconsin",3917.0,2759.0,333.0,148.0,116.0,561.0,55,018
+55019,"State Senate District 19 (2016), Wisconsin",7390.0,6010.0,431.0,429.0,404.0,116.0,55,019
+55020,"State Senate District 20 (2016), Wisconsin",1287.0,1124.0,6.0,100.0,55.0,2.0,55,020
+55021,"State Senate District 21 (2016), Wisconsin",2410.0,2162.0,58.0,66.0,98.0,26.0,55,021
+55022,"State Senate District 22 (2016), Wisconsin",1984.0,1499.0,223.0,109.0,120.0,33.0,55,022
+55023,"State Senate District 23 (2016), Wisconsin",2318.0,2000.0,154.0,97.0,58.0,9.0,55,023
+55024,"State Senate District 24 (2016), Wisconsin",3114.0,2683.0,133.0,239.0,26.0,33.0,55,024
+55025,"State Senate District 25 (2016), Wisconsin",1186.0,959.0,45.0,74.0,7.0,101.0,55,025
+55026,"State Senate District 26 (2016), Wisconsin",17809.0,10420.0,3168.0,1006.0,952.0,2263.0,55,026
+55027,"State Senate District 27 (2016), Wisconsin",3226.0,2445.0,368.0,43.0,236.0,134.0,55,027
+55028,"State Senate District 28 (2016), Wisconsin",6671.0,5542.0,412.0,315.0,254.0,148.0,55,028
+55029,"State Senate District 29 (2016), Wisconsin",7515.0,6709.0,461.0,244.0,46.0,55.0,55,029
+55030,"State Senate District 30 (2016), Wisconsin",5275.0,4178.0,728.0,154.0,73.0,142.0,55,030
+55031,"State Senate District 31 (2016), Wisconsin",3769.0,2802.0,442.0,278.0,138.0,109.0,55,031
+55032,"State Senate District 32 (2016), Wisconsin",5392.0,4675.0,370.0,61.0,246.0,40.0,55,032
+55033,"State Senate District 33 (2016), Wisconsin",4339.0,3540.0,259.0,115.0,223.0,202.0,55,033
+56001,"State Senate District 1 (2016), Wyoming",79.0,45.0,0.0,0.0,34.0,0.0,56,001
+56002,"State Senate District 2 (2016), Wyoming",43.0,43.0,0.0,0.0,0.0,0.0,56,002
+56003,"State Senate District 3 (2016), Wyoming",324.0,292.0,24.0,8.0,0.0,0.0,56,003
+56004,"State Senate District 4 (2016), Wyoming",309.0,267.0,0.0,20.0,22.0,0.0,56,004
+56005,"State Senate District 5 (2016), Wyoming",120.0,54.0,0.0,0.0,63.0,3.0,56,005
+56006,"State Senate District 6 (2016), Wyoming",440.0,139.0,239.0,0.0,51.0,11.0,56,006
+56007,"State Senate District 7 (2016), Wyoming",77.0,73.0,0.0,0.0,4.0,0.0,56,007
+56008,"State Senate District 8 (2016), Wyoming",205.0,175.0,5.0,0.0,25.0,0.0,56,008
+56009,"State Senate District 9 (2016), Wyoming",518.0,280.0,147.0,2.0,37.0,52.0,56,009
+56010,"State Senate District 10 (2016), Wyoming",606.0,370.0,47.0,12.0,127.0,50.0,56,010
+56011,"State Senate District 11 (2016), Wyoming",135.0,80.0,39.0,0.0,5.0,11.0,56,011
+56012,"State Senate District 12 (2016), Wyoming",119.0,119.0,0.0,0.0,0.0,0.0,56,012
+56013,"State Senate District 13 (2016), Wyoming",133.0,131.0,0.0,0.0,0.0,2.0,56,013
+56014,"State Senate District 14 (2016), Wyoming",27.0,19.0,7.0,0.0,0.0,1.0,56,014
+56015,"State Senate District 15 (2016), Wyoming",25.0,25.0,0.0,0.0,0.0,0.0,56,015
+56016,"State Senate District 16 (2016), Wyoming",53.0,45.0,0.0,0.0,8.0,0.0,56,016
+56017,"State Senate District 17 (2016), Wyoming",483.0,312.0,99.0,0.0,12.0,60.0,56,017
+56018,"State Senate District 18 (2016), Wyoming",101.0,71.0,0.0,2.0,26.0,2.0,56,018
+56019,"State Senate District 19 (2016), Wyoming",96.0,65.0,24.0,3.0,0.0,4.0,56,019
+56020,"State Senate District 20 (2016), Wyoming",20.0,16.0,0.0,3.0,0.0,1.0,56,020
+56021,"State Senate District 21 (2016), Wyoming",147.0,147.0,0.0,0.0,0.0,0.0,56,021
+56022,"State Senate District 22 (2016), Wyoming",82.0,61.0,2.0,0.0,0.0,19.0,56,022
+56023,"State Senate District 23 (2016), Wyoming",50.0,35.0,0.0,14.0,1.0,0.0,56,023
+56024,"State Senate District 24 (2016), Wyoming",179.0,176.0,0.0,0.0,3.0,0.0,56,024
+56025,"State Senate District 25 (2016), Wyoming",28.0,28.0,0.0,0.0,0.0,0.0,56,025
+56026,"State Senate District 26 (2016), Wyoming",20.0,17.0,0.0,0.0,0.0,3.0,56,026
+56027,"State Senate District 27 (2016), Wyoming",256.0,170.0,0.0,1.0,0.0,85.0,56,027
+56028,"State Senate District 28 (2016), Wyoming",146.0,126.0,9.0,1.0,10.0,0.0,56,028
+56029,"State Senate District 29 (2016), Wyoming",95.0,83.0,11.0,1.0,0.0,0.0,56,029
+56030,"State Senate District 30 (2016), Wyoming",155.0,126.0,20.0,0.0,0.0,9.0,56,030

@@ -1,0 +1,438 @@
+geoid,name,universe,congressional district,state
+0101,"Congressional District 1 (115th Congress), Alabama",12748.0,01,01
+0102,"Congressional District 2 (115th Congress), Alabama",7734.0,02,01
+0103,"Congressional District 3 (115th Congress), Alabama",6484.0,03,01
+0104,"Congressional District 4 (115th Congress), Alabama",11738.0,04,01
+0105,"Congressional District 5 (115th Congress), Alabama",12099.0,05,01
+0106,"Congressional District 6 (115th Congress), Alabama",5100.0,06,01
+0107,"Congressional District 7 (115th Congress), Alabama",4244.0,07,01
+0200,"Congressional District (at Large) (115th Congress), Alaska",144878.0,00,02
+0401,"Congressional District 1 (115th Congress), Arizona",186695.0,01,04
+0402,"Congressional District 2 (115th Congress), Arizona",18921.0,02,04
+0403,"Congressional District 3 (115th Congress), Arizona",43807.0,03,04
+0404,"Congressional District 4 (115th Congress), Arizona",22242.0,04,04
+0405,"Congressional District 5 (115th Congress), Arizona",14090.0,05,04
+0406,"Congressional District 6 (115th Congress), Arizona",17581.0,06,04
+0407,"Congressional District 7 (115th Congress), Arizona",31375.0,07,04
+0408,"Congressional District 8 (115th Congress), Arizona",12659.0,08,04
+0634,"Congressional District 34 (115th Congress), California",13460.0,34,06
+0501,"Congressional District 1 (115th Congress), Arkansas",10585.0,01,05
+0502,"Congressional District 2 (115th Congress), Arkansas",8958.0,02,05
+0503,"Congressional District 3 (115th Congress), Arkansas",22137.0,03,05
+0504,"Congressional District 4 (115th Congress), Arkansas",11967.0,04,05
+0632,"Congressional District 32 (115th Congress), California",11621.0,32,06
+0633,"Congressional District 33 (115th Congress), California",9494.0,33,06
+0409,"Congressional District 9 (115th Congress), Arizona",30867.0,09,04
+0635,"Congressional District 35 (115th Congress), California",16535.0,35,06
+0636,"Congressional District 36 (115th Congress), California",17030.0,36,06
+0637,"Congressional District 37 (115th Congress), California",11177.0,37,06
+0638,"Congressional District 38 (115th Congress), California",9802.0,38,06
+0639,"Congressional District 39 (115th Congress), California",9380.0,39,06
+0640,"Congressional District 40 (115th Congress), California",7555.0,40,06
+0641,"Congressional District 41 (115th Congress), California",12400.0,41,06
+0642,"Congressional District 42 (115th Congress), California",13921.0,42,06
+0643,"Congressional District 43 (115th Congress), California",16700.0,43,06
+0644,"Congressional District 44 (115th Congress), California",14573.0,44,06
+0645,"Congressional District 45 (115th Congress), California",6616.0,45,06
+0646,"Congressional District 46 (115th Congress), California",7355.0,46,06
+0647,"Congressional District 47 (115th Congress), California",14120.0,47,06
+0648,"Congressional District 48 (115th Congress), California",9146.0,48,06
+0649,"Congressional District 49 (115th Congress), California",8643.0,49,06
+0650,"Congressional District 50 (115th Congress), California",18239.0,50,06
+0651,"Congressional District 51 (115th Congress), California",11193.0,51,06
+0652,"Congressional District 52 (115th Congress), California",8002.0,52,06
+0653,"Congressional District 53 (115th Congress), California",12955.0,53,06
+0604,"Congressional District 4 (115th Congress), California",19061.0,04,06
+0601,"Congressional District 1 (115th Congress), California",30323.0,01,06
+0602,"Congressional District 2 (115th Congress), California",30169.0,02,06
+0603,"Congressional District 3 (115th Congress), California",20456.0,03,06
+0605,"Congressional District 5 (115th Congress), California",19711.0,05,06
+0606,"Congressional District 6 (115th Congress), California",17998.0,06,06
+0611,"Congressional District 11 (115th Congress), California",12899.0,11,06
+0608,"Congressional District 8 (115th Congress), California",19115.0,08,06
+0609,"Congressional District 9 (115th Congress), California",39575.0,09,06
+0610,"Congressional District 10 (115th Congress), California",16337.0,10,06
+0612,"Congressional District 12 (115th Congress), California",8716.0,12,06
+0613,"Congressional District 13 (115th Congress), California",15625.0,13,06
+0614,"Congressional District 14 (115th Congress), California",8040.0,14,06
+0615,"Congressional District 15 (115th Congress), California",9644.0,15,06
+0616,"Congressional District 16 (115th Congress), California",16080.0,16,06
+0617,"Congressional District 17 (115th Congress), California",6911.0,17,06
+0618,"Congressional District 18 (115th Congress), California",8171.0,18,06
+0619,"Congressional District 19 (115th Congress), California",14010.0,19,06
+0620,"Congressional District 20 (115th Congress), California",13375.0,20,06
+0621,"Congressional District 21 (115th Congress), California",14085.0,21,06
+0622,"Congressional District 22 (115th Congress), California",15364.0,22,06
+0623,"Congressional District 23 (115th Congress), California",18339.0,23,06
+0624,"Congressional District 24 (115th Congress), California",15135.0,24,06
+0625,"Congressional District 25 (115th Congress), California",16092.0,25,06
+0626,"Congressional District 26 (115th Congress), California",14345.0,26,06
+0627,"Congressional District 27 (115th Congress), California",7912.0,27,06
+0628,"Congressional District 28 (115th Congress), California",7841.0,28,06
+0629,"Congressional District 29 (115th Congress), California",7867.0,29,06
+0630,"Congressional District 30 (115th Congress), California",7719.0,30,06
+0631,"Congressional District 31 (115th Congress), California",13643.0,31,06
+0607,"Congressional District 7 (115th Congress), California",16460.0,07,06
+0806,"Congressional District 6 (115th Congress), Colorado",13360.0,06,08
+0807,"Congressional District 7 (115th Congress), Colorado",16367.0,07,08
+0903,"Congressional District 3 (115th Congress), Connecticut",5869.0,03,09
+0801,"Congressional District 1 (115th Congress), Colorado",16581.0,01,08
+0802,"Congressional District 2 (115th Congress), Colorado",11325.0,02,08
+0804,"Congressional District 4 (115th Congress), Colorado",13537.0,04,08
+0803,"Congressional District 3 (115th Congress), Colorado",24994.0,03,08
+0805,"Congressional District 5 (115th Congress), Colorado",16905.0,05,08
+0901,"Congressional District 1 (115th Congress), Connecticut",7341.0,01,09
+0902,"Congressional District 2 (115th Congress), Connecticut",12732.0,02,09
+0904,"Congressional District 4 (115th Congress), Connecticut",5106.0,04,09
+0905,"Congressional District 5 (115th Congress), Connecticut",5287.0,05,09
+1198,"Delegate District (at Large) (115th Congress), District of Columbia",6304.0,98,11
+1207,"Congressional District 7 (115th Congress), Florida",6924.0,07,12
+1000,"Congressional District (at Large) (115th Congress), Delaware",9708.0,00,10
+1201,"Congressional District 1 (115th Congress), Florida",13818.0,01,12
+1202,"Congressional District 2 (115th Congress), Florida",9010.0,02,12
+1203,"Congressional District 3 (115th Congress), Florida",7648.0,03,12
+1204,"Congressional District 4 (115th Congress), Florida",7280.0,04,12
+1205,"Congressional District 5 (115th Congress), Florida",6550.0,05,12
+1206,"Congressional District 6 (115th Congress), Florida",6375.0,06,12
+1208,"Congressional District 8 (115th Congress), Florida",6662.0,08,12
+1209,"Congressional District 9 (115th Congress), Florida",6909.0,09,12
+1210,"Congressional District 10 (115th Congress), Florida",6638.0,10,12
+1211,"Congressional District 11 (115th Congress), Florida",6946.0,11,12
+1212,"Congressional District 12 (115th Congress), Florida",5900.0,12,12
+1213,"Congressional District 13 (115th Congress), Florida",5594.0,13,12
+1214,"Congressional District 14 (115th Congress), Florida",7761.0,14,12
+1215,"Congressional District 15 (115th Congress), Florida",7492.0,15,12
+1216,"Congressional District 16 (115th Congress), Florida",4747.0,16,12
+1217,"Congressional District 17 (115th Congress), Florida",6112.0,17,12
+1218,"Congressional District 18 (115th Congress), Florida",4968.0,18,12
+1219,"Congressional District 19 (115th Congress), Florida",4642.0,19,12
+1220,"Congressional District 20 (115th Congress), Florida",5672.0,20,12
+1221,"Congressional District 21 (115th Congress), Florida",3918.0,21,12
+1222,"Congressional District 22 (115th Congress), Florida",7118.0,22,12
+1223,"Congressional District 23 (115th Congress), Florida",5901.0,23,12
+1224,"Congressional District 24 (115th Congress), Florida",3161.0,24,12
+1225,"Congressional District 25 (115th Congress), Florida",2931.0,25,12
+1226,"Congressional District 26 (115th Congress), Florida",2741.0,26,12
+1227,"Congressional District 27 (115th Congress), Florida",3539.0,27,12
+1304,"Congressional District 4 (115th Congress), Georgia",7316.0,04,13
+1301,"Congressional District 1 (115th Congress), Georgia",7122.0,01,13
+1302,"Congressional District 2 (115th Congress), Georgia",4285.0,02,13
+1303,"Congressional District 3 (115th Congress), Georgia",6302.0,03,13
+1305,"Congressional District 5 (115th Congress), Georgia",7760.0,05,13
+1306,"Congressional District 6 (115th Congress), Georgia",11032.0,06,13
+1307,"Congressional District 7 (115th Congress), Georgia",7696.0,07,13
+1308,"Congressional District 8 (115th Congress), Georgia",6072.0,08,13
+1309,"Congressional District 9 (115th Congress), Georgia",6306.0,09,13
+1310,"Congressional District 10 (115th Congress), Georgia",4587.0,10,13
+1311,"Congressional District 11 (115th Congress), Georgia",6818.0,11,13
+1501,"Congressional District 1 (115th Congress), Hawaii",13218.0,01,15
+1502,"Congressional District 2 (115th Congress), Hawaii",20757.0,02,15
+1703,"Congressional District 3 (115th Congress), Illinois",4555.0,03,17
+1312,"Congressional District 12 (115th Congress), Georgia",5166.0,12,13
+1313,"Congressional District 13 (115th Congress), Georgia",4637.0,13,13
+1314,"Congressional District 14 (115th Congress), Georgia",6495.0,14,13
+1601,"Congressional District 1 (115th Congress), Idaho",21184.0,01,16
+1602,"Congressional District 2 (115th Congress), Idaho",18359.0,02,16
+1701,"Congressional District 1 (115th Congress), Illinois",6272.0,01,17
+1702,"Congressional District 2 (115th Congress), Illinois",4551.0,02,17
+1704,"Congressional District 4 (115th Congress), Illinois",7274.0,04,17
+1705,"Congressional District 5 (115th Congress), Illinois",5777.0,05,17
+1706,"Congressional District 6 (115th Congress), Illinois",4080.0,06,17
+1707,"Congressional District 7 (115th Congress), Illinois",3689.0,07,17
+1708,"Congressional District 8 (115th Congress), Illinois",6438.0,08,17
+1709,"Congressional District 9 (115th Congress), Illinois",4531.0,09,17
+1710,"Congressional District 10 (115th Congress), Illinois",5154.0,10,17
+1711,"Congressional District 11 (115th Congress), Illinois",6186.0,11,17
+1712,"Congressional District 12 (115th Congress), Illinois",5692.0,12,17
+1713,"Congressional District 13 (115th Congress), Illinois",9856.0,13,17
+1714,"Congressional District 14 (115th Congress), Illinois",4236.0,14,17
+1715,"Congressional District 15 (115th Congress), Illinois",4086.0,15,17
+1716,"Congressional District 16 (115th Congress), Illinois",4322.0,16,17
+1717,"Congressional District 17 (115th Congress), Illinois",6432.0,17,17
+1718,"Congressional District 18 (115th Congress), Illinois",4658.0,18,17
+1804,"Congressional District 4 (115th Congress), Indiana",5119.0,04,18
+1801,"Congressional District 1 (115th Congress), Indiana",5519.0,01,18
+1802,"Congressional District 2 (115th Congress), Indiana",6914.0,02,18
+1803,"Congressional District 3 (115th Congress), Indiana",6964.0,03,18
+1805,"Congressional District 5 (115th Congress), Indiana",4514.0,05,18
+1806,"Congressional District 6 (115th Congress), Indiana",4406.0,06,18
+1807,"Congressional District 7 (115th Congress), Indiana",6811.0,07,18
+1808,"Congressional District 8 (115th Congress), Indiana",4943.0,08,18
+1809,"Congressional District 9 (115th Congress), Indiana",5836.0,09,18
+2004,"Congressional District 4 (115th Congress), Kansas",17551.0,04,20
+1901,"Congressional District 1 (115th Congress), Iowa",6283.0,01,19
+1902,"Congressional District 2 (115th Congress), Iowa",5954.0,02,19
+1903,"Congressional District 3 (115th Congress), Iowa",6749.0,03,19
+1904,"Congressional District 4 (115th Congress), Iowa",7253.0,04,19
+2001,"Congressional District 1 (115th Congress), Kansas",11514.0,01,20
+2002,"Congressional District 2 (115th Congress), Kansas",23332.0,02,20
+2003,"Congressional District 3 (115th Congress), Kansas",9034.0,03,20
+2104,"Congressional District 4 (115th Congress), Kentucky",4983.0,04,21
+2101,"Congressional District 1 (115th Congress), Kentucky",5333.0,01,21
+2102,"Congressional District 2 (115th Congress), Kentucky",6456.0,02,21
+2103,"Congressional District 3 (115th Congress), Kentucky",5514.0,03,21
+2105,"Congressional District 5 (115th Congress), Kentucky",4750.0,05,21
+2106,"Congressional District 6 (115th Congress), Kentucky",6139.0,06,21
+2204,"Congressional District 4 (115th Congress), Louisiana",12165.0,04,22
+2301,"Congressional District 1 (115th Congress), Maine",7479.0,01,23
+2302,"Congressional District 2 (115th Congress), Maine",15397.0,02,23
+2201,"Congressional District 1 (115th Congress), Louisiana",16045.0,01,22
+2202,"Congressional District 2 (115th Congress), Louisiana",6414.0,02,22
+2203,"Congressional District 3 (115th Congress), Louisiana",8836.0,03,22
+2205,"Congressional District 5 (115th Congress), Louisiana",6416.0,05,22
+2206,"Congressional District 6 (115th Congress), Louisiana",9198.0,06,22
+2504,"Congressional District 4 (115th Congress), Massachusetts",4248.0,04,25
+2501,"Congressional District 1 (115th Congress), Massachusetts",5555.0,01,25
+2502,"Congressional District 2 (115th Congress), Massachusetts",5997.0,02,25
+2503,"Congressional District 3 (115th Congress), Massachusetts",5452.0,03,25
+2505,"Congressional District 5 (115th Congress), Massachusetts",3592.0,05,25
+2506,"Congressional District 6 (115th Congress), Massachusetts",3494.0,06,25
+2507,"Congressional District 7 (115th Congress), Massachusetts",7421.0,07,25
+2508,"Congressional District 8 (115th Congress), Massachusetts",4418.0,08,25
+2509,"Congressional District 9 (115th Congress), Massachusetts",7779.0,09,25
+2404,"Congressional District 4 (115th Congress), Maryland",7948.0,04,24
+2401,"Congressional District 1 (115th Congress), Maryland",5111.0,01,24
+2402,"Congressional District 2 (115th Congress), Maryland",8134.0,02,24
+2403,"Congressional District 3 (115th Congress), Maryland",7241.0,03,24
+2405,"Congressional District 5 (115th Congress), Maryland",11570.0,05,24
+2406,"Congressional District 6 (115th Congress), Maryland",8616.0,06,24
+2407,"Congressional District 7 (115th Congress), Maryland",6887.0,07,24
+2408,"Congressional District 8 (115th Congress), Maryland",6415.0,08,24
+2604,"Congressional District 4 (115th Congress), Michigan",11572.0,04,26
+2601,"Congressional District 1 (115th Congress), Michigan",29544.0,01,26
+2602,"Congressional District 2 (115th Congress), Michigan",11001.0,02,26
+2603,"Congressional District 3 (115th Congress), Michigan",9410.0,03,26
+2605,"Congressional District 5 (115th Congress), Michigan",10078.0,05,26
+2606,"Congressional District 6 (115th Congress), Michigan",11881.0,06,26
+2607,"Congressional District 7 (115th Congress), Michigan",8460.0,07,26
+2608,"Congressional District 8 (115th Congress), Michigan",9484.0,08,26
+2609,"Congressional District 9 (115th Congress), Michigan",7560.0,09,26
+2610,"Congressional District 10 (115th Congress), Michigan",7127.0,10,26
+2611,"Congressional District 11 (115th Congress), Michigan",6050.0,11,26
+2612,"Congressional District 12 (115th Congress), Michigan",9121.0,12,26
+2613,"Congressional District 13 (115th Congress), Michigan",7827.0,13,26
+2614,"Congressional District 14 (115th Congress), Michigan",8662.0,14,26
+2704,"Congressional District 4 (115th Congress), Minnesota",12033.0,04,27
+2701,"Congressional District 1 (115th Congress), Minnesota",4712.0,01,27
+2702,"Congressional District 2 (115th Congress), Minnesota",7938.0,02,27
+2703,"Congressional District 3 (115th Congress), Minnesota",6316.0,03,27
+2705,"Congressional District 5 (115th Congress), Minnesota",15584.0,05,27
+2706,"Congressional District 6 (115th Congress), Minnesota",7438.0,06,27
+2707,"Congressional District 7 (115th Congress), Minnesota",25435.0,07,27
+2708,"Congressional District 8 (115th Congress), Minnesota",26021.0,08,27
+2804,"Congressional District 4 (115th Congress), Mississippi",6924.0,04,28
+2801,"Congressional District 1 (115th Congress), Mississippi",3715.0,01,28
+2802,"Congressional District 2 (115th Congress), Mississippi",4053.0,02,28
+2803,"Congressional District 3 (115th Congress), Mississippi",9594.0,03,28
+2901,"Congressional District 1 (115th Congress), Missouri",8238.0,01,29
+2905,"Congressional District 5 (115th Congress), Missouri",10797.0,05,29
+2902,"Congressional District 2 (115th Congress), Missouri",4242.0,02,29
+2903,"Congressional District 3 (115th Congress), Missouri",7581.0,03,29
+2904,"Congressional District 4 (115th Congress), Missouri",12464.0,04,29
+2906,"Congressional District 6 (115th Congress), Missouri",8752.0,06,29
+2907,"Congressional District 7 (115th Congress), Missouri",17477.0,07,29
+2908,"Congressional District 8 (115th Congress), Missouri",9892.0,08,29
+3000,"Congressional District (at Large) (115th Congress), Montana",84180.0,00,30
+3101,"Congressional District 1 (115th Congress), Nebraska",12611.0,01,31
+3102,"Congressional District 2 (115th Congress), Nebraska",8417.0,02,31
+3103,"Congressional District 3 (115th Congress), Nebraska",10329.0,03,31
+3301,"Congressional District 1 (115th Congress), New Hampshire",4597.0,01,33
+3302,"Congressional District 2 (115th Congress), New Hampshire",6369.0,02,33
+3204,"Congressional District 4 (115th Congress), Nevada",14521.0,04,32
+3201,"Congressional District 1 (115th Congress), Nevada",11818.0,01,32
+3202,"Congressional District 2 (115th Congress), Nevada",23255.0,02,32
+3203,"Congressional District 3 (115th Congress), Nevada",9652.0,03,32
+3408,"Congressional District 8 (115th Congress), New Jersey",5925.0,08,34
+3405,"Congressional District 5 (115th Congress), New Jersey",3681.0,05,34
+3406,"Congressional District 6 (115th Congress), New Jersey",4240.0,06,34
+3407,"Congressional District 7 (115th Congress), New Jersey",3439.0,07,34
+3409,"Congressional District 9 (115th Congress), New Jersey",6703.0,09,34
+3410,"Congressional District 10 (115th Congress), New Jersey",4965.0,10,34
+3411,"Congressional District 11 (115th Congress), New Jersey",3204.0,11,34
+3412,"Congressional District 12 (115th Congress), New Jersey",4365.0,12,34
+3401,"Congressional District 1 (115th Congress), New Jersey",5290.0,01,34
+3402,"Congressional District 2 (115th Congress), New Jersey",8024.0,02,34
+3403,"Congressional District 3 (115th Congress), New Jersey",6879.0,03,34
+3404,"Congressional District 4 (115th Congress), New Jersey",3813.0,04,34
+3501,"Congressional District 1 (115th Congress), New Mexico",38682.0,01,35
+3502,"Congressional District 2 (115th Congress), New Mexico",43257.0,02,35
+3503,"Congressional District 3 (115th Congress), New Mexico",140655.0,03,35
+3604,"Congressional District 4 (115th Congress), New York",11271.0,04,36
+3601,"Congressional District 1 (115th Congress), New York",5590.0,01,36
+3602,"Congressional District 2 (115th Congress), New York",11034.0,02,36
+3603,"Congressional District 3 (115th Congress), New York",4047.0,03,36
+3605,"Congressional District 5 (115th Congress), New York",8681.0,05,36
+3606,"Congressional District 6 (115th Congress), New York",6018.0,06,36
+3607,"Congressional District 7 (115th Congress), New York",8063.0,07,36
+3608,"Congressional District 8 (115th Congress), New York",6559.0,08,36
+3609,"Congressional District 9 (115th Congress), New York",4155.0,09,36
+3610,"Congressional District 10 (115th Congress), New York",4951.0,10,36
+3611,"Congressional District 11 (115th Congress), New York",5084.0,11,36
+3612,"Congressional District 12 (115th Congress), New York",4901.0,12,36
+3613,"Congressional District 13 (115th Congress), New York",18440.0,13,36
+3614,"Congressional District 14 (115th Congress), New York",7152.0,14,36
+3615,"Congressional District 15 (115th Congress), New York",9521.0,15,36
+3616,"Congressional District 16 (115th Congress), New York",7790.0,16,36
+3617,"Congressional District 17 (115th Congress), New York",6416.0,17,36
+3618,"Congressional District 18 (115th Congress), New York",6412.0,18,36
+3619,"Congressional District 19 (115th Congress), New York",7512.0,19,36
+3620,"Congressional District 20 (115th Congress), New York",5882.0,20,36
+3621,"Congressional District 21 (115th Congress), New York",10886.0,21,36
+3622,"Congressional District 22 (115th Congress), New York",5393.0,22,36
+3623,"Congressional District 23 (115th Congress), New York",8514.0,23,36
+3624,"Congressional District 24 (115th Congress), New York",9392.0,24,36
+3625,"Congressional District 25 (115th Congress), New York",8079.0,25,36
+3626,"Congressional District 26 (115th Congress), New York",7411.0,26,36
+3627,"Congressional District 27 (115th Congress), New York",8329.0,27,36
+3704,"Congressional District 4 (115th Congress), North Carolina",8953.0,04,37
+3701,"Congressional District 1 (115th Congress), North Carolina",11439.0,01,37
+3702,"Congressional District 2 (115th Congress), North Carolina",9669.0,02,37
+3703,"Congressional District 3 (115th Congress), North Carolina",9856.0,03,37
+3705,"Congressional District 5 (115th Congress), North Carolina",6577.0,05,37
+3706,"Congressional District 6 (115th Congress), North Carolina",8543.0,06,37
+3707,"Congressional District 7 (115th Congress), North Carolina",12234.0,07,37
+3708,"Congressional District 8 (115th Congress), North Carolina",17148.0,08,37
+3709,"Congressional District 9 (115th Congress), North Carolina",68936.0,09,37
+3710,"Congressional District 10 (115th Congress), North Carolina",6394.0,10,37
+3711,"Congressional District 11 (115th Congress), North Carolina",16807.0,11,37
+3712,"Congressional District 12 (115th Congress), North Carolina",9847.0,12,37
+3906,"Congressional District 6 (115th Congress), Ohio",4906.0,06,39
+3713,"Congressional District 13 (115th Congress), North Carolina",8790.0,13,37
+3800,"Congressional District (at Large) (115th Congress), North Dakota",48817.0,00,38
+3901,"Congressional District 1 (115th Congress), Ohio",4752.0,01,39
+3902,"Congressional District 2 (115th Congress), Ohio",6572.0,02,39
+3903,"Congressional District 3 (115th Congress), Ohio",10547.0,03,39
+3904,"Congressional District 4 (115th Congress), Ohio",6419.0,04,39
+3905,"Congressional District 5 (115th Congress), Ohio",5162.0,05,39
+3907,"Congressional District 7 (115th Congress), Ohio",5124.0,07,39
+3908,"Congressional District 8 (115th Congress), Ohio",5496.0,08,39
+3909,"Congressional District 9 (115th Congress), Ohio",9127.0,09,39
+3910,"Congressional District 10 (115th Congress), Ohio",6246.0,10,39
+3911,"Congressional District 11 (115th Congress), Ohio",6875.0,11,39
+3912,"Congressional District 12 (115th Congress), Ohio",7270.0,12,39
+3913,"Congressional District 13 (115th Congress), Ohio",5648.0,13,39
+3914,"Congressional District 14 (115th Congress), Ohio",3713.0,14,39
+3915,"Congressional District 15 (115th Congress), Ohio",6454.0,15,39
+3916,"Congressional District 16 (115th Congress), Ohio",4380.0,16,39
+4001,"Congressional District 1 (115th Congress), Oklahoma",93599.0,01,40
+4002,"Congressional District 2 (115th Congress), Oklahoma",197694.0,02,40
+4003,"Congressional District 3 (115th Congress), Oklahoma",79463.0,03,40
+4004,"Congressional District 4 (115th Congress), Oklahoma",80894.0,04,40
+4005,"Congressional District 5 (115th Congress), Oklahoma",67622.0,05,40
+4104,"Congressional District 4 (115th Congress), Oregon",27654.0,04,41
+4101,"Congressional District 1 (115th Congress), Oregon",18076.0,01,41
+4102,"Congressional District 2 (115th Congress), Oregon",30028.0,02,41
+4103,"Congressional District 3 (115th Congress), Oregon",20731.0,03,41
+4205,"Congressional District 5 (115th Congress), Pennsylvania",3976.0,05,42
+4105,"Congressional District 5 (115th Congress), Oregon",29330.0,05,41
+4401,"Congressional District 1 (115th Congress), Rhode Island",7204.0,01,44
+4402,"Congressional District 2 (115th Congress), Rhode Island",6489.0,02,44
+4201,"Congressional District 1 (115th Congress), Pennsylvania",6715.0,01,42
+4202,"Congressional District 2 (115th Congress), Pennsylvania",8282.0,02,42
+4203,"Congressional District 3 (115th Congress), Pennsylvania",3680.0,03,42
+4204,"Congressional District 4 (115th Congress), Pennsylvania",4859.0,04,42
+4206,"Congressional District 6 (115th Congress), Pennsylvania",4292.0,06,42
+4207,"Congressional District 7 (115th Congress), Pennsylvania",3407.0,07,42
+4208,"Congressional District 8 (115th Congress), Pennsylvania",3483.0,08,42
+4209,"Congressional District 9 (115th Congress), Pennsylvania",3571.0,09,42
+4210,"Congressional District 10 (115th Congress), Pennsylvania",4621.0,10,42
+4211,"Congressional District 11 (115th Congress), Pennsylvania",3947.0,11,42
+4212,"Congressional District 12 (115th Congress), Pennsylvania",3269.0,12,42
+4213,"Congressional District 13 (115th Congress), Pennsylvania",7331.0,13,42
+4214,"Congressional District 14 (115th Congress), Pennsylvania",7642.0,14,42
+4215,"Congressional District 15 (115th Congress), Pennsylvania",4895.0,15,42
+4216,"Congressional District 16 (115th Congress), Pennsylvania",14726.0,16,42
+4217,"Congressional District 17 (115th Congress), Pennsylvania",4666.0,17,42
+4218,"Congressional District 18 (115th Congress), Pennsylvania",3489.0,18,42
+4504,"Congressional District 4 (115th Congress), South Carolina",5709.0,04,45
+4501,"Congressional District 1 (115th Congress), South Carolina",7217.0,01,45
+4502,"Congressional District 2 (115th Congress), South Carolina",6587.0,02,45
+4503,"Congressional District 3 (115th Congress), South Carolina",4859.0,03,45
+4505,"Congressional District 5 (115th Congress), South Carolina",7868.0,05,45
+4506,"Congressional District 6 (115th Congress), South Carolina",5812.0,06,45
+4507,"Congressional District 7 (115th Congress), South Carolina",7947.0,07,45
+4701,"Congressional District 1 (115th Congress), Tennessee",6239.0,01,47
+4600,"Congressional District (at Large) (115th Congress), South Dakota",88330.0,00,46
+4706,"Congressional District 6 (115th Congress), Tennessee",7767.0,06,47
+4707,"Congressional District 7 (115th Congress), Tennessee",7012.0,07,47
+4708,"Congressional District 8 (115th Congress), Tennessee",5371.0,08,47
+4709,"Congressional District 9 (115th Congress), Tennessee",4768.0,09,47
+4702,"Congressional District 2 (115th Congress), Tennessee",6848.0,02,47
+4703,"Congressional District 3 (115th Congress), Tennessee",6872.0,03,47
+4704,"Congressional District 4 (115th Congress), Tennessee",12228.0,04,47
+4705,"Congressional District 5 (115th Congress), Tennessee",5707.0,05,47
+4804,"Congressional District 4 (115th Congress), Texas",11883.0,04,48
+4801,"Congressional District 1 (115th Congress), Texas",7444.0,01,48
+4802,"Congressional District 2 (115th Congress), Texas",7186.0,02,48
+4803,"Congressional District 3 (115th Congress), Texas",10035.0,03,48
+4805,"Congressional District 5 (115th Congress), Texas",8997.0,05,48
+4806,"Congressional District 6 (115th Congress), Texas",12082.0,06,48
+4807,"Congressional District 7 (115th Congress), Texas",6782.0,07,48
+4808,"Congressional District 8 (115th Congress), Texas",10783.0,08,48
+4809,"Congressional District 9 (115th Congress), Texas",5952.0,09,48
+4810,"Congressional District 10 (115th Congress), Texas",8829.0,10,48
+4811,"Congressional District 11 (115th Congress), Texas",10015.0,11,48
+4812,"Congressional District 12 (115th Congress), Texas",11426.0,12,48
+4813,"Congressional District 13 (115th Congress), Texas",14137.0,13,48
+4814,"Congressional District 14 (115th Congress), Texas",8761.0,14,48
+4815,"Congressional District 15 (115th Congress), Texas",4417.0,15,48
+4816,"Congressional District 16 (115th Congress), Texas",8072.0,16,48
+4817,"Congressional District 17 (115th Congress), Texas",11717.0,17,48
+4818,"Congressional District 18 (115th Congress), Texas",6420.0,18,48
+4819,"Congressional District 19 (115th Congress), Texas",11598.0,19,48
+4820,"Congressional District 20 (115th Congress), Texas",10521.0,20,48
+4821,"Congressional District 21 (115th Congress), Texas",12372.0,21,48
+4822,"Congressional District 22 (115th Congress), Texas",7136.0,22,48
+4826,"Congressional District 26 (115th Congress), Texas",11363.0,26,48
+4823,"Congressional District 23 (115th Congress), Texas",10211.0,23,48
+4824,"Congressional District 24 (115th Congress), Texas",10943.0,24,48
+4825,"Congressional District 25 (115th Congress), Texas",13489.0,25,48
+4827,"Congressional District 27 (115th Congress), Texas",7888.0,27,48
+4828,"Congressional District 28 (115th Congress), Texas",5409.0,28,48
+4829,"Congressional District 29 (115th Congress), Texas",6831.0,29,48
+4830,"Congressional District 30 (115th Congress), Texas",6399.0,30,48
+4831,"Congressional District 31 (115th Congress), Texas",11851.0,31,48
+4832,"Congressional District 32 (115th Congress), Texas",11986.0,32,48
+4833,"Congressional District 33 (115th Congress), Texas",7066.0,33,48
+4834,"Congressional District 34 (115th Congress), Texas",2842.0,34,48
+4835,"Congressional District 35 (115th Congress), Texas",11177.0,35,48
+4836,"Congressional District 36 (115th Congress), Texas",10204.0,36,48
+4901,"Congressional District 1 (115th Congress), Utah",13415.0,01,49
+4902,"Congressional District 2 (115th Congress), Utah",13353.0,02,49
+4903,"Congressional District 3 (115th Congress), Utah",14988.0,03,49
+4904,"Congressional District 4 (115th Congress), Utah",10474.0,04,49
+5105,"Congressional District 5 (115th Congress), Virginia",5503.0,05,51
+5000,"Congressional District (at Large) (115th Congress), Vermont",8178.0,00,50
+5101,"Congressional District 1 (115th Congress), Virginia",9260.0,01,51
+5102,"Congressional District 2 (115th Congress), Virginia",9063.0,02,51
+5103,"Congressional District 3 (115th Congress), Virginia",9104.0,03,51
+5104,"Congressional District 4 (115th Congress), Virginia",9981.0,04,51
+5106,"Congressional District 6 (115th Congress), Virginia",6754.0,06,51
+5107,"Congressional District 7 (115th Congress), Virginia",7522.0,07,51
+5108,"Congressional District 8 (115th Congress), Virginia",8205.0,08,51
+5109,"Congressional District 9 (115th Congress), Virginia",3898.0,09,51
+5110,"Congressional District 10 (115th Congress), Virginia",6926.0,10,51
+5111,"Congressional District 11 (115th Congress), Virginia",7093.0,11,51
+5303,"Congressional District 3 (115th Congress), Washington",18481.0,03,53
+5401,"Congressional District 1 (115th Congress), West Virginia",4313.0,01,54
+5402,"Congressional District 2 (115th Congress), West Virginia",5714.0,02,54
+5403,"Congressional District 3 (115th Congress), West Virginia",4168.0,03,54
+5301,"Congressional District 1 (115th Congress), Washington",18533.0,01,53
+5302,"Congressional District 2 (115th Congress), Washington",21291.0,02,53
+5304,"Congressional District 4 (115th Congress), Washington",27918.0,04,53
+5305,"Congressional District 5 (115th Congress), Washington",24807.0,05,53
+5306,"Congressional District 6 (115th Congress), Washington",28512.0,06,53
+5307,"Congressional District 7 (115th Congress), Washington",15615.0,07,53
+5308,"Congressional District 8 (115th Congress), Washington",17731.0,08,53
+5309,"Congressional District 9 (115th Congress), Washington",17233.0,09,53
+5310,"Congressional District 10 (115th Congress), Washington",25941.0,10,53
+5505,"Congressional District 5 (115th Congress), Wisconsin",6175.0,05,55
+5600,"Congressional District (at Large) (115th Congress), Wyoming",21061.0,00,56
+5501,"Congressional District 1 (115th Congress), Wisconsin",8635.0,01,55
+5502,"Congressional District 2 (115th Congress), Wisconsin",7273.0,02,55
+5503,"Congressional District 3 (115th Congress), Wisconsin",7919.0,03,55
+5504,"Congressional District 4 (115th Congress), Wisconsin",11317.0,04,55
+5506,"Congressional District 6 (115th Congress), Wisconsin",6624.0,06,55
+5507,"Congressional District 7 (115th Congress), Wisconsin",20386.0,07,55
+5508,"Congressional District 8 (115th Congress), Wisconsin",23912.0,08,55
+7298,"Resident Commissioner District (at Large) (115th Congress), Puerto Rico",30830.0,98,72

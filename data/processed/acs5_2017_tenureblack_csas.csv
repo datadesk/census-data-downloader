@@ -1,0 +1,175 @@
+geoid,name,universe,owner_occupied,renter_occupied,combined statistical area
+118,"Appleton-Oshkosh-Neenah, WI CSA",1383.0,427.0,956.0,118
+104,"Albany-Schenectady, NY CSA",25831.0,6951.0,18880.0,104
+106,"Albuquerque-Santa Fe-Las Vegas, NM CSA",9360.0,4288.0,5072.0,106
+108,"Amarillo-Borger, TX CSA",4758.0,1564.0,3194.0,108
+120,"Asheville-Brevard, NC CSA",8035.0,3434.0,4601.0,120
+122,"Atlanta--Athens-Clarke County--Sandy Springs, GA CSA",706973.0,332220.0,374753.0,122
+145,"Bloomington-Pontiac, IL CSA",5332.0,1548.0,3784.0,145
+140,"Bend-Redmond-Prineville, OR CSA",198.0,71.0,127.0,140
+142,"Birmingham-Hoover-Talladega, AL CSA",141224.0,71939.0,69285.0,142
+144,"Bloomington-Bedford, IN CSA",1702.0,365.0,1337.0,144
+146,"Bloomsburg-Berwick-Sunbury, PA CSA",682.0,172.0,510.0,146
+160,"Buffalo-Cheektowaga, NY CSA",57957.0,18946.0,39011.0,160
+162,"Cape Coral-Fort Myers-Naples, FL CSA",23111.0,9621.0,13490.0,162
+164,"Cape Girardeau-Sikeston, MO-IL CSA",4647.0,1667.0,2980.0,164
+168,"Cedar Rapids-Iowa City, IA CSA",6817.0,1539.0,5278.0,168
+176,"Chicago-Naperville, IL-IN-WI CSA",603069.0,241195.0,361874.0,176
+147,"Boise City-Mountain Home-Ontario, ID-OR CSA",2235.0,856.0,1379.0,147
+148,"Boston-Worcester-Providence, MA-RI-NH-CT CSA",178330.0,58681.0,119649.0,148
+150,"Bowling Green-Glasgow, KY CSA",5209.0,1717.0,3492.0,150
+154,"Brownsville-Harlingen-Raymondville, TX CSA",530.0,253.0,277.0,154
+170,"Charleston-Huntington-Ashland, WV-OH-KY CSA",9461.0,3378.0,6083.0,170
+172,"Charlotte-Concord, NC-SC CSA",211023.0,92542.0,118481.0,172
+174,"Chattanooga-Cleveland-Dalton, TN-GA-AL CSA",33827.0,14026.0,19801.0,174
+178,"Cincinnati-Wilmington-Maysville, OH-KY-IN CSA",109650.0,36248.0,73402.0,178
+194,"Columbus-Auburn-Opelika, GA-AL CSA",66567.0,30087.0,36480.0,194
+184,"Cleveland-Akron-Canton, OH CSA",222009.0,81347.0,140662.0,184
+185,"Cleveland-Indianola, MS CSA",13464.0,6195.0,7269.0,185
+188,"Clovis-Portales, NM CSA",1268.0,249.0,1019.0,188
+190,"Columbia-Moberly-Mexico, MO CSA",6457.0,1509.0,4948.0,190
+192,"Columbia-Orangeburg-Newberry, SC CSA",121381.0,64589.0,56792.0,192
+198,"Columbus-Marion-Zanesville, OH CSA",115764.0,41101.0,74663.0,198
+209,"Davenport-Moline, IA-IL CSA",10569.0,3326.0,7243.0,209
+200,"Columbus-West Point, MS CSA",14033.0,7739.0,6294.0,200
+204,"Corpus Christi-Kingsville-Alice, TX CSA",6221.0,2138.0,4083.0,204
+206,"Dallas-Fort Worth, TX-OK CSA",417181.0,159150.0,258031.0,206
+212,"Dayton-Springfield-Sidney, OH CSA",57725.0,22709.0,35016.0,212
+216,"Denver-Aurora, CO CSA",58201.0,21881.0,36320.0,216
+217,"DeRidder-Fort Polk South, LA CSA",4305.0,1648.0,2657.0,217
+218,"Des Moines-Ames-West Des Moines, IA CSA",11702.0,3709.0,7993.0,218
+238,"El Paso-Las Cruces, TX-NM CSA",11191.0,4260.0,6931.0,238
+232,"Eau Claire-Menomonie, WI CSA",352.0,44.0,308.0,232
+233,"Edwards-Glenwood Springs, CO CSA",196.0,52.0,144.0,233
+236,"Elmira-Corning, NY CSA",1956.0,660.0,1296.0,236
+221,"Dixon-Sterling, IL CSA",320.0,117.0,203.0,221
+222,"Dothan-Enterprise-Ozark, AL CSA",20068.0,8960.0,11108.0,222
+220,"Detroit-Warren-Ann Arbor, MI CSA",422166.0,181090.0,241076.0,220
+260,"Fresno-Madera, CA CSA",18626.0,4801.0,13825.0,260
+264,"Gainesville-Lake City, FL CSA",22035.0,9131.0,12904.0,264
+266,"Grand Rapids-Wyoming-Muskegon, MI CSA",32681.0,11255.0,21426.0,266
+267,"Green Bay-Shawano, WI CSA",1853.0,196.0,1657.0,267
+268,"Greensboro--Winston-Salem--High Point, NC CSA",135335.0,56306.0,79029.0,268
+273,"Greenville-Spartanburg-Anderson, SC CSA",99295.0,45431.0,53864.0,273
+274,"Greenville-Washington, NC CSA",28084.0,10380.0,17704.0,274
+276,"Harrisburg-York-Lebanon, PA CSA",31508.0,11166.0,20342.0,276
+277,"Harrisonburg-Staunton-Waynesboro, VA CSA",4515.0,1686.0,2829.0,277
+278,"Hartford-West Hartford, CT CSA",52777.0,21013.0,31764.0,278
+280,"Hickory-Lenoir, NC CSA",9025.0,4762.0,4263.0,280
+284,"Hot Springs-Malvern, AR CSA",4521.0,1826.0,2695.0,284
+288,"Houston-The Woodlands, TX CSA",423583.0,180168.0,243415.0,288
+294,"Indianapolis-Carmel-Muncie, IN CSA",116263.0,42007.0,74256.0,294
+258,"Fort Wayne-Huntington-Auburn, IN CSA",16490.0,5624.0,10866.0,258
+240,"Erie-Meadville, PA CSA",7059.0,2074.0,4985.0,240
+244,"Fargo-Wahpeton, ND-MN CSA",3422.0,264.0,3158.0,244
+246,"Fayetteville-Lumberton-Laurinburg, NC CSA",68594.0,32434.0,36160.0,246
+248,"Findlay-Tiffin, OH CSA",750.0,407.0,343.0,248
+290,"Huntsville-Decatur-Albertville, AL CSA",45654.0,22053.0,23601.0,290
+292,"Idaho Falls-Rexburg-Blackfoot, ID CSA",275.0,27.0,248.0,292
+296,"Ithaca-Cortland, NY CSA",1424.0,464.0,960.0,296
+297,"Jackson-Brownsville, TN CSA",18438.0,8565.0,9873.0,297
+298,"Jackson-Vicksburg-Brookhaven, MS CSA",112879.0,60913.0,51966.0,298
+308,"Jonesboro-Paragould, AR CSA",5637.0,1115.0,4522.0,308
+300,"Jacksonville-St. Marys-Palatka, FL-GA CSA",117873.0,53173.0,64700.0,300
+304,"Johnson City-Kingsport-Bristol, TN-VA CSA",4165.0,1459.0,2706.0,304
+306,"Johnstown-Somerset, PA CSA",1568.0,409.0,1159.0,306
+309,"Joplin-Miami, MO-OK CSA",907.0,196.0,711.0,309
+310,"Kalamazoo-Battle Creek-Portage, MI CSA",17990.0,6865.0,11125.0,310
+312,"Kansas City-Overland Park-Kansas City, MO-KS CSA",106972.0,40242.0,66730.0,312
+314,"Knoxville-Morristown-Sevierville, TN CSA",22244.0,8434.0,13810.0,314
+316,"Kokomo-Peru, IN CSA",2849.0,882.0,1967.0,316
+318,"Lafayette-Opelousas-Morgan City, LA CSA",57944.0,30102.0,27842.0,318
+338,"Lima-Van Wert-Celina, OH CSA",4754.0,1688.0,3066.0,338
+330,"Lansing-East Lansing-Owosso, MI CSA",15396.0,5157.0,10239.0,330
+332,"Las Vegas-Henderson, NV-AZ CSA",87473.0,25450.0,62023.0,332
+336,"Lexington-Fayette--Richmond--Frankfort, KY CSA",25549.0,8525.0,17024.0,336
+339,"Lincoln-Beatrice, NE CSA",4220.0,813.0,3407.0,339
+320,"Lafayette-West Lafayette-Frankfort, IN CSA",3297.0,547.0,2750.0,320
+324,"Lake Charles-Jennings, LA CSA",20259.0,9641.0,10618.0,324
+340,"Little Rock-North Little Rock, AR CSA",79616.0,34742.0,44874.0,340
+346,"Longview-Marshall, TX CSA",19094.0,9050.0,10044.0,346
+348,"Los Angeles-Long Beach, CA CSA",447136.0,159522.0,287614.0,348
+359,"Mankato-New Ulm-North Mankato, MN CSA",1056.0,166.0,890.0,359
+350,"Louisville/Jefferson County--Elizabethtown--Madison, KY-IN CSA",77586.0,29635.0,47951.0,350
+352,"Lubbock-Levelland, TX CSA",7821.0,3023.0,4798.0,352
+356,"Macon-Bibb County--Warner Robins, GA CSA",58614.0,26398.0,32216.0,356
+357,"Madison-Janesville-Beloit, WI CSA",12165.0,2494.0,9671.0,357
+358,"Manhattan-Junction City, KS CSA",4168.0,841.0,3327.0,358
+365,"McAllen-Edinburg, TX CSA",973.0,364.0,609.0,365
+360,"Mansfield-Ashland-Bucyrus, OH CSA",3057.0,1285.0,1772.0,360
+362,"Martin-Union City, TN-KY CSA",3019.0,1053.0,1966.0,362
+364,"Mayagüez-San Germán, PR CSA",2430.0,1668.0,762.0,364
+370,"Miami-Fort Lauderdale-Port St. Lucie, FL CSA",398436.0,179060.0,219376.0,370
+372,"Midland-Odessa, TX CSA",5957.0,2583.0,3374.0,372
+376,"Milwaukee-Racine-Waukesha, WI CSA",105131.0,29396.0,75735.0,376
+378,"Minneapolis-St. Paul, MN-WI CSA",96305.0,23870.0,72435.0,378
+394,"Mount Pleasant-Alma, MI CSA",574.0,103.0,471.0,394
+366,"Medford-Grants Pass, OR CSA",395.0,142.0,253.0,366
+368,"Memphis-Forrest City, TN-MS-AR CSA",230127.0,106242.0,123885.0,368
+380,"Mobile-Daphne-Fairhope, AL CSA",58307.0,29021.0,29286.0,380
+382,"Modesto-Merced, CA CSA",7845.0,2363.0,5482.0,382
+384,"Monroe-Ruston-Bastrop, LA CSA",33281.0,12922.0,20359.0,384
+390,"Morgantown-Fairmont, WV CSA",2219.0,690.0,1529.0,390
+393,"Moses Lake-Othello, WA CSA",295.0,60.0,235.0,393
+396,"Myrtle Beach-Conway, SC-NC CSA",26761.0,15415.0,11346.0,396
+408,"New York-Newark, NY-NJ-CT-PA CSA",1328435.0,440761.0,887674.0,408
+400,"Nashville-Davidson--Murfreesboro, TN CSA",105057.0,45122.0,59935.0,400
+404,"New Bern-Morehead City, NC CSA",12694.0,6639.0,6055.0,404
+406,"New Orleans-Metairie-Hammond, LA-MS CSA",180092.0,84848.0,95244.0,406
+424,"Paducah-Mayfield, KY-IL CSA",3910.0,1309.0,2601.0,424
+412,"North Port-Sarasota, FL CSA",19151.0,8929.0,10222.0,412
+416,"Oklahoma City-Shawnee, OK CSA",53996.0,19852.0,34144.0,416
+420,"Omaha-Council Bluffs-Fremont, NE-IA CSA",27163.0,9110.0,18053.0,420
+422,"Orlando-Deltona-Daytona Beach, FL CSA",148578.0,65234.0,83344.0,422
+423,"Oskaloosa-Pella, IA CSA",90.0,37.0,53.0,423
+425,"Parkersburg-Marietta-Vienna, WV-OH CSA",600.0,249.0,351.0,425
+426,"Pensacola-Ferry Pass, FL-AL CSA",30476.0,14777.0,15699.0,426
+427,"Peoria-Canton, IL CSA",12146.0,3972.0,8174.0,427
+428,"Philadelphia-Reading-Camden, PA-NJ-DE-MD CSA",500859.0,242507.0,258352.0,428
+430,"Pittsburgh-New Castle-Weirton, PA-OH-WV CSA",82772.0,29413.0,53359.0,430
+434,"Ponce-Coamo-Santa Isabel, PR CSA",11197.0,8140.0,3057.0,434
+438,"Portland-Lewiston-South Portland, ME CSA",3527.0,567.0,2960.0,438
+448,"Quincy-Hannibal, IL-MO CSA",1632.0,593.0,1039.0,448
+440,"Portland-Vancouver-Salem, OR-WA CSA",25930.0,8400.0,17530.0,440
+444,"Pueblo-Cañon City, CO CSA",986.0,415.0,571.0,444
+446,"Pullman-Moscow, WA-ID CSA",382.0,28.0,354.0,446
+456,"Reno-Carson City-Fernley, NV CSA",4253.0,1301.0,2952.0,456
+450,"Raleigh-Durham-Chapel Hill, NC CSA",178477.0,81976.0,96501.0,450
+452,"Rapid City-Spearfish, SD CSA",760.0,171.0,589.0,452
+454,"Redding-Red Bluff, CA CSA",602.0,210.0,392.0,454
+458,"Richmond-Connersville, IN CSA",1381.0,627.0,754.0,458
+464,"Rochester-Batavia-Seneca Falls, NY CSA",44831.0,14251.0,30580.0,464
+466,"Rockford-Freeport-Rochelle, IL CSA",15159.0,4823.0,10336.0,466
+468,"Rocky Mount-Wilson-Roanoke Rapids, NC CSA",55210.0,27101.0,28109.0,468
+462,"Rochester-Austin, MN CSA",2965.0,648.0,2317.0,462
+470,"Rome-Summerville, GA CSA",5670.0,2123.0,3547.0,470
+472,"Sacramento-Roseville, CA CSA",60054.0,19296.0,40758.0,472
+474,"Saginaw-Midland-Bay City, MI CSA",15435.0,7448.0,7987.0,474
+476,"St. Louis-St. Charles-Farmington, MO-IL CSA",197861.0,80203.0,117658.0,476
+490,"San Juan-Carolina, PR CSA",110057.0,73384.0,36673.0,490
+496,"Savannah-Hinesville-Statesboro, GA CSA",61572.0,27195.0,34377.0,496
+500,"Seattle-Tacoma, WA CSA",85616.0,26951.0,58665.0,500
+520,"Springfield-Branson, MO CSA",3539.0,673.0,2866.0,520
+521,"Springfield-Greenfield Town, MA CSA",15825.0,5947.0,9878.0,521
+522,"Springfield-Jacksonville-Lincoln, IL CSA",10230.0,3283.0,6947.0,522
+524,"State College-DuBois, PA CSA",1301.0,299.0,1002.0,524
+525,"Steamboat Springs-Craig, CO CSA",89.0,8.0,81.0,525
+545,"Virginia Beach-Norfolk, VA-NC CSA",199795.0,88385.0,111410.0,545
+482,"Salt Lake City-Provo-Orem, UT CSA",8329.0,2788.0,5541.0,482
+488,"San Jose-San Francisco-Oakland, CA CSA",194956.0,66311.0,128645.0,488
+512,"Sioux City-Vermillion, IA-SD-NE CSA",1659.0,247.0,1412.0,512
+515,"South Bend-Elkhart-Mishawaka, IN-MI CSA",25897.0,9337.0,16560.0,515
+518,"Spokane-Spokane Valley-Coeur d'Alene, WA-ID CSA",3082.0,856.0,2226.0,518
+540,"Tyler-Jacksonville, TX CSA",15375.0,7234.0,8141.0,540
+544,"Victoria-Port Lavaca, TX CSA",2288.0,1233.0,1055.0,544
+546,"Visalia-Porterville-Hanford, CA CSA",4426.0,1327.0,3099.0,546
+548,"Washington-Baltimore-Arlington, DC-MD-VA-WV-PA CSA",875258.0,426521.0,448737.0,548
+536,"Tucson-Nogales, AZ CSA",12952.0,4331.0,8621.0,536
+532,"Syracuse-Auburn, NY CSA",19413.0,5381.0,14032.0,532
+533,"Tallahassee-Bainbridge, FL-GA CSA",48518.0,20999.0,27519.0,533
+534,"Toledo-Port Clinton, OH CSA",35994.0,12100.0,23894.0,534
+538,"Tulsa-Muskogee-Bartlesville, OK CSA",34368.0,13323.0,21045.0,538
+558,"Williamsport-Lock Haven, PA CSA",1636.0,457.0,1179.0,558
+566,"Youngstown-Warren, OH-PA CSA",24419.0,9872.0,14547.0,566
+554,"Wausau-Stevens Point-Wisconsin Rapids, WI CSA",423.0,100.0,323.0,554
+556,"Wichita-Arkansas City-Winfield, KS CSA",18913.0,6713.0,12200.0,556

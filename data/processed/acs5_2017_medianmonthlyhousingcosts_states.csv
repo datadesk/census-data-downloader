@@ -1,0 +1,53 @@
+geoid,name,median,state
+72,Puerto Rico,347.0,72
+01,Alabama,748.0,01
+02,Alaska,1295.0,02
+04,Arizona,985.0,04
+05,Arkansas,693.0,05
+06,California,1493.0,06
+08,Colorado,1227.0,08
+09,Connecticut,1417.0,09
+11,District of Columbia,1599.0,11
+10,Delaware,1130.0,10
+12,Florida,1029.0,12
+13,Georgia,972.0,13
+15,Hawaii,1567.0,15
+16,Idaho,860.0,16
+17,Illinois,1079.0,17
+18,Indiana,821.0,18
+19,Iowa,808.0,19
+20,Kansas,856.0,20
+21,Kentucky,739.0,21
+23,Maine,901.0,23
+22,Louisiana,778.0,22
+25,Massachusetts,1431.0,25
+24,Maryland,1466.0,24
+26,Michigan,869.0,26
+27,Minnesota,1049.0,27
+28,Mississippi,692.0,28
+29,Missouri,834.0,29
+30,Montana,799.0,30
+31,Nebraska,866.0,31
+33,New Hampshire,1285.0,33
+32,Nevada,1065.0,32
+34,New Jersey,1548.0,34
+35,New Mexico,793.0,35
+36,New York,1280.0,36
+37,North Carolina,883.0,37
+38,North Dakota,782.0,38
+39,Ohio,846.0,39
+40,Oklahoma,770.0,40
+41,Oregon,1094.0,41
+42,Pennsylvania,949.0,42
+44,Rhode Island,1175.0,44
+45,South Carolina,828.0,45
+46,South Dakota,763.0,46
+47,Tennessee,819.0,47
+48,Texas,987.0,48
+49,Utah,1089.0,49
+50,Vermont,1099.0,50
+51,Virginia,1235.0,51
+54,West Virginia,591.0,54
+53,Washington,1244.0,53
+56,Wyoming,877.0,56
+55,Wisconsin,928.0,55

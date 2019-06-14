@@ -1,0 +1,175 @@
+geoid,name,median,combined statistical area
+118,"Appleton-Oshkosh-Neenah, WI CSA",747.0,118
+104,"Albany-Schenectady, NY CSA",926.0,104
+106,"Albuquerque-Santa Fe-Las Vegas, NM CSA",858.0,106
+108,"Amarillo-Borger, TX CSA",813.0,108
+120,"Asheville-Brevard, NC CSA",838.0,120
+122,"Atlanta--Athens-Clarke County--Sandy Springs, GA CSA",1025.0,122
+145,"Bloomington-Pontiac, IL CSA",777.0,145
+140,"Bend-Redmond-Prineville, OR CSA",1026.0,140
+142,"Birmingham-Hoover-Talladega, AL CSA",798.0,142
+144,"Bloomington-Bedford, IN CSA",832.0,144
+146,"Bloomsburg-Berwick-Sunbury, PA CSA",700.0,146
+160,"Buffalo-Cheektowaga, NY CSA",756.0,160
+162,"Cape Coral-Fort Myers-Naples, FL CSA",1080.0,162
+164,"Cape Girardeau-Sikeston, MO-IL CSA",696.0,164
+168,"Cedar Rapids-Iowa City, IA CSA",799.0,168
+176,"Chicago-Naperville, IL-IN-WI CSA",1036.0,176
+147,"Boise City-Mountain Home-Ontario, ID-OR CSA",859.0,147
+148,"Boston-Worcester-Providence, MA-RI-NH-CT CSA",1153.0,148
+150,"Bowling Green-Glasgow, KY CSA",700.0,150
+154,"Brownsville-Harlingen-Raymondville, TX CSA",680.0,154
+170,"Charleston-Huntington-Ashland, WV-OH-KY CSA",673.0,170
+172,"Charlotte-Concord, NC-SC CSA",919.0,172
+174,"Chattanooga-Cleveland-Dalton, TN-GA-AL CSA",731.0,174
+178,"Cincinnati-Wilmington-Maysville, OH-KY-IN CSA",783.0,178
+194,"Columbus-Auburn-Opelika, GA-AL CSA",824.0,194
+184,"Cleveland-Akron-Canton, OH CSA",766.0,184
+185,"Cleveland-Indianola, MS CSA",606.0,185
+188,"Clovis-Portales, NM CSA",814.0,188
+190,"Columbia-Moberly-Mexico, MO CSA",795.0,190
+192,"Columbia-Orangeburg-Newberry, SC CSA",865.0,192
+198,"Columbus-Marion-Zanesville, OH CSA",858.0,198
+209,"Davenport-Moline, IA-IL CSA",707.0,209
+200,"Columbus-West Point, MS CSA",738.0,200
+204,"Corpus Christi-Kingsville-Alice, TX CSA",915.0,204
+206,"Dallas-Fort Worth, TX-OK CSA",1008.0,206
+212,"Dayton-Springfield-Sidney, OH CSA",753.0,212
+216,"Denver-Aurora, CO CSA",1201.0,216
+217,"DeRidder-Fort Polk South, LA CSA",913.0,217
+218,"Des Moines-Ames-West Des Moines, IA CSA",848.0,218
+238,"El Paso-Las Cruces, TX-NM CSA",777.0,238
+232,"Eau Claire-Menomonie, WI CSA",773.0,232
+233,"Edwards-Glenwood Springs, CO CSA",1256.0,233
+236,"Elmira-Corning, NY CSA",727.0,236
+221,"Dixon-Sterling, IL CSA",678.0,221
+222,"Dothan-Enterprise-Ozark, AL CSA",696.0,222
+220,"Detroit-Warren-Ann Arbor, MI CSA",884.0,220
+260,"Fresno-Madera, CA CSA",937.0,260
+264,"Gainesville-Lake City, FL CSA",895.0,264
+266,"Grand Rapids-Wyoming-Muskegon, MI CSA",800.0,266
+267,"Green Bay-Shawano, WI CSA",723.0,267
+268,"Greensboro--Winston-Salem--High Point, NC CSA",755.0,268
+273,"Greenville-Spartanburg-Anderson, SC CSA",758.0,273
+274,"Greenville-Washington, NC CSA",750.0,274
+276,"Harrisburg-York-Lebanon, PA CSA",895.0,276
+277,"Harrisonburg-Staunton-Waynesboro, VA CSA",845.0,277
+278,"Hartford-West Hartford, CT CSA",1060.0,278
+280,"Hickory-Lenoir, NC CSA",657.0,280
+284,"Hot Springs-Malvern, AR CSA",704.0,284
+288,"Houston-The Woodlands, TX CSA",990.0,288
+294,"Indianapolis-Carmel-Muncie, IN CSA",842.0,294
+258,"Fort Wayne-Huntington-Auburn, IN CSA",705.0,258
+240,"Erie-Meadville, PA CSA",708.0,240
+244,"Fargo-Wahpeton, ND-MN CSA",762.0,244
+246,"Fayetteville-Lumberton-Laurinburg, NC CSA",815.0,246
+248,"Findlay-Tiffin, OH CSA",703.0,248
+290,"Huntsville-Decatur-Albertville, AL CSA",711.0,290
+292,"Idaho Falls-Rexburg-Blackfoot, ID CSA",697.0,292
+296,"Ithaca-Cortland, NY CSA",942.0,296
+297,"Jackson-Brownsville, TN CSA",769.0,297
+298,"Jackson-Vicksburg-Brookhaven, MS CSA",815.0,298
+308,"Jonesboro-Paragould, AR CSA",702.0,308
+300,"Jacksonville-St. Marys-Palatka, FL-GA CSA",1002.0,300
+304,"Johnson City-Kingsport-Bristol, TN-VA CSA",646.0,304
+306,"Johnstown-Somerset, PA CSA",605.0,306
+309,"Joplin-Miami, MO-OK CSA",717.0,309
+310,"Kalamazoo-Battle Creek-Portage, MI CSA",735.0,310
+312,"Kansas City-Overland Park-Kansas City, MO-KS CSA",878.0,312
+314,"Knoxville-Morristown-Sevierville, TN CSA",757.0,314
+316,"Kokomo-Peru, IN CSA",685.0,316
+318,"Lafayette-Opelousas-Morgan City, LA CSA",747.0,318
+338,"Lima-Van Wert-Celina, OH CSA",666.0,338
+330,"Lansing-East Lansing-Owosso, MI CSA",822.0,330
+332,"Las Vegas-Henderson, NV-AZ CSA",1024.0,332
+336,"Lexington-Fayette--Richmond--Frankfort, KY CSA",767.0,336
+339,"Lincoln-Beatrice, NE CSA",776.0,339
+320,"Lafayette-West Lafayette-Frankfort, IN CSA",798.0,320
+324,"Lake Charles-Jennings, LA CSA",773.0,324
+340,"Little Rock-North Little Rock, AR CSA",786.0,340
+346,"Longview-Marshall, TX CSA",787.0,346
+348,"Los Angeles-Long Beach, CA CSA",1368.0,348
+359,"Mankato-New Ulm-North Mankato, MN CSA",790.0,359
+350,"Louisville/Jefferson County--Elizabethtown--Madison, KY-IN CSA",788.0,350
+352,"Lubbock-Levelland, TX CSA",869.0,352
+356,"Macon-Bibb County--Warner Robins, GA CSA",806.0,356
+357,"Madison-Janesville-Beloit, WI CSA",916.0,357
+358,"Manhattan-Junction City, KS CSA",957.0,358
+365,"McAllen-Edinburg, TX CSA",691.0,365
+360,"Mansfield-Ashland-Bucyrus, OH CSA",653.0,360
+362,"Martin-Union City, TN-KY CSA",580.0,362
+364,"Mayagüez-San Germán, PR CSA",412.0,364
+370,"Miami-Fort Lauderdale-Port St. Lucie, FL CSA",1215.0,370
+372,"Midland-Odessa, TX CSA",1086.0,372
+376,"Milwaukee-Racine-Waukesha, WI CSA",857.0,376
+378,"Minneapolis-St. Paul, MN-WI CSA",981.0,378
+394,"Mount Pleasant-Alma, MI CSA",701.0,394
+366,"Medford-Grants Pass, OR CSA",910.0,366
+368,"Memphis-Forrest City, TN-MS-AR CSA",878.0,368
+380,"Mobile-Daphne-Fairhope, AL CSA",847.0,380
+382,"Modesto-Merced, CA CSA",1009.0,382
+384,"Monroe-Ruston-Bastrop, LA CSA",694.0,384
+390,"Morgantown-Fairmont, WV CSA",764.0,390
+393,"Moses Lake-Othello, WA CSA",745.0,393
+396,"Myrtle Beach-Conway, SC-NC CSA",886.0,396
+408,"New York-Newark, NY-NJ-CT-PA CSA",1316.0,408
+400,"Nashville-Davidson--Murfreesboro, TN CSA",935.0,400
+404,"New Bern-Morehead City, NC CSA",851.0,404
+406,"New Orleans-Metairie-Hammond, LA-MS CSA",923.0,406
+424,"Paducah-Mayfield, KY-IL CSA",640.0,424
+412,"North Port-Sarasota, FL CSA",1052.0,412
+416,"Oklahoma City-Shawnee, OK CSA",821.0,416
+420,"Omaha-Council Bluffs-Fremont, NE-IA CSA",857.0,420
+422,"Orlando-Deltona-Daytona Beach, FL CSA",1085.0,422
+423,"Oskaloosa-Pella, IA CSA",635.0,423
+425,"Parkersburg-Marietta-Vienna, WV-OH CSA",660.0,425
+426,"Pensacola-Ferry Pass, FL-AL CSA",932.0,426
+427,"Peoria-Canton, IL CSA",733.0,427
+428,"Philadelphia-Reading-Camden, PA-NJ-DE-MD CSA",1062.0,428
+430,"Pittsburgh-New Castle-Weirton, PA-OH-WV CSA",763.0,430
+434,"Ponce-Coamo-Santa Isabel, PR CSA",402.0,434
+438,"Portland-Lewiston-South Portland, ME CSA",912.0,438
+448,"Quincy-Hannibal, IL-MO CSA",619.0,448
+440,"Portland-Vancouver-Salem, OR-WA CSA",1061.0,440
+444,"Pueblo-Cañon City, CO CSA",788.0,444
+446,"Pullman-Moscow, WA-ID CSA",703.0,446
+456,"Reno-Carson City-Fernley, NV CSA",949.0,456
+450,"Raleigh-Durham-Chapel Hill, NC CSA",964.0,450
+452,"Rapid City-Spearfish, SD CSA",790.0,452
+454,"Redding-Red Bluff, CA CSA",920.0,454
+458,"Richmond-Connersville, IN CSA",668.0,458
+464,"Rochester-Batavia-Seneca Falls, NY CSA",842.0,464
+466,"Rockford-Freeport-Rochelle, IL CSA",738.0,466
+468,"Rocky Mount-Wilson-Roanoke Rapids, NC CSA",711.0,468
+462,"Rochester-Austin, MN CSA",810.0,462
+470,"Rome-Summerville, GA CSA",691.0,470
+472,"Sacramento-Roseville, CA CSA",1146.0,472
+474,"Saginaw-Midland-Bay City, MI CSA",717.0,474
+476,"St. Louis-St. Charles-Farmington, MO-IL CSA",850.0,476
+490,"San Juan-Carolina, PR CSA",490.0,490
+496,"Savannah-Hinesville-Statesboro, GA CSA",966.0,496
+500,"Seattle-Tacoma, WA CSA",1252.0,500
+520,"Springfield-Branson, MO CSA",726.0,520
+521,"Springfield-Greenfield Town, MA CSA",902.0,521
+522,"Springfield-Jacksonville-Lincoln, IL CSA",744.0,522
+524,"State College-DuBois, PA CSA",869.0,524
+525,"Steamboat Springs-Craig, CO CSA",1036.0,525
+545,"Virginia Beach-Norfolk, VA-NC CSA",1115.0,545
+482,"Salt Lake City-Provo-Orem, UT CSA",977.0,482
+488,"San Jose-San Francisco-Oakland, CA CSA",1648.0,488
+512,"Sioux City-Vermillion, IA-SD-NE CSA",713.0,512
+515,"South Bend-Elkhart-Mishawaka, IN-MI CSA",732.0,515
+518,"Spokane-Spokane Valley-Coeur d'Alene, WA-ID CSA",845.0,518
+540,"Tyler-Jacksonville, TX CSA",846.0,540
+544,"Victoria-Port Lavaca, TX CSA",849.0,544
+546,"Visalia-Porterville-Hanford, CA CSA",886.0,546
+548,"Washington-Baltimore-Arlington, DC-MD-VA-WV-PA CSA",1436.0,548
+536,"Tucson-Nogales, AZ CSA",853.0,536
+532,"Syracuse-Auburn, NY CSA",796.0,532
+533,"Tallahassee-Bainbridge, FL-GA CSA",918.0,533
+534,"Toledo-Port Clinton, OH CSA",709.0,534
+538,"Tulsa-Muskogee-Bartlesville, OK CSA",783.0,538
+558,"Williamsport-Lock Haven, PA CSA",754.0,558
+566,"Youngstown-Warren, OH-PA CSA",650.0,566
+554,"Wausau-Stevens Point-Wisconsin Rapids, WI CSA",692.0,554
+556,"Wichita-Arkansas City-Winfield, KS CSA",763.0,556
