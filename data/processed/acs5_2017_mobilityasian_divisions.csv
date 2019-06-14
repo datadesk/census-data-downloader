@@ -1,0 +1,10 @@
+geoid,name,universe,same_house,moved_within_county,moved_from_different_county_in_same_state,moved_from_different_state,moved_from_abroad,division
+1,New England Division,668857.0,536186.0,54141.0,20317.0,26325.0,31888.0,1
+2,Middle Atlantic Division,2884060.0,2479688.0,174300.0,71450.0,69852.0,88770.0,2
+3,East North Central Division,1470266.0,1167195.0,134993.0,45096.0,54389.0,68593.0,3
+4,West North Central Division,577459.0,450293.0,56584.0,21027.0,22158.0,27397.0,4
+5,South Atlantic Division,2220173.0,1817635.0,159373.0,72595.0,89131.0,81439.0,5
+7,West South Central Division,1423637.0,1160579.0,111720.0,48367.0,47284.0,55687.0,7
+8,Mountain Division,737033.0,589211.0,74820.0,14298.0,33419.0,25285.0,8
+9,Pacific Division,6775145.0,5789843.0,540738.0,173905.0,104101.0,166558.0,9
+6,East South Central Division,258704.0,205038.0,21382.0,7600.0,12004.0,12680.0,6

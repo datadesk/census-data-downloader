@@ -1,0 +1,5 @@
+geoid,name,universe,only_english,total_spanish,spanish_limited_english,spanish_not_limited_english,total_other_indo_european,other_indo_european_limited_english,other_indo_european_not_limited_english,total_asian_and_pacific_islander,asian_and_pacific_islander_limited_english,asian_and_pacific_islander_not_limited_english,total_other,other_limited_english,other_not_limited_english,region
+1,Northeast Region,21208067.0,16141019.0,2271682.0,585940.0,1685742.0,1730709.0,323552.0,1407157.0,790002.0,244335.0,545667.0,274655.0,44848.0,229807.0,1
+2,Midwest Region,26518509.0,23502628.0,1356362.0,267231.0,1089131.0,879339.0,139506.0,739833.0,502484.0,123145.0,379339.0,277696.0,60758.0,216938.0,2
+3,South Region,44590624.0,36144294.0,5686639.0,1378717.0,4307922.0,1430826.0,178961.0,1251865.0,954416.0,218895.0,735521.0,374449.0,56041.0,318408.0,3
+4,West Region,26508721.0,17989326.0,5000274.0,960097.0,4040177.0,1184179.0,164437.0,1019742.0,1971131.0,498307.0,1472824.0,363811.0,60670.0,303141.0,4

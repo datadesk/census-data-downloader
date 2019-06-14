@@ -1,0 +1,5 @@
+geoid,name,median,region
+1,Northeast Region,256000.0,1
+2,Midwest Region,152900.0,2
+3,South Region,162800.0,3
+4,West Region,312900.0,4

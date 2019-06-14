@@ -1,0 +1,5 @@
+geoid,name,universe,native,foreign_born,region
+1,Northeast Region,56275471.0,47055958.0,9219513.0,1
+2,Midwest Region,67850273.0,63041609.0,4808664.0,2
+3,South Region,121057103.0,106870844.0,14186259.0,3
+4,West Region,75821560.0,61007869.0,14813691.0,4

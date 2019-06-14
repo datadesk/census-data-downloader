@@ -1,0 +1,10 @@
+geoid,name,median,male,female,division
+1,New England Division,40.6,39.1,42.1,1
+2,Middle Atlantic Division,39.3,37.7,40.9,2
+3,East North Central Division,38.6,37.3,40.0,3
+4,West North Central Division,37.5,36.3,38.8,4
+5,South Atlantic Division,39.2,37.7,40.5,5
+7,West South Central Division,35.0,33.9,36.1,7
+8,Mountain Division,36.2,35.2,37.2,8
+9,Pacific Division,36.6,35.5,37.8,9
+6,East South Central Division,38.4,37.0,39.8,6

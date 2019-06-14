@@ -104,7 +104,7 @@ def msas(ctx):
     ctx.obj['runner'].download_msas()
 
 
-@cmd.command(help="Download consolidated statistical areas")
+@cmd.command(help="Download combined statistical areas")
 @click.pass_context
 def csas(ctx):
     ctx.obj['runner'].download_csas()

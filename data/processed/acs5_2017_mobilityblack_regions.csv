@@ -1,0 +1,5 @@
+geoid,name,universe,same_house,moved_within_county,moved_from_different_county_in_same_state,moved_from_different_state,moved_from_abroad,region
+1,Northeast Region,6634153.0,5793142.0,512810.0,186504.0,99155.0,42542.0,1
+2,Midwest Region,6945373.0,5572036.0,949670.0,242206.0,150306.0,31155.0,2
+3,South Region,23047037.0,19021766.0,2478149.0,908856.0,531930.0,106336.0,3
+4,West Region,3474979.0,2783425.0,437333.0,119792.0,108742.0,25687.0,4

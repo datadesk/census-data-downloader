@@ -1,0 +1,10 @@
+geoid,name,universe,owner_occupied,renter_occupied,division
+1,New England Division,215016.0,116214.0,98802.0,1
+2,Middle Atlantic Division,902200.0,478558.0,423642.0,2
+3,East North Central Division,475548.0,267812.0,207736.0,3
+4,West North Central Division,175111.0,93007.0,82104.0,4
+5,South Atlantic Division,692036.0,452315.0,239721.0,5
+7,West South Central Division,452629.0,278988.0,173641.0,7
+8,Mountain Division,237701.0,144472.0,93229.0,8
+9,Pacific Division,2173591.0,1296169.0,877422.0,9
+6,East South Central Division,81487.0,45159.0,36328.0,6

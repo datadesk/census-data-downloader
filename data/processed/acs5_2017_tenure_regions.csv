@@ -1,0 +1,5 @@
+geoid,name,universe,owner_occupied,renter_occupied,region
+1,Northeast Region,21208067.0,13171101.0,8036966.0,1
+2,Midwest Region,26518509.0,18008613.0,8509896.0,2
+3,South Region,44590624.0,28968020.0,15622604.0,3
+4,West Region,26508721.0,15685401.0,10823320.0,4
