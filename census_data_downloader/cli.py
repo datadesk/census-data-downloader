@@ -62,6 +62,12 @@ def states(ctx):
     ctx.obj['runner'].download_regions()
 
 
+@cmd.command(help="Download divisions")
+@click.pass_context
+def divisions(ctx):
+    ctx.obj['runner'].download_divisions()
+
+
 @cmd.command(help="Download states")
 @click.pass_context
 def states(ctx):

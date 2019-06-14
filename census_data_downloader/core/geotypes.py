@@ -174,6 +174,17 @@ class RegionsDownloader(BaseGeoTypeDownloader):
         return row[self.raw_name]
 
 
+class DivisionsDownloader(BaseGeoTypeDownloader):
+    """
+    Download raw data at the division level.
+    """
+    slug = "divisions"
+    raw_name = "division"
+
+    def create_geoid(self, row):
+        return row[self.raw_name]
+
+
 class StatesDownloader(BaseGeoTypeDownloader):
     """
     Download raw data at the state level.
