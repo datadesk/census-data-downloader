@@ -3,7 +3,7 @@ from setuptools import setup
 
 setup(
     name='census-data-downloader',
-    version='0.0.7',
+    version='0.0.8',
     description="Download Census data and reformat it for humans",
     author='Ben Welsh',
     author_email='ben.welsh@gmail.com',
