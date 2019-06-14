@@ -80,33 +80,53 @@ def places(ctx):
     ctx.obj['runner'].download_places()
 
 
-@cmd.command(help="Download Census tracts in provided state")
-@click.argument(
-    "state",
-    nargs=1,
-    required=True
-)
+@cmd.command(help="Download urban areas")
+@click.pass_context
+def urbanareas(ctx):
+    ctx.obj['runner'].download_urban_areas()
+
+
+@cmd.command(help="Download metropolitian statistical areas")
+@click.pass_context
+def msas(ctx):
+    ctx.obj['runner'].download_msas()
+
+
+@cmd.command(help="Download consolidated statistical areas")
+@click.pass_context
+def csas(ctx):
+    ctx.obj['runner'].download_csas()
+
+
+@cmd.command(help="Download public use microdata areas")
+@click.pass_context
+def pumas(ctx):
+    ctx.obj['runner'].download_pumas()
+
+
+@cmd.command(help="Download American Indian, Alaska Native and Native Hawaiian homelands")
+@click.pass_context
+def pumas(ctx):
+    ctx.obj['runner'].download_aiannh_homelands()
+
+
+@cmd.command(help="Download ZIP Code tabulation areas")
+@click.pass_context
+def ztcas(ctx):
+    ctx.obj['runner'].download_zctas()
+
+
+@cmd.command(help="Download Census tracts")
 @click.pass_context
 def tracts(ctx, state):
-    ctx.obj['runner'].download_tracts(state)
+    ctx.obj['runner'].download_tracts()
 
 
-@cmd.command(help="Download statehouse districts in provided state")
-@click.argument(
-    "statelegislativedistricts",
-    nargs=1,
-    required=True
-)
+@cmd.command(help="Download statehouse districts")
 @click.pass_context
 def statelegislativedistricts(ctx, state):
-    ctx.obj['runner'].download_state_legislative_districts_upper(state)
-    ctx.obj['runner'].download_state_legislative_districts_lower(state)
-
-
-@cmd.command(help="Download all datasets that cover full USA")
-@click.pass_context
-def usa(ctx):
-    ctx.obj['runner'].download_usa()
+    ctx.obj['runner'].download_state_legislative_districts_upper()
+    ctx.obj['runner'].download_state_legislative_districts_lower()
 
 
 @cmd.command(help="Download everything from everywhere")
