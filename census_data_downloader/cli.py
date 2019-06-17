@@ -4,7 +4,7 @@
 Command-line interface.
 """
 import click
-from census_data_downloader import DOWNLOADERS
+from . import DOWNLOADERS
 DOWNLOADERS_LOOKUP = dict((k.PROCESSED_TABLE_NAME, k) for k in DOWNLOADERS)
 
 

@@ -3,6 +3,7 @@ Download all the data.
 """
 import logging
 import census_data_downloader
+from census_data_downloader import InternetDownloader
 
 
 def main():
@@ -15,7 +16,9 @@ def main():
     ch.setFormatter(formatter)
     logger.addHandler(ch)
     # Download em all
-    census_data_downloader.download_usa(data_dir="./data")
+    # census_data_downloader.download_usa(data_dir="./data")
+    internet = InternetDownloader(force=True)
+    internet.download_everything()
 
 
 if __name__ == '__main__':

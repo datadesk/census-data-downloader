@@ -253,8 +253,14 @@ class BaseDownloader(object):
         self.download_usa()
         for state in states.STATES:
             self.download_tracts(state.abbr)
-            self.download_state_legislative_districts_upper(state.abbr)
-            self.download_state_legislative_districts_lower(state.abbr)
+            # dc doesn't have lower house districts 
+            if state.abbr=="DC": 
+                continue
+            else:
+                self.download_state_legislative_districts_upper(state.abbr)
+                if state.abbr=="NE": 
+                    continue
+                self.download_state_legislative_districts_lower(state.abbr)
 
     def _download_tables(self, api_filter, csv_suffix, geoid_function):
         """
