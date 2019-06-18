@@ -1,17 +1,15 @@
+#! /usr/bin/env python
+# -*- coding: utf-8 -*
 import collections
 from census_data_downloader.core.tables import BaseTableConfig
 from census_data_downloader.core.decorators import register
 
 
-
 @register
 class PovertyDownloader(BaseTableConfig):
     """
-#   This table is simplified downloader for the poverty table (B17001). 
-    
-    There are more variables that break down poverty by age, but this is the simplified version if you want the basics.
+    A simplified version of the poverty table that only returns grand totals.
     """
-    YEAR_LIST = (2017,)
     PROCESSED_TABLE_NAME = "poverty"
     UNIVERSE = "population"
     RAW_TABLE_NAME = 'B17001'
