@@ -84,7 +84,7 @@ class BaseGeoTypeDownloader(object):
         df.to_csv(self.raw_csv_path, index=False, encoding="utf-8")
 
         # Pause to be polite to the API.
-        time.sleep(1)
+        time.sleep(0.5)
 
         # Hand the path back
         return self.raw_csv_path
