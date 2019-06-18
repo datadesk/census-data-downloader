@@ -3,10 +3,10 @@ from setuptools import setup
 
 setup(
     name='census-data-downloader',
-    version='0.0.8',
+    version='0.0.9',
     description="Download Census data and reformat it for humans",
-    author='Ben Welsh',
-    author_email='ben.welsh@gmail.com',
+    author='Los Angeles Times Data Desk',
+    author_email='datadesk@latimes.com',
     url='http://www.github.com/datadesk/census-data-downloader',
     license="MIT",
     packages=("census_data_downloader",),
