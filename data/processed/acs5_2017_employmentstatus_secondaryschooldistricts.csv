@@ -1,0 +1,510 @@
+geoid,name,universe,in_labor_force,civilian,civilian_employed,civilian_unemployed,armed_forces,not_in_labor_force,school district (secondary),state
+0400082,"Colorado River Union High School District, Arizona",55246.0,25306.0,25280.0,22898.0,2382.0,26.0,29940.0,00082,04
+0400450,"Agua Fria Union High School District, Arizona",104687.0,65587.0,64761.0,61497.0,3264.0,826.0,39100.0,00450,04
+0400720,"Antelope Union High School District, Arizona",5546.0,2275.0,2272.0,2114.0,158.0,3.0,3271.0,00720,04
+0401160,"Bicentennial Union High School District, Arizona",8844.0,2581.0,2581.0,2327.0,254.0,0.0,6263.0,01160,04
+0401410,"Buckeye Union High School District, Arizona",57308.0,32032.0,31847.0,29847.0,2000.0,185.0,25276.0,01410,04
+0401740,"Casa Grande Union High School District, Arizona",69742.0,37718.0,37654.0,34009.0,3645.0,64.0,32024.0,01740,04
+0403450,"Glendale Union High School District, Arizona",263859.0,165946.0,165801.0,152662.0,13139.0,145.0,97913.0,03450,04
+0405070,"Mingus Union High School District, Arizona",29442.0,15207.0,15192.0,13924.0,1268.0,15.0,14235.0,05070,04
+0406030,"Patagonia Union High School District, Arizona",2769.0,1232.0,1232.0,1179.0,53.0,0.0,1537.0,06030,04
+0406330,"Phoenix Union High School District, Arizona",526109.0,333243.0,332799.0,306523.0,26276.0,444.0,192866.0,06330,04
+0407530,"Santa Cruz Valley Union High School District, Arizona",16245.0,4694.0,4662.0,4165.0,497.0,32.0,11551.0,07530,04
+0408340,"Tempe Union High School District, Arizona",261868.0,185137.0,185072.0,175239.0,9833.0,65.0,76731.0,08340,04
+0408520,"Tolleson Union High School District, Arizona",137639.0,94974.0,94683.0,88442.0,6241.0,291.0,42665.0,08520,04
+0408910,"Valley Union High School District, Arizona",3175.0,1170.0,1170.0,1061.0,109.0,0.0,2005.0,08910,04
+0409630,"Yuma Union High School District, Arizona",151555.0,85150.0,81756.0,72777.0,8979.0,3394.0,66405.0,09630,04
+0499999,"Remainder of Arizona, Arizona",3677307.0,2144864.0,2133040.0,1985227.0,147813.0,11824.0,1532443.0,99999,04
+0603030,"Northern Humboldt Union High School District, California",39427.0,23918.0,23856.0,21358.0,2498.0,62.0,15509.0,03030,06
+0605820,"Brawley Union High School District, California",21279.0,12069.0,12069.0,9811.0,2258.0,0.0,9210.0,05820,06
+0605940,"Bret Harte Union High School District, California",15586.0,7356.0,7349.0,6831.0,518.0,7.0,8230.0,05940,06
+0606037,"Alhambra Unified (9-12) School District, California",43984.0,26098.0,26091.0,24338.0,1753.0,7.0,17886.0,06037,06
+0606053,"Gonzales Unified (9-12) School District, California",1741.0,1088.0,1088.0,1029.0,59.0,0.0,653.0,06053,06
+0606107,"Porterville Unified (9-12) School District, California",36387.0,20611.0,20595.0,18020.0,2575.0,16.0,15776.0,06107,06
+0607230,"Campbell Union High School District, California",181228.0,125527.0,125415.0,119002.0,6413.0,112.0,55701.0,07230,06
+0607920,"Centinela Valley Union High School District, California",116419.0,80388.0,80372.0,73693.0,6679.0,16.0,36031.0,07920,06
+0608010,"Central Union High School District, California",44687.0,25038.0,24680.0,21089.0,3591.0,358.0,19649.0,08010,06
+0608160,"Chaffey Joint Union High School District, California",322559.0,214308.0,214165.0,197125.0,17040.0,143.0,108251.0,08160,06
+0608550,"Chowchilla Union High School District, California",18611.0,6119.0,6093.0,5678.0,415.0,26.0,12492.0,08550,06
+0609810,"Corning Union High School District, California",13246.0,7572.0,7572.0,6715.0,857.0,0.0,5674.0,09810,06
+0606016,"Dinuba Unified (9-12) in Kings River Union, California",1443.0,805.0,805.0,673.0,132.0,0.0,638.0,06016,06
+0606013,"Turlock Unified School District in Chatom Union, California",2882.0,1748.0,1748.0,1411.0,337.0,0.0,1134.0,06013,06
+0606014,"Turlock Unified School District in Keyes Union, California",4765.0,2991.0,2991.0,2527.0,464.0,0.0,1774.0,06014,06
+0606015,"Santa Cruz City High School District (9-12) in Soquel, California",23423.0,15212.0,15212.0,14561.0,651.0,0.0,8211.0,06015,06
+0606017,"Dinuba Unified (9-12) in Monson-Sultana Joint Union, California",1777.0,999.0,999.0,898.0,101.0,0.0,778.0,06017,06
+0602820,"Antelope Valley Union Joint High School District, California",284092.0,154298.0,154038.0,139827.0,14211.0,260.0,129794.0,02820,06
+0606018,"Washington Unified School District (9-12), California",7115.0,4027.0,4027.0,3536.0,491.0,0.0,3088.0,06018,06
+0606019,"Santa Barbara Unified School District (7-12), California",92432.0,56073.0,56039.0,51728.0,4311.0,34.0,36359.0,06019,06
+0606020,"Lammersville Joint Unified School District (9-12), California",249.0,159.0,159.0,155.0,4.0,0.0,90.0,06020,06
+0610860,"Delano Joint Union High School District, California",52426.0,27977.0,27967.0,23921.0,4046.0,10.0,24449.0,10860,06
+0611700,"Dunsmuir Joint Union High School District, California",1850.0,863.0,863.0,803.0,60.0,0.0,987.0,11700,06
+0611780,"East Nicolaus Joint Union High School District, California",2160.0,1235.0,1235.0,1173.0,62.0,0.0,925.0,11780,06
+0606001,"Yosemite Unified School District in Bass Lake, California",10130.0,5018.0,4996.0,4560.0,436.0,22.0,5112.0,06001,06
+0606002,"Yosemite Unified School District in Raymond-Knowles, California",1033.0,564.0,564.0,470.0,94.0,0.0,469.0,06002,06
+0606003,"Twin Rivers Unified School District in Elverta, California",2873.0,1733.0,1733.0,1666.0,67.0,0.0,1140.0,06003,06
+0606004,"Twin Rivers Unified School District in Robla, California",14282.0,8889.0,8879.0,8046.0,833.0,10.0,5393.0,06004,06
+0606005,"Scott Valley Unified School District in Forks of Salmon, California",131.0,51.0,51.0,49.0,2.0,0.0,80.0,06005,06
+0606006,"Trinity Alps Unified School District in Burnt Ranch, California",693.0,296.0,296.0,240.0,56.0,0.0,397.0,06006,06
+0606007,"Trinity Alps Unified School District in Coffee Creek, California",268.0,157.0,157.0,146.0,11.0,0.0,111.0,06007,06
+0606009,"Trinity Alps Unified School District in Douglas City, California",473.0,278.0,278.0,261.0,17.0,0.0,195.0,06009,06
+0606010,"Trinity Alps Unified School District in Junction City, California",623.0,165.0,165.0,157.0,8.0,0.0,458.0,06010,06
+0606011,"Trinity Alps Unified School District in Lewiston, California",1599.0,645.0,645.0,591.0,54.0,0.0,954.0,06011,06
+0606012,"Trinity Alps Unified School District in Trinity Center, California",323.0,102.0,102.0,79.0,23.0,0.0,221.0,06012,06
+0601650,"Acalanes Union High School District, California",96937.0,58214.0,58191.0,55160.0,3031.0,23.0,38723.0,01650,06
+0602630,"Anaheim Union High School District, California",311337.0,203655.0,203570.0,190317.0,13253.0,85.0,107682.0,02630,06
+0602670,"West Sonoma County Union High School District, California",44689.0,27377.0,27366.0,25542.0,1824.0,11.0,17312.0,02670,06
+0602700,"Anderson Union High School District, California",31296.0,16777.0,16777.0,15501.0,1276.0,0.0,14519.0,02700,06
+0606024,"Santa Paula Unified (9-12) in Santa Clara, California",106.0,70.0,70.0,69.0,1.0,0.0,36.0,06024,06
+0606031,"Tracy Unified School District (9-12) in Banta, California",4135.0,950.0,950.0,872.0,78.0,0.0,3185.0,06031,06
+0606026,"Woodlake Unified School District (9-12) in Stone Corral, California",476.0,286.0,286.0,253.0,33.0,0.0,190.0,06026,06
+0606035,"Perris Union High School District in Nuview (9-12), California",8334.0,4781.0,4767.0,4269.0,498.0,14.0,3553.0,06035,06
+0606022,"Santa Paula Unified (9-12) in Briggs, California",2400.0,1630.0,1630.0,1499.0,131.0,0.0,770.0,06022,06
+0606032,"Tracy Unified School District (9-12) in Jefferson, California",11382.0,7748.0,7727.0,7225.0,502.0,21.0,3634.0,06032,06
+0606034,"Perris Union High School District in Menifee (9-12), California",69950.0,40185.0,39722.0,36195.0,3527.0,463.0,29765.0,06034,06
+0606036,"Perris Union High School District in Romoland (9-12), California",23545.0,13773.0,13691.0,12524.0,1167.0,82.0,9772.0,06036,06
+0606038,"Healdsburg Unified (7-12) in Alexander Valley Union, California",732.0,516.0,516.0,502.0,14.0,0.0,216.0,06038,06
+0606039,"Healdsburg Unified (9-12) in West Side Union, California",1012.0,525.0,525.0,502.0,23.0,0.0,487.0,06039,06
+0619540,"Kern High School District, California",461599.0,281829.0,281536.0,251929.0,29607.0,293.0,179770.0,19540,06
+0630250,"Petaluma Joint Union High School District, California",62931.0,41790.0,41181.0,39047.0,2134.0,609.0,21141.0,30250,06
+0630750,"Placer Union High School District, California",76247.0,42521.0,42500.0,39799.0,2701.0,21.0,33726.0,30750,06
+0631230,"Point Arena Joint Union High School District, California",4836.0,2457.0,2457.0,2279.0,178.0,0.0,2379.0,31230,06
+0632010,"Red Bluff Joint Union High School District, California",33798.0,17703.0,17669.0,15947.0,1722.0,34.0,16095.0,32010,06
+0633630,"Roseville Joint Union High School District, California",138889.0,88358.0,87996.0,82667.0,5329.0,362.0,50531.0,33630,06
+0633980,"Salinas Union High School District, California",129108.0,81162.0,81104.0,76171.0,4933.0,58.0,47946.0,33980,06
+0634140,"San Benito High School District, California",40183.0,27615.0,27580.0,25141.0,2439.0,35.0,12568.0,34140,06
+0634380,"San Dieguito Union High School District, California",142312.0,91856.0,91551.0,86830.0,4721.0,305.0,50456.0,34380,06
+0634980,"San Mateo Union High School District, California",193989.0,133210.0,133150.0,127131.0,6019.0,60.0,60779.0,34980,06
+0635110,"San Rafael City High School District, California",63413.0,39720.0,39685.0,37663.0,2022.0,35.0,23693.0,35110,06
+0635600,"Santa Cruz City High School District, California",84613.0,52445.0,52435.0,48580.0,3855.0,10.0,32168.0,35600,06
+0635670,"Santa Maria Joint Union High School District, California",110065.0,71918.0,71640.0,67271.0,4369.0,278.0,38147.0,35670,06
+0635830,"Santa Rosa High School District, California",174168.0,113114.0,112967.0,105761.0,7206.0,147.0,61054.0,35830,06
+0635850,"Santa Ynez Valley Union High School District, California",17300.0,11349.0,11328.0,10785.0,543.0,21.0,5951.0,35850,06
+0636390,"Sequoia Union High School District, California",203233.0,140163.0,140094.0,133737.0,6357.0,69.0,63070.0,36390,06
+0636600,"Shasta Union High School District, California",82913.0,44801.0,44779.0,41911.0,2868.0,22.0,38112.0,36600,06
+0636940,"Siskiyou Union High School District, California",13080.0,7028.0,7003.0,6503.0,500.0,25.0,6052.0,36940,06
+0636972,"Victor Valley Union High School District, California",116900.0,61890.0,61657.0,52706.0,8951.0,233.0,55010.0,36972,06
+0637260,"Sonora Union High School District, California",33384.0,16037.0,16037.0,14753.0,1284.0,0.0,17347.0,37260,06
+0638280,"Summerville Union High School District, California",8578.0,4229.0,4229.0,3915.0,314.0,0.0,4349.0,38280,06
+0638610,"Sutter Union High School District, California",6318.0,3692.0,3659.0,3449.0,210.0,33.0,2626.0,38610,06
+0638640,"Sweetwater Union High School District, California",381026.0,238314.0,229495.0,207008.0,22487.0,8819.0,142712.0,38640,06
+0611820,"East Side Union High School District, California",443487.0,298268.0,298175.0,277493.0,20682.0,93.0,145219.0,11820,06
+0612070,"El Dorado Union High School District, California",115340.0,65087.0,64898.0,59749.0,5149.0,189.0,50253.0,12070,06
+0612120,"El Monte Union High School District, California",141873.0,82857.0,82813.0,77319.0,5494.0,44.0,59016.0,12120,06
+0612910,"Escondido Union High School District, California",133847.0,87007.0,86513.0,81089.0,5424.0,494.0,46840.0,12910,06
+0613530,"Fallbrook Union High School District, California",54068.0,37394.0,21540.0,20213.0,1327.0,15854.0,16674.0,13530,06
+0640500,"Upper Lake Union High School District, California",7471.0,3547.0,3547.0,3152.0,395.0,0.0,3924.0,40500,06
+0641430,"Wasco Union High School District, California",22342.0,10255.0,10240.0,8958.0,1282.0,15.0,12087.0,41430,06
+0642350,"Wheatland Union High School District, California",9202.0,6219.0,5312.0,4868.0,444.0,907.0,2983.0,42350,06
+0642480,"Whittier Union High School District, California",180466.0,110343.0,110293.0,103798.0,6495.0,50.0,70123.0,42480,06
+0642510,"William S. Hart Union High School District, California",212302.0,142581.0,142430.0,132156.0,10274.0,151.0,69721.0,42510,06
+0643410,"Yreka Union High School District, California",14298.0,7060.0,7060.0,6336.0,724.0,0.0,7238.0,43410,06
+0699999,"Remainder of California, California",22518666.0,14353136.0,14268998.0,13173189.0,1095809.0,84138.0,8165530.0,99999,06
+0614190,"Fortuna Union High School District, California",17704.0,9891.0,9891.0,9058.0,833.0,0.0,7813.0,14190,06
+0614430,"Fremont Union High School District, California",185074.0,122392.0,122328.0,116233.0,6095.0,64.0,62682.0,14430,06
+0614760,"Fullerton Joint Union High School District, California",205869.0,133231.0,133150.0,123545.0,9605.0,81.0,72638.0,14760,06
+0614820,"Galt Joint Union High School District, California",30318.0,18466.0,18441.0,16819.0,1622.0,25.0,11852.0,14820,06
+0616230,"Grossmont Union High School District, California",378740.0,243731.0,240305.0,220328.0,19977.0,3426.0,135009.0,16230,06
+0616500,"Hanford Joint Union High School District, California",52480.0,31797.0,31058.0,28197.0,2861.0,739.0,20683.0,16500,06
+0618060,"Huntington Beach Union High School District, California",265975.0,171840.0,171656.0,162831.0,8825.0,184.0,94135.0,18060,06
+0618930,"Jefferson Union High School District, California",126919.0,87725.0,87665.0,82607.0,5058.0,60.0,39194.0,18930,06
+0619110,"Julian Union High School District, California",2646.0,1230.0,1229.0,1129.0,100.0,1.0,1416.0,19110,06
+0619650,"King City Joint Union High School District, California",28364.0,17077.0,15952.0,14929.0,1023.0,1125.0,11287.0,19650,06
+0621270,"Le Grand Union High School District, California",5744.0,3414.0,3414.0,2804.0,610.0,0.0,2330.0,21270,06
+0638730,"Taft Union High School District, California",15091.0,7427.0,7409.0,6680.0,729.0,18.0,7664.0,38730,06
+0638790,"Tamalpais Union High School District, California",94866.0,61688.0,61650.0,58937.0,2713.0,38.0,33178.0,38790,06
+0639930,"Tulare Joint Union High School District, California",58330.0,34553.0,34511.0,31643.0,2868.0,42.0,23777.0,39930,06
+0619830,"Kingsburg Joint Union High School District, California",13820.0,8415.0,8407.0,7669.0,738.0,8.0,5405.0,19830,06
+0621060,"Lassen Union High School District, California",21579.0,7589.0,7578.0,7092.0,486.0,11.0,13990.0,21060,06
+0624660,"Merced Union High School District, California",129488.0,75863.0,75740.0,64362.0,11378.0,123.0,53625.0,24660,06
+0621400,"Lemoore Union High School District, California",28674.0,20249.0,16894.0,15530.0,1364.0,3355.0,8425.0,21400,06
+0621600,"Liberty Union High School District, California",91555.0,58765.0,58617.0,54542.0,4075.0,148.0,32790.0,21600,06
+0622800,"Los Gatos-Saratoga Joint Union School District, California",45078.0,27349.0,27349.0,25891.0,1458.0,0.0,17729.0,22800,06
+0625150,"Modesto City High School District, California",210548.0,127882.0,127814.0,112898.0,14916.0,68.0,82666.0,25150,06
+0626310,"Mountain View-Los Altos Union School District, California",91895.0,63977.0,63819.0,61270.0,2549.0,158.0,27918.0,26310,06
+0626880,"Nevada Joint Union High School District, California",70282.0,35504.0,35379.0,32563.0,2816.0,125.0,34778.0,26880,06
+0629130,"Oroville Union High School District, California",41685.0,19244.0,19234.0,17031.0,2203.0,10.0,22441.0,29130,06
+0629270,"Oxnard Union High School District, California",253025.0,169251.0,166530.0,154759.0,11771.0,2721.0,83774.0,29270,06
+0630210,"Perris Union High School District, California",35131.0,21752.0,21752.0,18397.0,3355.0,0.0,13379.0,30210,06
+0606023,"Santa Paula Unified (9-12) in Mupu, California",890.0,520.0,520.0,460.0,60.0,0.0,370.0,06023,06
+0606021,"Bishop Unified School District in Round Valley (9-12), California",1119.0,546.0,546.0,522.0,24.0,0.0,573.0,06021,06
+0606029,"Exeter Unified School District (9-12) in Outside Creek, California",665.0,428.0,428.0,406.0,22.0,0.0,237.0,06029,06
+0606028,"Exeter Unified School District (9-12) in Sequoia Union, California",1525.0,809.0,809.0,726.0,83.0,0.0,716.0,06028,06
+0606025,"Hamilton Unified School District in Capay (9-12), California",488.0,292.0,292.0,269.0,23.0,0.0,196.0,06025,06
+0606033,"Tracy Unified School District (9-12) in New Jerusalem, California",1707.0,1018.0,1018.0,899.0,119.0,0.0,689.0,06033,06
+0606027,"Woodlake Unified School District (9-12) in Three Rivers Union, California",2012.0,1043.0,1043.0,989.0,54.0,0.0,969.0,06027,06
+0903720,"Regional High School District 07, Connecticut",10757.0,7395.0,7377.0,7086.0,291.0,18.0,3362.0,03720,09
+0900005,"Regional High School District 19, Connecticut",32939.0,20068.0,20048.0,18807.0,1241.0,20.0,12871.0,00005,09
+0903570,"Regional High School District 11, Connecticut",4920.0,3354.0,3337.0,3124.0,213.0,17.0,1566.0,03570,09
+0903600,"Regional High School District 01, Connecticut",13058.0,8187.0,8187.0,7849.0,338.0,0.0,4871.0,03600,09
+0903630,"Regional High School District 04, Connecticut",13191.0,8671.0,8661.0,8304.0,357.0,10.0,4520.0,03630,09
+0903660,"Regional High School District 05, Connecticut",22955.0,15002.0,15002.0,14275.0,727.0,0.0,7953.0,03660,09
+0903750,"Regional High School District 08, Connecticut",15709.0,10991.0,10991.0,10522.0,469.0,0.0,4718.0,03750,09
+0903780,"Regional High School District 09, Connecticut",13530.0,8591.0,8591.0,8203.0,388.0,0.0,4939.0,03780,09
+0999999,"Remainder of Connecticut, Connecticut",2801032.0,1872105.0,1863604.0,1726916.0,136688.0,8501.0,928927.0,99999,09
+1313053,"Chattahoochee County for Fort Benning, Georgia",6664.0,5792.0,1344.0,1126.0,218.0,4448.0,872.0,13053,13
+1313215,"Muscogee County for Fort Benning, Georgia",7517.0,6141.0,1904.0,1731.0,173.0,4237.0,1376.0,13215,13
+1399999,"Remainder of Georgia, Georgia",7971152.0,5014373.0,4975662.0,4603472.0,372190.0,38711.0,2956779.0,99999,13
+1743890,"Zion-Benton Township High School District 126, Illinois",34284.0,22929.0,22906.0,20833.0,2073.0,23.0,11355.0,43890,17
+1799999,"Remainder of Illinois, Illinois",6417526.0,4181715.0,4168373.0,3844709.0,323664.0,13342.0,2235811.0,99999,17
+1701384,"Illini West High School District 307, Illinois",6801.0,4004.0,3986.0,3808.0,178.0,18.0,2797.0,01384,17
+1735850,"Seneca Township High School District 160, Illinois",5482.0,3574.0,3574.0,3343.0,231.0,0.0,1908.0,35850,17
+1737140,"St. Anne Community High School District 302, Illinois",3974.0,2229.0,2223.0,2010.0,213.0,6.0,1745.0,37140,17
+1717901,"Flanagan-Cornell District 74 in Cornell, Illinois",819.0,512.0,508.0,484.0,24.0,4.0,307.0,17901,17
+1717902,"Flanagan-Cornell District 74 in Pontiac, Illinois",36.0,30.0,30.0,28.0,2.0,0.0,6.0,17902,17
+1717903,"Flanagan-Cornell District 74 in Rooks Creek, Illinois",0.0,0.0,0.0,0.0,0.0,0.0,0.0,17903,17
+1703780,"Anna Jonesboro Community High School District 81, Illinois",8738.0,4629.0,4629.0,4450.0,179.0,0.0,4109.0,03780,17
+1703870,"Antioch Community High School District 117, Illinois",35793.0,24790.0,24782.0,23023.0,1759.0,8.0,11003.0,03870,17
+1704020,"Argo Community High School District 217, Illinois",31477.0,20567.0,20567.0,18810.0,1757.0,0.0,10910.0,04020,17
+1704170,"Township High School District 214, Illinois",202875.0,138527.0,138454.0,131744.0,6710.0,73.0,64348.0,04170,17
+1704230,"Armstrong Township High School District 225, Illinois",1226.0,847.0,847.0,812.0,35.0,0.0,379.0,04230,17
+1704770,"Central Community High School District 71, Illinois",13585.0,9819.0,9815.0,9506.0,309.0,4.0,3766.0,04770,17
+1705640,"Belleville Township High School District 201, Illinois",86312.0,56529.0,55877.0,52557.0,3320.0,652.0,29783.0,05640,17
+1705970,"Benton Consolidated High School District 103, Illinois",10226.0,5449.0,5449.0,4950.0,499.0,0.0,4777.0,05970,17
+1726180,"Fairfield Community High School District 225, Illinois",7990.0,4663.0,4661.0,4423.0,238.0,2.0,3327.0,26180,17
+1726340,"Minooka Community High School District 111, Illinois",29640.0,20874.0,20864.0,19777.0,1087.0,10.0,8766.0,26340,17
+1726640,"Morris Community High School District 101, Illinois",15126.0,9386.0,9365.0,8817.0,548.0,21.0,5740.0,26640,17
+1726880,"J. Sterling Morton High School District 201, Illinois",118492.0,78880.0,78880.0,73011.0,5869.0,0.0,39612.0,26880,17
+1727360,"Mount Vernon Township High School District 201, Illinois",23550.0,12705.0,12698.0,11656.0,1042.0,7.0,10845.0,27360,17
+1727570,"Mundelein Consolidated High School District 120, Illinois",34233.0,24136.0,24098.0,22967.0,1131.0,38.0,10097.0,27570,17
+1727740,"Nashville Community High School District 99, Illinois",6789.0,4343.0,4343.0,4194.0,149.0,0.0,2446.0,27740,17
+1728200,"New Trier Township High School District 203, Illinois",45258.0,27021.0,27021.0,26118.0,903.0,0.0,18237.0,28200,17
+1728260,"Newark Community High School District 18, Illinois",3120.0,2075.0,2075.0,1977.0,98.0,0.0,1045.0,28260,17
+1728530,"Niles Township Community High School District 219, Illinois",80184.0,47520.0,47505.0,44935.0,2570.0,15.0,32664.0,28530,17
+1729010,"Northfield Township High School District 225, Illinois",69731.0,40640.0,40640.0,39162.0,1478.0,0.0,29091.0,29010,17
+1729220,"Oak Lawn Community High School District 229, Illinois",31797.0,19986.0,19954.0,18457.0,1497.0,32.0,11811.0,29220,17
+1729280,"Oak Park and River Forest District 200, Illinois",49450.0,34647.0,34632.0,32715.0,1917.0,15.0,14803.0,29280,17
+1729730,"Ohio Community High School District 505, Illinois",592.0,341.0,341.0,326.0,15.0,0.0,251.0,29730,17
+1729790,"O'Fallon Township High School District 203, Illinois",31651.0,21374.0,20359.0,18954.0,1405.0,1015.0,10277.0,29790,17
+1730330,"Ottawa Township High School District 140, Illinois",24776.0,15588.0,15557.0,14193.0,1364.0,31.0,9188.0,30330,17
+1730450,"Township High School District 211, Illinois",189533.0,135802.0,135727.0,129081.0,6646.0,75.0,53731.0,30450,17
+1731110,"Pekin Community High School District 303, Illinois",35608.0,21887.0,21882.0,20514.0,1368.0,5.0,13721.0,31110,17
+1731620,"Pinckneyville Community High School District 101, Illinois",8979.0,3774.0,3773.0,3542.0,231.0,1.0,5205.0,31620,17
+1732220,"Pontiac Township High School District 90, Illinois",13334.0,7000.0,6986.0,6532.0,454.0,14.0,6334.0,32220,17
+1732580,"Adlai E. Stevenson High School District 125, Illinois",48268.0,33859.0,33859.0,32135.0,1724.0,0.0,14409.0,32580,17
+1732700,"Princeton High School District 500, Illinois",9922.0,6208.0,6208.0,5915.0,293.0,0.0,3714.0,32700,17
+1732910,"Proviso Township High School District 209, Illinois",101316.0,67905.0,67859.0,61516.0,6343.0,46.0,33411.0,32910,17
+1733240,"Rantoul Township High School District 193, Illinois",13487.0,8450.0,8450.0,7947.0,503.0,0.0,5037.0,33240,17
+1733270,"Reavis Township High School District 220, Illinois",26375.0,16669.0,16669.0,15105.0,1564.0,0.0,9706.0,33270,17
+1733420,"Rich Township High School District 227, Illinois",55966.0,36170.0,36126.0,30821.0,5305.0,44.0,19796.0,33420,17
+1733510,"Richmond-Burton Community High School District 157, Illinois",9342.0,6352.0,6352.0,5979.0,373.0,0.0,2990.0,33510,17
+1733720,"Ridgewood Community High School District 234, Illinois",16576.0,9871.0,9871.0,9253.0,618.0,0.0,6705.0,33720,17
+1734020,"Riverside Brookfield Township School District 208, Illinois",23163.0,15445.0,15445.0,14362.0,1083.0,0.0,7718.0,34020,17
+1734290,"Rochelle Township High School District 212, Illinois",13070.0,8616.0,8616.0,8032.0,584.0,0.0,4454.0,34290,17
+1734380,"Rock Falls Township High School District 301, Illinois",11458.0,7079.0,7074.0,6448.0,626.0,5.0,4379.0,34380,17
+1735190,"Salem Community High School District 600, Illinois",11658.0,7227.0,7227.0,6666.0,561.0,0.0,4431.0,35190,17
+1737410,"St. Joseph-Ogden Community High School District 305, Illinois",6526.0,4638.0,4638.0,4540.0,98.0,0.0,1888.0,37410,17
+1738100,"Streator Township High School District 40, Illinois",14511.0,8848.0,8848.0,7907.0,941.0,0.0,5663.0,38100,17
+1738940,"Thornton Fractional Township High School District 215, Illinois",47677.0,31259.0,31235.0,26760.0,4475.0,24.0,16418.0,38940,17
+1738970,"Thornton Township High School District 205, Illinois",90460.0,54139.0,54108.0,44305.0,9803.0,31.0,36321.0,38970,17
+1739870,"United Township High School District 30, Illinois",30524.0,18501.0,18473.0,17017.0,1456.0,28.0,12023.0,39870,17
+1740290,"Vienna High School District 133, Illinois",8055.0,3089.0,3073.0,2814.0,259.0,16.0,4966.0,40290,17
+1740440,"Community High School District 94, Illinois",33373.0,23533.0,23533.0,22545.0,988.0,0.0,9840.0,40440,17
+1740800,"Warren Township High School District 121, Illinois",53160.0,38644.0,38372.0,35874.0,2498.0,272.0,14516.0,40800,17
+1740980,"Washington Community High School District 308, Illinois",18583.0,12098.0,12025.0,11543.0,482.0,73.0,6485.0,40980,17
+1741370,"Webber Township High School District 204, Illinois",2160.0,1406.0,1406.0,1239.0,167.0,0.0,754.0,41370,17
+1743200,"Woodlawn Community High School District 205, Illinois",2713.0,1933.0,1933.0,1801.0,132.0,0.0,780.0,43200,17
+1707050,"Bremen Community High School District 228, Illinois",73903.0,49188.0,49188.0,44237.0,4951.0,0.0,24715.0,07050,17
+1706420,"Bloom Township High School District 206, Illinois",49587.0,30492.0,30401.0,25426.0,4975.0,91.0,19095.0,06420,17
+1706540,"Community High School District 218, Illinois",98285.0,61278.0,61251.0,55051.0,6200.0,27.0,37007.0,06540,17
+1706960,"Bradley-Bourbonnais Consolidated High School District 307, Illinois",30917.0,20289.0,20230.0,19106.0,1124.0,59.0,10628.0,06960,17
+1708370,"Carbondale Community High School District 165, Illinois",31680.0,18052.0,18028.0,16404.0,1624.0,24.0,13628.0,08370,17
+1708400,"Consolidated High School District 230, Illinois",130121.0,83209.0,83209.0,78515.0,4694.0,0.0,46912.0,08400,17
+1709300,"Centralia High School District 200, Illinois",16979.0,10114.0,10114.0,9229.0,885.0,0.0,6865.0,09300,17
+1709780,"Chester Non-High School District 122, Illinois",740.0,487.0,487.0,459.0,28.0,0.0,253.0,09780,17
+1711370,"Community High School District 155, Illinois",76215.0,54646.0,54633.0,51971.0,2662.0,13.0,21569.0,11370,17
+1712570,"Community High School District 99, Illinois",89758.0,61951.0,61942.0,58712.0,3230.0,9.0,27807.0,12570,17
+1712870,"Dwight Township High School District 230, Illinois",4634.0,2658.0,2658.0,2545.0,113.0,0.0,1976.0,12870,17
+1712990,"East Alton-Wood River Community High School District 14, Illinois",10956.0,6595.0,6595.0,6147.0,448.0,0.0,4361.0,12990,17
+1713230,"East Peoria Community High School District 309, Illinois",22030.0,13925.0,13876.0,13032.0,844.0,49.0,8105.0,13230,17
+1713940,"DuPage High School District 88, Illinois",65803.0,45074.0,45065.0,42277.0,2788.0,9.0,20729.0,13940,17
+1714490,"Evanston Township High School District 202, Illinois",67735.0,42258.0,42233.0,40079.0,2154.0,25.0,25477.0,14490,17
+1714580,"Evergreen Park Community High School District 231, Illinois",15526.0,10385.0,10385.0,9800.0,585.0,0.0,5141.0,14580,17
+1715030,"Fenton Community High School District 100, Illinois",24000.0,16879.0,16879.0,15909.0,970.0,0.0,7121.0,15030,17
+1715840,"Freeburg Community High School District 77, Illinois",10481.0,6876.0,6862.0,6525.0,337.0,14.0,3605.0,15840,17
+1716260,"Gardner-South Wilmington Township High School District, Illinois",3345.0,2159.0,2159.0,1990.0,169.0,0.0,1186.0,16260,17
+1716830,"Glenbard Township High School District 87, Illinois",133195.0,94086.0,94059.0,89134.0,4925.0,27.0,39109.0,16830,17
+1717340,"Grant Community High School District 124, Illinois",29312.0,20650.0,20547.0,19001.0,1546.0,103.0,8662.0,17340,17
+1717550,"Grayslake Community High School District 127, Illinois",35104.0,25031.0,24991.0,23480.0,1511.0,40.0,10073.0,17550,17
+1718030,"Hall High School District 502, Illinois",7219.0,4706.0,4706.0,4373.0,333.0,0.0,2513.0,18030,17
+1719080,"Township High School District 113, Illinois",45679.0,29836.0,29703.0,28452.0,1251.0,133.0,15843.0,19080,17
+1719320,"Hinsdale Township High School District 86, Illinois",60250.0,36708.0,36655.0,35183.0,1472.0,53.0,23542.0,19320,17
+1719560,"Homewood-Flossmoor Community High School District 233, Illinois",31157.0,19949.0,19949.0,18161.0,1788.0,0.0,11208.0,19560,17
+1719620,"Hononegah Community High School District 207, Illinois",25853.0,18219.0,18219.0,17249.0,970.0,0.0,7634.0,19620,17
+1720610,"Joliet Township High School District 204, Illinois",99351.0,65820.0,65802.0,60817.0,4985.0,18.0,33531.0,20610,17
+1722500,"Lemont Township High School District 210, Illinois",21232.0,13942.0,13930.0,13202.0,728.0,12.0,7290.0,22500,17
+1721780,"Lake Forest Community High School District 115, Illinois",21795.0,12784.0,12418.0,11878.0,540.0,366.0,9011.0,21780,17
+1721840,"Lake Park Community High School District 108, Illinois",42473.0,30230.0,30181.0,28544.0,1637.0,49.0,12243.0,21840,17
+1722110,"LaSalle-Peru Township High School District 120, Illinois",23054.0,14453.0,14436.0,13401.0,1035.0,17.0,8601.0,22110,17
+1722740,"Leyden Community High School District 212, Illinois",50516.0,34325.0,34321.0,31836.0,2485.0,4.0,16191.0,22740,17
+1722830,"Libertyville Community High School District 128, Illinois",40019.0,27273.0,27211.0,26140.0,1071.0,62.0,12746.0,22830,17
+1722950,"Limestone Community High School District 310, Illinois",17425.0,10939.0,10932.0,10291.0,641.0,7.0,6486.0,22950,17
+1723050,"Lincoln Community High School District 404, Illinois",18209.0,9264.0,9264.0,8678.0,586.0,0.0,8945.0,23050,17
+1723070,"Lincoln Way Community High School District 210, Illinois",83754.0,59232.0,59226.0,55943.0,3283.0,6.0,24522.0,23070,17
+1723350,"Lockport Township High School District 205, Illinois",61475.0,38806.0,38797.0,36693.0,2104.0,9.0,22669.0,23350,17
+1725320,"McHenry Community High School District 156, Illinois",36359.0,24843.0,24843.0,23303.0,1540.0,0.0,11516.0,25320,17
+1723880,"Lyons Township High School District 204, Illinois",53499.0,34664.0,34664.0,33246.0,1418.0,0.0,18835.0,23880,17
+1724090,"Maine Township High School District 207, Illinois",119217.0,76780.0,76741.0,73254.0,3487.0,39.0,42437.0,24090,17
+1724570,"Marengo Community High School District 154, Illinois",10644.0,7103.0,7094.0,6700.0,394.0,9.0,3541.0,24570,17
+1725650,"Mendota Township High School District 280, Illinois",8411.0,5228.0,5220.0,4740.0,480.0,8.0,3183.0,25650,17
+1725770,"Metamora Township High School District 122, Illinois",12656.0,8078.0,8078.0,7598.0,480.0,0.0,4578.0,25770,17
+2121004,"Jefferson County School District in Anchorage ISD, Kentucky",1688.0,1111.0,1111.0,1081.0,30.0,0.0,577.0,21004,21
+2121005,"Campbell County School District in Southgate ISD, Kentucky",2926.0,2234.0,2234.0,2189.0,45.0,0.0,692.0,21005,21
+2121001,"Laurel County School District for East Bernstadt ISD, Kentucky",988.0,474.0,474.0,427.0,47.0,0.0,514.0,21001,21
+2121002,"Pulaski County School District for Science Hill ISD, Kentucky",1714.0,996.0,996.0,963.0,33.0,0.0,718.0,21002,21
+2121003,"Elizabethtown Independent School District for West Point ISD, Kentucky",720.0,417.0,415.0,377.0,38.0,2.0,303.0,21003,21
+2199999,"Remainder of Kentucky, Kentucky",3518030.0,2088340.0,2073637.0,1933113.0,140524.0,14703.0,1429690.0,99999,21
+2303480,"Bremen, Maine",680.0,430.0,430.0,414.0,16.0,0.0,250.0,03480,23
+2304830,"Damariscotta, Maine",1740.0,959.0,959.0,908.0,51.0,0.0,781.0,04830,23
+2308760,"Newcastle, Maine",1388.0,925.0,925.0,908.0,17.0,0.0,463.0,08760,23
+2300053,"Five Town Community School District, Maine",10860.0,6619.0,6616.0,6443.0,173.0,3.0,4241.0,00053,23
+2308400,"Moosabec Community School District, Maine",1463.0,784.0,752.0,679.0,73.0,32.0,679.0,08400,23
+2308500,"Mount Desert Community School District, Maine",8948.0,5858.0,5811.0,5369.0,442.0,47.0,3090.0,08500,23
+2399999,"Remainder of Maine, Maine",1079449.0,681767.0,679990.0,643972.0,36018.0,1777.0,397682.0,99999,23
+2511490,"Tantasqua School District, Massachusetts",17047.0,11485.0,11476.0,10876.0,600.0,9.0,5562.0,11490,25
+2522222,"Mohawk Trail Regional School District in Hawley and Charlemont towns, Massachusetts",1304.0,785.0,785.0,725.0,60.0,0.0,519.0,22222,25
+2525002,"North Adams School District in Clarksburg (9-12), Massachusetts",1400.0,909.0,909.0,869.0,40.0,0.0,491.0,25002,25
+2525003,"Gill-Montague School District in Erving (7-12), Massachusetts",1504.0,1062.0,1062.0,986.0,76.0,0.0,442.0,25003,25
+2525005,"Swampscott School District in Nahant (7-12), Massachusetts",3062.0,2048.0,2048.0,1998.0,50.0,0.0,1014.0,25005,25
+2525006,"Pittsfield School District in Richmond (9-12), Massachusetts",1327.0,826.0,826.0,792.0,34.0,0.0,501.0,25006,25
+2525007,"Mohawk Trail School District in Rowe (7-12), Massachusetts",337.0,195.0,195.0,191.0,4.0,0.0,142.0,25007,25
+2525008,"Adams-Cheshire School District in Savoy (7-12), Massachusetts",636.0,426.0,426.0,403.0,23.0,0.0,210.0,25008,25
+2525009,"North Adams School District in Florida (9-12), Massachusetts",689.0,440.0,440.0,399.0,41.0,0.0,249.0,25009,25
+2525010,"Fairhaven/New Bedford School Districts in Acushnet (9-12), Massachusetts",8884.0,5746.0,5746.0,5411.0,335.0,0.0,3138.0,25010,25
+2525012,"Nauset/Provincetown School Districts in Turo (7-12), Massachusetts",1381.0,832.0,832.0,796.0,36.0,0.0,549.0,25012,25
+2525013,"Mount Greylock/New Lebanon (NY) School Districts in Hancock (7-12), Massachusetts",546.0,381.0,381.0,371.0,10.0,0.0,165.0,25013,25
+2525014,"North Adams School District in Monroe (9-12), Massachusetts",76.0,34.0,34.0,32.0,2.0,0.0,42.0,25014,25
+2599999,"Remainder of Massachusetts, Massachusetts",5249321.0,3547293.0,3542832.0,3328978.0,213854.0,4461.0,1702028.0,99999,25
+2504290,"Dover-Sherborn School District, Massachusetts",7863.0,5022.0,5022.0,4891.0,131.0,0.0,2841.0,04290,25
+2525015,"Lee/Berkshire Hills in Farmington River Regional (7-12), Massachusetts",2140.0,1344.0,1344.0,1261.0,83.0,0.0,796.0,25015,25
+2500541,"Somerset-Berkley School District, Massachusetts",20624.0,13342.0,13342.0,12498.0,844.0,0.0,7282.0,00541,25
+2501920,"Amherst-Pelham School District, Massachusetts",40985.0,23574.0,23574.0,21387.0,2187.0,0.0,17411.0,01920,25
+2502580,"Berlin-Boylston School District, Massachusetts",6228.0,4424.0,4424.0,4304.0,120.0,0.0,1804.0,02580,25
+2503870,"Concord-Carlisle School District, Massachusetts",19416.0,11179.0,11159.0,10738.0,421.0,20.0,8237.0,03870,25
+2504560,"Nauset School District, Massachusetts",21074.0,11326.0,11326.0,10819.0,507.0,0.0,9748.0,04560,25
+2505100,"Frontier School District, Massachusetts",9909.0,7093.0,7093.0,6845.0,248.0,0.0,2816.0,05100,25
+2505740,"Hampshire School District, Massachusetts",10657.0,7582.0,7570.0,7114.0,456.0,12.0,3075.0,05740,25
+2506510,"King Philip School District, Massachusetts",25859.0,16977.0,16977.0,16289.0,688.0,0.0,8882.0,06510,25
+2506930,"Lincoln-Sudbury School District, Massachusetts",19179.0,12498.0,12114.0,11702.0,412.0,384.0,6681.0,06930,25
+2507380,"Martha's Vineyard School District, Massachusetts",14335.0,9443.0,9437.0,9155.0,282.0,6.0,4892.0,07380,25
+2507410,"Masconomet School District, Massachusetts",19693.0,12307.0,12292.0,11646.0,646.0,15.0,7386.0,07410,25
+2508160,"Mount Greylock School District, Massachusetts",9358.0,5820.0,5820.0,5419.0,401.0,0.0,3538.0,08160,25
+2508910,"Northborough-Southborough School District, Massachusetts",19500.0,13716.0,13716.0,13130.0,586.0,0.0,5784.0,08910,25
+2509150,"Old Rochester School District, Massachusetts",13627.0,8521.0,8492.0,8020.0,472.0,29.0,5106.0,09150,25
+2509900,"Ralph C. Mahar School District, Massachusetts",8951.0,5363.0,5363.0,4870.0,493.0,0.0,3588.0,09900,25
+2510830,"Silver Lake School District, Massachusetts",19264.0,13488.0,13471.0,12757.0,714.0,17.0,5776.0,10830,25
+2799999,"Remainder of Minnesota, Minnesota",4342509.0,3033430.0,3031347.0,2901020.0,130327.0,2083.0,1309079.0,99999,27
+2727001,"Park Rapids Public School District in Pine Point (9-12), Minnesota",241.0,99.0,99.0,64.0,35.0,0.0,142.0,27001,27
+2727002,"Clinton-Graceville-Beardsley-Wheaton-Sisseton/Wilmot (SD) in Browns Valley (9-12), Minnesota",580.0,365.0,365.0,338.0,27.0,0.0,215.0,27002,27
+2727003,"Minneota-Ivanhoe Public School Districts in Ivanhoe (7-12), Minnesota",997.0,633.0,633.0,619.0,14.0,0.0,364.0,27003,27
+2727004,"Marshall-Minneota-RTR Public Schools in Lynd (9-12), Minnesota",822.0,626.0,626.0,613.0,13.0,0.0,196.0,27004,27
+2727005,"Marshall-Tracy Public Schools in Milroy (9-12), Minnesota",483.0,346.0,346.0,339.0,7.0,0.0,137.0,27005,27
+2727006,"Heron Lake-Okabena-Fulda-Worthington in Round Lake-Brewster (9-12), Minnesota",1447.0,1005.0,1005.0,971.0,34.0,0.0,442.0,27006,27
+2727007,"St. Louis-Northland in Nett Lake (7-12), Minnesota",334.0,192.0,192.0,139.0,53.0,0.0,142.0,27007,27
+3025560,"Sweet Grass County High School District, Montana",2850.0,1608.0,1608.0,1593.0,15.0,0.0,1242.0,25560,30
+3026100,"Thompson Falls High School District, Montana",3367.0,1812.0,1812.0,1657.0,155.0,0.0,1555.0,26100,30
+3026190,"Three Forks High School District, Montana",2859.0,2036.0,2036.0,1976.0,60.0,0.0,823.0,26190,30
+3026580,"Troy High School District, Montana",3021.0,1223.0,1223.0,1110.0,113.0,0.0,1798.0,26580,30
+3026670,"Turner High School District, Montana",204.0,142.0,142.0,138.0,4.0,0.0,62.0,26670,30
+3027090,"Valier High School District, Montana",875.0,459.0,459.0,452.0,7.0,0.0,416.0,27090,30
+3027790,"Whitefish High School District, Montana",12235.0,7919.0,7919.0,7619.0,300.0,0.0,4316.0,27790,30
+3027840,"Whitehall High School District, Montana",3448.0,1749.0,1744.0,1689.0,55.0,5.0,1699.0,27840,30
+3028170,"Willow Creek High School District, Montana",212.0,150.0,150.0,150.0,0.0,0.0,62.0,28170,30
+3028620,"Wolf Point High School District, Montana",3505.0,1989.0,1989.0,1761.0,228.0,0.0,1516.0,28620,30
+3028911,"Rocky Boy High School District, Montana",2263.0,1007.0,1007.0,877.0,130.0,0.0,1256.0,28911,30
+3099999,"Remainder of Montana, Montana",97221.0,56611.0,56568.0,53495.0,3073.0,43.0,40610.0,99999,30
+3000095,"Lame Deer High School District, Montana",3852.0,2293.0,2284.0,1755.0,529.0,9.0,1559.0,00095,30
+3000097,"North Star High School District, Montana",866.0,525.0,525.0,510.0,15.0,0.0,341.0,00097,30
+3000101,"Chester-Joplin-Inverness High School District, Montana",1978.0,1209.0,1209.0,1187.0,22.0,0.0,769.0,00101,30
+3000933,"Shields Valley High School District, Montana",1383.0,800.0,800.0,779.0,21.0,0.0,583.0,00933,30
+3001740,"Absarokee High School District, Montana",1955.0,1082.0,1082.0,1054.0,28.0,0.0,873.0,01740,30
+3002030,"Anaconda High School District, Montana",7774.0,3888.0,3888.0,3796.0,92.0,0.0,3886.0,02030,30
+3002250,"Arlee High School District, Montana",2289.0,1309.0,1309.0,1120.0,189.0,0.0,980.0,02250,30
+3002450,"Augusta High School District, Montana",598.0,379.0,379.0,377.0,2.0,0.0,219.0,02450,30
+3003090,"Beaverhead County High School District, Montana",7662.0,4684.0,4684.0,4473.0,211.0,0.0,2978.0,03090,30
+3003330,"Belgrade High School District, Montana",16208.0,12054.0,12037.0,11627.0,410.0,17.0,4154.0,03330,30
+3003450,"Belt High School District, Montana",1376.0,793.0,787.0,772.0,15.0,6.0,583.0,03450,30
+3003750,"Big Sandy High School District, Montana",986.0,662.0,662.0,643.0,19.0,0.0,324.0,03750,30
+3003840,"Bigfork High School District, Montana",6996.0,3581.0,3581.0,3421.0,160.0,0.0,3415.0,03840,30
+3003900,"Billings High School District, Montana",106527.0,72348.0,72122.0,69556.0,2566.0,226.0,34179.0,03900,30
+3004500,"Box Elder High School District, Montana",356.0,183.0,183.0,149.0,34.0,0.0,173.0,04500,30
+3004590,"Bozeman High School District, Montana",56116.0,40297.0,40232.0,38387.0,1845.0,65.0,15819.0,04590,30
+3010530,"Fergus High School District, Montana",7308.0,4462.0,4462.0,4333.0,129.0,0.0,2846.0,10530,30
+3011190,"Forsyth High School District, Montana",2076.0,1284.0,1284.0,1278.0,6.0,0.0,792.0,11190,30
+3011260,"Fort Benton High School District, Montana",1803.0,1005.0,1005.0,978.0,27.0,0.0,798.0,11260,30
+3011460,"Frazer High School District, Montana",497.0,270.0,270.0,231.0,39.0,0.0,227.0,11460,30
+3011580,"Froid High School District, Montana",395.0,219.0,219.0,219.0,0.0,0.0,176.0,11580,30
+3011850,"Gardiner High School District, Montana",1281.0,922.0,922.0,909.0,13.0,0.0,359.0,11850,30
+3011880,"Garfield County High School District, Montana",889.0,576.0,576.0,576.0,0.0,0.0,313.0,11880,30
+3012300,"Geyser High School District, Montana",345.0,194.0,194.0,187.0,7.0,0.0,151.0,12300,30
+3012990,"Grass Range High School District, Montana",523.0,329.0,329.0,322.0,7.0,0.0,194.0,12990,30
+3013050,"Great Falls High School District, Montana",58190.0,37206.0,34660.0,33026.0,1634.0,2546.0,20984.0,13050,30
+3013340,"Hardin High School District, Montana",6181.0,3878.0,3869.0,3399.0,470.0,9.0,2303.0,13340,30
+3013360,"Plenty Coups High School District, Montana",408.0,240.0,240.0,203.0,37.0,0.0,168.0,13360,30
+3013400,"Harlem High School District, Montana",1899.0,1231.0,1231.0,986.0,245.0,0.0,668.0,13400,30
+3013470,"Harlowton High School District, Montana",1431.0,919.0,919.0,885.0,34.0,0.0,512.0,13470,30
+3013590,"Havre High School District, Montana",9756.0,6200.0,6196.0,5845.0,351.0,4.0,3556.0,13590,30
+3013830,"Helena High School District, Montana",52067.0,34571.0,34448.0,33336.0,1112.0,123.0,17496.0,13830,30
+3014370,"Hinsdale High School District, Montana",427.0,308.0,308.0,305.0,3.0,0.0,119.0,14370,30
+3015120,"Jefferson High School District, Montana",6462.0,4066.0,4051.0,3774.0,277.0,15.0,2396.0,15120,30
+3015260,"Joliet High School District, Montana",1982.0,1194.0,1194.0,1139.0,55.0,0.0,788.0,15260,30
+3015390,"Judith Gap High School District, Montana",234.0,132.0,132.0,132.0,0.0,0.0,102.0,15390,30
+3015420,"Flathead High School District, Montana",47585.0,30305.0,30302.0,29211.0,1091.0,3.0,17280.0,15420,30
+3016020,"Lambert High School District, Montana",177.0,115.0,115.0,114.0,1.0,0.0,62.0,16020,30
+3016230,"Laurel High School District, Montana",8705.0,5791.0,5776.0,5576.0,200.0,15.0,2914.0,16230,30
+3016770,"Lincoln County High School District, Montana",5303.0,2520.0,2520.0,2223.0,297.0,0.0,2783.0,16770,30
+3017040,"Lodge Grass High School District, Montana",1437.0,887.0,887.0,710.0,177.0,0.0,550.0,17040,30
+3017640,"Manhattan High School District, Montana",3515.0,2266.0,2266.0,2190.0,76.0,0.0,1249.0,17640,30
+3018270,"Melstone High School District, Montana",221.0,121.0,121.0,119.0,2.0,0.0,100.0,18270,30
+3018540,"Missoula High School District, Montana",87248.0,60893.0,60808.0,57072.0,3736.0,85.0,26355.0,18540,30
+3020100,"Park High School District, Montana",10903.0,6812.0,6796.0,6583.0,213.0,16.0,4091.0,20100,30
+3018900,"Moore High School District, Montana",406.0,263.0,263.0,263.0,0.0,0.0,143.0,18900,30
+3019500,"Noxon High School District, Montana",1821.0,733.0,733.0,662.0,71.0,0.0,1088.0,19500,30
+3020070,"Park City High School District, Montana",1649.0,1105.0,1099.0,1080.0,19.0,6.0,544.0,20070,30
+3020850,"Plains High School District, Montana",2756.0,1172.0,1172.0,1101.0,71.0,0.0,1584.0,20850,30
+3021090,"Polson High School District, Montana",8955.0,5113.0,5110.0,4737.0,373.0,3.0,3842.0,21090,30
+3021270,"Poplar High School District, Montana",2556.0,1138.0,1138.0,976.0,162.0,0.0,1418.0,21270,30
+3021450,"Powell County High School District, Montana",6172.0,2675.0,2675.0,2637.0,38.0,0.0,3497.0,21450,30
+3021540,"Power High School District, Montana",553.0,331.0,323.0,319.0,4.0,8.0,222.0,21540,30
+3021900,"Rapelje High School District, Montana",284.0,208.0,208.0,202.0,6.0,0.0,76.0,21900,30
+3022110,"Red Lodge High School District, Montana",3352.0,2073.0,2073.0,2028.0,45.0,0.0,1279.0,22110,30
+3022260,"Reedpoint High School District, Montana",398.0,185.0,185.0,175.0,10.0,0.0,213.0,22260,30
+3022410,"Richey High School District, Montana",429.0,246.0,246.0,244.0,2.0,0.0,183.0,22410,30
+3022800,"Ronan High School District, Montana",6486.0,3579.0,3579.0,3261.0,318.0,0.0,2907.0,22800,30
+3023070,"Roundup High School District, Montana",3595.0,1826.0,1826.0,1718.0,108.0,0.0,1769.0,23070,30
+3023400,"Saco High School District, Montana",449.0,261.0,261.0,245.0,16.0,0.0,188.0,23400,30
+3023550,"Savage High School District, Montana",539.0,319.0,319.0,310.0,9.0,0.0,220.0,23550,30
+3023910,"Shelby High School District, Montana",3237.0,1664.0,1664.0,1647.0,17.0,0.0,1573.0,23910,30
+3023970,"Shepherd High School District, Montana",3740.0,2682.0,2662.0,2548.0,114.0,20.0,1058.0,23970,30
+3024180,"Sheridan High School District, Montana",1586.0,915.0,915.0,886.0,29.0,0.0,671.0,24180,30
+3024230,"Sidney High School District, Montana",7000.0,5005.0,5005.0,4903.0,102.0,0.0,1995.0,24230,30
+3024330,"Simms High School District, Montana",2355.0,1385.0,1381.0,1306.0,75.0,4.0,970.0,24330,30
+3025050,"Stevensville High School District, Montana",8097.0,4593.0,4560.0,4221.0,339.0,33.0,3504.0,25050,30
+3025140,"Centerville High School District, Montana",1134.0,684.0,675.0,662.0,13.0,9.0,450.0,25140,30
+3005040,"Brockton High School District, Montana",335.0,157.0,157.0,123.0,34.0,0.0,178.0,05040,30
+3005190,"Browning High School District, Montana",6565.0,3209.0,3209.0,2938.0,271.0,0.0,3356.0,05190,30
+3004860,"Powder River County High School District, Montana",1419.0,989.0,989.0,966.0,23.0,0.0,430.0,04860,30
+3004920,"Broadview High School District, Montana",639.0,418.0,418.0,414.0,4.0,0.0,221.0,04920,30
+3005310,"Butte High School District, Montana",28225.0,17338.0,17326.0,16310.0,1016.0,12.0,10887.0,05310,30
+3005610,"Carter County High School District, Montana",1062.0,613.0,613.0,595.0,18.0,0.0,449.0,05610,30
+3005910,"Cascade High School District, Montana",2189.0,1209.0,1196.0,1161.0,35.0,13.0,980.0,05910,30
+3006115,"Charlo High School District, Montana",1302.0,786.0,786.0,744.0,42.0,0.0,516.0,06115,30
+3006270,"Chinook High School District, Montana",1758.0,1056.0,1056.0,980.0,76.0,0.0,702.0,06270,30
+3006330,"Choteau High School District, Montana",2242.0,1295.0,1295.0,1279.0,16.0,0.0,947.0,06330,30
+3006810,"Circle High School District, Montana",1327.0,808.0,808.0,798.0,10.0,0.0,519.0,06810,30
+3007080,"Colstrip High School District, Montana",1836.0,1347.0,1347.0,1286.0,61.0,0.0,489.0,07080,30
+3007140,"Columbia Falls High School District, Montana",12580.0,7578.0,7578.0,7127.0,451.0,0.0,5002.0,07140,30
+3007200,"Columbus High School District, Montana",3356.0,2107.0,2107.0,2004.0,103.0,0.0,1249.0,07200,30
+3007320,"Conrad High School District, Montana",2865.0,1808.0,1808.0,1735.0,73.0,0.0,1057.0,07320,30
+3007860,"Culbertson High School District, Montana",652.0,465.0,465.0,461.0,4.0,0.0,187.0,07860,30
+3007930,"Custer County High School District, Montana",9681.0,6546.0,6531.0,6417.0,114.0,15.0,3135.0,07930,30
+3008190,"Cut Bank High School District, Montana",3122.0,1711.0,1704.0,1601.0,103.0,7.0,1411.0,08190,30
+3008340,"Dawson High School District, Montana",6986.0,4612.0,4612.0,4561.0,51.0,0.0,2374.0,08340,30
+3008850,"Denton High School District, Montana",387.0,247.0,247.0,243.0,4.0,0.0,140.0,08850,30
+3009210,"Drummond High School District, Montana",1129.0,581.0,581.0,551.0,30.0,0.0,548.0,09210,30
+3010170,"Fairfield High School District, Montana",1560.0,913.0,913.0,900.0,13.0,0.0,647.0,10170,30
+3010290,"Fairview High School District, Montana",1202.0,732.0,732.0,686.0,46.0,0.0,470.0,10290,30
+3300003,"John Stark Regional School District, New Hampshire",11002.0,8113.0,8085.0,7960.0,125.0,28.0,2889.0,00003,33
+3300017,"Exeter Regional Cooperative School District, New Hampshire",26561.0,17991.0,17982.0,17366.0,616.0,9.0,8570.0,00017,33
+3300049,"Prospect Mountain High School Joint Maintenance Agreement District, New Hampshire",8108.0,5429.0,5429.0,5113.0,316.0,0.0,2679.0,00049,33
+3302670,"Dresden School District, New Hampshire",10078.0,5272.0,5272.0,5170.0,102.0,0.0,4806.0,02670,33
+3303850,"Hollis-Brookline Cooperative School District, New Hampshire",10293.0,7274.0,7274.0,6970.0,304.0,0.0,3019.0,03850,33
+3305830,"Profile School District, New Hampshire",3958.0,2454.0,2448.0,2346.0,102.0,6.0,1504.0,05830,33
+3306260,"Souhegan Cooperative School District, New Hampshire",10881.0,7728.0,7728.0,7472.0,256.0,0.0,3153.0,06260,33
+3307230,"Winnacunnet Cooperative School District, New Hampshire",26532.0,18045.0,18012.0,17216.0,796.0,33.0,8487.0,07230,33
+3399965,"Pemi-Baker Regional School District, New Hampshire",16399.0,10053.0,10053.0,9615.0,438.0,0.0,6346.0,99965,33
+3399999,"Remainder of New Hampshire, New Hampshire",978455.0,666420.0,664707.0,634196.0,30511.0,1713.0,312035.0,99999,33
+3406660,"Hanover Park Regional School District, New Jersey",31257.0,20566.0,20543.0,19440.0,1103.0,23.0,10691.0,06660,34
+3407050,"Henry Hudson Regional School District, New Jersey",8039.0,5586.0,5586.0,5186.0,400.0,0.0,2453.0,07050,34
+3407140,"High Point Regional School District, New Jersey",17785.0,11684.0,11680.0,10916.0,764.0,4.0,6101.0,07140,34
+3407590,"Hunterdon Central Regional School District, New Jersey",42078.0,28663.0,28663.0,27292.0,1371.0,0.0,13415.0,07590,34
+3407980,"Kingsway Regional School District, New Jersey",20824.0,14682.0,14682.0,14009.0,673.0,0.0,6142.0,07980,34
+3408060,"Kittatinny Regional School District, New Jersey",11635.0,7753.0,7753.0,7281.0,472.0,0.0,3882.0,08060,34
+3408190,"Lakeland Regional School District, New Jersey",19671.0,13069.0,13069.0,12344.0,725.0,0.0,6602.0,08190,34
+3408490,"Lenape Regional School District, New Jersey",113890.0,77384.0,77079.0,72898.0,4181.0,305.0,36506.0,08490,34
+3409550,"North Warren Regional School District, New Jersey",10366.0,6647.0,6618.0,6202.0,416.0,29.0,3719.0,09550,34
+3408500,"Lenape Valley Regional School District, New Jersey",12093.0,8608.0,8608.0,8174.0,434.0,0.0,3485.0,08500,34
+3409090,"Lower Cape May Regional School District, New Jersey",22899.0,14001.0,13237.0,12197.0,1040.0,764.0,8898.0,09090,34
+3409360,"Mainland Regional School District, New Jersey",21075.0,14045.0,13954.0,13074.0,880.0,91.0,7030.0,09360,34
+3410440,"Monmouth Regional School District, New Jersey",26426.0,16889.0,16731.0,15971.0,760.0,158.0,9537.0,10440,34
+3410740,"Morris Hills Regional School District, New Jersey",44339.0,30658.0,30649.0,28979.0,1670.0,9.0,13681.0,10740,34
+3411610,"North Hunterdon-Voorhees Regional School District, New Jersey",41393.0,26561.0,26523.0,25336.0,1187.0,38.0,14832.0,11610,34
+3411700,"Northern Burlington Regional School District, New Jersey",18745.0,11318.0,11279.0,10686.0,593.0,39.0,7427.0,11700,34
+3411730,"Northern Highlands Regional School District, New Jersey",11334.0,7453.0,7453.0,6967.0,486.0,0.0,3881.0,11730,34
+3411760,"Northern Valley Regional School District, New Jersey",30784.0,19863.0,19863.0,18672.0,1191.0,0.0,10921.0,11760,34
+3412260,"River Dell Regional School District, New Jersey",15727.0,10651.0,10638.0,10229.0,409.0,13.0,5076.0,12260,34
+3412510,"Pascack Valley Regional School District, New Jersey",27698.0,18118.0,18108.0,17324.0,784.0,10.0,9580.0,12510,34
+3412570,"Passaic Valley Regional School District, New Jersey",31721.0,20934.0,20934.0,19667.0,1267.0,0.0,10787.0,12570,34
+3412600,"Passaic County Manchester Regional School District, New Jersey",18333.0,12281.0,12236.0,11161.0,1075.0,45.0,6052.0,12600,34
+3413000,"Pinelands Regional School District, New Jersey",22372.0,13183.0,13125.0,12223.0,902.0,58.0,9189.0,13000,34
+3413560,"Ramapo-Indian Hill Regional School District, New Jersey",32725.0,20827.0,20827.0,19793.0,1034.0,0.0,11898.0,13560,34
+3413620,"Rancocas Valley Regional School District, New Jersey",34180.0,23584.0,23083.0,21320.0,1763.0,501.0,10596.0,13620,34
+3413750,"Red Bank Regional School District, New Jersey",17651.0,12268.0,12268.0,11589.0,679.0,0.0,5383.0,13750,34
+3414400,"Rumson-Fair Haven Regional School District, New Jersey",9091.0,5836.0,5836.0,5572.0,264.0,0.0,3255.0,14400,34
+3414940,"Shore Regional School District, New Jersey",15159.0,9325.0,9306.0,8826.0,480.0,19.0,5834.0,14940,34
+3416970,"Warren Hills Regional School District, New Jersey",19398.0,13718.0,13718.0,12682.0,1036.0,0.0,5680.0,16970,34
+3415450,"Delsea Regional High School School District, New Jersey",16754.0,11466.0,11445.0,10510.0,935.0,21.0,5288.0,15450,34
+3415480,"Southern Regional School District, New Jersey",29362.0,17018.0,16973.0,15812.0,1161.0,45.0,12344.0,15480,34
+3416870,"Wallkill Valley Regional School District, New Jersey",14990.0,10548.0,10540.0,9814.0,726.0,8.0,4442.0,16870,34
+3417220,"Watchung Hills Regional School District, New Jersey",24906.0,15717.0,15717.0,15016.0,701.0,0.0,9189.0,17220,34
+3417460,"West Essex Regional School District, New Jersey",17906.0,11744.0,11744.0,11185.0,559.0,0.0,6162.0,17460,34
+3417550,"West Morris Regional School District, New Jersey",30513.0,19626.0,19611.0,18805.0,806.0,15.0,10887.0,17550,34
+3499999,"Remainder of New Jersey, New Jersey",5862817.0,3849937.0,3844408.0,3568993.0,275415.0,5529.0,2012880.0,99999,34
+3402880,"Sterling High School School District, New Jersey",14102.0,10166.0,10166.0,9226.0,940.0,0.0,3936.0,02880,34
+3403750,"Delaware Valley Regional School District, New Jersey",13537.0,9523.0,9523.0,9136.0,387.0,0.0,4014.0,03750,34
+3401770,"Black Horse Pike Regional School District, New Jersey",68378.0,47412.0,47385.0,44239.0,3146.0,27.0,20966.0,01770,34
+3402800,"Carlstadt-East Rutherford School District, New Jersey",13306.0,8883.0,8873.0,8419.0,454.0,10.0,4423.0,02800,34
+3403210,"Clearview Regional School District, New Jersey",22076.0,15813.0,15813.0,14941.0,872.0,0.0,6263.0,03210,34
+3403620,"Cumberland Regional School District, New Jersey",20098.0,10806.0,10791.0,10046.0,745.0,15.0,9292.0,03620,34
+3402910,"Central Regional School District, New Jersey",43576.0,20327.0,20312.0,18771.0,1541.0,15.0,23249.0,02910,34
+3404380,"Eastern Camden County Regional School District, New Jersey",32017.0,19599.0,19573.0,18217.0,1356.0,26.0,12418.0,04380,34
+3405610,"Freehold Regional School District, New Jersey",153747.0,101642.0,101570.0,96275.0,5295.0,72.0,52105.0,05610,34
+3405820,"Gateway Regional School District, New Jersey",9887.0,6629.0,6629.0,6132.0,497.0,0.0,3258.0,05820,34
+3406060,"Greater Egg Harbor Regional School District, New Jersey",60555.0,41231.0,41069.0,36477.0,4592.0,162.0,19324.0,06060,34
+3619020,"Bellmore-Merrick Central High School District, New York",56024.0,37920.0,37901.0,35965.0,1936.0,19.0,18104.0,19020,36
+3626520,"Sewanhaka Central High School District, New York",104146.0,68671.0,68652.0,64542.0,4110.0,19.0,35475.0,26520,36
+3629520,"Valley Stream Central High School District, New York",50470.0,34136.0,34136.0,31945.0,2191.0,0.0,16334.0,29520,36
+3699999,"Remainder of New York, New York",15870341.0,10035475.0,10012310.0,9335179.0,677131.0,23165.0,5834866.0,99999,36
+4040001,"Secondary Coverage Area in White Oak Public Schools (9-12), Oklahoma",710.0,371.0,371.0,345.0,26.0,0.0,339.0,40001,40
+4099999,"Remainder of Oklahoma, Oklahoma",3042551.0,1868672.0,1851423.0,1746074.0,105349.0,17249.0,1173879.0,99999,40
+4103630,"Harney County Union High School District 1J, Oregon",1151.0,637.0,637.0,612.0,25.0,0.0,514.0,03630,41
+4199999,"Remainder of Oregon, Oregon",3258924.0,2026110.0,2023485.0,1885371.0,138114.0,2625.0,1232814.0,99999,41
+4499999,"Remainder of Rhode Island, Rhode Island",859079.0,559547.0,556244.0,518023.0,38221.0,3303.0,299532.0,99999,44
+4400420,"Foster-Glocester Regional School District, Rhode Island",12250.0,8473.0,8461.0,8048.0,413.0,12.0,3777.0,00420,44
+4545013,"Beaufort County School District within Beaufort Marine Corps Air Station, South Carolina",708.0,644.0,65.0,63.0,2.0,579.0,64.0,45013,45
+4545079,"Richland County School District 2 within Fort Jackson, South Carolina",15067.0,14169.0,6058.0,5915.0,143.0,8111.0,898.0,45079,45
+4599999,"Remainder of South Carolina, South Carolina",3910691.0,2367087.0,2345180.0,2175068.0,170112.0,21907.0,1543604.0,99999,45
+4747001,"Anderson County School District in Clinton, Tennessee",8186.0,4449.0,4449.0,4219.0,230.0,0.0,3737.0,47001,47
+4747029,"Cocke County School District in Newport, Tennessee",5238.0,2571.0,2571.0,2145.0,426.0,0.0,2667.0,47029,47
+4747031,"Coffee County School District in Manchester, Tennessee",8177.0,4854.0,4854.0,4732.0,122.0,0.0,3323.0,47031,47
+4747033,"Crockett County School District in Alamo, Tennessee",3123.0,1726.0,1726.0,1580.0,146.0,0.0,1397.0,47033,47
+4747034,"Crockett County School District in Bells, Tennessee",2965.0,1807.0,1807.0,1740.0,67.0,0.0,1158.0,47034,47
+4747073,"Hawkins County School District in Rogersville, Tennessee",3492.0,1510.0,1510.0,1431.0,79.0,0.0,1982.0,47073,47
+4747077,"Henderson County School District in Lexington, Tennessee",5890.0,3428.0,3428.0,2999.0,429.0,0.0,2462.0,47077,47
+4747079,"Henry County School District in Paris, Tennessee",9375.0,4877.0,4862.0,4561.0,301.0,15.0,4498.0,47079,47
+4747107,"McMinn County School District in Athens, Tennessee",10748.0,5817.0,5817.0,5146.0,671.0,0.0,4931.0,47107,47
+4747108,"McMinn County School District in Etowah, Tennessee",2721.0,1359.0,1359.0,1242.0,117.0,0.0,1362.0,47108,47
+4747123,"Monroe County School District in Sweetwater, Tennessee",9500.0,4842.0,4842.0,4364.0,478.0,0.0,4658.0,47123,47
+4747143,"Rhea County School District in Dayton, Tennessee",5782.0,3104.0,3104.0,2842.0,262.0,0.0,2678.0,47143,47
+4747149,"Rutherford County School District in Murfreesboro, Tennessee",100518.0,71430.0,71172.0,67087.0,4085.0,258.0,29088.0,47149,47
+4747187,"Williamson County School District in Franklin, Tennessee",31590.0,22164.0,22151.0,21385.0,766.0,13.0,9426.0,47187,47
+4747189,"Wilson County School District in Lebanon, Tennessee",25302.0,15500.0,15500.0,14428.0,1072.0,0.0,9802.0,47189,47
+4799999,"Remainder of Tennessee, Tennessee",5030134.0,3070765.0,3052913.0,2851607.0,201306.0,17852.0,1959369.0,99999,47
+4747002,"Arlington Community Schools in Lakeland (6-12), Tennessee",7516.0,5346.0,5301.0,5102.0,199.0,45.0,2170.0,47002,47
+4848285,"Hallettsville Independent School District (9-12) in Vysehrad, Texas",690.0,428.0,428.0,396.0,32.0,0.0,262.0,48285,48
+4899999,"Remainder of Texas, Texas",20994505.0,13562825.0,13471744.0,12686993.0,784751.0,91081.0,7431680.0,99999,48
+4848021,"Elgin/Giddings Independent School Districts (9-12) in McDade, Texas",1294.0,892.0,892.0,821.0,71.0,0.0,402.0,48021,48
+4848449,"Mount Pleasant Independent School District (9-12) in Winfield, Texas",637.0,400.0,400.0,397.0,3.0,0.0,237.0,48449,48
+4848143,"Stephenville Independent School District (9-12) in Bluff Dale, Texas",882.0,493.0,493.0,462.0,31.0,0.0,389.0,48143,48
+5099999,"Remainder of Vermont, Vermont",503392.0,330024.0,329652.0,315151.0,14501.0,372.0,173368.0,99999,50
+5000006,"Essex Community Education Center, Vermont",16639.0,12621.0,12581.0,12113.0,468.0,40.0,4018.0,00006,50
+5505490,"Nicolet Union High School District, Wisconsin",20934.0,13299.0,13294.0,13030.0,264.0,5.0,7635.0,05490,55
+5506120,"Hartford Union High School District, Wisconsin",26261.0,18552.0,18552.0,17922.0,630.0,0.0,7709.0,06120,55
+5506180,"Arrowhead Union High School District, Wisconsin",26934.0,18419.0,18413.0,17890.0,523.0,6.0,8515.0,06180,55
+5507650,"Lake Geneva-Genoa City Union High School District, Wisconsin",19364.0,13502.0,13502.0,12531.0,971.0,0.0,5862.0,07650,55
+5509630,"Lakeland Union High School District, Wisconsin",15101.0,8047.0,8047.0,7397.0,650.0,0.0,7054.0,09630,55
+5513290,"Westosha Central High School District, Wisconsin",16418.0,11344.0,11325.0,10756.0,569.0,19.0,5074.0,13290,55
+5515150,"Union Grove Union High School District, Wisconsin",10796.0,6984.0,6981.0,6635.0,346.0,3.0,3812.0,15150,55
+5515480,"Big Foot Union High School District, Wisconsin",7862.0,5172.0,5172.0,4879.0,293.0,0.0,2690.0,15480,55
+5515600,"Waterford Union High School District, Wisconsin",14780.0,10303.0,10300.0,9900.0,400.0,3.0,4477.0,15600,55
+5516770,"Wilmot Union High School District, Wisconsin",15177.0,11066.0,11060.0,10257.0,803.0,6.0,4111.0,16770,55
+5599999,"Remainder of Wisconsin, Wisconsin",4444647.0,2971031.0,2968505.0,2828683.0,139822.0,2526.0,1473616.0,99999,55
