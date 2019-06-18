@@ -24,5 +24,6 @@ class InternetDownloader(BaseTableConfig):
         '010E': 'with_internet_satellite_with_no_other_internet',
         '011E': 'with_internet_other_service_no_other_internet',
         '012E': 'internet_access_without_a_subscription',
-        '013E': 'no_internet_access',  
+        '013E': 'no_internet_access',
     })
+    
