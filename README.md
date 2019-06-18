@@ -26,6 +26,7 @@ Options:
 
 Commands:
   aiannh-homelands           Download American Indian, Alaska Native and...
+  cnectas                    Download combined New England city and town...
   congressionaldistricts     Download Congressional districts
   counties                   Download counties in all states
   csas                       Download combined statistical areas
