@@ -124,7 +124,7 @@ def cnectas(ctx):
 
 @cmd.command(help="Download American Indian, Alaska Native and Native Hawaiian homelands")
 @click.pass_context
-def aiannh_homelands(ctx):
+def aiannhhomelands(ctx):
     ctx.obj['runner'].download_aiannh_homelands()
 
 
