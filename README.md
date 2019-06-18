@@ -25,15 +25,22 @@ Options:
   --help           Show this message and exit.
 
 Commands:
+  aiannh-homelands           Download American Indian, Alaska Native and...
   congressionaldistricts     Download Congressional districts
   counties                   Download counties in all states
+  csas                       Download combined statistical areas
+  divisions                  Download divisions
   everything                 Download everything from everywhere
+  msas                       Download metropolitian statistical areas
   nationwide                 Download nationwide data
+  nectas                     Download New England city and town areas
   places                     Download Census-designated places
-  statelegislativedistricts  Download statehouse districts in provided state
-  states                     Download states
-  tracts                     Download Census tracts in provided state
-  usa                        Download all datasets that cover full USA
+  pumas                      Download public use microdata areas
+  statelegislativedistricts  Download statehouse districts
+  states                     Download regions
+  tracts                     Download Census tracts
+  urbanareas                 Download urban areas
+  ztcas                      Download ZIP Code tabulation areas
 ```
 
 Before you can use it you will need to add your CENSUS_API_KEY to your environment. Here's one quick way to do that:
@@ -70,13 +77,14 @@ Subclass our downloader and provided it with its required inputs.
 
 ```python
 import collections
-from .base import BaseDownloader
-from .registry import register_downloader
+from census_data_downloader.core.tables import BaseTableConfig
+from census_data_downloader.core.decorators import register
 
 
-@register_downloader
-class MedianHouseholdIncomeDownloader(BaseDownloader):
+@register
+class MedianHouseholdIncomeDownloader(BaseTableConfig):
     PROCESSED_TABLE_NAME = "medianhouseholdincome"  # Your humanized table name
+    UNIVERSE = "households"  # The universe value for this table
     RAW_TABLE_NAME = 'B19013'  # The id of the source table
     RAW_FIELD_CROSSWALK = collections.OrderedDict({
         # A crosswalk between the raw field name and our humanized field name.
@@ -84,12 +92,14 @@ class MedianHouseholdIncomeDownloader(BaseDownloader):
     })
 ```
 
-Now you can import and run it yourself.
+Add it to the imports in the [`__init__.py`](census_data_downloader/tables/__init__.py) file and it's good to go.
 
-```python
->>> from yourmodule import MedianHouseholdIncomeDownloader
->>> obj = MedianHouseholdIncomeDownloader("<YOUR CENSUS API KEY>", data_dir="./your-data-folder/")
->>> obj.download_everything()
+### Developing the CLI
+
+The command-line interface is implemented using Click and setuptools. To install it locally for development inside your virtual environment, run the following installation command, as [prescribed by the Click documentation](https://click.palletsprojects.com/en/7.x/setuptools/#setuptools-integration).
+
+```bash
+$ pip install --editable .
 ```
 
 That's it. If you make some good ones, please consider submitting them as pull requests so everyone can benefit.
