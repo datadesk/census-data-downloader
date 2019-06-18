@@ -1,0 +1,2 @@
+geoid,name,universe,internet_any_source,dialup_only,broadband_any_source,cellular_data,cellular_data_only,broadband_cable_fiber_or_dsl,broadband_only,satellite,satellite_only,other_only,internet_without_subscription,no_internet,us
+1,United States,118825921.0,93546463.0,732848.0,92813615.0,58620422.0,8915007.0,79558463.0,30809298.0,6426209.0,1562113.0,264731.0,4343333.0,20936125.0,1
