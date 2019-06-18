@@ -1,4 +1,4 @@
-#! /usr/bin/env python
+    #! /usr/bin/env python
 # -*- coding: utf-8 -*
 """
 Handlers to process table configurations for each of the Census' different geography types.
@@ -268,6 +268,17 @@ class PumasDownloader(BaseGeoTypeDownloader):
     """
     slug = "pumas"
     raw_name = "public use microdata area"
+
+    def create_geoid(self, row):
+        return row[self.raw_name]
+
+
+class NectasDownloader(BaseGeoTypeDownloader):
+    """
+    Download raw data at the New England city and town level.
+    """
+    slug = "nectas"
+    raw_name = "new england city and town area"
 
     def create_geoid(self, row):
         return row[self.raw_name]

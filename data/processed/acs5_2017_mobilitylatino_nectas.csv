@@ -1,0 +1,40 @@
+geoid,name,universe,same_house,moved_within_county,moved_from_different_county_in_same_state,moved_from_different_state,moved_from_abroad,new england city and town area
+71050,"Barre, VT Micropolitan NECTA",808.0,636.0,150.0,0.0,22.0,0.0,71050
+71350,"Bennington, VT Micropolitan NECTA",405.0,371.0,0.0,0.0,9.0,25.0,71350
+71500,"Berlin, NH Micropolitan NECTA",487.0,232.0,63.0,108.0,84.0,0.0,71500
+71650,"Boston-Cambridge-Nashua, MA-NH Metropolitan NECTA",513186.0,423214.0,50433.0,15859.0,12852.0,10828.0,71650
+71950,"Bridgeport-Stamford-Norwalk, CT Metropolitan NECTA",161780.0,137141.0,17768.0,1898.0,2901.0,2072.0,71950
+70450,"Athol, MA Micropolitan NECTA",800.0,428.0,198.0,0.0,66.0,108.0,70450
+70600,"Augusta, ME Micropolitan NECTA",1072.0,655.0,220.0,38.0,96.0,63.0,70600
+70750,"Bangor, ME Metropolitan NECTA",1485.0,1182.0,68.0,101.0,133.0,1.0,70750
+70900,"Barnstable Town, MA Metropolitan NECTA",6190.0,5153.0,483.0,152.0,84.0,318.0,70900
+72250,"Brunswick, ME Micropolitan NECTA",1057.0,820.0,42.0,146.0,49.0,0.0,72250
+72400,"Burlington-South Burlington, VT Metropolitan NECTA",4254.0,2985.0,537.0,309.0,346.0,77.0,72400
+72500,"Claremont, NH Micropolitan NECTA",327.0,138.0,119.0,5.0,65.0,0.0,72500
+72700,"Concord, NH Micropolitan NECTA",1349.0,1048.0,74.0,81.0,110.0,36.0,72700
+72850,"Danbury, CT Metropolitan NECTA",33033.0,27625.0,3280.0,557.0,993.0,578.0,72850
+73450,"Hartford-West Hartford-East Hartford, CT Metropolitan NECTA",171500.0,139728.0,21965.0,4438.0,3274.0,2095.0,73450
+73050,"Dover-Durham, NH-ME Metropolitan NECTA",3002.0,2073.0,427.0,196.0,203.0,103.0,73050
+73300,"Greenfield Town, MA Micropolitan NECTA",1700.0,1227.0,364.0,78.0,24.0,7.0,73300
+73750,"Keene, NH Micropolitan NECTA",1007.0,609.0,237.0,27.0,82.0,52.0,73750
+73900,"Laconia, NH Micropolitan NECTA",415.0,393.0,3.0,5.0,14.0,0.0,73900
+74950,"Manchester, NH Metropolitan NECTA",12443.0,9301.0,1889.0,241.0,608.0,404.0,74950
+75550,"New Bedford, MA Metropolitan NECTA",20298.0,16736.0,2515.0,452.0,227.0,368.0,75550
+75700,"New Haven, CT Metropolitan NECTA",87983.0,73266.0,10164.0,1206.0,1940.0,1407.0,75700
+74350,"Lebanon, NH-VT Micropolitan NECTA",1585.0,1092.0,31.0,12.0,377.0,73.0,74350
+74500,"Leominster-Gardner, MA Metropolitan NECTA",21010.0,16696.0,2912.0,595.0,344.0,463.0,74500
+74650,"Lewiston-Auburn, ME Metropolitan NECTA",1926.0,1078.0,507.0,112.0,199.0,30.0,74650
+78100,"Springfield, MA-CT Metropolitan NECTA",126429.0,100530.0,18740.0,2581.0,3171.0,1407.0,78100
+78400,"Torrington, CT Micropolitan NECTA",3986.0,3208.0,477.0,165.0,133.0,3.0,78400
+78500,"Vineyard Haven, MA Micropolitan NECTA",280.0,252.0,25.0,0.0,1.0,2.0,78500
+78700,"Waterbury, CT Metropolitan NECTA",46661.0,38393.0,4709.0,1160.0,1746.0,653.0,78700
+78850,"Waterville, ME Micropolitan NECTA",714.0,522.0,160.0,18.0,0.0,14.0,78850
+77200,"Providence-Warwick, RI-MA Metropolitan NECTA",164754.0,134640.0,21696.0,1833.0,4029.0,2556.0,77200
+77650,"Rutland, VT Micropolitan NECTA",570.0,441.0,19.0,11.0,88.0,11.0,77650
+77950,"Sanford, ME Micropolitan NECTA",276.0,212.0,0.0,0.0,64.0,0.0,77950
+79600,"Worcester, MA-CT Metropolitan NECTA",63360.0,50311.0,9804.0,1357.0,1001.0,887.0,79600
+76750,"Portland-South Portland, ME Metropolitan NECTA",6710.0,5168.0,906.0,172.0,449.0,15.0,76750
+76150,"North Adams, MA-VT Micropolitan NECTA",1079.0,665.0,217.0,34.0,124.0,39.0,76150
+76450,"Norwich-New London-Westerly, CT-RI Metropolitan NECTA",27212.0,21623.0,3098.0,1040.0,1365.0,86.0,76450
+76600,"Pittsfield, MA Metropolitan NECTA",3209.0,2642.0,424.0,30.0,81.0,32.0,76600
+76900,"Portsmouth, NH-ME Metropolitan NECTA",2479.0,1705.0,127.0,46.0,355.0,246.0,76900

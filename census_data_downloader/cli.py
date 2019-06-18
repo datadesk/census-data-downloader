@@ -110,6 +110,12 @@ def pumas(ctx):
     ctx.obj['runner'].download_pumas()
 
 
+@cmd.command(help="Download New England city and town areas")
+@click.pass_context
+def nectas(ctx):
+    ctx.obj['runner'].download_nectas()
+
+
 @cmd.command(help="Download American Indian, Alaska Native and Native Hawaiian homelands")
 @click.pass_context
 def aiannh_homelands(ctx):

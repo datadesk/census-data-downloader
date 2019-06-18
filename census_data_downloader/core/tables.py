@@ -40,6 +40,7 @@ class BaseTableConfig(object):
         "msas",
         "csas",
         "pumas",
+        "nectas",
         "aiannh_homelands",
         "zctas",
         "state_legislative_upper_districts",
@@ -209,6 +210,13 @@ class BaseTableConfig(object):
         Download data for Public Use Microdata Areas.
         """
         return geotypes.PumasDownloader
+
+    @decorators.downloader
+    def download_nectas(self):
+        """
+        Download data for New England cities and towns.
+        """
+        return geotypes.NectasDownloader
 
     @decorators.downloader
     def download_aiannh_homelands(self):
