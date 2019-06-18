@@ -1,0 +1,10 @@
+geoid,name,universe,income_past12months_below_poverty_level,income_past12months_at_or_below_poverty_level,division
+1,New England Division,14238683.0,1553973.0,12684710.0,1
+2,Middle Atlantic Division,40446688.0,5470260.0,34976428.0,2
+3,East North Central Division,45564099.0,6519603.0,39044496.0,3
+4,West North Central Division,20480437.0,2559891.0,17920546.0,4
+5,South Atlantic Division,61638171.0,9133752.0,52504419.0,5
+7,West South Central Division,37996691.0,6315883.0,31680808.0,7
+8,Mountain Division,23008525.0,3334197.0,19674328.0,8
+9,Pacific Division,51331542.0,7437134.0,43894408.0,9
+6,East South Central Division,18343727.0,3325652.0,15018075.0,6

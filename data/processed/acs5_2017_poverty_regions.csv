@@ -1,0 +1,5 @@
+geoid,name,universe,income_past12months_below_poverty_level,income_past12months_at_or_below_poverty_level,region
+1,Northeast Region,54685371.0,7024233.0,47661138.0,1
+2,Midwest Region,66044536.0,9079494.0,56965042.0,2
+3,South Region,117978589.0,18775287.0,99203302.0,3
+4,West Region,74340067.0,10771331.0,63568736.0,4
