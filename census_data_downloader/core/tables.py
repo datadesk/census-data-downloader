@@ -46,7 +46,8 @@ class BaseTableConfig(object):
         "zctas",
         "state_legislative_upper_districts",
         "state_legislative_lower_districts",
-        "tracts"
+        "tracts",
+        "unified_school_districts"
     )
 
     def __init__(
@@ -239,6 +240,13 @@ class BaseTableConfig(object):
         Download data for Zip Code Tabulation Areas
         """
         return geotypes.ZctasDownloader
+
+    @decorators.downloader
+    def download_unified_school_districts(self):
+        """
+        Download data for unified school districts.
+        """
+        return geotypes.UnifiedSchoolDistrictsDownloader
 
     def download_everything(self):
         """

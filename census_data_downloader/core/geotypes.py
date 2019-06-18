@@ -348,3 +348,14 @@ class TractsDownloader(BaseStateLevelGeoTypeDownloader):
 
     def create_geoid(self, row):
         return row['state'] + row['county'] + row[self.raw_name]
+
+
+class UnifiedSchoolDistrictsDownloader(BaseStateLevelGeoTypeDownloader):
+    """
+    Download raw data at the unified school district level.
+    """
+    slug = "unifiedschooldistricts"
+    raw_name = "school district (unified)"
+
+    def create_geoid(self, row):
+        return row['state'] + row[self.raw_name]

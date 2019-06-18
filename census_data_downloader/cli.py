@@ -136,15 +136,21 @@ def ztcas(ctx):
 
 @cmd.command(help="Download Census tracts")
 @click.pass_context
-def tracts(ctx, state):
+def tracts(ctx):
     ctx.obj['runner'].download_tracts()
 
 
 @cmd.command(help="Download statehouse districts")
 @click.pass_context
-def statelegislativedistricts(ctx, state):
+def statelegislativedistricts(ctx):
     ctx.obj['runner'].download_state_legislative_districts_upper()
     ctx.obj['runner'].download_state_legislative_districts_lower()
+
+
+@cmd.command(help="Download unified school districts")
+@click.pass_context
+def unifiedschooldistricts(ctx):
+    ctx.obj['runner'].download_unified_school_districts()
 
 
 @cmd.command(help="Download everything from everywhere")

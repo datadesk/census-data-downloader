@@ -25,7 +25,7 @@ Options:
   --help           Show this message and exit.
 
 Commands:
-  aiannhhomelands           Download American Indian, Alaska Native and...
+  aiannhhomelands            Download American Indian, Alaska Native and...
   cnectas                    Download combined New England city and town...
   congressionaldistricts     Download Congressional districts
   counties                   Download counties in all states
@@ -40,6 +40,7 @@ Commands:
   statelegislativedistricts  Download statehouse districts
   states                     Download regions
   tracts                     Download Census tracts
+  unifiedschooldistricts     Download unified school districts
   urbanareas                 Download urban areas
   ztcas                      Download ZIP Code tabulation areas
 ```
