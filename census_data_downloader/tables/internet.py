@@ -13,17 +13,29 @@ class InternetDownloader(BaseTableConfig):
     RAW_TABLE_NAME = 'B28002'
     RAW_FIELD_CROSSWALK = collections.OrderedDict({
         '001E': 'universe',
-        '002E': 'total_with_internet_subscription',
-        '003E': 'dialup_internet_with_no_other_internet',
-        '004E': 'broadband_internet',
+        '002E': 'internet_any_source',
+        '003E': 'dialup_only',
+        '004E': 'broadband_any_source',
         '005E': 'cellular_data',
-        '006E': 'cellular_data_with_no_other_internet',
-        '007E': 'total_with_internet_subscription_broadband',
-        '008E': 'with_internet_subscription_broadband_with_no_other_internet',
-        '009E': 'with_internet_satellite',
-        '010E': 'with_internet_satellite_with_no_other_internet',
-        '011E': 'with_internet_other_service_no_other_internet',
-        '012E': 'internet_access_without_a_subscription',
-        '013E': 'no_internet_access',
+        '006E': 'cellular_data_only',
+        '007E': 'broadband_cable_fiber_or_dsl',
+        '008E': 'broadband_only',
+        '009E': 'satellite',
+        '010E': 'satellite_only',
+        '011E': 'other_only',
+        '012E': 'internet_without_subscription',
+        '013E': 'no_internet'
     })
+    
+    def _process_raw_data(self, *args, **kwargs):
+        df = super()._process_raw_data(*args, **kwargs)
+
+        # This field, which combines people with no internet and those only only receive via
+        # a free program like municipal wifi together into a combined group.
+        # The Census Bureau considers this to be the true number of households without Internet access.
+        df['total_no_internet_and_no_subscription'] = df['internet_without_subscription'] + df['no_internet']
+        
+        # Pass it back
+        return df
+
     
