@@ -26,14 +26,14 @@ class InternetDownloader(BaseTableConfig):
         '012E': 'internet_without_subscription',
         '013E': 'no_internet'
     })
-    
-    def _process_raw_data(self, *args, **kwargs):
-        df = super()._process_raw_data(*args, **kwargs)
+
+    def process(self, *args, **kwargs):
+        df = super().process(*args, **kwargs)
 
         # This field, which combines people with no internet and those only only receive via
         # a free program like municipal wifi together into a combined group.
         # The Census Bureau considers this to be the true number of households without Internet access.
         df['total_no_internet_and_no_subscription'] = df['internet_without_subscription'] + df['no_internet']
-        
+
         # Pass it back
         return df

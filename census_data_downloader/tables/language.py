@@ -28,11 +28,11 @@ class HouseholdLanguageDownloader(BaseTableConfig):
         "014E": "other_not_limited_english",
     })
 
-    def _process_raw_data(self, *args, **kwargs):
+    def process(self, *args, **kwargs):
         """
         Combine language counts to get total english/non-english speakers
         """
-        df = super()._process_raw_data(*args, **kwargs)
+        df = super().process(*args, **kwargs)
 
         languages = [
             'spanish',
@@ -100,11 +100,11 @@ class LanguageShortFormDownloader(BaseTableConfig):
         '038E': 'other_and_english_less_than_very_well'
     })
 
-    def _process_raw_data(self, *args, **kwargs):
+    def process(self, *args, **kwargs):
         """
         Combine language counts to get total english/non-english speakers
         """
-        df = super()._process_raw_data(*args, **kwargs)
+        df = super().process(*args, **kwargs)
 
         languages = [
             'spanish',
@@ -271,11 +271,11 @@ class LanguageLongFormDownloader(BaseTableConfig):
         '128E': 'other_unspecified_and_english_less_than_very_well'
     })
 
-    def _process_raw_data(self, *args, **kwargs):
+    def process(self, *args, **kwargs):
         """
         Combine language counts to get total english/non-english speakers
         """
-        df = super()._process_raw_data(*args, **kwargs)
+        df = super().process(*args, **kwargs)
 
         languages = [
             'spanish',

@@ -22,8 +22,8 @@ class RaceDownloader(BaseTableConfig):
         '012E': "latino_alone"
     })
 
-    def _process_raw_data(self, *args, **kwargs):
-        df = super()._process_raw_data(*args, **kwargs)
+    def process(self, *args, **kwargs):
+        df = super().process(*args, **kwargs)
         # Our custom race groups
         df['asian_all'] = df['asian_alone'] + df['native_hawaiian_and_pacific_islander']
         df['other_all'] = df[[
