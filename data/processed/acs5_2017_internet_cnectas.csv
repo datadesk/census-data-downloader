@@ -1,0 +1,8 @@
+geoid,name,universe,internet_any_source,dialup_only,broadband_any_source,cellular_data,cellular_data_only,broadband_cable_fiber_or_dsl,broadband_only,satellite,satellite_only,other_only,internet_without_subscription,no_internet,combined new england city and town area
+710,"Augusta-Waterville, ME Combined NECTA",52335.0,40082.0,403.0,39679.0,20400.0,2393.0,36080.0,18126.0,1563.0,481.0,146.0,1695.0,10558.0,710
+715,"Boston-Worcester-Providence, MA-RI-NH-CT-ME Combined NECTA",2996137.0,2515146.0,12404.0,2502742.0,1584898.0,144148.0,2319911.0,871277.0,71150.0,10284.0,4518.0,78707.0,402284.0,715
+720,"Bridgeport-New Haven-Stamford, CT Combined NECTA",715828.0,594201.0,3125.0,591076.0,356626.0,29511.0,550257.0,219692.0,22074.0,3579.0,1043.0,21417.0,100210.0,720
+725,"Claremont-Lebanon, NH-VT Combined NECTA",40137.0,33021.0,369.0,32652.0,15532.0,2196.0,28683.0,15611.0,2003.0,933.0,135.0,1804.0,5312.0,725
+770,"Pittsfield-North Adams, MA-VT Combined NECTA",46780.0,36847.0,483.0,36364.0,21953.0,2760.0,32361.0,13307.0,1742.0,394.0,74.0,1667.0,8266.0,770
+775,"Portland-Lewiston-South Portland, ME Combined NECTA",231233.0,190184.0,1800.0,188384.0,112750.0,11394.0,172738.0,71583.0,6168.0,1115.0,314.0,8456.0,32593.0,775
+790,"Springfield-Hartford-West Hartford, MA-CT Combined NECTA",757759.0,612171.0,4305.0,607866.0,352909.0,38696.0,556128.0,240243.0,20639.0,3913.0,1326.0,22526.0,123062.0,790

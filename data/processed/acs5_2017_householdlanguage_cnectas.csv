@@ -1,0 +1,8 @@
+geoid,name,universe,only_english,total_spanish,spanish_limited_english,spanish_not_limited_english,total_other_indo_european,other_indo_european_limited_english,other_indo_european_not_limited_english,total_asian_and_pacific_islander,asian_and_pacific_islander_limited_english,asian_and_pacific_islander_not_limited_english,total_other,other_limited_english,other_not_limited_english,combined new england city and town area
+710,"Augusta-Waterville, ME Combined NECTA",52335.0,48704.0,535.0,36.0,499.0,2541.0,196.0,2345.0,458.0,63.0,395.0,97.0,34.0,63.0,710
+715,"Boston-Worcester-Providence, MA-RI-NH-CT-ME Combined NECTA",2996137.0,2282029.0,248449.0,66375.0,182074.0,307824.0,56217.0,251607.0,116531.0,33540.0,82991.0,41304.0,8065.0,33239.0,715
+720,"Bridgeport-New Haven-Stamford, CT Combined NECTA",715828.0,526522.0,96391.0,24641.0,71750.0,67048.0,11541.0,55507.0,18356.0,4073.0,14283.0,7511.0,1094.0,6417.0,720
+725,"Claremont-Lebanon, NH-VT Combined NECTA",40137.0,36667.0,732.0,60.0,672.0,1769.0,55.0,1714.0,718.0,93.0,625.0,251.0,148.0,103.0,725
+770,"Pittsfield-North Adams, MA-VT Combined NECTA",46780.0,42985.0,1484.0,263.0,1221.0,1808.0,399.0,1409.0,337.0,64.0,273.0,166.0,30.0,136.0,770
+775,"Portland-Lewiston-South Portland, ME Combined NECTA",231233.0,205574.0,3623.0,279.0,3344.0,17222.0,1851.0,15371.0,2668.0,734.0,1934.0,2146.0,660.0,1486.0,775
+790,"Springfield-Hartford-West Hartford, MA-CT Combined NECTA",757759.0,577825.0,94332.0,22205.0,72127.0,61953.0,11265.0,50688.0,16934.0,4297.0,12637.0,6715.0,819.0,5896.0,790

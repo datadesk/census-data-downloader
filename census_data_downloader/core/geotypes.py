@@ -284,6 +284,17 @@ class NectasDownloader(BaseGeoTypeDownloader):
         return row[self.raw_name]
 
 
+class CnectasDownloader(BaseGeoTypeDownloader):
+    """
+    Download raw data at the combined New England city and town level.
+    """
+    slug = "cnectas"
+    raw_name = "combined new england city and town area"
+
+    def create_geoid(self, row):
+        return row[self.raw_name]
+
+
 class AiannhHomelandsDownloader(BaseGeoTypeDownloader):
     """
     Download raw data at the Native American homeland level.

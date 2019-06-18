@@ -1,0 +1,8 @@
+geoid,name,universe,same_house,moved_within_county,moved_from_different_county_in_same_state,moved_from_different_state,moved_from_abroad,combined new england city and town area
+710,"Augusta-Waterville, ME Combined NECTA",122785.0,103636.0,11266.0,5114.0,2356.0,413.0,710
+715,"Boston-Worcester-Providence, MA-RI-NH-CT-ME Combined NECTA",7755808.0,6747322.0,548129.0,196923.0,188487.0,74947.0,715
+720,"Bridgeport-New Haven-Stamford, CT Combined NECTA",1918631.0,1696402.0,136659.0,26243.0,43595.0,15732.0,720
+725,"Claremont-Lebanon, NH-VT Combined NECTA",97551.0,82933.0,5825.0,1920.0,5842.0,1031.0,725
+770,"Pittsfield-North Adams, MA-VT Combined NECTA",107476.0,93932.0,9071.0,1491.0,2518.0,464.0,770
+775,"Portland-Lewiston-South Portland, ME Combined NECTA",552445.0,472228.0,45861.0,16260.0,15822.0,2274.0,775
+790,"Springfield-Hartford-West Hartford, MA-CT Combined NECTA",1948660.0,1690288.0,151287.0,56392.0,38085.0,12608.0,790

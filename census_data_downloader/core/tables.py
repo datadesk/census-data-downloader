@@ -41,6 +41,7 @@ class BaseTableConfig(object):
         "csas",
         "pumas",
         "nectas",
+        "cnectas",
         "aiannh_homelands",
         "zctas",
         "state_legislative_upper_districts",
@@ -217,6 +218,13 @@ class BaseTableConfig(object):
         Download data for New England cities and towns.
         """
         return geotypes.NectasDownloader
+
+    @decorators.downloader
+    def download_cnectas(self):
+        """
+        Download data for combined New England cities and towns.
+        """
+        return geotypes.CnectasDownloader
 
     @decorators.downloader
     def download_aiannh_homelands(self):
