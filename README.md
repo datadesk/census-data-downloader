@@ -2,6 +2,15 @@
 
 Download Census data and reformat it for humans.
 
+## What's available
+
+All of the data files processed by this repository are published in the [`data/processed/`](./data/processed/) folder. They can be called in to applications via their raw URLs, like [raw.githubusercontent.com/datadesk/census-data-downloader/master/data/processed/acs5_2017_population_counties.csv](https://raw.githubusercontent.com/datadesk/census-data-downloader/master/data/processed/acs5_2017_population_counties.csv).
+
+
+## The command-line interface
+
+The library can be installed as a command-line interface that lets you download files on demand.
+
 ### Installation
 
 ```bash
@@ -10,7 +19,7 @@ $ pipenv install census-data-downloader
 
 ### Usage
 
-There's now a command-line tool named `censusdatadownloader` ready for you.
+There's now a tool named `censusdatadownloader` ready for you.
 
 ```base
 Usage: censusdatadownloader [OPTIONS] TABLE COMMAND [ARGS]...
@@ -73,6 +82,18 @@ $ censusdatadownloader --year 2010 medianage states
 
 That's it. Mix and match tables and subcommands to get whatever you need.
 
+### Usage examples
+
+A gallery of graphics powered by our data is available on [Observable](https://observablehq.com/collection/@datadesk/u-s-census-data).
+
+[![Black and Latino U.S. population shares](./img/race-map.png)](https://observablehq.com/collection/@datadesk/u-s-census-data)
+
+The Los Angeles Times used this library for [an analysis of Census undercounts](https://www.latimes.com/projects/la-na-census-native-americans-navajo-nation/) on Native American reservations. The code that powers it is available as an [open-source computational notebook](https://github.com/datadesk/native-american-census-analysis).
+
+[![The 2020 census is coming. Will Native Americans be counted?](./img/latimes-native-american-undercount.png)](https://www.latimes.com/projects/la-na-census-native-americans-navajo-nation/)
+
+## Contributing to the library
+
 ### Adding support for a new table
 
 Subclass our downloader and provided it with its required inputs.
@@ -105,27 +126,3 @@ $ pip install --editable .
 ```
 
 That's it. If you make some good ones, please consider submitting them as pull requests so everyone can benefit.
-
-### Working with the data
-
-All of the data files processed by this repository are published in the [processed data](./data/processed/) folder. They can be called in to applications via their raw URLs. Here are some examples created using [Observable](https://observablehq.com/collection/@datadesk/u-s-census-data).
-
-Here's [county-level race data](https://github.com/datadesk/census-data-downloader/blob/master/data/processed/acs5_2017_race_counties.csv) in [a bivariate map](https://observablehq.com/@datadesk/black-and-latino-u-s-population-shares) of black and Latino populations.
-
-[![Black and Latino U.S. population shares](./img/race-map.png)](https://observablehq.com/@datadesk/black-and-latino-u-s-population-shares)
-
-Now [a stacked bar](https://observablehq.com/@datadesk/racial-makeup-of-u-s-states-and-territories) using the [state-level version](https://github.com/datadesk/census-data-downloader/blob/master/data/processed/acs5_2017_race_states.csv) of the race dataset.
-
-[![Racial makeup  of U.S. states and territories](img/states-race-stacked-bar.png)](https://observablehq.com/@datadesk/racial-makeup-of-u-s-states-and-territories)
-
-Median age by state can take a totally different form.
-
-[![Median age by gender](img/median-age-dots.png)](https://observablehq.com/@datadesk/median-age-by-sex-in-u-s-states-and-territories)
-
-Datasets can be easily combined using the Census Bureau's `geoid` field. Here's [education and income by county](https://observablehq.com/@datadesk/education-and-income-in-u-s-counties) in a scatterplot with hexagonal bins.
-
-[![Education and income in U.S. counties](img/hex-scatter.png)](https://observablehq.com/@datadesk/education-and-income-in-u-s-counties)
-
-Lace a few more county-level datasets in and you can make [parallel coordinates charts](https://observablehq.com/@datadesk/the-demographics-and-destiny-of-all-3-220-u-s-counties).
-
-[![The demographics and destiny of all 3,220 U.S. counties](img/parallel-coordinates.png)](https://observablehq.com/@datadesk/the-demographics-and-destiny-of-all-3-220-u-s-counties)
