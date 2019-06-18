@@ -153,6 +153,18 @@ def unifiedschooldistricts(ctx):
     ctx.obj['runner'].download_unified_school_districts()
 
 
+@cmd.command(help="Download elementary school districts")
+@click.pass_context
+def elementaryschooldistricts(ctx):
+    ctx.obj['runner'].download_elementary_school_districts()
+
+
+@cmd.command(help="Download secondary school districts")
+@click.pass_context
+def secondaryschooldistricts(ctx):
+    ctx.obj['runner'].download_secondary_school_districts()
+
+
 @cmd.command(help="Download everything from everywhere")
 @click.pass_context
 def everything(ctx):

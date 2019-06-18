@@ -47,7 +47,9 @@ class BaseTableConfig(object):
         "state_legislative_upper_districts",
         "state_legislative_lower_districts",
         "tracts",
-        "unified_school_districts"
+        "unified_school_districts",
+        "elementary_school_districts",
+        "secondary_school_districts"
     )
 
     def __init__(
@@ -247,6 +249,20 @@ class BaseTableConfig(object):
         Download data for unified school districts.
         """
         return geotypes.UnifiedSchoolDistrictsDownloader
+
+    @decorators.downloader
+    def download_elementary_school_districts(self):
+        """
+        Download data for elementary school districts.
+        """
+        return geotypes.ElementarySchoolDistrictsDownloader
+
+    @decorators.downloader
+    def download_secondary_school_districts(self):
+        """
+        Download data for secondary school districts.
+        """
+        return geotypes.SecondarySchoolDistrictsDownloader
 
     def download_everything(self):
         """
