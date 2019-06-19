@@ -18,7 +18,7 @@ class BaseTableConfig(object):
     THIS_DIR = pathlib.Path(__file__).parent
     PARENT_DIR = THIS_DIR.parent
     # All available years
-    YEAR_LIST = (
+    YEAR_LIST = [
         2017,
         2016,
         2015,
@@ -28,7 +28,7 @@ class BaseTableConfig(object):
         2011,
         2010,
         2009
-    )
+    ]
     # All available geographies
     GEOTYPE_LIST = (
         "nationwide",
@@ -87,7 +87,7 @@ class BaseTableConfig(object):
             self.years_to_download = list(map(int, years))
         # If they provided nothing, default to the latest year of data
         elif years is None:
-            self.years_to_download = (max(self.YEAR_LIST),)
+            self.years_to_download = [max(self.YEAR_LIST),]
 
         # Validate the years
         for year in self.years_to_download:
