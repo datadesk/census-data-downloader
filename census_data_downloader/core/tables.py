@@ -1,5 +1,8 @@
 #! /usr/bin/env python
 # -*- coding: utf-8 -*
+"""
+A base class that governs how to download and process tables from a Census API table.
+"""
 import os
 import logging
 import pathlib
@@ -10,7 +13,7 @@ logger = logging.getLogger(__name__)
 
 class BaseTableConfig(object):
     """
-    Configures how to downloads and process an ACS table from the Census API.
+    Configures how to download and process tables from the Census API.
     """
     THIS_DIR = pathlib.Path(__file__).parent
     PARENT_DIR = THIS_DIR.parent
@@ -34,6 +37,8 @@ class BaseTableConfig(object):
         "divisions",
         "states",
         "congressional_districts",
+        "state_legislative_upper_districts",
+        "state_legislative_lower_districts",
         "counties",
         "places",
         "urban_areas",
@@ -43,10 +48,8 @@ class BaseTableConfig(object):
         "nectas",
         "cnectas",
         "aiannh_homelands",
-        "zctas",
-        "state_legislative_upper_districts",
-        "state_legislative_lower_districts",
         "tracts",
+        "zctas",
         "unified_school_districts",
         "elementary_school_districts",
         "secondary_school_districts"
@@ -117,6 +120,10 @@ class BaseTableConfig(object):
         """
         return f"https://censusreporter.org/tables/{self.RAW_TABLE_NAME}/"
 
+    #
+    # Geotype downloaders
+    #
+
     @decorators.downloader
     def download_nationwide(self):
         """
@@ -153,27 +160,6 @@ class BaseTableConfig(object):
         return geotypes.CongressionalDistrictsDownloader
 
     @decorators.downloader
-    def download_counties(self):
-        """
-        Download data for all counties.
-        """
-        return geotypes.CountiesDownloader
-
-    @decorators.downloader
-    def download_places(self):
-        """
-        Download data for all Census designated places.
-        """
-        return geotypes.PlacesDownloader
-
-    @decorators.downloader
-    def download_tracts(self):
-        """
-        Download data for all Census tracts in the provided state.
-        """
-        return geotypes.TractsDownloader
-
-    @decorators.downloader
     def download_state_legislative_upper_districts(self):
         """
         Download data for all Census upper legislative districts in the provided state.
@@ -186,6 +172,20 @@ class BaseTableConfig(object):
         Download data for all Census lower legislative districts in the provided state.
         """
         return geotypes.StateLegislativeLowerDistrictsDownloader
+
+    @decorators.downloader
+    def download_counties(self):
+        """
+        Download data for all counties.
+        """
+        return geotypes.CountiesDownloader
+
+    @decorators.downloader
+    def download_places(self):
+        """
+        Download data for all Census designated places.
+        """
+        return geotypes.PlacesDownloader
 
     @decorators.downloader
     def download_urban_areas(self):
@@ -235,6 +235,13 @@ class BaseTableConfig(object):
         Download data for American Indian home lands.
         """
         return geotypes.AiannhHomelandsDownloader
+
+    @decorators.downloader
+    def download_tracts(self):
+        """
+        Download data for all Census tracts in the provided state.
+        """
+        return geotypes.TractsDownloader
 
     @decorators.downloader
     def download_zctas(self):

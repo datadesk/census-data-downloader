@@ -1,5 +1,8 @@
 #! /usr/bin/env python
 # -*- coding: utf-8 -*
+"""
+Decorators to help manage our custom classes.
+"""
 TABLE_LIST = []
 
 
