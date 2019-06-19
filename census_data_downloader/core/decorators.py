@@ -18,8 +18,8 @@ def downloader(func):
     def inner(*args, **kwargs):
         # Grab the TableConfig
         table_config = args[0]
-        # Grab the geotype downloader class
-        downloader_klass = func(config)
+        # Grab the geotype downloader class by running the metaprogramming function
+        downloader_klass = func(table_config)
         # For each year authorized on the config
         for year in table_config.years_to_download:
             # Create the geotype downloader instance

@@ -11,6 +11,11 @@ from census import Census
 logger = logging.getLogger(__name__)
 
 
+#
+# Base downloader classes
+#
+
+
 class BaseGeoTypeDownloader(object):
     """
     Base class for downloading raw data from the Census API.
@@ -163,6 +168,10 @@ class BaseStateLevelGeoTypeDownloader(BaseGeoTypeDownloader):
 
     def create_geoid(self, row):
         return row['state'] + row[self.raw_geotype]
+
+#
+# Geotype downloaders
+#
 
 
 class NationwideDownloader(BaseGeoTypeDownloader):
