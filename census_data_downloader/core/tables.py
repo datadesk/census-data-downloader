@@ -17,6 +17,7 @@ class BaseTableConfig(object):
     """
     THIS_DIR = pathlib.Path(__file__).parent
     PARENT_DIR = THIS_DIR.parent
+    # All available years
     YEAR_LIST = (
         2017,
         2016,
@@ -28,10 +29,8 @@ class BaseTableConfig(object):
         2010,
         2009
     )
-
     # All available geographies
-    # (Subclasses can override this)
-    GEO_LIST = (
+    GEOTYPE_LIST = (
         "nationwide",
         "regions",
         "divisions",
@@ -275,7 +274,7 @@ class BaseTableConfig(object):
         """
         Download 'em all.
         """
-        for geo in self.GEO_LIST:
+        for geo in self.GEOTYPE_LIST:
             # Get the downloader function
             dl = getattr(self, f"download_{geo}", None)
             # Validate it

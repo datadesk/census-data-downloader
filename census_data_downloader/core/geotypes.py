@@ -31,9 +31,9 @@ class BaseGeoTypeDownloader(object):
         self.api = getattr(Census(self.config.CENSUS_API_KEY, year=year), self.config.source)
 
         # Validate the geotype
-        valid_geotype_slugs = [gt.replace("_", "") for gt in self.config.GEO_LIST]
+        valid_geotype_slugs = [gt.replace("_", "") for gt in self.config.GEOTYPE_LIST]
         if self.slug not in valid_geotype_slugs:
-            raise NotImplementedError(f"Data only available for {', '.join(self.config.GEO_LIST)}")
+            raise NotImplementedError(f"Data only available for {', '.join(self.config.GEOTYPE_LIST)}")
 
         # Prepare raw field list
         self.api_fields = self.get_api_fields()
