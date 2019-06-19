@@ -13,13 +13,19 @@ def register(cls):
 
 def downloader(func):
     """
-    A decorator to download data for a downloader class.
+    A decorator to download data inside a table configuration class.
     """
     def inner(*args, **kwargs):
-        config = args[0]
-        klass = func(config)
-        for year in config.years_to_download:
-            dl = klass(config, year)
-            dl.download()
-            dl.process()
+        # Grab the TableConfig
+        table_config = args[0]
+        # Grab the geotype downloader class
+        downloader_klass = func(config)
+        # For each year authorized on the config
+        for year in table_config.years_to_download:
+            # Create the geotype downloader instance
+            downloader = downloader_klass(table_config, year)
+            # Download the raw data
+            downloader.download()
+            # Process the data
+            downloader.process()
     return inner
