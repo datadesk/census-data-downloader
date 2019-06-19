@@ -56,22 +56,35 @@ def nationwide(ctx):
     ctx.obj['runner'].download_nationwide()
 
 
-@cmd.command(help="Download regions")
-@click.pass_context
-def states(ctx):
-    ctx.obj['runner'].download_regions()
-
-
 @cmd.command(help="Download divisions")
 @click.pass_context
 def divisions(ctx):
     ctx.obj['runner'].download_divisions()
 
 
+@cmd.command(help="Download regions")
+@click.pass_context
+def regions(ctx):
+    ctx.obj['runner'].download_regions()
+
+
+@cmd.command(help="Download states")
+@click.pass_context
+def states(ctx):
+    ctx.obj['runner'].download_states()
+
+
 @cmd.command(help="Download Congressional districts")
 @click.pass_context
 def congressionaldistricts(ctx):
     ctx.obj['runner'].download_congressional_districts()
+
+
+@cmd.command(help="Download statehouse districts")
+@click.pass_context
+def statelegislativedistricts(ctx):
+    ctx.obj['runner'].download_state_legislative_districts_upper()
+    ctx.obj['runner'].download_state_legislative_districts_lower()
 
 
 @cmd.command(help="Download counties in all states")
@@ -128,23 +141,16 @@ def aiannhhomelands(ctx):
     ctx.obj['runner'].download_aiannh_homelands()
 
 
-@cmd.command(help="Download ZIP Code tabulation areas")
-@click.pass_context
-def ztcas(ctx):
-    ctx.obj['runner'].download_zctas()
-
-
 @cmd.command(help="Download Census tracts")
 @click.pass_context
 def tracts(ctx):
     ctx.obj['runner'].download_tracts()
 
 
-@cmd.command(help="Download statehouse districts")
+@cmd.command(help="Download ZIP Code tabulation areas")
 @click.pass_context
-def statelegislativedistricts(ctx):
-    ctx.obj['runner'].download_state_legislative_districts_upper()
-    ctx.obj['runner'].download_state_legislative_districts_lower()
+def ztcas(ctx):
+    ctx.obj['runner'].download_zctas()
 
 
 @cmd.command(help="Download unified school districts")

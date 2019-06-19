@@ -40,14 +40,17 @@ Commands:
   counties                   Download counties in all states
   csas                       Download combined statistical areas
   divisions                  Download divisions
+  elementaryschooldistricts  Download elementary school districts
   everything                 Download everything from everywhere
   msas                       Download metropolitian statistical areas
   nationwide                 Download nationwide data
   nectas                     Download New England city and town areas
   places                     Download Census-designated places
   pumas                      Download public use microdata areas
+  regions                    Download regions
+  secondaryschooldistricts   Download secondary school districts
   statelegislativedistricts  Download statehouse districts
-  states                     Download regions
+  states                     Download states
   tracts                     Download Census tracts
   unifiedschooldistricts     Download unified school districts
   urbanareas                 Download urban areas
