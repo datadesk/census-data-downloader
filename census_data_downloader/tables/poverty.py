@@ -16,5 +16,5 @@ class PovertyDownloader(BaseTableConfig):
     RAW_FIELD_CROSSWALK = collections.OrderedDict({
         '001E': 'universe',
         '002E': 'income_past12months_below_poverty_level',
-        '031E': 'income_past12months_at_or_below_poverty_level'
+        '031E': 'income_past12months_at_or_above_poverty_level'
     })
