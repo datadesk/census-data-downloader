@@ -3,7 +3,7 @@ from setuptools import setup
 
 setup(
     name='census-data-downloader',
-    version='0.0.9',
+    version='0.0.10',
     description="Download Census data and reformat it for humans",
     author='Los Angeles Times Data Desk',
     author_email='datadesk@latimes.com',
