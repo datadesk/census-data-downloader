@@ -4,7 +4,7 @@ from setuptools import setup
 setup(
     name='census-data-downloader',
     version='0.0.10',
-    description="Download Census data and reformat it for humans",
+    description="Download U.S. census data and reformat it for humans",
     author='Los Angeles Times Data Desk',
     author_email='datadesk@latimes.com',
     url='http://www.github.com/datadesk/census-data-downloader',
