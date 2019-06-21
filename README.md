@@ -1,11 +1,10 @@
 # census-data-downloader
 
-Download Census data and reformat it for humans.
+Download U.S. census data and reformat it for humans.
 
 ## What's available
 
 All of the data files processed by this repository are published in the [`data/processed/`](./data/processed/) folder. They can be called in to applications via their raw URLs, like [raw.githubusercontent.com/datadesk/census-data-downloader/master/data/processed/acs5_2017_population_counties.csv](https://raw.githubusercontent.com/datadesk/census-data-downloader/master/data/processed/acs5_2017_population_counties.csv).
-
 
 ## The command-line interface
 
