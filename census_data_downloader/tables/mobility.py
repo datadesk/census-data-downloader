@@ -44,7 +44,6 @@ class MobilityBySexDownloader(MobilityDownloader):
         "018E": "female_moved_from_abroad"
     })
 
-
 @register
 class MobilityWhiteDownloader(BaseTableConfig):
     PROCESSED_TABLE_NAME = "mobilitywhite"
@@ -58,7 +57,6 @@ class MobilityWhiteDownloader(BaseTableConfig):
         "005E": "moved_from_different_state",
         "006E": "moved_from_abroad"
     })
-
 
 @register
 class MobilityBlackDownloader(MobilityWhiteDownloader):

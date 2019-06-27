@@ -42,12 +42,12 @@ from .mobility import (
 from .population import PopulationDownloader
 from .poverty import (
     PovertyDownloader,
-    PovertyGenderDownloader,
+    PovertyBySexDownloader,
     PovertyAgeDownloader,
+    PovertyLatinoDownloader,
     PovertyWhiteDownloader,
     PovertyBlackDownloader,
-    PovertyAsianDownloader,
-    PovertyLatinoDownloader
+    PovertyAsianDownloader
 )
 from .race import (
     RaceDownloader,
@@ -96,6 +96,12 @@ __all__ = [
     MobilityLatinoDownloader,
     PopulationDownloader,
     PovertyDownloader,
+    PovertyBySexDownloader,
+    PovertyAgeDownloader,
+    PovertyLatinoDownloader,
+    PovertyWhiteDownloader,
+    PovertyBlackDownloader,
+    PovertyAsianDownloader,
     RaceDownloader,
     AmericanIndianAlaskaNativeAloneOrInComboDownloader,
     TenureDownloader,

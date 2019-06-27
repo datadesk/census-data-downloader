@@ -20,9 +20,9 @@ class PovertyDownloader(BaseTableConfig):
     })
 
 @register
-class PovertyGenderDownloader(BaseTableConfig):
+class PovertyBySexDownloader(BaseTableConfig):
     """
-    A simplified version of the poverty table that only returns totals by gender.
+    A simplified version of the poverty table that only returns totals by sex.
     """
     PROCESSED_TABLE_NAME = "povertystatusbygender"
     UNIVERSE = "population for whom poverty status is determined"
@@ -254,6 +254,12 @@ class PovertyAgeDownloader(BaseTableConfig):
         return df
 
 @register
+class PovertyLatinoDownloader(PovertyAgeDownloader):
+    PROCESSED_TABLE_NAME = "povertylatino"
+    RAW_TABLE_NAME = 'B17001I'
+    UNIVERSE = "Latino population for whom poverty status is determined"
+
+@register
 class PovertyWhiteDownloader(PovertyAgeDownloader):
     PROCESSED_TABLE_NAME = "povertywhite"
     RAW_TABLE_NAME = 'B17001A'
@@ -270,9 +276,3 @@ class PovertyAsianDownloader(PovertyAgeDownloader):
     PROCESSED_TABLE_NAME = "povertyasian"
     RAW_TABLE_NAME = 'B17001D'
     UNIVERSE = "Asian population for whom poverty status is determined"
-
-@register
-class PovertyLatinoDownloader(PovertyAgeDownloader):
-    PROCESSED_TABLE_NAME = "povertylatino"
-    RAW_TABLE_NAME = 'B17001I'
-    UNIVERSE = "Latino population for whom poverty status is determined"
