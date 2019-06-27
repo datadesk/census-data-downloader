@@ -42,7 +42,8 @@ from .mobility import (
 from .population import PopulationDownloader
 from .poverty import (
     PovertyDownloader,
-    PovertyGenderDownloader
+    PovertyGenderDownloader,
+    PovertyAgeDownloader
 )
 from .race import (
     RaceDownloader,
