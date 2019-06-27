@@ -11,7 +11,7 @@ class PovertyDownloader(BaseTableConfig):
     A simplified version of the poverty table that only returns grand totals.
     """
     PROCESSED_TABLE_NAME = "poverty"
-    UNIVERSE = "population"
+    UNIVERSE = "population for whom poverty status is determined"
     RAW_TABLE_NAME = 'B17001'
     RAW_FIELD_CROSSWALK = collections.OrderedDict({
         '001E': 'universe',

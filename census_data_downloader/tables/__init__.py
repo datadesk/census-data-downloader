@@ -1,10 +1,12 @@
 from census_data_downloader.core.decorators import TABLE_LIST
 from .age import AgeDownloader
-from .citizenstatus import CitizenDownloader
 from .classofworker import ClassOfWorkerDownloader
 from .education import EducationDownloader
 from .employmentstatus import EmploymentStatusDownloader
-from .foreignborn import ForeignBornDownloader
+from .foreignborn import (
+    ForeignBornDownloader,
+    CitizenDownloader
+)
 from .householdincome import (
     HouseholdIncomeDownloader,
     HouseholdIncomeLatinoDownloader,

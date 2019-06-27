@@ -37,7 +37,7 @@ class RaceDownloader(BaseTableConfig):
 @register
 class AmericanIndianAlaskaNativeAloneOrInComboDownloader(BaseTableConfig):
     PROCESSED_TABLE_NAME = 'aianaloneorincombo'
-    UNIVERSE = "total population"
+    UNIVERSE = "people who are american indian or alaska native alone or in combination with one or more races"
     RAW_TABLE_NAME = 'B02010'
     RAW_FIELD_CROSSWALK = collections.OrderedDict({
         "001E": "universe"
