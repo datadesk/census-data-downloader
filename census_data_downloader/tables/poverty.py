@@ -249,5 +249,30 @@ class PovertyAgeDownloader(BaseTableConfig):
             df[f'total_{groupset}'] = df[[f'total_{f}' for f in group_list]].sum(axis=1)
             df[f'male_{groupset}'] = df[[f'male_{f}' for f in group_list]].sum(axis=1)
             df[f'female_{groupset}'] = df[[f'female_{f}' for f in group_list]].sum(axis=1)
+        
         # Pass it back
         return df
+
+@register
+class PovertyWhiteDownloader(PovertyAgeDownloader):
+    PROCESSED_TABLE_NAME = "povertywhite"
+    RAW_TABLE_NAME = 'B17001A'
+    UNIVERSE = "white population for whom poverty status is determined"
+
+@register
+class PovertyBlackDownloader(PovertyAgeDownloader):
+    PROCESSED_TABLE_NAME = "povertyblack"
+    RAW_TABLE_NAME = 'B17001B'
+    UNIVERSE = "Black population for whom poverty status is determined"
+
+@register
+class PovertyAsianDownloader(PovertyAgeDownloader):
+    PROCESSED_TABLE_NAME = "povertyasian"
+    RAW_TABLE_NAME = 'B17001D'
+    UNIVERSE = "Asian population for whom poverty status is determined"
+
+@register
+class PovertyLatinoDownloader(PovertyAgeDownloader):
+    PROCESSED_TABLE_NAME = "povertylatino"
+    RAW_TABLE_NAME = 'B17001I'
+    UNIVERSE = "Latino population for whom poverty status is determined"
