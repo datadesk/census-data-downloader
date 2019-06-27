@@ -43,7 +43,11 @@ from .population import PopulationDownloader
 from .poverty import (
     PovertyDownloader,
     PovertyGenderDownloader,
-    PovertyAgeDownloader
+    PovertyAgeDownloader,
+    PovertyWhiteDownloader,
+    PovertyBlackDownloader,
+    PovertyAsianDownloader,
+    PovertyLatinoDownloader
 )
 from .race import (
     RaceDownloader,
