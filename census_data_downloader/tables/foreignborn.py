@@ -24,8 +24,8 @@ class CitizenDownloader(BaseTableConfig):
     RAW_TABLE_NAME = "B05001"
     RAW_FIELD_CROSSWALK = collections.OrderedDict({
         "001E": "universe",
-        "002E": "us_citizen_born_US",
-        "003E": "us_citizen_born_PR_or_US_island",
+        "002E": "us_citizen_born_us",
+        "003E": "us_citizen_born_puertorico_or_us_island",
         "004E": "us_citizen_born_abroad_american_parents",
         "005E": "us_citizen_by_naturalization",
         "006E": "not_us_citizen"

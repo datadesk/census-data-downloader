@@ -107,8 +107,8 @@ class PovertyAgeDownloader(BaseTableConfig):
         '059E': "female_75_and_over_at_or_above_poverty_level"
     })
 
-    def _process_raw_data(self, *args, **kwargs):
-        df = super()._process_raw_data(*args, **kwargs)
+    def process(self, *args, **kwargs):
+        df = super().process(*args, **kwargs)
 
         # Calculate totals for both genders together
         groups = [
@@ -253,11 +253,13 @@ class PovertyAgeDownloader(BaseTableConfig):
         # Pass it back
         return df
 
+
 @register
 class PovertyLatinoDownloader(PovertyAgeDownloader):
     PROCESSED_TABLE_NAME = "povertylatino"
     RAW_TABLE_NAME = 'B17001I'
     UNIVERSE = "Latino population for whom poverty status is determined"
+
 
 @register
 class PovertyWhiteDownloader(PovertyAgeDownloader):
@@ -265,11 +267,13 @@ class PovertyWhiteDownloader(PovertyAgeDownloader):
     RAW_TABLE_NAME = 'B17001A'
     UNIVERSE = "white population for whom poverty status is determined"
 
+
 @register
 class PovertyBlackDownloader(PovertyAgeDownloader):
     PROCESSED_TABLE_NAME = "povertyblack"
     RAW_TABLE_NAME = 'B17001B'
     UNIVERSE = "Black population for whom poverty status is determined"
+
 
 @register
 class PovertyAsianDownloader(PovertyAgeDownloader):
