@@ -30,3 +30,14 @@ class CitizenDownloader(BaseTableConfig):
         "005E": "us_citizen_by_naturalization",
         "006E": "not_us_citizen"
     })
+
+  def process(self, *args, **kwargs):
+        df = super().process(*args, **kwargs)
+        # Our custom race groups
+        df['us_citizen_total'] = df[[
+            'us_citizen_born_us',
+            'us_citizen_born_puertorico_or_us_island',
+            'us_citizen_born_abroad_american_parents',
+            'us_citizen_by_naturalization'
+        ]].sum(axis=1)
+        return df
