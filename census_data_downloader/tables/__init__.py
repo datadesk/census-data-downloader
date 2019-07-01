@@ -20,10 +20,7 @@ from .language import (
     LanguageShortFormDownloader,
     LanguageLongFormDownloader
 )
-from .latino import (
-    LatinoDownloader,
-    LatinoRaceDownloader
-)
+from .latino import LatinoDownloader
 from .medianage import MedianAgeDownloader
 from .mediangrossrent import MedianGrossRentDownloader
 from .medianhouseholdincome import (
