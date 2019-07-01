@@ -67,6 +67,7 @@ from .tenure import (
 __all__ = [
     TABLE_LIST,
     AgeDownloader,
+    AncestryDownloader,
     CitizenDownloader,
     ClassOfWorkerDownloader,
     EducationDownloader,
@@ -81,6 +82,7 @@ __all__ = [
     HouseholdLanguageDownloader,
     LanguageShortFormDownloader,
     LanguageLongFormDownloader,
+    LatinoDownloader,
     MedianAgeDownloader,
     MedianGrossRentDownloader,
     MedianHouseholdIncomeDownloader,
