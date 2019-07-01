@@ -12,7 +12,7 @@ class LatinoDownloader(BaseTableConfig):
     RAW_TABLE_NAME = 'B03001'
     RAW_FIELD_CROSSWALK = collections.OrderedDict({
         '001E': "universe",
-        '002E': "not_hispanic_or_latino"
+        '002E': "not_hispanic_or_latino",
         '003E': "hispanic_or_latino",
         '004E': "mexican",
         '005E': "puerto_rican",
