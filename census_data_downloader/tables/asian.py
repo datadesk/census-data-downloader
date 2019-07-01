@@ -37,3 +37,4 @@ class AsianDownloader(BaseTableConfig):
         '024E': "other_asian_not_specified",
         '025E': "two_or_more_asian",
     })
+    

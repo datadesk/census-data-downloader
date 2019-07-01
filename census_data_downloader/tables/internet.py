@@ -12,19 +12,19 @@ class InternetDownloader(BaseTableConfig):
     UNIVERSE = "households"
     RAW_TABLE_NAME = 'B28002'
     RAW_FIELD_CROSSWALK = collections.OrderedDict({
-        '001E': 'universe',
-        '002E': 'internet_any_source',
-        '003E': 'dialup_only',
-        '004E': 'broadband_any_source',
-        '005E': 'cellular_data',
-        '006E': 'cellular_data_only',
-        '007E': 'broadband_cable_fiber_or_dsl',
-        '008E': 'broadband_only',
-        '009E': 'satellite',
-        '010E': 'satellite_only',
-        '011E': 'other_only',
-        '012E': 'internet_without_subscription',
-        '013E': 'no_internet'
+        '001E': "universe",
+        '002E': "internet_any_source",
+        '003E': "dialup_only",
+        '004E': "broadband_any_source",
+        '005E': "cellular_data",
+        '006E': "cellular_data_only",
+        '007E': "broadband_cable_fiber_or_dsl",
+        '008E': "broadband_only",
+        '009E': "satellite",
+        '010E': "satellite_only",
+        '011E': "other_only",
+        '012E': "internet_without_subscription",
+        '013E': "no_internet"
     })
 
     def process(self, *args, **kwargs):
@@ -37,3 +37,4 @@ class InternetDownloader(BaseTableConfig):
 
         # Pass it back
         return df
+

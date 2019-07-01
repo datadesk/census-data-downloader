@@ -280,3 +280,4 @@ class PovertyAsianDownloader(PovertyAgeDownloader):
     PROCESSED_TABLE_NAME = "povertyasian"
     RAW_TABLE_NAME = 'B17001D'
     UNIVERSE = "Asian population for whom poverty status is determined"
+
