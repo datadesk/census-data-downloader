@@ -5,7 +5,7 @@ from census_data_downloader.core.tables import BaseTableConfig
 from census_data_downloader.core.decorators import register
 
 @register
-class LatinoDownloader(BaseTableConfig):
+class AncestryDownloader(BaseTableConfig):
     PROCESSED_TABLE_NAME = "singleancestry"
     UNIVERSE = "people reporting single ancestry"
     RAW_TABLE_NAME = 'B04004'
@@ -26,7 +26,7 @@ class LatinoDownloader(BaseTableConfig):
         '014E': "all_arab",
         '015E': "other_arab",
         '016E': "armenian",
-        '017E': "assyrian/chaldean/syriac",
+        '017E': "assyrian_chaldean_syriac",
         '018E': "australian",
         '019E': "austrian",
         '020E': "basque",
