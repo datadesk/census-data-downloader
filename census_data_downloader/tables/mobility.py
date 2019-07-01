@@ -105,6 +105,14 @@ class MobilityByCitizenship(BaseTableConfig):
         '019E': "moved_from_different_county_within_same_state_foreign_born_naturalized_us_citizen",
         '020E': "moved_from_different_county_within_same_state_foreign_born_not_us_citizen",
         '021E': "moved_from_different_state",
-        '022E': "moved_from_different_state",
-
+        '022E': "moved_from_different_state_native",
+        '023E': "moved_from_different_state_foreign_born",
+        '024E': "moved_from_different_state_foreign_born_naturalized_us_citizen",
+        '025E': "moved_from_different_state_foreign_born_not_us_citizen",
+        '026E': "moved_from_abroad",
+        '027E': "moved_from_abroad_native",
+        '028E': "moved_from_abroad_foreign_born",
+        '029E': "moved_from_abroad_foreign_born_naturalized_us_citizen",
+        '030E': "moved_from_abroad_foreign_born_not_us_citizen"
     })
+
