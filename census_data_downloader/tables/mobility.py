@@ -44,6 +44,7 @@ class MobilityBySexDownloader(MobilityDownloader):
         "018E": "female_moved_from_abroad"
     })
 
+
 @register
 class MobilityWhiteDownloader(BaseTableConfig):
     PROCESSED_TABLE_NAME = "mobilitywhite"
@@ -57,6 +58,7 @@ class MobilityWhiteDownloader(BaseTableConfig):
         "005E": "moved_from_different_state",
         "006E": "moved_from_abroad"
     })
+
 
 @register
 class MobilityBlackDownloader(MobilityWhiteDownloader):
@@ -74,3 +76,30 @@ class MobilityAsianDownloader(MobilityWhiteDownloader):
 class MobilityLatinoDownloader(MobilityWhiteDownloader):
     PROCESSED_TABLE_NAME = "mobilitylatino"
     RAW_TABLE_NAME = 'B07004I'
+
+
+@register
+class MobilityByCitizenship(BaseTableConfig):
+    PROCESSED_TABLE_NAME = "mobilitybycitizenship"
+    UNIVERSE = "population 1 year and over"
+    RAW_TABLE_NAME = 'B07007'
+    RAW_FIELD_CROSSWALK = collections.OrderedDict({
+        "001E": "universe",
+        "002E": "native",
+        "003E": "foreign_born",
+        "004E": "foreign_born_naturalized_us_citizen",
+        "005E": "foreign_born_not_us_citizen",
+        "006E": "same_house_1_year_ago",
+        "007E": "same_house_1_year_ago_native",
+        "008E": "same_house_1_year_ago_foreign_born",
+        "009E": "same_house_1_year_ago_foreign_born_naturalized_us_citizen",
+        "010E": "same_house_1_year_ago_foreign_born_not_us_citizen",
+        "011E": "moved_within_same_county",
+        "012E": "moved_within_same_county_native",
+        "013E": "moved_within_same_county_foreign_born",
+        "014E": "moved_within_same_county_foreign_born_naturalized_us_citizen",
+        "015E": "moved_within_same_county_foreign_born_not_us_citizen",
+        "016E": "moved_from_different_county_within_same_state",
+        "017E": "moved_from_different_county_within_same_state_native",
+        "018E": "moved_from_different_county_within_same_state_foreign_born"
+    })
