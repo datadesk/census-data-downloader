@@ -9,6 +9,7 @@ from .foreignborn import (
     ForeignBornDownloader,
     CitizenDownloader
 )
+
 from .householdincome import (
     HouseholdIncomeDownloader,
     HouseholdIncomeLatinoDownloader,
@@ -40,7 +41,8 @@ from .mobility import (
     MobilityWhiteDownloader,
     MobilityBlackDownloader,
     MobilityAsianDownloader,
-    MobilityLatinoDownloader
+    MobilityLatinoDownloader,
+    MobilityByCitizenship
 )
 from .population import PopulationDownloader
 from .poverty import (
@@ -100,6 +102,7 @@ __all__ = [
     MobilityBlackDownloader,
     MobilityAsianDownloader,
     MobilityLatinoDownloader,
+    MobilityByCitizenship,
     PopulationDownloader,
     PovertyDownloader,
     PovertyBySexDownloader,
