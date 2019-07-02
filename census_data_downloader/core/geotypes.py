@@ -145,7 +145,7 @@ class BaseGeoTypeDownloader(object):
         estimate_map = collections.OrderedDict({
              "-999999999": "sample cases too small",
              "-88888888": "not applicable",
-             "-666666666": "no sample observations, too few sample observations or ratio of medians cannot be calculated bc one or both of the median estimates falls in the lowest interval or upper interval of an open-ended distribution",
+             "-666666666": "no sample observations, too few sample observations or ratio of medians cannot be calculated",
              "-555555555": "estimate is controlled; statistical test for sampling variability is not appropriate",
              "-333333333": "median falls in lowest interval or upper interval of open-ended distribution; statistical test not appropriate",
              "-222222222": "no sample or too few sample observations were available to calculate standard error; statistical test not appropriate",
@@ -153,13 +153,12 @@ class BaseGeoTypeDownloader(object):
         })
         moe_map = collections.OrderedDict({
             "N": "sample cases too small",
-            "(X)":"not applicable",
-            "-": "no sample observations, too few sample observations or ratio of medians cannot be calculated bc one or both of the median estimates falls in the lowest interval or upper interval of an open-ended distribution",
+            "(X)": "not applicable",
+            "-": "no sample observations, too few sample observations or ratio of medians cannot be calculated",
             "*****": "estimate is controlled; statistical test for sampling variability is not appropriate",
             "***": "median falls in lowest interval or upper interval of open-ended distribution; statistical test not appropriate",
             "**": "no sample or too few sample observations were available to calculate standard error; statistical test not appropriate",
             "+": "median falls in the upper interval of an open-ended distribution",
-            "-": "median falls in the lowest interval of an open-ended distribution",
             "N/A": "estimate is significantly different(90 confidence level)than estimate from most current year. C means estimates for that year and current year are controlled; a statistical test is not appropriate"
         })
         for field in field_name_mapper.keys():
