@@ -162,11 +162,11 @@ class BaseGeoTypeDownloader(object):
             "-": "median falls in the lowest interval of an open-ended distribution",
             "N/A": "estimate is significantly different(90 confidence level)than estimate from most current year. C means estimates for that year and current year are controlled; a statistical test is not appropriate"
         })
-         for field in field_name_mapper.keys():
-             if field.endswith("EA"):
-                 df[field].map(estimate_map, inplace=True)
-             elif field.endswith("MA"):
-                 df[field].map(moe_map, inplace=True)
+        for field in field_name_mapper.keys():
+            if field.endswith("EA"):
+                df[field].map(estimate_map, inplace=True)
+            elif field.endswith("MA"):
+                df[field].map(moe_map, inplace=True)
 
         # Rename fields with humanized names
         df.rename(columns=field_name_mapper, inplace=True)
