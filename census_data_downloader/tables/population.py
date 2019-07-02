@@ -11,5 +11,5 @@ class PopulationDownloader(BaseTableConfig):
     UNIVERSE = "total population"
     RAW_TABLE_NAME = "B01003"
     RAW_FIELD_CROSSWALK = collections.OrderedDict({
-        "001E": "universe"
+        "001": "universe"
     })
