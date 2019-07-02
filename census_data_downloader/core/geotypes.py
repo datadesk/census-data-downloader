@@ -143,12 +143,12 @@ class BaseGeoTypeDownloader(object):
 
         # Replace estimate and annotation code values with humanized definitions
         estimate_map = collections.OrderedDict({
-             "-999999999": "sample cases too small",
-             "-88888888": "not applicable",
-             "-666666666": "no sample observations, too few sample observations or ratio of medians cannot be calculated",
-             "-555555555": "estimate is controlled; statistical test for sampling variability is not appropriate",
-             "-333333333": "median falls in lowest interval or upper interval of open-ended distribution; statistical test not appropriate",
-             "-222222222": "no sample or too few sample observations were available to calculate standard error; statistical test not appropriate",
+             "-999999999.0": "sample cases too small",
+             "-88888888.0": "not applicable",
+             "-666666666.0": "no sample observations, too few sample observations or ratio of medians cannot be calculated",
+             "-555555555.0": "estimate is controlled; statistical test for sampling variability is not appropriate",
+             "-333333333.0": "median falls in lowest interval or upper interval of open-ended distribution; statistical test not appropriate",
+             "-222222222.0": "no sample or too few sample observations were available to calculate standard error; statistical test not appropriate",
              "*": "estimate is significantly different(90 confidence level)than estimate from most current year. C means estimates for that year and current year are controlled; a statistical test is not appropriate"
         })
         moe_map = collections.OrderedDict({
