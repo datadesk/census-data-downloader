@@ -14,27 +14,27 @@ class ClassOfWorkerDownloader(BaseTableConfig):
     UNIVERSE = "civilian employed population 16 years and over"
     RAW_TABLE_NAME = 'B24080'
     RAW_FIELD_CROSSWALK = collections.OrderedDict({
-        '001E': "universe",
-        '002E': "male_total",
-        '003E': "male_private_for_profit_wage_and_salary",
-        '004E': "male_employee_of_private_company",
-        '005E': "male_selfemployed_in_own_incorporated_business",
-        '006E': "male_private_not_for_profit_wage_and_salary",
-        '007E': "male_local_government",
-        '008E': "male_state_government",
-        '009E': "male_federal_government",
-        '010E': "male_selfemployed_in_own_not_incorporated_business",
-        '011E': "male_unpaid_family_workers",
-        '012E': "female_total",
-        '013E': "female_private_for_profit_wage_and_salary",
-        '014E': "female_employee_of_private_company",
-        '015E': "female_selfemployed_in_own_incorporated_business",
-        '016E': "female_private_not_for_profit_wage_and_salary",
-        '017E': "female_local_government",
-        '018E': "female_state_government",
-        '019E': "female_federal_government",
-        '020E': "female_selfemployed_in_own_not_incorporated_business",
-        '021E': "female_unpaid_family_workers"
+        '001': "universe",
+        '002': "male_total",
+        '003': "male_private_for_profit_wage_and_salary",
+        '004': "male_employee_of_private_company",
+        '005': "male_selfemployed_in_own_incorporated_business",
+        '006': "male_private_not_for_profit_wage_and_salary",
+        '007': "male_local_government",
+        '008': "male_state_government",
+        '009': "male_federal_government",
+        '010': "male_selfemployed_in_own_not_incorporated_business",
+        '011': "male_unpaid_family_workers",
+        '012': "female_total",
+        '013': "female_private_for_profit_wage_and_salary",
+        '014': "female_employee_of_private_company",
+        '015': "female_selfemployed_in_own_incorporated_business",
+        '016': "female_private_not_for_profit_wage_and_salary",
+        '017': "female_local_government",
+        '018': "female_state_government",
+        '019': "female_federal_government",
+        '020': "female_selfemployed_in_own_not_incorporated_business",
+        '021': "female_unpaid_family_workers"
     })
 
     def process(self, *args, **kwargs):
