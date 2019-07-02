@@ -66,10 +66,10 @@ class BaseGeoTypeDownloader(object):
             'NAME': "name"
         })
         field_suffix_map = {
-            "E": "",# estimate 
-            "EA": "_annotation",# footnote for the estimate
-            "M": "_moe",# margin of error
-            "MA": "_moe_annotation"# margin of error footnote
+            "E": "",
+            "EA": "_annotation",
+            "M": "_moe",
+            "MA": "_moe_annotation"
         }
         for field_id, field_name in self.config.RAW_FIELD_CROSSWALK.items():
             for field_suffix, name_suffix in field_suffix_map.items():
