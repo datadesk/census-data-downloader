@@ -11,12 +11,12 @@ class MobilityDownloader(BaseTableConfig):
     UNIVERSE = "population 1 year and over"
     RAW_TABLE_NAME = 'B07003'
     RAW_FIELD_CROSSWALK = collections.OrderedDict({
-        '001E': "universe",
-        '004E': "same_house",
-        '007E': "moved_within_county",
-        '010E': "moved_from_different_county_in_same_state",
-        '013E': "moved_from_different_state",
-        '016E': "moved_from_abroad",
+        '001': "universe",
+        '004': "same_house",
+        '007': "moved_within_county",
+        '010': "moved_from_different_county_in_same_state",
+        '013': "moved_from_different_state",
+        '016': "moved_from_abroad",
     })
 
 
@@ -24,24 +24,24 @@ class MobilityDownloader(BaseTableConfig):
 class MobilityBySexDownloader(MobilityDownloader):
     PROCESSED_TABLE_NAME = "mobilitybysex"
     RAW_FIELD_CROSSWALK = collections.OrderedDict({
-        '001E': "universe",
-        '002E': "male_total",
-        '003E': "female_total",
-        '004E': "total_same_house",
-        '005E': "male_same_house",
-        '006E': "female_same_house",
-        '007E': "total_moved_within_county",
-        '008E': "male_moved_within_county",
-        '009E': "female_moved_within_county",
-        '010E': "total_moved_from_different_county_in_same_state",
-        '011E': "male_moved_from_different_county_in_same_state",
-        '012E': "female_moved_from_different_county_in_same_state",
-        '013E': "total_moved_from_different_state",
-        '014E': "male_moved_from_different_state",
-        '015E': "female_moved_from_different_state",
-        '016E': "total_moved_from_abroad",
-        '017E': "male_moved_from_abroad",
-        '018E': "female_moved_from_abroad"
+        '001': "universe",
+        '002': "male_total",
+        '003': "female_total",
+        '004': "total_same_house",
+        '005': "male_same_house",
+        '006': "female_same_house",
+        '007': "total_moved_within_county",
+        '008': "male_moved_within_county",
+        '009': "female_moved_within_county",
+        '010': "total_moved_from_different_county_in_same_state",
+        '011': "male_moved_from_different_county_in_same_state",
+        '012': "female_moved_from_different_county_in_same_state",
+        '013': "total_moved_from_different_state",
+        '014': "male_moved_from_different_state",
+        '015': "female_moved_from_different_state",
+        '016': "total_moved_from_abroad",
+        '017': "male_moved_from_abroad",
+        '018': "female_moved_from_abroad"
     })
 
 
@@ -51,12 +51,12 @@ class MobilityWhiteDownloader(BaseTableConfig):
     UNIVERSE = "population 1 year and over"
     RAW_TABLE_NAME = 'B07004H'
     RAW_FIELD_CROSSWALK = collections.OrderedDict({
-        '001E': "universe",
-        '002E': "same_house",
-        '003E': "moved_within_county",
-        '004E': "moved_from_different_county_in_same_state",
-        '005E': "moved_from_different_state",
-        '006E': "moved_from_abroad"
+        '001': "universe",
+        '002': "same_house",
+        '003': "moved_within_county",
+        '004': "moved_from_different_county_in_same_state",
+        '005': "moved_from_different_state",
+        '006': "moved_from_abroad"
     })
 
 
@@ -84,34 +84,34 @@ class MobilityByCitizenship(BaseTableConfig):
     UNIVERSE = "population 1 year and over"
     RAW_TABLE_NAME = 'B07007'
     RAW_FIELD_CROSSWALK = collections.OrderedDict({
-        '001E': "universe",
-        '002E': "native",
-        '003E': "foreign_born",
-        '004E': "foreign_born_naturalized_us_citizen",
-        '005E': "foreign_born_not_us_citizen",
-        '006E': "same_house_1_year_ago",
-        '007E': "same_house_1_year_ago_native",
-        '008E': "same_house_1_year_ago_foreign_born",
-        '009E': "same_house_1_year_ago_foreign_born_naturalized_us_citizen",
-        '010E': "same_house_1_year_ago_foreign_born_not_us_citizen",
-        '011E': "moved_within_same_county",
-        '012E': "moved_within_same_county_native",
-        '013E': "moved_within_same_county_foreign_born",
-        '014E': "moved_within_same_county_foreign_born_naturalized_us_citizen",
-        '015E': "moved_within_same_county_foreign_born_not_us_citizen",
-        '016E': "moved_from_different_county_within_same_state",
-        '017E': "moved_from_different_county_within_same_state_native",
-        '018E': "moved_from_different_county_within_same_state_foreign_born",
-        '019E': "moved_from_different_county_within_same_state_foreign_born_naturalized_us_citizen",
-        '020E': "moved_from_different_county_within_same_state_foreign_born_not_us_citizen",
-        '021E': "moved_from_different_state",
-        '022E': "moved_from_different_state_native",
-        '023E': "moved_from_different_state_foreign_born",
-        '024E': "moved_from_different_state_foreign_born_naturalized_us_citizen",
-        '025E': "moved_from_different_state_foreign_born_not_us_citizen",
-        '026E': "moved_from_abroad",
-        '027E': "moved_from_abroad_native",
-        '028E': "moved_from_abroad_foreign_born",
-        '029E': "moved_from_abroad_foreign_born_naturalized_us_citizen",
-        '030E': "moved_from_abroad_foreign_born_not_us_citizen"
+        '001': "universe",
+        '002': "native",
+        '003': "foreign_born",
+        '004': "foreign_born_naturalized_us_citizen",
+        '005': "foreign_born_not_us_citizen",
+        '006': "same_house_1_year_ago",
+        '007': "same_house_1_year_ago_native",
+        '008': "same_house_1_year_ago_foreign_born",
+        '009': "same_house_1_year_ago_foreign_born_naturalized_us_citizen",
+        '010': "same_house_1_year_ago_foreign_born_not_us_citizen",
+        '011': "moved_within_same_county",
+        '012': "moved_within_same_county_native",
+        '013': "moved_within_same_county_foreign_born",
+        '014': "moved_within_same_county_foreign_born_naturalized_us_citizen",
+        '015': "moved_within_same_county_foreign_born_not_us_citizen",
+        '016': "moved_from_different_county_within_same_state",
+        '017': "moved_from_different_county_within_same_state_native",
+        '018': "moved_from_different_county_within_same_state_foreign_born",
+        '019': "moved_from_different_county_within_same_state_foreign_born_naturalized_us_citizen",
+        '020': "moved_from_different_county_within_same_state_foreign_born_not_us_citizen",
+        '021': "moved_from_different_state",
+        '022': "moved_from_different_state_native",
+        '023': "moved_from_different_state_foreign_born",
+        '024': "moved_from_different_state_foreign_born_naturalized_us_citizen",
+        '025': "moved_from_different_state_foreign_born_not_us_citizen",
+        '026': "moved_from_abroad",
+        '027': "moved_from_abroad_native",
+        '028': "moved_from_abroad_foreign_born",
+        '029': "moved_from_abroad_foreign_born_naturalized_us_citizen",
+        '030': "moved_from_abroad_foreign_born_not_us_citizen"
     })
