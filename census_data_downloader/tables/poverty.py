@@ -19,6 +19,7 @@ class PovertyDownloader(BaseTableConfig):
         '031E': 'income_past12months_at_or_above_poverty_level'
     })
 
+
 @register
 class PovertyBySexDownloader(BaseTableConfig):
     """
@@ -36,6 +37,7 @@ class PovertyBySexDownloader(BaseTableConfig):
         '032E': "male_at_or_above_poverty_level",
         '046E': "female_at_or_above_poverty_level"
     })
+
 
 @register
 class PovertyAgeDownloader(BaseTableConfig):
