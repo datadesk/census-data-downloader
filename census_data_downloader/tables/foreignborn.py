@@ -11,9 +11,9 @@ class ForeignBornDownloader(BaseTableConfig):
     UNIVERSE = "total population"
     RAW_TABLE_NAME = 'B05002'
     RAW_FIELD_CROSSWALK = collections.OrderedDict({
-        "001E": "universe",
-        "002E": "native",
-        "013E": "foreign_born"
+        "001": "universe",
+        "002": "native",
+        "013": "foreign_born"
     })
 
 
@@ -23,12 +23,12 @@ class CitizenDownloader(BaseTableConfig):
     UNIVERSE = "total population"
     RAW_TABLE_NAME = "B05001"
     RAW_FIELD_CROSSWALK = collections.OrderedDict({
-        "001E": "universe",
-        "002E": "us_citizen_born_us",
-        "003E": "us_citizen_born_puertorico_or_us_island",
-        "004E": "us_citizen_born_abroad_american_parents",
-        "005E": "us_citizen_by_naturalization",
-        "006E": "not_us_citizen"
+        "001": "universe",
+        "002": "us_citizen_born_us",
+        "003": "us_citizen_born_puertorico_or_us_island",
+        "004": "us_citizen_born_abroad_american_parents",
+        "005": "us_citizen_by_naturalization",
+        "006": "not_us_citizen"
     })
 
     def process(self, *args, **kwargs):
