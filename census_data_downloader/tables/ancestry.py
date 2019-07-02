@@ -11,7 +11,7 @@ class AncestryDownloader(BaseTableConfig):
     UNIVERSE = "people reporting single ancestry"
     RAW_TABLE_NAME = 'B04004'
     RAW_FIELD_CROSSWALK = collections.OrderedDict({
-	    '001E': "universe",
+        '001E': "universe",
         '002E': "afghan",
         '003E': "albanian",
         '004E': "alsatian",
