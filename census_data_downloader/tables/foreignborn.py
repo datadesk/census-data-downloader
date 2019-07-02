@@ -31,7 +31,7 @@ class CitizenDownloader(BaseTableConfig):
         "006E": "not_us_citizen"
     })
 
-  def process(self, *args, **kwargs):
+    def process(self, *args, **kwargs):
         df = super().process(*args, **kwargs)
         # Our custom race groups
         df['us_citizen_total'] = df[[

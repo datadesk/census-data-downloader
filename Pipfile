@@ -13,8 +13,6 @@ pandas = "*"
 us = "*"
 census = "*"
 click = "*"
-urllib3 = ">=1.24.2"
-twine = "*"
 
 [requires]
 python_version = "3.6"

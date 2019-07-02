@@ -37,4 +37,3 @@ class InternetDownloader(BaseTableConfig):
 
         # Pass it back
         return df
-
