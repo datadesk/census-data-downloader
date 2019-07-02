@@ -5,6 +5,7 @@ Handlers to process table configurations for each of the Census' different geogr
 """
 import time
 import logging
+import collections
 import pandas as pd
 from us import states
 from census import Census
@@ -55,8 +56,27 @@ class BaseGeoTypeDownloader(object):
         """
         Returns the fields to be fetched from the API.
         """
-        field_names = [f"{self.config.RAW_TABLE_NAME}_{f}" for f in self.config.RAW_FIELD_CROSSWALK.keys()]
-        return ['NAME'] + field_names
+        return list(self.get_raw_field_map().keys())
+
+    def get_raw_field_map(self):
+        """
+        Returns a crosswalk between the raw API fields and our processed humanized field names.
+        """
+        field_map = collections.OrderedDict({
+            'NAME': "name"
+        })
+        field_suffix_map = {
+            "E": "", # estimate 
+            "EA": "_annotation", # footnote for the estimate
+            "M": "_moe", # margin of error
+            "MA": "_moe_annotation" # margin of error footnote
+        }
+        for field_id, field_name in self.config.RAW_FIELD_CROSSWALK.items():
+            for field_suffix, name_suffix in field_suffix_map.items():
+                full_raw_id = f"{self.config.RAW_TABLE_NAME}_{field_id}{field_suffix}"
+                processed_name = f"{field_name}{name_suffix}".strip()
+                field_map[full_raw_id] = processed_name
+        return field_map
 
     def get_raw_data(self):
         """
@@ -89,9 +109,6 @@ class BaseGeoTypeDownloader(object):
         # Convert it to a dataframe
         df = pd.DataFrame.from_records(data)
 
-        # Rename the ugly NAME field
-        df.rename(columns={"NAME": "name"}, inplace=True)
-
         # Write it to disk
         logger.debug(f"Writing raw ACS table to {self.raw_csv_path}")
         df.to_csv(self.raw_csv_path, index=False, encoding="utf-8")
@@ -116,16 +133,27 @@ class BaseGeoTypeDownloader(object):
         # Read in the raw CSV of data from the ACS
         df = pd.read_csv(self.raw_csv_path, dtype=str)
 
-        # Rename fields with humanized names
-        field_name_mapper = dict(
-            (f"{self.config.RAW_TABLE_NAME}_{raw}", processed)
-            for raw, processed in self.config.RAW_FIELD_CROSSWALK.items()
-        )
-        df.rename(columns=field_name_mapper, inplace=True)
+        # Get the crosswalk between raw and processed field names
+        field_name_mapper = self.get_raw_field_map()
 
         # Cast numbers to floats
-        for field in field_name_mapper.values():
-            df[field].astype(pd.np.float64)
+        for field in field_name_mapper.keys():
+            if field.endswith("_") and (field.endswith("E") or field.endswith("M")):
+                df[field].astype(pd.np.float64)
+
+        # Replace estimate and annotation code values with humanized definitions
+        # estimate_map = collections.OrderedDict({
+        #     -9999999999: "short description"
+        # })
+        # moe_map = collections.OrderedDict({})
+        # for field in field_name_mapper.keys():
+        #     if field.endswith("EA"):
+        #         df[field].map(estimate_map, inplace=True)
+        #     elif field.endswith("MA"):
+        #         df[field].map(moe_map, inplace=True)
+
+        # Rename fields with humanized names
+        df.rename(columns=field_name_mapper, inplace=True)
 
         # Add a combined GEOID column with a Census unique identifer
         df['geoid'] = df.apply(self.create_geoid, axis=1)
