@@ -42,7 +42,7 @@ class PovertyBySexDownloader(BaseTableConfig):
 @register
 class PovertyAgeDownloader(BaseTableConfig):
     """
-    The full table. 
+    The full table.
     """
     PROCESSED_TABLE_NAME = "povertystatusbyage"
     UNIVERSE = "population for whom poverty status is determined"
@@ -251,7 +251,7 @@ class PovertyAgeDownloader(BaseTableConfig):
             df[f'total_{groupset}'] = df[[f'total_{f}' for f in group_list]].sum(axis=1)
             df[f'male_{groupset}'] = df[[f'male_{f}' for f in group_list]].sum(axis=1)
             df[f'female_{groupset}'] = df[[f'female_{f}' for f in group_list]].sum(axis=1)
-        
+
         # Pass it back
         return df
 
@@ -282,4 +282,3 @@ class PovertyAsianDownloader(PovertyAgeDownloader):
     PROCESSED_TABLE_NAME = "povertyasian"
     RAW_TABLE_NAME = 'B17001D'
     UNIVERSE = "Asian population for whom poverty status is determined"
-

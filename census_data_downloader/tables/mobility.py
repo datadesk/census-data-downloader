@@ -115,4 +115,3 @@ class MobilityByCitizenship(BaseTableConfig):
         '029E': "moved_from_abroad_foreign_born_naturalized_us_citizen",
         '030E': "moved_from_abroad_foreign_born_not_us_citizen"
     })
-
