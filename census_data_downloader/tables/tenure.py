@@ -11,9 +11,9 @@ class TenureDownloader(BaseTableConfig):
     UNIVERSE = "occupied housing units"
     RAW_TABLE_NAME = 'B25003'
     RAW_FIELD_CROSSWALK = collections.OrderedDict({
-        '001E': 'universe',
-        '002E': 'owner_occupied',
-        '003E': 'renter_occupied'
+        '001': 'universe',
+        '002': 'owner_occupied',
+        '003': 'renter_occupied'
     })
 
 
