@@ -105,7 +105,7 @@ def urbanareas(ctx):
     ctx.obj['runner'].download_urban_areas()
 
 
-@cmd.command(help="Download metropolitian statistical areas")
+@cmd.command(help="Download metropolitan statistical areas")
 @click.pass_context
 def msas(ctx):
     ctx.obj['runner'].download_msas()
