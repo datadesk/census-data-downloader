@@ -11,7 +11,7 @@ class AsianDownloader(BaseTableConfig):
     UNIVERSE = "total asian alone population"
     RAW_TABLE_NAME = 'B02015'
     RAW_FIELD_CROSSWALK = collections.OrderedDict({
-	    '001E': "universe",
+        '001E': "universe",
         '002E': "asian_indian",
         '003E': "bangladeshi",
         '004E': "bhutanese",
