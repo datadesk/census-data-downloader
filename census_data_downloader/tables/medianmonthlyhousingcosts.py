@@ -11,5 +11,5 @@ class MedianMonthlyHousingCostsDownloader(BaseTableConfig):
     UNIVERSE = "occupied housing units with monthly housing costs"
     RAW_TABLE_NAME = "B25105"
     RAW_FIELD_CROSSWALK = collections.OrderedDict({
-        "001E": "median"
+        "001": "median"
     })
