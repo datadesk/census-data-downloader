@@ -11,7 +11,7 @@ class MedianAgeDownloader(BaseTableConfig):
     UNIVERSE = "total population"
     RAW_TABLE_NAME = 'B01002'
     RAW_FIELD_CROSSWALK = collections.OrderedDict({
-        "001E": "median",
-        "002E": "male",
-        "003E": "female"
+        "001": "median",
+        "002": "male",
+        "003": "female"
     })
