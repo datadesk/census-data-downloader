@@ -20,11 +20,11 @@ class EmploymentStatusDownloader(BaseTableConfig):
         2011
     )
     RAW_FIELD_CROSSWALK = collections.OrderedDict({
-        '001E': 'universe',
-        '002E': 'in_labor_force',
-        '003E': 'civilian',
-        '004E': 'civilian_employed',
-        '005E': 'civilian_unemployed',
-        '006E': 'armed_forces',
-        '007E': 'not_in_labor_force'
+        '001': 'universe',
+        '002': 'in_labor_force',
+        '003': 'civilian',
+        '004': 'civilian_employed',
+        '005': 'civilian_unemployed',
+        '006': 'armed_forces',
+        '007': 'not_in_labor_force'
     })
