@@ -129,7 +129,6 @@ class BaseGeoTypeDownloader(object):
     def download(self):
         """
         Downloads raw data from the Census API.
-
         Returns path to CSV.
         """
         # Skip hitting the API if we've already got the file, as long as we're not forcing it.
@@ -383,6 +382,17 @@ class CnectasDownloader(BaseGeoTypeDownloader):
     """
     Download raw data at the combined New England city and town level.
     """
+    YEAR_LIST = [
+        2017,
+        2016,
+        2015,
+        2014,
+        2013,
+        2012,
+        2011,
+        2010
+    ]
+
     slug = "cnectas"
     raw_geotype = "combined new england city and town area"
 
