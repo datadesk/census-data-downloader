@@ -8,7 +8,11 @@ from .foreignborn import (
     ForeignBornDownloader,
     CitizenDownloader
 )
-
+from .housing import (
+    MedianMonthlyHousingCostsDownloader,
+    MedianHousingValueDownloader,
+    MedianGrossRentDownloader
+)
 from .householdincome import (
     HouseholdIncomeDownloader,
     HouseholdIncomeLatinoDownloader,
@@ -24,7 +28,6 @@ from .language import (
 )
 from .latino import LatinoDownloader
 from .medianage import MedianAgeDownloader
-from .mediangrossrent import MedianGrossRentDownloader
 from .medianhouseholdincome import (
     MedianHouseholdIncomeDownloader,
     MedianHouseholdIncomeLatinoDownloader,
@@ -32,8 +35,6 @@ from .medianhouseholdincome import (
     MedianHouseholdIncomeBlackDownloader,
     MedianHouseholdIncomeAsianDownloader
 )
-from .medianhousingvalue import MedianHousingValueDownloader
-from .medianmonthlyhousingcosts import MedianMonthlyHousingCostsDownloader
 from .mobility import (
     MobilityDownloader,
     MobilityBySexDownloader,
