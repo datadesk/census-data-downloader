@@ -62,6 +62,9 @@ class BaseGeoTypeDownloader(object):
         """
         Returns a crosswalk between the raw API fields and our processed humanized field names.
         """
+        """
+        API doesn't have margin of error for 2009, so we will need a different crosswalk for the 2009 data.
+        """
         if self.year == 2009:
             field_map_2009 = collections.OrderedDict({
                 'NAME': "name"
@@ -70,12 +73,6 @@ class BaseGeoTypeDownloader(object):
                 "E": "",
                 "M": "_moe"
             }
-            for field_id, field_name in self.config.RAW_FIELD_CROSSWALK.items():
-                for field_suffix, name_suffix in field_suffix_map_2009.items():
-                    full_raw_id = f"{self.config.RAW_TABLE_NAME}_{field_id}{field_suffix}"
-                    processed_name = f"{field_name}{name_suffix}".strip()
-                    field_map_2009[full_raw_id] = processed_name
-            return field_map_2009
         else:
             field_map = collections.OrderedDict({
                 'NAME': "name"
@@ -86,12 +83,12 @@ class BaseGeoTypeDownloader(object):
                 "M": "_moe",
                 "MA": "_moe_annotation"
             }
-            for field_id, field_name in self.config.RAW_FIELD_CROSSWALK.items():
-                for field_suffix, name_suffix in field_suffix_map.items():
-                    full_raw_id = f"{self.config.RAW_TABLE_NAME}_{field_id}{field_suffix}"
-                    processed_name = f"{field_name}{name_suffix}".strip()
-                    field_map[full_raw_id] = processed_name
-            return field_map
+        for field_id, field_name in self.config.RAW_FIELD_CROSSWALK.items():
+            for field_suffix, name_suffix in field_suffix_map.items():
+                full_raw_id = f"{self.config.RAW_TABLE_NAME}_{field_id}{field_suffix}"
+                processed_name = f"{field_name}{name_suffix}".strip()
+                field_map[full_raw_id] = processed_name
+        return field_map
 
     def get_raw_data(self):
         """
