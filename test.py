@@ -21,7 +21,7 @@ class CensusDataDownloaderTest(unittest.TestCase):
 
     def test_multipleyears(self):
         multi = tables.PopulationDownloader(
-            years=[2010, 2017],
+            years=[2009, 2017],
             data_dir="./test-data/"
         )
         multi.download_nationwide()
