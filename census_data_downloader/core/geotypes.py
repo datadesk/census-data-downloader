@@ -156,10 +156,10 @@ class BaseGeoTypeDownloader(object):
             "(X)": "not applicable",
             "-": "too few samples or ratio of medians cannot be calculated",
             "*****": "estimate is controlled",
-            "***": "falls in lowest interval or highest interval"
+            "***": "falls in lowest interval or highest interval",
             "**": "too few samples to calculate standard error",
             "+": "falls in the highest interval",
-            "N/A": "significantly different from most current year. C means controlled."
+            "N/A": "significantly different from most current year. C means controlled"
         })
         for field in field_name_mapper.keys():
             if field.endswith("EA"):
