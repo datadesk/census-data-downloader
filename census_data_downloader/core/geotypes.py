@@ -143,12 +143,12 @@ class BaseGeoTypeDownloader(object):
 
         # Replace estimate and annotation code values with humanized definitions
         estimate_map = collections.OrderedDict({
-            "-999999999.0": "too few samples",
-            "-88888888.0": "not applicable",
-            "-666666666.0": "too few samples or ratio of medians cannot be calculated",
-            "-555555555.0": "estimate is controlled",
-            "-333333333.0": "falls in lowest interval or highest interval",
-            "-222222222.0": "too few samples to calculate standard error",
+            "-999999999": "too few samples",
+            "-88888888": "not applicable",
+            "-666666666": "too few samples or ratio of medians cannot be calculated",
+            "-555555555": "estimate is controlled",
+            "-333333333": "falls in lowest interval or highest interval",
+            "-222222222": "too few samples to calculate standard error",
             "*": "significantly different from most current year. C means controlled."
         })
         moe_map = collections.OrderedDict({
