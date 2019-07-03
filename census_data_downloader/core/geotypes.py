@@ -73,6 +73,11 @@ class BaseGeoTypeDownloader(object):
                 "E": "",
                 "M": "_moe"
             }
+        for field_id, field_name in self.config.RAW_FIELD_CROSSWALK.items():
+            for field_suffix, name_suffix in field_suffix_map_2009.items():
+                full_raw_id = f"{self.config.RAW_TABLE_NAME}_{field_id}{field_suffix}"
+                processed_name = f"{field_name}{name_suffix}".strip()
+                field_map_2009[full_raw_id] = processed_name
         else:
             field_map = collections.OrderedDict({
                 'NAME': "name"
