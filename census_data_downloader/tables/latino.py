@@ -7,7 +7,7 @@ from census_data_downloader.core.decorators import register
 
 @register
 class LatinoDownloader(BaseTableConfig):
-    PROCESSED_TABLE_NAME = "latinobyorigin"
+    PROCESSED_TABLE_NAME = "latino"
     UNIVERSE = "total population"
     RAW_TABLE_NAME = 'B03001'
     RAW_FIELD_CROSSWALK = collections.OrderedDict({
