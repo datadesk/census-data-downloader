@@ -163,9 +163,9 @@ class BaseGeoTypeDownloader(object):
         })
         for field in field_name_mapper.keys():
             if field.endswith("EA"):
-                df[field].replace(estimate_map,inplace=True)
+                df[field].replace(estimate_map, inplace=True)
             elif field.endswith("MA"):
-                df[field].replace(moe_map,inplace=True)
+                df[field].replace(moe_map, inplace=True)
 
         # Rename fields with humanized names
         df.rename(columns=field_name_mapper, inplace=True)
