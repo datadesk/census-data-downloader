@@ -11,7 +11,12 @@ from .foreignborn import (
 from .housing import (
     MedianMonthlyHousingCostsDownloader,
     MedianHousingValueDownloader,
-    MedianGrossRentDownloader
+    MedianGrossRentDownloader,
+    TenureDownloader,
+    TenureLatinoDownloader,
+    TenureWhiteDownloader,
+    TenureBlackDownloader,
+    TenureAsianDownloader
 )
 from .householdincome import (
     HouseholdIncomeDownloader,
@@ -58,13 +63,6 @@ from .race import (
     RaceDownloader,
     AmericanIndianAlaskaNativeAloneOrInComboDownloader,
     AsianDownloader
-)
-from .tenure import (
-    TenureDownloader,
-    TenureLatinoDownloader,
-    TenureWhiteDownloader,
-    TenureBlackDownloader,
-    TenureAsianDownloader
 )
 # from .yearstructurebuilt import YearStructureBuiltDownloader
 

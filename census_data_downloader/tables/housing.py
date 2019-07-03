@@ -33,3 +33,39 @@ class MedianGrossRentDownloader(BaseTableConfig):
     RAW_FIELD_CROSSWALK = collections.OrderedDict({
         "001": "median"
     })
+
+
+@register
+class TenureDownloader(BaseTableConfig):
+    PROCESSED_TABLE_NAME = "tenure"
+    UNIVERSE = "occupied housing units"
+    RAW_TABLE_NAME = 'B25003'
+    RAW_FIELD_CROSSWALK = collections.OrderedDict({
+        '001': 'universe',
+        '002': 'owner_occupied',
+        '003': 'renter_occupied'
+    })
+
+
+@register
+class TenureLatinoDownloader(TenureDownloader):
+    PROCESSED_TABLE_NAME = "tenurelatino"
+    RAW_TABLE_NAME = 'B25003I'
+
+
+@register
+class TenureWhiteDownloader(TenureDownloader):
+    PROCESSED_TABLE_NAME = "tenurewhite"
+    RAW_TABLE_NAME = 'B25003H'
+
+
+@register
+class TenureBlackDownloader(TenureDownloader):
+    PROCESSED_TABLE_NAME = "tenureblack"
+    RAW_TABLE_NAME = 'B25003B'
+
+
+@register
+class TenureAsianDownloader(TenureDownloader):
+    PROCESSED_TABLE_NAME = "tenureasian"
+    RAW_TABLE_NAME = 'B25003D'
