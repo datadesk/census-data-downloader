@@ -78,6 +78,7 @@ class BaseGeoTypeDownloader(object):
                 full_raw_id = f"{self.config.RAW_TABLE_NAME}_{field_id}{field_suffix}"
                 processed_name = f"{field_name}{name_suffix}".strip()
                 field_map_2009[full_raw_id] = processed_name
+        return field_map_2009
         else:
             field_map = collections.OrderedDict({
                 'NAME': "name"
