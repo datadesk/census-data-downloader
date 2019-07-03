@@ -26,7 +26,8 @@ class BaseTableConfig(object):
         2013,
         2012,
         2011,
-        2010
+        2010,
+        2009
     ]
     # All available geographies
     GEOTYPE_LIST = (
