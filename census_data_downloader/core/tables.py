@@ -92,7 +92,7 @@ class BaseTableConfig(object):
         # Validate the years
         for year in self.years_to_download:
             if year not in self.YEAR_LIST:
-                error_msg = ("Data only available for the years "
+                error_msg = ("Data only available for the years"
                              f"{self.YEAR_LIST[-1]}-{self.YEAR_LIST[0]}.")
                 raise NotImplementedError(error_msg)
 
@@ -275,10 +275,14 @@ class BaseTableConfig(object):
         Download 'em all.
         """
         for geo in self.GEOTYPE_LIST:
+            print(geo)
             # Get the downloader function
             dl = getattr(self, f"download_{geo}", None)
             # Validate it
             if not dl or not callable(dl):
                 raise NotImplementedError(f"Invalid geography type: {geo}")
             # Run it
-            dl()
+            try:
+                dl()
+            except NotImplementedError:
+                pass

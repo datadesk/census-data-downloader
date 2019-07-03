@@ -23,6 +23,18 @@ class BaseGeoTypeDownloader(object):
 
     Expects a TableConfig instance and year as input.
     """
+    YEAR_LIST = [
+        2017,
+        2016,
+        2015,
+        2014,
+        2013,
+        2012,
+        2011,
+        2010,
+        2009
+    ]
+
     def __init__(self, config, year):
         # Set the input variables
         self.config = config
@@ -30,6 +42,10 @@ class BaseGeoTypeDownloader(object):
 
         # Connect to the Census API for the provided source
         self.api = getattr(Census(self.config.CENSUS_API_KEY, year=year), self.config.source)
+
+        # Validate the year
+        if self.year not in self.YEAR_LIST:
+            raise NotImplementedError("Census API does not support this year for this geotype")
 
         # Validate the geotype
         valid_geotype_slugs = [gt.replace("_", "") for gt in self.config.GEOTYPE_LIST]
@@ -94,7 +110,7 @@ class BaseGeoTypeDownloader(object):
                     full_raw_id = f"{self.config.RAW_TABLE_NAME}_{field_id}{field_suffix}"
                     processed_name = f"{field_name}{name_suffix}".strip()
                     field_map[full_raw_id] = processed_name
-            return field_map
+        return field_map
 
     def get_raw_data(self):
         """
@@ -394,6 +410,16 @@ class ZctasDownloader(BaseGeoTypeDownloader):
     """
     Download raw data at the zipcode-tabulation-area level.
     """
+    YEAR_LIST = [
+        2017,
+        2016,
+        2015,
+        2014,
+        2013,
+        2012,
+        2011
+    ]
+
     slug = "zctas"
     raw_geotype = "zip code tabulation area"
 
