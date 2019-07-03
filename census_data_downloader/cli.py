@@ -40,14 +40,14 @@ def cmd(ctx, table, data_dir="./", year=None, force=False):
     ctx.obj['force'] = force
     try:
         klass = TABLES_LOOKUP[ctx.obj['table']]
-        ctx.obj['klass'] = klass
-        ctx.obj['runner'] = klass(
-            data_dir=data_dir,
-            years=year,
-            force=force
-        )
     except KeyError:
-        click.ClickException("Table not found")
+        raise click.ClickException("Table not found")
+    ctx.obj['klass'] = klass
+    ctx.obj['runner'] = klass(
+        data_dir=data_dir,
+        years=year,
+        force=force
+    )
 
 
 @cmd.command(help="Download nationwide data")

@@ -143,29 +143,29 @@ class BaseGeoTypeDownloader(object):
 
         # Replace estimate and annotation code values with humanized definitions
         estimate_map = collections.OrderedDict({
-            "-999999999.0": "sample cases too small",
+            "-999999999.0": "too few samples",
             "-88888888.0": "not applicable",
-            "-666666666.0": "no sample observations, too few sample observations or ratio of medians cannot be calculated",
-            "-555555555.0": "estimate is controlled; statistical test for sampling variability is not appropriate",
-            "-333333333.0": "median falls in lowest interval or upper interval of open-ended distribution; statistical test not appropriate",
-            "-222222222.0": "no sample or too few sample observations were available to calculate standard error; statistical test not appropriate",
-            "*": "estimate is significantly different(90 confidence level)than estimate from most current year. C means estimates for that year and current year are controlled; a statistical test is not appropriate"
+            "-666666666.0": "too few samples or ratio of medians cannot be calculated",
+            "-555555555.0": "estimate is controlled",
+            "-333333333.0": "falls in lowest interval or highest interval",
+            "-222222222.0": "too few samples to calculate standard error",
+            "*": "significantly different from most current year. C means controlled."
         })
         moe_map = collections.OrderedDict({
-            "N": "sample cases too small",
+            "N": "too few samples",
             "(X)": "not applicable",
-            "-": "no sample observations, too few sample observations or ratio of medians cannot be calculated",
-            "*****": "estimate is controlled; statistical test for sampling variability is not appropriate",
-            "***": "median falls in lowest interval or upper interval of open-ended distribution; statistical test not appropriate",
-            "**": "no sample or too few sample observations were available to calculate standard error; statistical test not appropriate",
-            "+": "median falls in the upper interval of an open-ended distribution",
-            "N/A": "estimate is significantly different(90 confidence level)than estimate from most current year. C means estimates for that year and current year are controlled; a statistical test is not appropriate"
+            "-": "too few samples or ratio of medians cannot be calculated",
+            "*****": "estimate is controlled",
+            "***": "falls in lowest interval or highest interval"
+            "**": "too few samples to calculate standard error",
+            "+": "falls in the highest interval",
+            "N/A": "significantly different from most current year. C means controlled."
         })
         for field in field_name_mapper.keys():
             if field.endswith("EA"):
-                df[field].replace(estimate_map, inplace=True)
+                df[field]= df[field].map(estimate_map)
             elif field.endswith("MA"):
-                df[field].replace(moe_map, inplace=True)
+                df[field]= df[field].map(moe_map)
 
         # Rename fields with humanized names
         df.rename(columns=field_name_mapper, inplace=True)
