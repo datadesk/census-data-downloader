@@ -113,7 +113,7 @@ class MedianHouseholdIncomeDownloader(BaseTableConfig):
     RAW_TABLE_NAME = 'B19013'  # The id of the source table
     RAW_FIELD_CROSSWALK = collections.OrderedDict({
         # A crosswalk between the raw field name and our humanized field name.
-        "001E": "median"
+        "001": "median"
     })
 ```
 
