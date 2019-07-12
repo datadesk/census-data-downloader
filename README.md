@@ -86,7 +86,7 @@ That's it. Mix and match tables and subcommands to get whatever you need.
 
 ### Python example
 
-Using the functionality in a Python script is easy. Import the class of the [processed table](census_data_downloader/tables) you wish to use and pass in your API key. Then call one of the download methods.
+Using the functionality in a Python script is easy. Import the class of the [processed table](https://github.com/datadesk/census-data-downloader/tree/master/census_data_downloader/tables) you wish to use and pass in your API key. Then call one of the download methods.
 
 This example brings in all state-level data from the medianhouseholdincomeblack dataset.
 
