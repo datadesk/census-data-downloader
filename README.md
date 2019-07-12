@@ -84,6 +84,30 @@ $ censusdatadownloader --year 2010 medianage states
 
 That's it. Mix and match tables and subcommands to get whatever you need.
 
+### Python example
+
+Using the functionality in a Python script is easy. Import the class of the [processed table](census_data_downloader/tables) you wish to use and pass in your API key. Then call one of the download methods.
+
+This example brings in all state-level data from the medianhouseholdincomeblack dataset.
+
+```python
+from census_data_downloader.tables import MedianHouseholdIncomeBlackDownloader
+
+output = MedianHouseholdIncomeBlackDownloader('e4ce29199e06153939bbb24875d73e87417ebe2e')
+
+print(output.download_states())
+```
+
+I can specify the data directory and the years by passing in the `data_dir` and `years` keyword arguments.
+
+```python
+from census_data_downloader.tables import MedianHouseholdIncomeBlackDownloader
+
+output = MedianHouseholdIncomeBlackDownloader('e4ce29199e06153939bbb24875d73e87417ebe2e', data_dir='./', years=2016)
+
+print(output.download_states())
+```
+
 ### Usage examples
 
 A gallery of graphics powered by our data is available on [Observable](https://observablehq.com/collection/@datadesk/u-s-census-data).
