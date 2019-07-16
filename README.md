@@ -16,7 +16,7 @@ The library can be installed as a command-line interface that lets you download 
 $ pipenv install census-data-downloader
 ```
 
-### Usage
+### Command-line usage
 
 There's now a tool named `censusdatadownloader` ready for you.
 
@@ -83,6 +83,25 @@ $ censusdatadownloader --year 2010 medianage states
 ```
 
 That's it. Mix and match tables and subcommands to get whatever you need.
+
+### Python usage
+
+You can also download tables from Python scripts. Import the class of the [processed table](https://github.com/datadesk/census-data-downloader/tree/master/census_data_downloader/tables) you wish to retrieve and pass in your API key. Then call one of the download methods.
+
+This example brings in all state-level data from the medianhouseholdincomeblack dataset.
+
+```python
+>>> from census_data_downloader.tables import MedianHouseholdIncomeBlackDownloader
+>>> downloader = MedianHouseholdIncomeBlackDownloader('<YOUR KEY>')
+>>> downloader.download_states()
+```
+
+You can specify the data directory and the years by passing in the `data_dir` and `years` keyword arguments.
+
+```python
+>>> downloader = MedianHouseholdIncomeBlackDownloader('<YOUR KEY>', data_dir='./', years=2016)
+>>> downloader.download_states()
+```
 
 ### Usage examples
 
