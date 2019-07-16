@@ -13,6 +13,7 @@ pandas = "*"
 us = "*"
 census = "*"
 click = "*"
+jinja2 = "*"
 
 [requires]
 python_version = "3.6"

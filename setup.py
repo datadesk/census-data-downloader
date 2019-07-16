@@ -18,7 +18,8 @@ setup(
         "pandas",
         "us",
         "census",
-        "click"
+        "click",
+        "jinja2"
     ),
     entry_points="""
         [console_scripts]
