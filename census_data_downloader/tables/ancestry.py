@@ -7,7 +7,7 @@ from census_data_downloader.core.decorators import register
 
 @register
 class AncestryDownloader(BaseTableConfig):
-    PROCESSED_TABLE_NAME = "singleancestry"
+    PROCESSED_TABLE_NAME = "ancestry"
     UNIVERSE = "people reporting single ancestry"
     RAW_TABLE_NAME = 'B04004'
     RAW_FIELD_CROSSWALK = collections.OrderedDict({
