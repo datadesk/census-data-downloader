@@ -56,7 +56,7 @@ Commands:
   ztcas                      Download ZIP Code tabulation areas
 ```
 
-Before you can use it you will need to add your CENSUS_API_KEY to your environment. Here's one quick way to do that:
+Before you can use it you will need to add your CENSUS_API_KEY to your environment. If you don't have an API key, you can go [here.](https://api.census.gov/data/key_signup.html) Here's one quick way to do that:
 
 ```bash
 $ export CENSUS_API_KEY='<your API key>'
