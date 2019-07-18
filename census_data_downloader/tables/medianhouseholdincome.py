@@ -37,4 +37,3 @@ class MedianHouseholdIncomeBlackDownloader(MedianHouseholdIncomeDownloader):
 class MedianHouseholdIncomeAsianDownloader(MedianHouseholdIncomeDownloader):
     PROCESSED_TABLE_NAME = "medianhouseholdincomeasian"
     RAW_TABLE_NAME = 'B19013D'
-
