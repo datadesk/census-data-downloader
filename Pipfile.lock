@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "a86285a4d69c423a1fbb538db9684f1c743ffb03ebd0b29548760bc4c3202b53"
+            "sha256": "89f9cb30c078cb2d27283896be20f08201a0e07974b66f19f2962e7967ea9b5b"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -23,6 +23,14 @@
             ],
             "index": "pypi",
             "version": "==0.8.13"
+        },
+        "census-data-aggregator": {
+            "hashes": [
+                "sha256:5726b1d548d7bd8e1532ece6ac8ad1659fc919cde5f59bd4f7efcad1a9ebfeba",
+                "sha256:684a47a5cfec5e4bf5b2cc7181890c7c07a921cec14d534b93df73abe87d5292"
+            ],
+            "index": "pypi",
+            "version": "==0.0.5"
         },
         "certifi": {
             "hashes": [

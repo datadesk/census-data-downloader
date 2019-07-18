@@ -15,7 +15,7 @@ All of the U.S. Census tables processed by this library.
         <tr>
             <td>{{ obj.PROCESSED_TABLE_NAME }}</td>
             <td>{{ obj.UNIVERSE }}</td>
-            <td><a href="{{ obj.censusreporter_url }}">{{ obj.RAW_TABLE_NAME }}</a></td>
+            <td>{{ obj.RAW_TABLE_NAME }}</td>
         </tr>
     {% endfor %}
 </tbody>

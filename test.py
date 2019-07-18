@@ -2,6 +2,8 @@ import pathlib
 import unittest
 from unittest import mock
 from us import states
+import pandas as pd
+from pandas.util.testing import assert_series_equal
 import collections
 import census_data_downloader
 from census_data_downloader import tables
@@ -26,6 +28,28 @@ class CensusDataDownloaderTest(unittest.TestCase):
         )
         multi.download_nationwide()
 
+    def test_moe_aggregator(self):
+        internet = tables.InternetDownloader(
+            years=[2017],
+            data_dir="./test-data/"
+        )
+        internet.download_nationwide()
+        test_data=pd.read_csv("./test-data/processed/acs5_2017_internet_nationwide.csv")
+        self.assertEqual(test_data['total_no_internet_and_no_subscription'][0], 25279458)
+        self.assertAlmostEqual(test_data['total_no_internet_and_no_subscription_moe'][0], 85272.1868,places=4)
+
+    def test_moe_aggregator_tracts(self):
+        internet = tables.InternetDownloader(
+            years=[2017],
+            data_dir="./test-data/"
+        )
+        internet.download_tracts()
+        test_data=pd.read_csv("./test-data/processed/acs5_2017_internet_tracts.csv")
+        test_answers=pd.read_csv("./acs5_2017_internet_tracts_answers.csv", dtype={'total_no_internet_and_no_subscription':'float64'})
+        #self.assertEqual(test_data['total_no_internet_and_no_subscription'], test_answers['total_no_internet_and_no_subscription'])
+        #self.assertAlmostEqual(test_data['total_no_internet_and_no_subscription_moe'], test_answers['total_no_internet_and_no_subscription_moe'])
+        assert_series_equal(test_data['total_no_internet_and_no_subscription'], test_answers['total_no_internet_and_no_subscription'])
+        #assert_series_equal(test_data['total_no_internet_and_no_subscription_moe'], test_answers['total_no_internet_and_no_subscription_moe'])
 
 class CliTest(unittest.TestCase):
 

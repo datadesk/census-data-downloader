@@ -9,6 +9,7 @@ import collections
 import pandas as pd
 from us import states
 from census import Census
+from census_data_downloader.core import ESTIMATE_MAP, MOE_MAP
 logger = logging.getLogger(__name__)
 
 
@@ -171,40 +172,24 @@ class BaseGeoTypeDownloader(object):
 
         # Cast numbers to floats
         for field in field_name_mapper.keys():
-            if field.endswith("_") and (field.endswith("E") or field.endswith("M")):
-                df[field].astype(pd.np.float64)
+            if "_" in field and (field.endswith("E") or field.endswith("M")):
+                df[field] = df[field].astype(pd.np.float64)
 
         # Replace estimate and annotation code values with humanized definitions
-        estimate_map = collections.OrderedDict({
-            "-999999999": "too few samples",
-            "-888888888": "not applicable",
-            "-666666666": "too few samples or ratio of medians cannot be calculated",
-            "-555555555": "estimate is controlled",
-            "-333333333": "falls in lowest interval or highest interval",
-            "-222222222": "too few samples to calculate standard error",
-            "*": "significantly different from most current year. C means controlled."
-        })
-        moe_map = collections.OrderedDict({
-            "N": "too few samples",
-            "(X)": "not applicable",
-            "-": "too few samples or ratio of medians cannot be calculated",
-            "*****": "estimate is controlled",
-            "***": "falls in lowest interval or highest interval",
-            "**": "too few samples to calculate standard error",
-            "+": "falls in the highest interval",
-            "N/A": "significantly different from most current year. C means controlled"
-        })
         for field in field_name_mapper.keys():
             if field.endswith("EA"):
-                df[field] = df[field].map(estimate_map)
+                df[field] = df[field].map(ESTIMATE_MAP)
             elif field.endswith("MA"):
-                df[field] = df[field].map(moe_map)
+                df[field] = df[field].map(MOE_MAP)
 
         # Rename fields with humanized names
         df.rename(columns=field_name_mapper, inplace=True)
 
         # Add a combined GEOID column with a Census unique identifer
         df['geoid'] = df.apply(self.create_geoid, axis=1)
+
+        if hasattr(self.config, 'process'):
+            df = self.config.process(df)
 
         # Write it out
         logger.debug(f"Writing CSV to {self.processed_csv_path}")

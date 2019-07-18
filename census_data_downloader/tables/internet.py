@@ -1,6 +1,10 @@
 #! /usr/bin/env python
 # -*- coding: utf-8 -*
 import collections
+from pprint import pprint
+import pandas as pd
+import census_data_aggregator
+from census_data_downloader.core import MOE_MAP
 from census_data_downloader.core.tables import BaseTableConfig
 from census_data_downloader.core.decorators import register
 
@@ -27,13 +31,27 @@ class InternetDownloader(BaseTableConfig):
         '013': "no_internet"
     })
 
-    def process(self, *args, **kwargs):
-        df = super().process(*args, **kwargs)
-
+    def process(self, df):
         # This field, which combines people with no internet and those only only receive via
         # a free program like municipal wifi together into a combined group.
         # The Census Bureau considers this to be the true number of households without Internet access.
-        df['total_no_internet_and_no_subscription'] = df['internet_without_subscription'] + df['no_internet']
+        def calculate_moe(row):
+            pprint(row)
+            if row['internet_without_subscription_moe'] in list(MOE_MAP.values()):
+                value = sum([row['internet_without_subscription'], row['no_internet']])
+                moe = None
+            value, moe = census_data_aggregator.approximate_sum(
+                (row['internet_without_subscription'], row['internet_without_subscription_moe']),
+                (row['no_internet'], row['no_internet_moe']),
+            )
+            row['total_no_internet_and_no_subscription'] = value
+            row['total_no_internet_and_no_subscription_moe'] = moe
+            return row
+
+        df=df.apply(
+            calculate_moe,
+            axis=1
+        )
 
         # Pass it back
         return df
