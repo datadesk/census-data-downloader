@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*
 import collections
 from pprint import pprint
-import pandas as pd
 import census_data_aggregator
 from census_data_downloader.core import MOE_MAP
 from census_data_downloader.core.tables import BaseTableConfig
@@ -48,10 +47,11 @@ class InternetDownloader(BaseTableConfig):
             row['total_no_internet_and_no_subscription_moe'] = moe
             return row
 
-        df=df.apply(
+        df=df.apply (
             calculate_moe,
             axis=1
         )
 
         # Pass it back
         return df
+
