@@ -29,7 +29,7 @@ class RaceDownloader(BaseTableConfig):
         # Our custom race groups
         def calculate_asians_moe(row):
             pprint(row)
-            if row['asian_alone_moe'] in list (MOE_MAP.values()):
+            if row['asian_alone_moe'] in list(MOE_MAP.values()):
                 value = sum([row['asian_alone'], row['native_hawaiian_and_pacific_islander']])
                 moe = None
             value, moe = census_data_aggregator.approximate_sum(
@@ -44,9 +44,10 @@ class RaceDownloader(BaseTableConfig):
             calculate_asians_moe,
             axis=1
         )
+
         def calculate_other_moe(row):
             pprint(row)
-            if row['american_indian_and_alaska_native_moe'] in list (MOE_MAP.values()):
+            if row['american_indian_and_alaska_native_moe'] in list(MOE_MAP.values()):
                 value = sum([row['american_indian_and_alaska_native'], row['other_alone'],row['two_or_more_races']])
                 moe = None
             value, moe = census_data_aggregator.approximate_sum(
