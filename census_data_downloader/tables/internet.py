@@ -47,7 +47,7 @@ class InternetDownloader(BaseTableConfig):
             row['total_no_internet_and_no_subscription_moe'] = moe
             return row
 
-        df= df.apply(
+        df = df.apply(
             calculate_moe,
             axis=1
         )
