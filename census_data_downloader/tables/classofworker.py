@@ -37,7 +37,7 @@ class ClassOfWorkerDownloader(BaseTableConfig):
         '021': "female_unpaid_family_workers"
     })
 
-    def process(self, *args, **kwargs):
+    def process(self,df):
         df = super().process(*args, **kwargs)
 
         # Calculate totals for both genders together

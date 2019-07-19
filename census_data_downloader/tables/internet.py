@@ -34,6 +34,7 @@ class InternetDownloader(BaseTableConfig):
         # This field, which combines people with no internet and those only only receive via
         # a free program like municipal wifi together into a combined group.
         # The Census Bureau considers this to be the true number of households without Internet access.
+        # Calculate moe for these rows so we can use in the median aggregator
         def calculate_moe(row):
             pprint(row)
             if row['internet_without_subscription_moe'] in list(MOE_MAP.values()):
