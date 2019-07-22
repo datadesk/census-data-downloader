@@ -33,8 +33,7 @@ class CitizenDownloader(BaseTableConfig):
         "006": "not_us_citizen"
     })
 
-
-    def calculate_moe(row):
+    def calculate_moe(self, df):
         # our custom groups
         if row['us_citizen_by_naturalization_moe'] in list(MOE_MAP.values()):
             value = sum([row['us_citizen_by_naturalization'], row['us_citizen_born_abroad_american_parents'], row['us_citizen_born_puertorico_or_us_island_alone'], row['us_citizen_born_us']])
@@ -50,7 +49,7 @@ class CitizenDownloader(BaseTableConfig):
         return row
 
         df = df.apply(
-            calculate_other_moe,
+            calculate_moe,
             axis=1
         )
 
