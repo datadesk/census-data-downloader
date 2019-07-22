@@ -1,6 +1,8 @@
 #! /usr/bin/env python
 # -*- coding: utf-8 -*
 import collections
+import census_data_aggregator
+from census_data_downloader.core import MOE_MAP
 from census_data_downloader.core.tables import BaseTableConfig
 from census_data_downloader.core.decorators import register
 
@@ -34,19 +36,18 @@ class CitizenDownloader(BaseTableConfig):
 
     def calculate_moe(row):
         # our custom groups
-        pprint(row)
         if row['us_citizen_by_naturalization_moe'] in list(MOE_MAP.values()):
-            value = sum([row['us_citizen_by_naturalization'], row['us_citizen_born_abroad_american_parents'],row['us_citizen_born_puertorico_or_us_island_alone'],row['us_citizen_born_us']])
+            value = sum([row['us_citizen_by_naturalization'], row['us_citizen_born_abroad_american_parents'], row['us_citizen_born_puertorico_or_us_island_alone'], row['us_citizen_born_us']])
             moe = None
         value, moe = census_data_aggregator.approximate_sum(
             (row['us_citizen_by_naturalization'], row['us_citizen_by_naturalization_moe']),
             (row['us_citizen_born_abroad_american_parents'], row['us_citizen_born_abroad_american_parents_moe']),
             (row['us_citizen_born_puertorico_or_us_island_alone'], row['us_citizen_born_puertorico_or_us_island_moe']),
             (row['us_citizen_born_us'], row['us_citizen_born_us_moe']),
-            )
-            row['us_citizen_total'] = value
-            row['us_citizen_total_moe'] = moe
-            return row
+        )
+        row['us_citizen_total'] = value
+        row['us_citizen_total_moe'] = moe
+        return row
 
         df = df.apply(
             calculate_other_moe,
@@ -55,4 +56,3 @@ class CitizenDownloader(BaseTableConfig):
 
         # Pass it back
         return df
-

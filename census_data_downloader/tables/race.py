@@ -48,7 +48,7 @@ class RaceDownloader(BaseTableConfig):
         def calculate_other_moe(row):
             pprint(row)
             if row['american_indian_and_alaska_native_moe'] in list(MOE_MAP.values()):
-                value = sum([row['american_indian_and_alaska_native'], row['other_alone'],row['two_or_more_races']])
+                value = sum([row['american_indian_and_alaska_native'], row['other_alone'], row['two_or_more_races']])
                 moe = None
             value, moe = census_data_aggregator.approximate_sum(
                 (row['american_indian_and_alaska_native'], row['american_indian_and_alaska_native_moe']),
