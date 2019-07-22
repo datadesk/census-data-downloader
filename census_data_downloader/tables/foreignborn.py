@@ -31,13 +31,28 @@ class CitizenDownloader(BaseTableConfig):
         "006": "not_us_citizen"
     })
 
-    def process(self, *args, **kwargs):
-        df = super().process(*args, **kwargs)
-        # Our custom race groups
-        df['us_citizen_total'] = df[[
-            'us_citizen_born_us',
-            'us_citizen_born_puertorico_or_us_island',
-            'us_citizen_born_abroad_american_parents',
-            'us_citizen_by_naturalization'
-        ]].sum(axis=1)
+
+    def calculate_moe(row):
+        # our custom groups
+        pprint(row)
+        if row['us_citizen_by_naturalization_moe'] in list(MOE_MAP.values()):
+            value = sum([row['us_citizen_by_naturalization'], row['us_citizen_born_abroad_american_parents'],row['us_citizen_born_puertorico_or_us_island_alone'],row['us_citizen_born_us']])
+            moe = None
+        value, moe = census_data_aggregator.approximate_sum(
+            (row['us_citizen_by_naturalization'], row['us_citizen_by_naturalization_moe']),
+            (row['us_citizen_born_abroad_american_parents'], row['us_citizen_born_abroad_american_parents_moe']),
+            (row['us_citizen_born_puertorico_or_us_island_alone'], row['us_citizen_born_puertorico_or_us_island_moe']),
+            (row['us_citizen_born_us'], row['us_citizen_born_us_moe']),
+            )
+            row['us_citizen_total'] = value
+            row['us_citizen_total_moe'] = moe
+            return row
+
+        df = df.apply(
+            calculate_other_moe,
+            axis=1
+        )
+
+        # Pass it back
         return df
+

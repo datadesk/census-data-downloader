@@ -67,6 +67,7 @@ class RaceDownloader(BaseTableConfig):
         # Pass it back
         return df
 
+
 @register
 class AmericanIndianAlaskaNativeAloneOrInComboDownloader(BaseTableConfig):
     PROCESSED_TABLE_NAME = 'aianaloneorincombo'
