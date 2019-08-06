@@ -4,9 +4,7 @@ Download U.S. census data and reformat it for humans.
 
 ## What's available
 
-All of the data files processed by this repository are published in the [`data/processed/`](./data/processed/) folder. They can be called in to applications via their raw URLs, like:
-
-`https://raw.githubusercontent.com/datadesk/census-data-downloader/master/data/processed/acs5_2017_population_counties.csv`
+All of the data files processed by this repository are published in the [`data/processed/`](./data/processed/) folder. They can be called in to applications via their raw URLs, like https://raw.githubusercontent.com/datadesk/census-data-downloader/master/data/processed/acs5_2017_population_counties.csv
 
 ## The command-line interface
 
@@ -22,7 +20,7 @@ $ pipenv install census-data-downloader
 
 There's now a tool named `censusdatadownloader` ready for you.
 
-```base
+```bash
 Usage: censusdatadownloader [OPTIONS] TABLE COMMAND [ARGS]...
 
   Download Census data and reformat it for humans
