@@ -9,12 +9,9 @@ import collections
 import pandas as pd
 from us import states
 from census import Census
-from census_data_downloader.core
 logger = logging.getLogger(__name__)
 
-#
 # Base downloader classes
-#
 
 
 class BaseGeoTypeDownloader(object):
