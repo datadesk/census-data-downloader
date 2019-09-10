@@ -11,7 +11,6 @@ from .housing import (
     MedianMonthlyHousingCostsDownloader,
     MedianHousingValueDownloader,
     MedianGrossRentDownloader,
-    AgeHouseholderByYearStructureBuiltDownloader,
     TenureDownloader,
     TenureLatinoDownloader,
     TenureWhiteDownloader,
@@ -69,7 +68,6 @@ from .yearstructurebuilt import YearStructureBuiltDownloader
 __all__ = [
     TABLE_LIST,
     AgeDownloader,
-    AgeHouseholderByYearStructureBuiltDownloader,
     AncestryDownloader,
     AsianDownloader,
     CitizenDownloader,
