@@ -175,12 +175,13 @@ class BaseGeoTypeDownloader(object):
             if "_" in field and (field.endswith("E") or field.endswith("M")):
                 df[field] = df[field].astype(pd.np.float64)
 
-        # Replace estimate and annotation code values with humanized definitions
-        for field in field_name_mapper.keys():
-            if field.endswith("EA"):
-                df[field] = df[field].map(ESTIMATE_MAP)
-            elif field.endswith("MA"):
-                df[field] = df[field].map(MOE_MAP)
+        # Move the annotation
+        #for field in field_name_mapper.keys():
+            #if field.endswith("EA"):
+                #estimate_field = field[:-1]
+                #df[field] = df[field].apply(lambda x: get_estimate_annotation(x[estimate_field], x[field]) if x else '')
+            #elif field.endswith("MA"):
+                #df[field] = df[field].map(MOE_MAP)
 
         # Rename fields with humanized names
         df.rename(columns=field_name_mapper, inplace=True)

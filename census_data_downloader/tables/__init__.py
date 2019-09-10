@@ -12,6 +12,7 @@ from .housing import (
     MedianMonthlyHousingCostsDownloader,
     MedianHousingValueDownloader,
     MedianGrossRentDownloader,
+    AgeHouseholderByYearStructureBuiltDownloader,
     TenureDownloader,
     TenureLatinoDownloader,
     TenureWhiteDownloader,
@@ -64,11 +65,12 @@ from .race import (
     AmericanIndianAlaskaNativeAloneOrInComboDownloader,
     AsianDownloader
 )
-# from .yearstructurebuilt import YearStructureBuiltDownloader
+from .yearstructurebuilt import YearStructureBuiltDownloader
 
 __all__ = [
     TABLE_LIST,
     AgeDownloader,
+    AgeHouseholderByYearStructureBuiltDownloader,
     AncestryDownloader,
     AsianDownloader,
     CitizenDownloader,
@@ -116,5 +118,6 @@ __all__ = [
     TenureLatinoDownloader,
     TenureWhiteDownloader,
     TenureBlackDownloader,
-    TenureAsianDownloader
+    TenureAsianDownloader,
+    YearStructureBuiltDownloader
 ]
