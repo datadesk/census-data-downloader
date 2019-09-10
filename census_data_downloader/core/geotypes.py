@@ -9,7 +9,7 @@ import collections
 import pandas as pd
 from us import states
 from census import Census
-from census_data_downloader.core import ESTIMATE_MAP, MOE_MAP
+from census_data_downloader.core
 logger = logging.getLogger(__name__)
 
 
@@ -174,14 +174,6 @@ class BaseGeoTypeDownloader(object):
         for field in field_name_mapper.keys():
             if "_" in field and (field.endswith("E") or field.endswith("M")):
                 df[field] = df[field].astype(pd.np.float64)
-
-        # Move the annotation
-        #for field in field_name_mapper.keys():
-            #if field.endswith("EA"):
-                #estimate_field = field[:-1]
-                #df[field] = df[field].apply(lambda x: get_estimate_annotation(x[estimate_field], x[field]) if x else '')
-            #elif field.endswith("MA"):
-                #df[field] = df[field].map(MOE_MAP)
 
         # Rename fields with humanized names
         df.rename(columns=field_name_mapper, inplace=True)
