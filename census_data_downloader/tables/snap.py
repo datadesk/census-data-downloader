@@ -14,7 +14,7 @@ class SnapbyPovertyDownloader(BaseTableConfig):
     UNIVERSE = "households"
     RAW_TABLE_NAME = 'B22003'
     RAW_FIELD_CROSSWALK = collections.OrderedDict({
-        '001': "total",
+        '001': "universe",
         '002': "household_received_snap_in_past_12_months",
         '003': "household_received_snap_in_past_12_months_income_below_poverty",
         '004': "household_received_snap_in_past_12_months_income_atorabove_poverty",
@@ -32,7 +32,7 @@ class SnapLatinoDownloader(BaseTableConfig):
     PROCESSED_TABLE_NAME = "snaplatino"
     RAW_TABLE_NAME = 'B22005I'
     RAW_FIELD_CROSSWALK = collections.OrderedDict({
-        '001': "total",
+        '001': "universe",
         '002': "household_received_snap_in_past_12_months",
         '003': "household_not_received_snap_in_past_12_months"
     })

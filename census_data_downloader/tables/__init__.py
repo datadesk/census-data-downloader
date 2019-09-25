@@ -2,6 +2,7 @@ from census_data_downloader.core.decorators import TABLE_LIST
 from .age import AgeDownloader
 from .ancestry import AncestryDownloader
 from .classofworker import ClassOfWorkerDownloader
+from .disability import DisabilityDownloader
 from .education import EducationDownloader
 from .employmentstatus import EmploymentStatusDownloader
 from .foreignborn import (
@@ -88,6 +89,7 @@ __all__ = [
     AsianDownloader,
     CitizenDownloader,
     ClassOfWorkerDownloader,
+    DisabilityDownloader,
     EducationDownloader,
     EmploymentStatusDownloader,
     ForeignBornDownloader,
