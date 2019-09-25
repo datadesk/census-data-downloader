@@ -72,6 +72,13 @@ from .race import (
     AmericanIndianAlaskaNativeAloneOrInComboDownloader,
     AsianDownloader
 )
+from .snap import (
+    SnapbyPovertyDownloader,
+    SnapLatinoDownloader,
+    SnapWhiteDownloader,
+    SnapBlackDownloader,
+    SnapAsianDownloader,
+)
 from .yearstructurebuilt import YearStructureBuiltDownloader
 
 __all__ = [
@@ -125,6 +132,11 @@ __all__ = [
     PovertyBlackDownloader,
     PovertyAsianDownloader,
     RaceDownloader,
+    SnapbyPovertyDownloader,
+    SnapLatinoDownloader,
+    SnapWhiteDownloader,
+    SnapBlackDownloader,
+    SnapAsianDownloader,
     AmericanIndianAlaskaNativeAloneOrInComboDownloader,
     TenureDownloader,
     TenureLatinoDownloader,
