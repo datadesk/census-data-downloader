@@ -18,23 +18,27 @@ class PerCapitaIncomeDownloader(BaseTableConfig):
 
 @register
 class PerCapitaIncomeLatinoDownloader(PerCapitaIncomeDownloader):
+    # inflation adjusted
     PROCESSED_TABLE_NAME = "percapitaincomelatino"
     RAW_TABLE_NAME = 'B19301I'
 
 
 @register
 class PerCapitaIncomeWhiteDownloader(PerCapitaIncomeDownloader):
+    # inflation adjusted
     PROCESSED_TABLE_NAME = "percapitaincomewhite"
     RAW_TABLE_NAME = 'B19301H'
 
 
 @register
 class PerCapitaIncomeBlackDownloader(PerCapitaIncomeDownloader):
+    # inflation adjusted
     PROCESSED_TABLE_NAME = "percapitaincomeblack"
     RAW_TABLE_NAME = 'B19301B'
 
 
 @register
 class PerCapitaIncomeAsianDownloader(PerCapitaIncomeDownloader):
+    # inflation adjusted
     PROCESSED_TABLE_NAME = "percapitaincomeasian"
     RAW_TABLE_NAME = 'B19301D'
