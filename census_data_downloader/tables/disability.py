@@ -8,6 +8,7 @@ from census_data_downloader.core.decorators import register
 @register
 class DisabilityDownloader(BaseTableConfig):
     """
+    Sex by age by disability status.
     https://factfinder.census.gov/help/en/civilian_noninstitutionalized_population.htm
     """
     PROCESSED_TABLE_NAME = "disability"
