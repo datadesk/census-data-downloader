@@ -12,7 +12,7 @@ class SnapbyPovertyDownloader(BaseTableConfig):
     """
     PROCESSED_TABLE_NAME = "snap"
     UNIVERSE = "households"
-    RAW_TABLE_NAME = 'B2203'
+    RAW_TABLE_NAME = 'B22003'
     RAW_FIELD_CROSSWALK = collections.OrderedDict({
         '001': "total",
         '002': "household_received_snap_in_past_12_months",
@@ -29,8 +29,8 @@ class SnapLatinoDownloader(BaseTableConfig):
     """
     receipt of food stamps/snap in past 12 months by race of householder
     """
-    PROCESSED_TABLE_NAME = "percapitaincomelatino"
-    RAW_TABLE_NAME = 'B2205I'
+    PROCESSED_TABLE_NAME = "snaplatino"
+    RAW_TABLE_NAME = 'B22005I'
     RAW_FIELD_CROSSWALK = collections.OrderedDict({
         '001': "total",
         '002': "household_received_snap_in_past_12_months",
@@ -40,17 +40,17 @@ class SnapLatinoDownloader(BaseTableConfig):
 
 @register
 class SnapWhiteDownloader(SnapLatinoDownloader):
-    PROCESSED_TABLE_NAME = "percapitaincomewhite"
-    RAW_TABLE_NAME = 'B2205H'
+    PROCESSED_TABLE_NAME = "snapwhite"
+    RAW_TABLE_NAME = 'B22005H'
 
 
 @register
 class SnapBlackDownloader(SnapLatinoDownloader):
-    PROCESSED_TABLE_NAME = "percapitaincomeblack"
-    RAW_TABLE_NAME = 'B2205B'
+    PROCESSED_TABLE_NAME = "snapblack"
+    RAW_TABLE_NAME = 'B22005B'
 
 
 @register
 class SnapAsianDownloader(SnapLatinoDownloader):
-    PROCESSED_TABLE_NAME = "percapitaincomeasian"
-    RAW_TABLE_NAME = 'B2205D'
+    PROCESSED_TABLE_NAME = "snapasian"
+    RAW_TABLE_NAME = 'B22005D'
