@@ -1,12 +1,15 @@
 from census_data_downloader.core.decorators import TABLE_LIST
 from .age import AgeDownloader
 from .ancestry import AncestryDownloader
+from .classofworker import ClassOfWorkerDownloader
+from .disability import DisabilityDownloader
 from .education import EducationDownloader
 from .employmentstatus import EmploymentStatusDownloader
 from .foreignborn import (
     ForeignBornDownloader,
     CitizenDownloader
 )
+from .gini import GiniIndexDownloader
 from .housing import (
     MedianMonthlyHousingCostsDownloader,
     MedianHousingValueDownloader,
@@ -48,6 +51,13 @@ from .mobility import (
     MobilityLatinoDownloader,
     MobilityByCitizenship
 )
+from .percapitaincome import (
+    PerCapitaIncomeDownloader,
+    PerCapitaIncomeLatinoDownloader,
+    PerCapitaIncomeWhiteDownloader,
+    PerCapitaIncomeBlackDownloader,
+    PerCapitaIncomeAsianDownloader
+)
 from .population import PopulationDownloader
 from .poverty import (
     PovertyDownloader,
@@ -63,6 +73,13 @@ from .race import (
     AmericanIndianAlaskaNativeAloneOrInComboDownloader,
     AsianDownloader
 )
+from .snap import (
+    SnapbyPovertyDownloader,
+    SnapLatinoDownloader,
+    SnapWhiteDownloader,
+    SnapBlackDownloader,
+    SnapAsianDownloader,
+)
 from .yearstructurebuilt import YearStructureBuiltDownloader
 
 __all__ = [
@@ -71,9 +88,12 @@ __all__ = [
     AncestryDownloader,
     AsianDownloader,
     CitizenDownloader,
+    ClassOfWorkerDownloader,
+    DisabilityDownloader,
     EducationDownloader,
     EmploymentStatusDownloader,
     ForeignBornDownloader,
+    GiniIndexDownloader,
     HouseholdIncomeDownloader,
     HouseholdIncomeLatinoDownloader,
     HouseholdIncomeWhiteDownloader,
@@ -100,6 +120,11 @@ __all__ = [
     MobilityAsianDownloader,
     MobilityLatinoDownloader,
     MobilityByCitizenship,
+    PerCapitaIncomeDownloader,
+    PerCapitaIncomeLatinoDownloader,
+    PerCapitaIncomeWhiteDownloader,
+    PerCapitaIncomeBlackDownloader,
+    PerCapitaIncomeAsianDownloader,
     PopulationDownloader,
     PovertyDownloader,
     PovertyBySexDownloader,
@@ -109,6 +134,11 @@ __all__ = [
     PovertyBlackDownloader,
     PovertyAsianDownloader,
     RaceDownloader,
+    SnapbyPovertyDownloader,
+    SnapLatinoDownloader,
+    SnapWhiteDownloader,
+    SnapBlackDownloader,
+    SnapAsianDownloader,
     AmericanIndianAlaskaNativeAloneOrInComboDownloader,
     TenureDownloader,
     TenureLatinoDownloader,
