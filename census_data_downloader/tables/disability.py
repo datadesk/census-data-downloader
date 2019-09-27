@@ -55,3 +55,38 @@ class DisabilityDownloader(BaseTableConfig):
         '038': "female_75older_disability",
         '039': "female_75older_nodisability",
     })
+
+
+@register
+class DisabilityPovertyDownloader(BaseTableConfig):
+    """
+    Age by disability status by poverty status. Income in the past 12 months.
+    https://factfinder.census.gov/help/en/civilian_noninstitutionalized_population.htm
+    """
+    PROCESSED_TABLE_NAME = "disabilitypoverty"
+    UNIVERSE = "civilian noninstitutionalized population for whom poverty status is determined"
+    RAW_TABLE_NAME = 'C18130'
+    RAW_FIELD_CROSSWALK = collections.OrderedDict({
+        '001': "universe",
+        '002': "under18",
+        '003': "under18_disability",
+        '004': "under18_disability_below_povertylevel",
+        '005': "under18_disability_atorabove_povertylevel",
+        '006': "under18_nodisability",
+        '007': "under18_nodisability_below_povertylevel",
+        '008': "under18_nodisability_atorabove_povertylevel",
+        '009': "18to64",
+        '010': "18to64_disability",
+        '011': "18to64_disability_below_povertylevel",
+        '012': "18to64_disability_atorabove_povertylevel",
+        '013': "18to64_nodisability",
+        '014': "18to64_nodisability_below_povertylevel",
+        '015': "18to64_nodisability_atorabove_povertylevel",
+        '016': "65older",
+        '017': "65older_disability",
+        '018': "65older_disability_below_povertylevel",
+        '019': "65older_disability_atorabove_povertylevel",
+        '020': "65older_nodisability",
+        '021': "65older_nodisability_below_povertylevel",
+        '022': "65older_nodisability_atorabove_povertylevel",
+    })
