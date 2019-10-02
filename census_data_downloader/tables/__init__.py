@@ -14,6 +14,7 @@ from .foreignborn import (
 )
 from .gini import GiniIndexDownloader
 from .housing import (
+    HousingValueDownloader,
     MedianMonthlyHousingCostsDownloader,
     MedianHousingValueDownloader,
     MedianGrossRentDownloader,
@@ -98,6 +99,7 @@ __all__ = [
     EmploymentStatusDownloader,
     ForeignBornDownloader,
     GiniIndexDownloader,
+    HousingValueDownloader,
     HouseholdIncomeDownloader,
     HouseholdIncomeLatinoDownloader,
     HouseholdIncomeWhiteDownloader,
