@@ -94,7 +94,7 @@ __all__ = [
     AsianDownloader,
     CitizenDownloader,
     ClassOfWorkerDownloader,
-    CognitiveDisabilityDownloader,
+    CognitiveDifficultyDownloader,
     DisabilityDownloader,
     DisabilityPovertyDownloader,
     EducationDownloader,
