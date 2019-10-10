@@ -93,12 +93,12 @@ class DisabilityPovertyDownloader(BaseTableConfig):
 
 
 @register
-class CognitiveDisabilityDownloader(BaseTableConfig):
+class CognitiveDifficultyDownloader(BaseTableConfig):
     """
     Sex by age by cognitive difficulty.
     https://factfinder.census.gov/help/en/civilian_noninstitutionalized_population.htm
     """
-    PROCESSED_TABLE_NAME = "cognitivedisability"
+    PROCESSED_TABLE_NAME = "cognitivedifficulty"
     UNIVERSE = "civilian noninstitutionalized population 5 years or over"
     RAW_TABLE_NAME = 'B18104'
     RAW_FIELD_CROSSWALK = collections.OrderedDict({

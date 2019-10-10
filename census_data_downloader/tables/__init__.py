@@ -5,7 +5,7 @@ from .classofworker import ClassOfWorkerDownloader
 from .disability import (
     DisabilityDownloader,
     DisabilityPovertyDownloader,
-    CognitiveDisabilityDownloader
+    CognitiveDifficultyDownloader
 )
 from .education import EducationDownloader
 from .employmentstatus import EmploymentStatusDownloader
