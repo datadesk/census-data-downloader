@@ -18,6 +18,7 @@ setup(
         "pandas",
         "us",
         "census",
+        "census-data-aggregator",
         "click",
         "jinja2"
     ),
