@@ -4,7 +4,8 @@ from .ancestry import AncestryDownloader
 from .classofworker import ClassOfWorkerDownloader
 from .disability import (
     DisabilityDownloader,
-    DisabilityPovertyDownloader
+    DisabilityPovertyDownloader,
+    CognitiveDisabilityDownloader
 )
 from .education import EducationDownloader
 from .employmentstatus import EmploymentStatusDownloader
@@ -93,6 +94,7 @@ __all__ = [
     AsianDownloader,
     CitizenDownloader,
     ClassOfWorkerDownloader,
+    CognitiveDisabilityDownloader,
     DisabilityDownloader,
     DisabilityPovertyDownloader,
     EducationDownloader,

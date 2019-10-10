@@ -90,3 +90,49 @@ class DisabilityPovertyDownloader(BaseTableConfig):
         '021': "65older_nodisability_below_povertylevel",
         '022': "65older_nodisability_atorabove_povertylevel",
     })
+
+
+@register
+class CognitiveDisabilityDownloader(BaseTableConfig):
+    """
+    Sex by age by cognitive difficulty.
+    https://factfinder.census.gov/help/en/civilian_noninstitutionalized_population.htm
+    """
+    PROCESSED_TABLE_NAME = "cognitivedisability"
+    UNIVERSE = "civilian noninstitutionalized population 5 years or over"
+    RAW_TABLE_NAME = 'B18104'
+    RAW_FIELD_CROSSWALK = collections.OrderedDict({
+        '001': "universe",
+        '002': "male",
+        '003': "male_5_17",
+        '004': "male_5_17_cognitive",
+        '005': "male_5_17_nocognitive",
+        '006': "male_18_34",
+        '007': "male_18_34_cognitive",
+        '008': "male_18_34_nocognitive",
+        '009': "male_35_64",
+        '010': "male_35_64_cognitive",
+        '011': "male_35_64_nocognitive",
+        '012': "male_65_74",
+        '013': "male_65_74_cognitive",
+        '014': "male_65_74_nocognitive",
+        '015': "male_75_older",
+        '016': "male_75_older_cognitive",
+        '017': "male_75_older_nocognitive",
+        '018': "female",
+        '019': "female_5_17",
+        '020': "female_5_17_cognitive",
+        '021': "female_5_17_nocognitive",
+        '022': "female_18_34",
+        '023': "female_18_34_cognitive",
+        '024': "female_18_34_nocognitive",
+        '025': "female_35_64",
+        '026': "female_35_64_cognitive",
+        '027': "female_35_64_nocognitive",
+        '028': "female_65_74",
+        '029': "female_65_74_cognitive",
+        '030': "female_65_74_nocognitive",
+        '031': "female_75_older",
+        '032': "female_75_older_cognitive",
+        '033': "female_75_older_nocognitive",
+    })
