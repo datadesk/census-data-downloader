@@ -27,7 +27,7 @@ class HouseholdIncomeDownloader(BaseTableConfig):
         '014': "100000_125000",
         '015': "125000_150000",
         '016': "150000_200000",
-        '017': "200_more"
+        '017': "200000_more"
     })
 
 
