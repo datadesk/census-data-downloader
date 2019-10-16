@@ -23,7 +23,7 @@ TABLES_LOOKUP = dict((k.PROCESSED_TABLE_NAME, k) for k in TABLE_LIST)
 @click.option(
     "--year",
     default=None,
-    type=click.Choice(["2009-2017"]),
+    type=int,
     help="The years of data to download. By default it gets only the latest year. Not all data are available for every year. Submit 'all' to get every year."
 )
 @click.option(
