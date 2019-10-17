@@ -53,9 +53,7 @@ class BaseTableConfig(object):
         "elementary_school_districts",
         "secondary_school_districts",
         "alaska_native",
-        "tribal_census",
-        "county_subdivision",
-        "metropolitan_division"
+        "county_subdivision"
     )
 
     def __init__(
@@ -282,26 +280,11 @@ class BaseTableConfig(object):
         return geotypes.AlaskaNativeDownloader
 
     @decorators.downloader
-    def download_tribal_census_tract(self):
-        """
-        Download data for tribal census tracts.
-        """
-        return geotypes.TribalCensusDownloader
-
-    @decorators.downloader
     def download_county_subdivision(self):
         """
         Download data for county subdivisions.
         """
         return geotypes.CountySubdivisionDownloader
-
-    @decorators.downloader
-    def download_metropolitan_division(self):
-        """
-        Download data for metropolitan divisions.
-        """
-        return geotypes.MetropolitanDivisionDownloader
-        ""
 
     def download_everything(self):
         """

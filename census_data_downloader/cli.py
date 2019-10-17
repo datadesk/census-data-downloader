@@ -177,22 +177,10 @@ def alaskanative(ctx):
     ctx.obj['runner'].download_alaska_native()
 
 
-@cmd.command(help="Download tribal census tracts")
-@click.pass_context
-def tribalcensus(ctx):
-    ctx.obj['runner'].download_tribal_census_tract()
-
-
 @cmd.command(help="Download county subdivisions")
 @click.pass_context
 def countysubdivision(ctx):
     ctx.obj['runner'].download_county_subdivision()
-
-
-@cmd.command(help="Download metropolitan division")
-@click.pass_context
-def metropolitandivision(ctx):
-    ctx.obj['runner'].download_metropolitan_division()
 
 
 @cmd.command(help="Download everything from everywhere")
