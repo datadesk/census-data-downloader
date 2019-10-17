@@ -51,7 +51,11 @@ class BaseTableConfig(object):
         "zctas",
         "unified_school_districts",
         "elementary_school_districts",
-        "secondary_school_districts"
+        "secondary_school_districts",
+        "alaska_native",
+        "tribal_census",
+        "county_subdivision",
+        "metropolitan_division"
     )
 
     def __init__(
@@ -269,6 +273,35 @@ class BaseTableConfig(object):
         Download data for secondary school districts.
         """
         return geotypes.SecondarySchoolDistrictsDownloader
+
+    @decorators.downloader
+    def download_alaska_native(self):
+        """
+        Download data for Alaska Native regional corporations.
+        """
+        return geotypes.AlaskaNativeDownloader
+
+    @decorators.downloader
+    def download_tribal_census_tract(self):
+        """
+        Download data for tribal census tracts.
+        """
+        return geotypes.TribalCensusDownloader
+
+    @decorators.downloader
+    def download_county_subdivision(self):
+        """
+        Download data for county subdivisions.
+        """
+        return geotypes.CountySubdivisionDownloader
+
+    @decorators.downloader
+    def download_metropolitan_division(self):
+        """
+        Download data for metropolitan divisions.
+        """
+        return geotypes.MetropolitanDivisionDownloader
+        ""
 
     def download_everything(self):
         """
