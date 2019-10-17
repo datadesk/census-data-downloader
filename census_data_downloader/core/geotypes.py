@@ -440,25 +440,9 @@ class AlaskaNativeDownloader(BaseStateLevelGeoTypeDownloader):
     raw_geotype = "alaska native regional corporation"
 
 
-class TribalCensusDownloader(BaseStateLevelGeoTypeDownloader):
-    """
-    Download raw data at the tribal census tract level.
-    """
-    slug = "tribalcensus"
-    raw_geotype = "tribal census tract"
-
-
 class CountySubdivisionDownloader(BaseStateLevelGeoTypeDownloader):
     """
     Download raw data at the county subdivision level.
     """
     slug = "countysubdivision"
     raw_geotype = "county subdivision"
-
-
-class MetropolitanDivisionDownloader(BaseStateLevelGeoTypeDownloader):
-    """
-    Download raw data at the metropolitan division level.
-    """
-    slug = "metropolitandivision"
-    raw_geotype = "metropolitan division"
