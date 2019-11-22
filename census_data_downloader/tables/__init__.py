@@ -89,7 +89,7 @@ from .yearstructurebuilt import (
     YearStructureBuiltDownloader,
     TenureByYearStructureBuiltDownloader,
     AgeHouseholderByYearBuiltDownloader
-    )
+)
 
 
 __all__ = [
