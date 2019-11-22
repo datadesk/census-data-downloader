@@ -85,11 +85,17 @@ from .snap import (
     SnapBlackDownloader,
     SnapAsianDownloader,
 )
-from .yearstructurebuilt import YearStructureBuiltDownloader
+from .yearstructurebuilt import (
+    YearStructureBuiltDownloader,
+    TenureByYearStructureBuiltDownloader,
+    AgeHouseholderByYearBuiltDownloader
+    )
+
 
 __all__ = [
     TABLE_LIST,
     AgeDownloader,
+    AgeHouseholderByYearBuiltDownloader,
     AncestryDownloader,
     AsianDownloader,
     CitizenDownloader,
@@ -153,5 +159,6 @@ __all__ = [
     TenureWhiteDownloader,
     TenureBlackDownloader,
     TenureAsianDownloader,
+    TenureByYearStructureBuiltDownloader,
     YearStructureBuiltDownloader
 ]
