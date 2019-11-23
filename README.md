@@ -53,7 +53,7 @@ Commands:
   tracts                     Download Census tracts
   unifiedschooldistricts     Download unified school districts
   urbanareas                 Download urban areas
-  ztcas                      Download ZIP Code tabulation areas
+  zctas                      Download ZIP Code tabulation areas
 ```
 
 Before you can use it you will need to add your CENSUS_API_KEY to your environment. If you don't have an API key, you can go [here.](https://api.census.gov/data/key_signup.html) One quick way to add your key:
