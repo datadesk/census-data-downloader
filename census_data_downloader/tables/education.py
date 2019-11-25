@@ -48,11 +48,10 @@ class EducationDownloader(BaseTableConfig):
         '035': "female_doctorate_degree",
     })
 
-    def process(self, *args, **kwargs):
+    def process(self,df):
         """
         Combine raw age columns into our preferred groupings.
         """
-        df = super().process(*args, **kwargs)
 
         # Calculate totals for both genders together
         groups = [
