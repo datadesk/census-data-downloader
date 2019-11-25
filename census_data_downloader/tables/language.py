@@ -28,11 +28,10 @@ class HouseholdLanguageDownloader(BaseTableConfig):
         "014": "other_not_limited_english",
     })
 
-    def process(self, *args, **kwargs):
+    def process(self,df):
         """
         Combine language counts to get total english/non-english speakers
         """
-        df = super().process(*args, **kwargs)
 
         languages = [
             'spanish',
@@ -100,12 +99,10 @@ class LanguageShortFormDownloader(BaseTableConfig):
         '038': 'other_and_english_less_than_very_well'
     })
 
-    def process(self, *args, **kwargs):
+    def process(self,df):
         """
         Combine language counts to get total english/non-english speakers
         """
-        df = super().process(*args, **kwargs)
-
         languages = [
             'spanish',
             'french_haitan_or_cajun',
@@ -271,11 +268,10 @@ class LanguageLongFormDownloader(BaseTableConfig):
         '128': 'other_unspecified_and_english_less_than_very_well'
     })
 
-    def process(self, *args, **kwargs):
+    def process(self, df):
         """
         Combine language counts to get total english/non-english speakers
         """
-        df = super().process(*args, **kwargs)
 
         languages = [
             'spanish',
