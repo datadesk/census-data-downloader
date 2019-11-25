@@ -28,7 +28,7 @@ class HouseholdLanguageDownloader(BaseTableConfig):
         "014": "other_not_limited_english",
     })
 
-    def process(self,df):
+    def process(self, df):
         """
         Combine language counts to get total english/non-english speakers
         """
@@ -99,7 +99,7 @@ class LanguageShortFormDownloader(BaseTableConfig):
         '038': 'other_and_english_less_than_very_well'
     })
 
-    def process(self,df):
+    def process(self, df):
         """
         Combine language counts to get total english/non-english speakers
         """
