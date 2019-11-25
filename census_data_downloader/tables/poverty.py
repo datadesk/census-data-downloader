@@ -109,7 +109,7 @@ class PovertyAgeDownloader(BaseTableConfig):
         '059': "female_75_and_over_at_or_above_poverty_level"
     })
 
-    def process(self,df):
+    def process(self, df):
 
         # Calculate totals for both genders together
         groups = [

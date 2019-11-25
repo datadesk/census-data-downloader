@@ -48,7 +48,7 @@ class EducationDownloader(BaseTableConfig):
         '035': "female_doctorate_degree",
     })
 
-    def process(self,df):
+    def process(self, df):
         """
         Combine raw age columns into our preferred groupings.
         """
