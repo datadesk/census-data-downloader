@@ -72,6 +72,18 @@ class MedianGrossRentDownloader(BaseTableConfig):
 
 
 @register
+class TenurePopDownloader(BaseTableConfig):
+    PROCESSED_TABLE_NAME = "tenurepop"
+    UNIVERSE = "total population in occupied housing units"
+    RAW_TABLE_NAME = 'B25008'
+    RAW_FIELD_CROSSWALK = collections.OrderedDict({
+        '001': 'universe',
+        '002': 'owner_occupied',
+        '003': 'renter_occupied'
+    })
+
+
+@register
 class TenureDownloader(BaseTableConfig):
     PROCESSED_TABLE_NAME = "tenure"
     UNIVERSE = "occupied housing units"
