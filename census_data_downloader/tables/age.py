@@ -62,9 +62,7 @@ class AgeDownloader(BaseTableConfig):
         '049': "female_85_and_over"
     })
 
-    def process(self, *args, **kwargs):
-        df = super().process(*args, **kwargs)
-
+    def process(self, df):
         # Calculate totals for both genders together
         groups = [
             'under_5',
