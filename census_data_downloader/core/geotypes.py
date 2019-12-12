@@ -21,6 +21,7 @@ class BaseGeoTypeDownloader(object):
     Expects a TableConfig instance and year as input.
     """
     YEAR_LIST = [
+        2018,
         2017,
         2016,
         2015,

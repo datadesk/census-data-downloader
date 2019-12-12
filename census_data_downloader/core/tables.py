@@ -19,6 +19,7 @@ class BaseTableConfig(object):
     PARENT_DIR = THIS_DIR.parent
     # All available years
     YEAR_LIST = [
+        2018,
         2017,
         2016,
         2015,
@@ -59,7 +60,7 @@ class BaseTableConfig(object):
     def __init__(
         self,
         api_key=None,
-        source="acs5",
+        source="acs1",
         years=None,
         data_dir=None,
         force=False
