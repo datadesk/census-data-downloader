@@ -7,7 +7,6 @@ import click
 from census_data_downloader.tables import TABLE_LIST
 TABLES_LOOKUP = dict((k.PROCESSED_TABLE_NAME, k) for k in TABLE_LIST)
 
-
 @click.group(help="Download Census data and reformat it for humans")
 @click.argument(
     "table",
@@ -27,6 +26,11 @@ TABLES_LOOKUP = dict((k.PROCESSED_TABLE_NAME, k) for k in TABLE_LIST)
     help="The years of data to download. By default it gets only the latest year. Not all data are available for every year. Submit 'all' to get every year."
 )
 @click.option(
+    "--source",
+    default="acs1",
+    help="Not all data are available for every survey. Submit 'all' to all surveys."
+)
+@click.option(
     '--force',
     is_flag=True,
     help="Force the downloading of the data"
@@ -37,6 +41,7 @@ def cmd(ctx, table, data_dir="./", year=None, force=False):
     ctx.obj['table'] = table
     ctx.obj['data_dir'] = data_dir
     ctx.obj['year'] = year
+    ctx.obj['source'] = source
     ctx.obj['force'] = force
     try:
         klass = TABLES_LOOKUP[ctx.obj['table']]
@@ -46,6 +51,7 @@ def cmd(ctx, table, data_dir="./", year=None, force=False):
     ctx.obj['runner'] = klass(
         data_dir=data_dir,
         years=year,
+        sources=source,
         force=force
     )
 

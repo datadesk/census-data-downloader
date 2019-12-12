@@ -33,17 +33,27 @@ class BaseGeoTypeDownloader(object):
         2009
     ]
 
-    def __init__(self, config, year):
+    SOURCE_LIST = (
+        "acs5",
+        "acs1"
+    )
+
+    def __init__(self, config, year, source):
         # Set the input variables
         self.config = config
         self.year = year
+        self.source = source
 
         # Connect to the Census API for the provided source
-        self.api = getattr(Census(self.config.CENSUS_API_KEY, year=year), self.config.source)
+        self.api = getattr(Census(self.config.CENSUS_API_KEY, year=year), source=source)
 
         # Validate the year
         if self.year not in self.YEAR_LIST:
             raise NotImplementedError("Census API does not support this year for this geotype")
+
+        # Validate the year
+        if self.source not in self.SOURCE_LIST:
+            raise NotImplementedError("Census API does not support this survey")
 
         # Validate the geotype
         valid_geotype_slugs = [gt.replace("_", "") for gt in self.config.GEOTYPE_LIST]
@@ -54,9 +64,9 @@ class BaseGeoTypeDownloader(object):
         self.api_fields = self.get_api_fields()
 
         # Set the CSV names
-        self.raw_csv_name = f"{self.config.source}_{self.year}_{self.config.PROCESSED_TABLE_NAME}_{self.slug}.csv"
+        self.raw_csv_name = f"{self.source}_{self.year}_{self.config.PROCESSED_TABLE_NAME}_{self.slug}.csv"
         self.raw_csv_path = self.config.raw_data_dir.joinpath(self.raw_csv_name)
-        self.processed_csv_name = f"{self.config.source}_{self.year}_{self.config.PROCESSED_TABLE_NAME}_{self.slug}.csv"
+        self.processed_csv_name = f"{self.source}_{self.year}_{self.config.PROCESSED_TABLE_NAME}_{self.slug}.csv"
         self.processed_csv_path = self.config.processed_data_dir.joinpath(self.processed_csv_name)
 
     @property

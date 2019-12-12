@@ -31,4 +31,12 @@ def downloader(func):
             downloader.download()
             # Process the data
             downloader.process()
+        # For each survey 
+        for source in table_config.sources_to_download:
+            # Create the geotype downloader instance
+            downloader = downloader_klass(table_config, source)
+            # Download the raw data
+            downloader.download()
+            # Process the data
+            downloader.process()
     return inner

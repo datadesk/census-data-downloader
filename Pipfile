@@ -17,6 +17,7 @@ click = "*"
 jinja2 = "*"
 census-data-aggregator = "*"
 ipykernel = "*"
+census-data-downloader = "*"
 
 [requires]
-python_version = "3.6"
+python_version = "3.7"

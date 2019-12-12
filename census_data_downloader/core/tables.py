@@ -19,6 +19,7 @@ class BaseTableConfig(object):
     PARENT_DIR = THIS_DIR.parent
     # All available years
     YEAR_LIST = [
+        2018,
         2017,
         2016,
         2015,
@@ -56,10 +57,15 @@ class BaseTableConfig(object):
         "county_subdivision"
     )
 
+    SOURCE_LIST = (
+        "acs5",
+        "acs1"
+        )
+
     def __init__(
         self,
         api_key=None,
-        source="acs5",
+        sources=None,#changed this from acs5 to acs1 for downloading 2018
         years=None,
         data_dir=None,
         force=False
@@ -71,7 +77,7 @@ class BaseTableConfig(object):
         self.CENSUS_API_KEY = os.getenv("CENSUS_API_KEY", api_key)
         if not self.CENSUS_API_KEY:
             raise NotImplementedError("Census API key required. Pass it as the first argument.")
-        self.source = source
+        # self.source = source
         self.force = force
 
         #
@@ -97,6 +103,21 @@ class BaseTableConfig(object):
                 error_msg = ("Data only available for the years"
                              f"{self.YEAR_LIST[-1]}-{self.YEAR_LIST[0]}.")
                 raise NotImplementedError(error_msg)
+
+        # If they want all surveys, give it to them.
+        if sources == "all":
+            self.source_to_download = self.SOURCE_LIST
+        # If they provided nothing, default to the latest survey of data
+        elif sources is None:
+            self.source_to_download = [max(self.SOURCE_LIST),]
+
+        # Validate the years
+        for source in self.source_to_download:
+            if source not in self.SOURCE_LIST:
+                error_msg = ("Data only available for these surveys"
+                             f"{self.SOURCE_LIST[-1]},{self.SOURCE__LIST[0]}.")
+                raise NotImplementedError(error_msg)        
+
 
         # Set the data directories
         if data_dir:
