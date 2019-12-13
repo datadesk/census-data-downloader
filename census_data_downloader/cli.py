@@ -83,8 +83,8 @@ def congressionaldistricts(ctx):
 @cmd.command(help="Download statehouse districts")
 @click.pass_context
 def statelegislativedistricts(ctx):
-    ctx.obj['runner'].download_state_legislative_districts_upper()
-    ctx.obj['runner'].download_state_legislative_districts_lower()
+    ctx.obj['runner'].download_state_legislative_upper_districts()
+    ctx.obj['runner'].download_state_legislative_lower_districts()
 
 
 @cmd.command(help="Download counties in all states")
