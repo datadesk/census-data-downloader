@@ -77,7 +77,7 @@ class EducationDownloader(BaseTableConfig):
 
         # Calculate our custom groups
         groupsets = collections.OrderedDict({
-            "less_than_high_scool": [
+            "less_than_high_school": [
                 "no_schooling",
                 "nursery_to_4th_grade",
                 "5th_and_6th_grade",
