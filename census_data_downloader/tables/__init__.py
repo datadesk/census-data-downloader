@@ -86,6 +86,7 @@ from .snap import (
     SnapBlackDownloader,
     SnapAsianDownloader,
 )
+from .veteran import VeteranDownloader
 from .yearstructurebuilt import (
     YearStructureBuiltDownloader,
     TenureByYearStructureBuiltDownloader,
@@ -162,5 +163,6 @@ __all__ = [
     TenureBlackDownloader,
     TenureAsianDownloader,
     TenureByYearStructureBuiltDownloader,
+    VeteranDownloader,
     YearStructureBuiltDownloader
 ]
