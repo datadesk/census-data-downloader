@@ -27,7 +27,7 @@ Usage: censusdatadownloader [OPTIONS] TABLE COMMAND [ARGS]...
 
 Options:
   --data-dir TEXT  The folder where you want to download the data
-  --year [2009-2017]   The years of data to download. By default it gets only the
+  --year [2009-2018]   The years of data to download. By default it gets only the
                    latest year. Not all data are available for every year. Submit 'all' to get every year.
   --force          Force the downloading of the data
   --help           Show this message and exit.
