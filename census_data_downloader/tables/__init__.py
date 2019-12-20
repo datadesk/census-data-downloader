@@ -7,7 +7,10 @@ from .disability import (
     DisabilityPovertyDownloader,
     CognitiveDifficultyDownloader
 )
-from .education import EducationDownloader
+from .education import (
+    EducationDownloader,
+    EducationShortDownloader
+)
 from .employmentstatus import EmploymentStatusDownloader
 from .foreignborn import (
     ForeignBornDownloader,
@@ -106,6 +109,7 @@ __all__ = [
     DisabilityDownloader,
     DisabilityPovertyDownloader,
     EducationDownloader,
+    EducationShortDownloader,
     EmploymentStatusDownloader,
     ForeignBornDownloader,
     GiniIndexDownloader,
