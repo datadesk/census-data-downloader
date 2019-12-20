@@ -192,6 +192,6 @@ class EducationShortDownloader(BaseTableConfig):
             calculate_total_bachelors_or_higher_moe,
             axis=1
         )
-        
+
         # Pass it back
         return df
