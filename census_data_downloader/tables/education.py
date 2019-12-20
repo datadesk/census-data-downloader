@@ -134,13 +134,13 @@ class EducationShortDownloader(BaseTableConfig):
     def process(self, df):
         def calculate_male_bachelors_or_higher_moe(row):
             if row['male_bachelors_degree_moe'] in list(MOE_MAP.values()):
-                value = sum([row['male_bachelors_degree'], row['male_masters_degree'],row['male_professional_school_degree'],row['male_doctorate_degree']])
+                value = sum([row['male_bachelors_degree'], row['male_masters_degree'], row['male_professional_school_degree'], row['male_doctorate_degree']])
                 moe = None
             value, moe = census_data_aggregator.approximate_sum(
                 (row['male_bachelors_degree'], row['male_bachelors_degree_moe']),
                 (row['male_masters_degree'], row['male_masters_degree_moe']),
-                (row['male_professional_school_degree'],row['male_professional_school_degree_moe']),
-                (row['male_doctorate_degree'],row['male_doctorate_degree_moe'])
+                (row['male_professional_school_degree'], row['male_professional_school_degree_moe']),
+                (row['male_doctorate_degree'], row['male_doctorate_degree_moe'])
             )
             row['male_bachelors_or_higher'] = value
             row['male_bachelors_or_higher_moe'] = moe
@@ -150,15 +150,16 @@ class EducationShortDownloader(BaseTableConfig):
             calculate_male_bachelors_or_higher_moe,
             axis=1
         )
+
         def calculate_female_bachelors_or_higher_moe(row):
             if row['female_bachelors_degree_moe'] in list(MOE_MAP.values()):
-                value = sum([row['female_bachelors_degree'], row['female_masters_degree'],row['female_professional_school_degree'],row['female_doctorate_degree']])
+                value = sum([row['female_bachelors_degree'], row['female_masters_degree'], row['female_professional_school_degree'], row['female_doctorate_degree']])
                 moe = None
             value, moe = census_data_aggregator.approximate_sum(
                 (row['female_bachelors_degree'], row['female_bachelors_degree_moe']),
                 (row['female_masters_degree'], row['female_masters_degree_moe']),
-                (row['female_professional_school_degree'],row['female_professional_school_degree_moe']),
-                (row['female_doctorate_degree'],row['female_doctorate_degree_moe'])
+                (row['female_professional_school_degree'], row['female_professional_school_degree_moe']),
+                (row['female_doctorate_degree'], row['female_doctorate_degree_moe'])
             )
             row['female_bachelors_or_higher'] = value
             row['female_bachelors_or_higher_moe'] = moe
@@ -168,6 +169,7 @@ class EducationShortDownloader(BaseTableConfig):
             calculate_female_bachelors_or_higher_moe,
             axis=1
         )
+
         def calculate_total_bachelors_or_higher_moe(row):
             if row['female_bachelors_or_higher_moe'] in list(MOE_MAP.values()):
                 value = sum([row['female_bachelors_or_higher'], row['male_bachelors_or_higher']])
@@ -175,12 +177,12 @@ class EducationShortDownloader(BaseTableConfig):
             value, moe = census_data_aggregator.approximate_sum(
                 (row['female_bachelors_degree'], row['female_bachelors_degree_moe']),
                 (row['female_masters_degree'], row['female_masters_degree_moe']),
-                (row['female_professional_school_degree'],row['female_professional_school_degree_moe']),
-                (row['female_doctorate_degree'],row['female_doctorate_degree_moe']),
+                (row['female_professional_school_degree'], row['female_professional_school_degree_moe']),
+                (row['female_doctorate_degree'], row['female_doctorate_degree_moe']),
                 (row['male_bachelors_degree'], row['male_bachelors_degree_moe']),
                 (row['male_masters_degree'], row['male_masters_degree_moe']),
-                (row['male_professional_school_degree'],row['male_professional_school_degree_moe']),
-                (row['male_doctorate_degree'],row['male_doctorate_degree_moe'])
+                (row['male_professional_school_degree'], row['male_professional_school_degree_moe']),
+                (row['male_doctorate_degree'], row['male_doctorate_degree_moe'])
             )
             row['total_bachelors_or_higher'] = value
             row['total_bachelors_or_higher_moe'] = moe
