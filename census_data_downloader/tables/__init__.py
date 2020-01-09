@@ -7,7 +7,10 @@ from .disability import (
     DisabilityPovertyDownloader,
     CognitiveDifficultyDownloader
 )
-from .education import EducationDownloader
+from .education import (
+    EducationDownloader,
+    EducationShortDownloader
+)
 from .employmentstatus import EmploymentStatusDownloader
 from .foreignborn import (
     ForeignBornDownloader,
@@ -24,7 +27,8 @@ from .housing import (
     TenureLatinoDownloader,
     TenureWhiteDownloader,
     TenureBlackDownloader,
-    TenureAsianDownloader
+    TenureAsianDownloader,
+    MedianRentBedroomDownloader
 )
 from .householdincome import (
     HouseholdIncomeDownloader,
@@ -106,6 +110,7 @@ __all__ = [
     DisabilityDownloader,
     DisabilityPovertyDownloader,
     EducationDownloader,
+    EducationShortDownloader,
     EmploymentStatusDownloader,
     ForeignBornDownloader,
     GiniIndexDownloader,
@@ -129,6 +134,7 @@ __all__ = [
     MedianHouseholdIncomeAsianDownloader,
     MedianHousingValueDownloader,
     MedianMonthlyHousingCostsDownloader,
+    MedianRentBedroomDownloader,
     MobilityDownloader,
     MobilityBySexDownloader,
     MobilityWhiteDownloader,

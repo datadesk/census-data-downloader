@@ -1,6 +1,8 @@
 #! /usr/bin/env python
 # -*- coding: utf-8 -*
 import collections
+import census_data_aggregator
+from census_data_downloader.core import MOE_MAP
 from census_data_downloader.core.tables import BaseTableConfig
 from census_data_downloader.core.decorators import register
 
@@ -107,6 +109,89 @@ class EducationDownloader(BaseTableConfig):
             df[f'total_{groupset}'] = df[[f'total_{f}' for f in group_list]].sum(axis=1)
             df[f'male_{groupset}'] = df[[f'male_{f}' for f in group_list]].sum(axis=1)
             df[f'female_{groupset}'] = df[[f'female_{f}' for f in group_list]].sum(axis=1)
+
+        # Pass it back
+        return df
+
+
+@register
+class EducationShortDownloader(BaseTableConfig):
+    PROCESSED_TABLE_NAME = 'educationshort'
+    UNIVERSE = "population 25 Years and Over"
+    RAW_TABLE_NAME = 'B15002'
+    RAW_FIELD_CROSSWALK = collections.OrderedDict({
+        '001': "universe",
+        '015': "male_bachelors_degree",
+        '016': "male_masters_degree",
+        '017': "male_professional_school_degree",
+        '018': "male_doctorate_degree",
+        '032': "female_bachelors_degree",
+        '033': "female_masters_degree",
+        '034': "female_professional_school_degree",
+        '035': "female_doctorate_degree",
+    })
+
+    def process(self, df):
+        def calculate_male_bachelors_or_higher_moe(row):
+            if row['male_bachelors_degree_moe'] in list(MOE_MAP.values()):
+                value = sum([row['male_bachelors_degree'], row['male_masters_degree'], row['male_professional_school_degree'], row['male_doctorate_degree']])
+                moe = None
+            value, moe = census_data_aggregator.approximate_sum(
+                (row['male_bachelors_degree'], row['male_bachelors_degree_moe']),
+                (row['male_masters_degree'], row['male_masters_degree_moe']),
+                (row['male_professional_school_degree'], row['male_professional_school_degree_moe']),
+                (row['male_doctorate_degree'], row['male_doctorate_degree_moe'])
+            )
+            row['male_bachelors_or_higher'] = value
+            row['male_bachelors_or_higher_moe'] = moe
+            return row
+
+        df = df.apply(
+            calculate_male_bachelors_or_higher_moe,
+            axis=1
+        )
+
+        def calculate_female_bachelors_or_higher_moe(row):
+            if row['female_bachelors_degree_moe'] in list(MOE_MAP.values()):
+                value = sum([row['female_bachelors_degree'], row['female_masters_degree'], row['female_professional_school_degree'], row['female_doctorate_degree']])
+                moe = None
+            value, moe = census_data_aggregator.approximate_sum(
+                (row['female_bachelors_degree'], row['female_bachelors_degree_moe']),
+                (row['female_masters_degree'], row['female_masters_degree_moe']),
+                (row['female_professional_school_degree'], row['female_professional_school_degree_moe']),
+                (row['female_doctorate_degree'], row['female_doctorate_degree_moe'])
+            )
+            row['female_bachelors_or_higher'] = value
+            row['female_bachelors_or_higher_moe'] = moe
+            return row
+
+        df = df.apply(
+            calculate_female_bachelors_or_higher_moe,
+            axis=1
+        )
+
+        def calculate_total_bachelors_or_higher_moe(row):
+            if row['female_bachelors_or_higher_moe'] in list(MOE_MAP.values()):
+                value = sum([row['female_bachelors_or_higher'], row['male_bachelors_or_higher']])
+                moe = None
+            value, moe = census_data_aggregator.approximate_sum(
+                (row['female_bachelors_degree'], row['female_bachelors_degree_moe']),
+                (row['female_masters_degree'], row['female_masters_degree_moe']),
+                (row['female_professional_school_degree'], row['female_professional_school_degree_moe']),
+                (row['female_doctorate_degree'], row['female_doctorate_degree_moe']),
+                (row['male_bachelors_degree'], row['male_bachelors_degree_moe']),
+                (row['male_masters_degree'], row['male_masters_degree_moe']),
+                (row['male_professional_school_degree'], row['male_professional_school_degree_moe']),
+                (row['male_doctorate_degree'], row['male_doctorate_degree_moe'])
+            )
+            row['total_bachelors_or_higher'] = value
+            row['total_bachelors_or_higher_moe'] = moe
+            return row
+
+        df = df.apply(
+            calculate_total_bachelors_or_higher_moe,
+            axis=1
+        )
 
         # Pass it back
         return df
