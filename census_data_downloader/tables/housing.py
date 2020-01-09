@@ -146,4 +146,3 @@ class GrossRentBedroomDownloader(TenureDownloader):
         '017': '1000_1499',
         '018': '1500_more',
     })
-
