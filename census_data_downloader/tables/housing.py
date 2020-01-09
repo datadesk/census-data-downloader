@@ -122,8 +122,28 @@ class TenureAsianDownloader(TenureDownloader):
 @register
 class MedianRentBedroomDownloader(TenureDownloader):
     PROCESSED_TABLE_NAME = "mediangrossrentbybedroom"
+    UNIVERSE = " renter-occupied housing units paying cash rent"
     RAW_TABLE_NAME = 'B25031'
     RAW_FIELD_CROSSWALK = collections.OrderedDict({
         '001': 'median_gross_rent',
         '003': 'median_gross_rent_1_bedroom'
     })
+
+
+@register
+class GrossRentBedroomDownloader(TenureDownloader):
+    PROCESSED_TABLE_NAME = "grossrentbybedroom"
+    UNIVERSE = "renter occupied housing units"
+    RAW_TABLE_NAME = 'B25068'
+    """ these are all one bed with cash rent, for the aggregator"""
+    RAW_FIELD_CROSSWALK = collections.OrderedDict({
+        '011': 'total_one_bed',
+        '012': 'total_one_bed_with_cash_rent',
+        '013': '0_300',
+        '014': '301_499',
+        '015': '500_749',
+        '016': '750_999',
+        '017': '1000_1499',
+        '018': '1500_more',
+    })
+
