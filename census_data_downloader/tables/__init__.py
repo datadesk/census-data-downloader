@@ -28,7 +28,8 @@ from .housing import (
     TenureWhiteDownloader,
     TenureBlackDownloader,
     TenureAsianDownloader,
-    MedianRentBedroomDownloader
+    MedianRentBedroomDownloader,
+    GrossRentBedroomDownloader
 )
 from .householdincome import (
     HouseholdIncomeDownloader,
@@ -114,6 +115,7 @@ __all__ = [
     EmploymentStatusDownloader,
     ForeignBornDownloader,
     GiniIndexDownloader,
+    GrossRentBedroomDownloader,
     HousingValueDownloader,
     HouseholdIncomeDownloader,
     HouseholdIncomeLatinoDownloader,
