@@ -125,5 +125,5 @@ class MedianRentBedroomDownloader(TenureDownloader):
     RAW_TABLE_NAME = 'B25031'
     RAW_FIELD_CROSSWALK = collections.OrderedDict({
         '001': 'median_gross_rent',
-        '003': 'median_gross_rent_1_bed'
+        '003': 'median_gross_rent_1_bedroom'
     })
