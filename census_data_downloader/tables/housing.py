@@ -139,8 +139,8 @@ class GrossRentBedroomDownloader(TenureDownloader):
     RAW_FIELD_CROSSWALK = collections.OrderedDict({
         '011': 'total_one_bed',
         '012': 'total_one_bed_with_cash_rent',
-        '013': '0_300',
-        '014': '301_499',
+        '013': '0_299',
+        '014': '300_499',
         '015': '500_749',
         '016': '750_999',
         '017': '1000_1499',
