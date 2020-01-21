@@ -4,6 +4,7 @@ import collections
 from census_data_downloader.core.tables import BaseTableConfig
 from census_data_downloader.core.decorators import register
 
+
 @register
 class HouseholdLanguageDownloader(BaseTableConfig):
     YEAR_LIST = (2017, 2016)
