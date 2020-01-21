@@ -1,6 +1,7 @@
 #! /usr/bin/env python
 # -*- coding: utf-8 -*
 import collections
+import census_data_aggregator
 from census_data_downloader.core.tables import BaseTableConfig
 from census_data_downloader.core.decorators import register
 
@@ -28,11 +29,10 @@ class HouseholdLanguageDownloader(BaseTableConfig):
         "014": "other_not_limited_english",
     })
 
-    def process(self, *args, **kwargs):
+    def process(self, df):
         """
         Combine language counts to get total english/non-english speakers
         """
-        df = super().process(*args, **kwargs)
 
         languages = [
             'spanish',
