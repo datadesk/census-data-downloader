@@ -1,13 +1,15 @@
 #! /usr/bin/env python
 # -*- coding: utf-8 -*
 import collections
+import census_data_aggregator
+from census_data_downloader.core import MOE_MAP
 from census_data_downloader.core.tables import BaseTableConfig
 from census_data_downloader.core.decorators import register
 
 
 @register
 class VoterEducationDownloader(BaseTableConfig):
-    PROCESSED_TABLE_NAME = "votereducation"
+    PROCESSED_TABLE_NAME = "voterbyeducation"
     """ citizen voting-age population by education level"""
     UNIVERSE = "citizens 18 years and over"
     RAW_TABLE_NAME = 'B29002'
