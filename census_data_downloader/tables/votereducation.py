@@ -7,7 +7,7 @@ from census_data_downloader.core.decorators import register
 
 @register
 class VoterEducationDownloader(BaseTableConfig):
-    PROCESSED_TABLE_NAME = "voters by education level"
+    PROCESSED_TABLE_NAME = "votereducation"
     """ citizen voting-age population by education level"""
     UNIVERSE = "citizens 18 years and over"
     RAW_TABLE_NAME = 'B29002'
