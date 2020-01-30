@@ -98,7 +98,7 @@ from .yearstructurebuilt import (
     AgeHouseholderByYearBuiltDownloader
 )
 from .voterage import VoterDownloader
-from .votreducation import VoterEducationDownloader
+from .votereducation import VoterEducationDownloader
 
 __all__ = [
     TABLE_LIST,
