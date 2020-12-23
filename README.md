@@ -1,6 +1,6 @@
 # census-data-downloader
 
-Download U.S. census data and reformat it for humans.
+Download [American Community Survey data](https://www.census.gov/programs-surveys/acs/data.html) from the U.S. Census Bureau and reformat it for humans.
 
 ## What's available
 
