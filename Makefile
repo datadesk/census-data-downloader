@@ -1,17 +1,17 @@
 .PHONY: download test ship
 
 download:
-	python download.py
+	pipenv run python download.py
 
 
 test:
 	rm -rf ./test-data/
-	flake8 census_data_downloader
-	coverage run test.py
-	coverage report -m
+	pipenv run flake8 census_data_downloader
+	pipenv run coverage run test.py
+	pipenv run coverage report -m
 
 
 ship:
 	rm -rf build/
-	python setup.py sdist bdist_wheel
-	twine upload dist/* --skip-existing
+	pipenv run python setup.py sdist bdist_wheel
+	pipenv run twine upload dist/* --skip-existing

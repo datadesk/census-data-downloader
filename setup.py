@@ -8,11 +8,11 @@ with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
     
 setup(
     name='census-data-downloader',
-    version='0.0.27',
+    version='0.0.28',
     description="Download U.S. census data and reformat it for humans",
     long_description=long_description,
     long_description_content_type='text/markdown',
-    author='Los Angeles Times Data Desk',
+    author='Los Angeles Times Data and Graphics Department',
     author_email='datadesk@latimes.com',
     url='http://www.github.com/datadesk/census-data-downloader',
     license="MIT",
@@ -38,6 +38,7 @@ setup(
         'Programming Language :: Python',
         'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7',
+        'Programming Language :: Python :: 3.8',
         'License :: OSI Approved :: MIT License',
     ],
 )

@@ -40,12 +40,8 @@ class HouseholdLanguageDownloader(BaseTableConfig):
         ]
 
         # English vs. no English totals
-        df['total_not_limited_english'] = df['only_english'] + df[
-            [f'{l}_not_limited_english' for l in languages]
-        ].sum(axis=1)
-        df['total_limited_english'] = df[
-            [f'{l}_limited_english' for l in languages]
-        ].sum(axis=1)
+        df['total_not_limited_english'] = df['only_english'] + df[[f'{l}_not_limited_english' for l in languages]].sum(axis=1)
+        df['total_limited_english'] = df[[f'{l}_limited_english' for l in languages]].sum(axis=1)
 
         # Pass it out
         return df
