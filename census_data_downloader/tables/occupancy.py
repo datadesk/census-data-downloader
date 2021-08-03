@@ -7,7 +7,7 @@ from census_data_downloader.core.decorators import register
 
 @register
 class OccupantsDownloader(BaseTableConfig):
-    PROCESSED_TABLE_NAME = "occupancy"
+    PROCESSED_TABLE_NAME = "occupants"
     UNIVERSE = "occupied housing unts"
     RAW_TABLE_NAME = "B25014"
     RAW_FIELD_CROSSWALK = collections.OrderedDict({
@@ -25,16 +25,3 @@ class OccupantsDownloader(BaseTableConfig):
         '012': "renter_occupied_151_to_200",
         '013': "renter_occupied_201_or_more"
     })
-
-    def process(self, df):
-        df['overcrowded'] = (
-            df.owner_occupied_101_to_150 +
-            df.owner_occupied_101_to_150 +
-            df.owner_occupied_201_or_more +
-            df.renter_occupied_101_to_150 +
-            df.renter_occupied_151_to_200 +
-            df.renter_occupied_201_or_more
-        )
-
-        # Pass it back
-        return df

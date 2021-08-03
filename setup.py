@@ -8,7 +8,7 @@ with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
     
 setup(
     name='census-data-downloader',
-    version='0.0.30',
+    version='0.0.31',
     description="Download U.S. census data and reformat it for humans",
     long_description=long_description,
     long_description_content_type='text/markdown',

@@ -79,7 +79,7 @@ class MobilityLatinoDownloader(MobilityWhiteDownloader):
 
 
 @register
-class MobilityByCitizenship(BaseTableConfig):
+class MobilityByCitizenshipDownloader(BaseTableConfig):
     PROCESSED_TABLE_NAME = "mobilitybycitizenship"
     UNIVERSE = "population 1 year and over"
     RAW_TABLE_NAME = 'B07007'

@@ -60,7 +60,7 @@ from .mobility import (
     MobilityBlackDownloader,
     MobilityAsianDownloader,
     MobilityLatinoDownloader,
-    MobilityByCitizenship
+    MobilityByCitizenshipDownloader
 )
 from .occupancy import OccupantsDownloader
 from .percapitaincome import (
@@ -144,7 +144,7 @@ __all__ = [
     MobilityBlackDownloader,
     MobilityAsianDownloader,
     MobilityLatinoDownloader,
-    MobilityByCitizenship,
+    MobilityByCitizenshipDownloader,
     OccupantsDownloader,
     PerCapitaIncomeDownloader,
     PerCapitaIncomeLatinoDownloader,
