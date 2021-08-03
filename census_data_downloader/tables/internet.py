@@ -36,7 +36,6 @@ class InternetDownloader(BaseTableConfig):
         # The Census Bureau considers this to be the true number of households without Internet access.
         # Calculate moe for these rows so we can use in the median aggregator
         def calculate_moe(row):
-            pprint(row)
             if row['internet_without_subscription_moe'] in list(MOE_MAP.values()):
                 value = sum([row['internet_without_subscription'], row['no_internet']])
                 moe = None

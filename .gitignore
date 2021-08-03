@@ -6,3 +6,6 @@ build
 *.pyc
 test-data
 .DS_Store
+.env
+raw/
+processed/
