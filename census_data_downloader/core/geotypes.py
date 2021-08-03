@@ -6,6 +6,7 @@ Handlers to process table configurations for each of the Census' different geogr
 import time
 import logging
 import collections
+import numpy as np
 import pandas as pd
 from us import states
 from census import Census
@@ -171,7 +172,7 @@ class BaseGeoTypeDownloader(object):
         # Cast numbers to floats
         for field in field_name_mapper.keys():
             if "_" in field and (field.endswith("E") or field.endswith("M")):
-                df[field] = df[field].astype(pd.np.float64)
+                df[field] = df[field].astype(np.float64)
 
         # Rename fields with humanized names
         df.rename(columns=field_name_mapper, inplace=True)
