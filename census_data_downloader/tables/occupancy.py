@@ -16,7 +16,7 @@ class OccupantsDownloader(BaseTableConfig):
         '003': "owner_occupied_050_or_less",
         '004': "owner_occupied_051_to_100",
         '005': "owner_occupied_101_to_150",
-        '006': "owner_occupied_151_200",
+        '006': "owner_occupied_151_to_200",
         '007': "owner_occupied_201_or_more",
         '008': "renter_occupied",
         '009': "renter_occupied_050_or_less",
