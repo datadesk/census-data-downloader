@@ -12,14 +12,14 @@ class RentBurdenDownloader(BaseTableConfig):
     RAW_TABLE_NAME = 'B25070'
     RAW_FIELD_CROSSWALK = collections.OrderedDict({
         '001': "universe",
-        '002': "less_than_10_percent",
-        '003': "10_to_14.9_percent",
-        '004': "15_to_19.9_percent",
-        '005': "20_to_24.9_percent",
-        '006': "25_to_29.9_percent",
-        '007': "30_to_34.9_percent",
-        '008': "35_to_39.9_percent",
-        '009': "40_to_49.9_percent",
-        '010': "50_percent_or_more",
-        '011': "not_computed"
+        '002': "total_less_than_10_percent",
+        '003': "total_10_to_14.9_percent",
+        '004': "total_15_to_19.9_percent",
+        '005': "total_20_to_24.9_percent",
+        '006': "total_25_to_29.9_percent",
+        '007': "total_30_to_34.9_percent",
+        '008': "total_35_to_39.9_percent",
+        '009': "total_40_to_49.9_percent",
+        '010': "total_50_percent_or_more",
+        '011': "total_not_computed"
     })
