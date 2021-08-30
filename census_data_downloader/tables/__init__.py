@@ -85,6 +85,7 @@ from .race import (
     AmericanIndianAlaskaNativeAloneOrInComboDownloader,
     AsianDownloader
 )
+from .rentburden import RentBurdenDownloader
 from .snap import (
     SnapbyPovertyDownloader,
     SnapLatinoDownloader,
@@ -160,6 +161,7 @@ __all__ = [
     PovertyBlackDownloader,
     PovertyAsianDownloader,
     RaceDownloader,
+    RentBurdenDownloader,
     SnapbyPovertyDownloader,
     SnapLatinoDownloader,
     SnapWhiteDownloader,
