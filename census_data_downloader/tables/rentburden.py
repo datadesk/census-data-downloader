@@ -11,7 +11,7 @@ class RentBurdenDownloader(BaseTableConfig):
     UNIVERSE = "renter-occupied housing units"
     RAW_TABLE_NAME = 'B25070'
     RAW_FIELD_CROSSWALK = collections.OrderedDict({
-        '001': "total",
+        '001': "universe",
         '002': "less_than_10_percent",
         '003': "10_to_14.9_percent",
         '004': "15_to_19.9_percent",
