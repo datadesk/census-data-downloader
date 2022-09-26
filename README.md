@@ -37,6 +37,7 @@ Commands:
   cnectas                    Download combined New England city and town...
   congressionaldistricts     Download Congressional districts
   counties                   Download counties in all states
+  countysubdivision          Download county subdivisions
   csas                       Download combined statistical areas
   divisions                  Download divisions
   elementaryschooldistricts  Download elementary school districts
