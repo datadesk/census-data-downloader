@@ -65,6 +65,8 @@ jobs:
       - id: run
         name: Run tests
         run: make test
+        env:
+          CENSUS_API_KEY: ${{ secrets.CENSUS_API_KEY }}
 
   test-build:
     name: Build Python package
