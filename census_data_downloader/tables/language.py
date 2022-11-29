@@ -40,8 +40,8 @@ class HouseholdLanguageDownloader(BaseTableConfig):
         ]
 
         # English vs. no English totals
-        df['total_not_limited_english'] = df['only_english'] + df[[f'{l}_not_limited_english' for l in languages]].sum(axis=1)
-        df['total_limited_english'] = df[[f'{l}_limited_english' for l in languages]].sum(axis=1)
+        df['total_not_limited_english'] = df['only_english'] + df[[f'{li}_not_limited_english' for li in languages]].sum(axis=1)
+        df['total_limited_english'] = df[[f'{li}_limited_english' for li in languages]].sum(axis=1)
 
         # Pass it out
         return df
@@ -115,10 +115,10 @@ class LanguageShortFormDownloader(BaseTableConfig):
 
         # English vs. no English totals
         df['total_english'] = df['only_english'] + df[
-            [f'{l}_and_english_very_well' for l in languages]
+            [f'{li}_and_english_very_well' for li in languages]
         ].sum(axis=1)
         df['total_english_less_than_very_well'] = df[
-            [f'{l}_and_english_less_than_very_well' for l in languages]
+            [f'{li}_and_english_less_than_very_well' for li in languages]
         ].sum(axis=1)
 
         # Pass it out
@@ -313,9 +313,9 @@ class LanguageLongFormDownloader(BaseTableConfig):
         ]
 
         # English vs. no English totals
-        df['total_english'] = df['only_english'] + df[[f'{l}_and_english_very_well' for l in languages]].sum(axis=1)
+        df['total_english'] = df['only_english'] + df[[f'{li}_and_english_very_well' for li in languages]].sum(axis=1)
         df['total_english_less_than_very_well'] = df[
-            [f'{l}_and_english_less_than_very_well' for l in languages]
+            [f'{li}_and_english_less_than_very_well' for li in languages]
         ].sum(axis=1)
 
         # Group into the four language groups defined by the Census

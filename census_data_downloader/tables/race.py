@@ -1,7 +1,6 @@
 #! /usr/bin/env python
 # -*- coding: utf-8 -*
 import collections
-from pprint import pprint
 import census_data_aggregator
 from census_data_downloader.core import MOE_MAP
 from census_data_downloader.core.tables import BaseTableConfig
