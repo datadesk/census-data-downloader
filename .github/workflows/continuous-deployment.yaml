@@ -34,76 +34,6 @@ jobs:
         name: Lint
         run: pipenv run flake8 ./census_data_downloader
 
-  mypy-python:
-    name: Static type check
-    runs-on: ubuntu-latest
-    steps:
-      - id: checkout
-        name: Checkout
-        uses: actions/checkout@v3
-
-      - id: setup-python
-        name: Setup Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.9'
-          cache: 'pipenv'
-
-      - id: install-pipenv
-        name: Install pipenv
-        run: curl https://raw.githubusercontent.com/pypa/pipenv/master/get-pipenv.py | python
-        shell: bash
-
-      - id: install-python-dependencies
-        name: Install Python dependencies
-        run: pipenv install --dev --python=`which python`
-        shell: bash
-
-      - id: mypy
-        name: Mypy
-        run: make mypy
-
-  test-docs:
-    name: Test Sphinx build
-    runs-on: ubuntu-latest
-    steps:
-      - id: checkout
-        name: Checkout
-        uses: actions/checkout@v3
-
-      - id: setup-python
-        name: Setup Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.9'
-          cache: 'pipenv'
-
-      - id: install-pipenv
-        name: Install pipenv
-        run: curl https://raw.githubusercontent.com/pypa/pipenv/master/get-pipenv.py | python
-        shell: bash
-
-      - id: install-python-dependencies
-        name: Install Python dependencies
-        run: pipenv install --dev --python=`which python`
-        shell: bash
-
-      - id: tally
-        name: Tally sources
-        run: make tally-sources
-
-      - id: build
-        name: Build
-        run: make test-docs
-
-      - id: save
-        name: Save artifact
-        uses: actions/upload-artifact@v2
-        with:
-          name: docs-${{ github.run_number }}
-          path: ./docs
-          if-no-files-found: error
-
   test-python:
     strategy:
       matrix:
@@ -135,10 +65,6 @@ jobs:
       - id: run
         name: Run tests
         run: make test
-
-      - id: coverage
-        name: Coverage report
-        run: make coverage
 
   test-build:
     name: Build Python package
