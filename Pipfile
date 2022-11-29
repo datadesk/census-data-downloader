@@ -9,6 +9,7 @@ coverage = "*"
 twine = "*"
 jupyterlab = "*"
 ipykernel = "*"
+setuptools-scm = "*"
 
 [packages]
 pandas = "*"
