@@ -9,3 +9,5 @@ test-data
 .env
 raw/
 processed/
+Pipfile
+Pipfile.lock

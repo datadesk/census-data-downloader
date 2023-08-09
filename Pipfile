@@ -19,6 +19,7 @@ click = "*"
 jinja2 = "*"
 census-data-aggregator = "*"
 census-data-downloader = "*"
+twine = "*"
 
 [requires]
 python_version = "3.8"
